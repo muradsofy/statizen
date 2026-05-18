@@ -1,3 +1,141 @@
 {
-  "indicators": []
+  "indicators": [
+    {
+      "id": "labour_force",
+      "label_en": "Labour force",
+      "label_az": "9.1 İqtisadi rayonlar və inzibati ərazi vahidləri üzrə işçi qüvvəsinin sayı (ilin sonuna)",
+      "unit": "persons",
+      "source_file": "stat.gov.az 009_1en.xls",
+      "last_updated": "2026-05-19",
+      "years": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024
+      ]
+    },
+    {
+      "id": "employed",
+      "label_en": "Employed population",
+      "label_az": "9.2 İqtisadi rayonlar və inzibati ərazi vahidləri üzrə məşğul əhalinin sayı (ilin sonuna)",
+      "unit": "persons",
+      "source_file": "stat.gov.az 009_2en.xls",
+      "last_updated": "2026-05-19",
+      "years": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024
+      ]
+    },
+    {
+      "id": "unemployment_rate",
+      "label_en": "Unemployment rate",
+      "label_az": "9.4 İqtisadi rayonlar və inzibati ərazi vahidləri üzrə əhalinin işsizlik səviyyəsi",
+      "unit": "%",
+      "source_file": "stat.gov.az 009_3-4en.xls",
+      "last_updated": "2026-05-19",
+      "years": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024
+      ]
+    },
+    {
+      "id": "employees",
+      "label_en": "Number of employees",
+      "label_az": "9.5 İqtisadi rayonlar və inzibati ərazi vahidləri üzrə muzdla işləyənlərin sayı",
+      "unit": "persons",
+      "source_file": "stat.gov.az 009_5en.xls",
+      "last_updated": "2026-05-19",
+      "years": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024
+      ]
+    },
+    {
+      "id": "avg_wage",
+      "label_en": "Average monthly nominal wage",
+      "label_az": "9.6 İqtisadi rayonlar və inzibati ərazi vahidləri üzrə",
+      "unit": "manat",
+      "source_file": "stat.gov.az 009_6en.xls",
+      "last_updated": "2026-05-19",
+      "years": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024
+      ]
+    },
+    {
+      "id": "registered_unemployed",
+      "label_en": "Registered unemployed",
+      "label_az": "9.7 İqtisadi rayonlar və inzibati ərazi vahidləri üzrə Dövlət Məşğulluq Agentliyinin",
+      "unit": "persons",
+      "source_file": "stat.gov.az 009_7en.xls",
+      "last_updated": "2026-05-19",
+      "years": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2023,
+        2024
+      ]
+    },
+    {
+      "id": "unemployment_benefits",
+      "label_en": "Unemployment insurance recipients",
+      "label_az": "9.8 İqtisadi rayonlar və inzibati ərazi vahidləri üzrə işsizlikdən sığorta ödənişi alanların sayı",
+      "unit": "persons",
+      "source_file": "stat.gov.az 009_8en.xls",
+      "last_updated": "2026-05-19",
+      "years": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024
+      ]
+    }
+  ]
 }

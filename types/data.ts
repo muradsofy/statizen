@@ -2,18 +2,23 @@
 // Shapes per PROJECT.md §"ETL design"; `scope`/`source` per vault ADR 0004
 // (national-context layer architected now, populated in Phase 2).
 
+// 14 economic regions — authoritative source has 14, not the 11 in
+// PROJECT.md. See vault ADR 0008 (supersedes ADR 0006).
 export type RegionId =
   | "baki"
+  | "nakhchivan"
   | "absheron-xizi"
   | "mountain-shirvan"
   | "ganja-dashkesen"
   | "karabakh"
-  | "east-zangezur"
-  | "lankaran-astara"
+  | "gazakh-tovuz"
   | "guba-khachmaz"
+  | "lankaran-astara"
   | "central-aran"
+  | "mil-mughan"
   | "shaki-zaqatala"
-  | "nakhchivan";
+  | "east-zangezur"
+  | "shirvan-salyan";
 
 export type Locale = "en" | "az";
 

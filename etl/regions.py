@@ -1,23 +1,129 @@
-"""Canonical region list + name alias dict (EN/AZ/transliterations).
+"""Canonical economic-region model + name resolution.
 
-Authoritative IDs: vault ADR 0006. Every spelling seen across stat.gov.az
-files/years must map to one of the 11 canonical IDs. An unmapped region is a
-hard failure (vault Rule 01), never a silent drop.
+Authoritative: vault ADR 0008 (supersedes ADR 0006). The stat.gov.az labour
+files publish **14** economic regions, not the 11 in PROJECT.md. Names below
+are source-traced (extracted from 009_1 EN/AZ on 2026-05-19), not invented.
 
-Stub — implemented in build Phase 1.
+An economic-region row that does NOT resolve to a canonical id is a HARD
+FAILURE (vault Rule 01) — never a silent drop.
 """
 
-# Canonical IDs (see vault ADR 0006). Aliases filled in build Phase 1.
-CANONICAL_REGION_IDS = [
-    "baki",
-    "absheron-xizi",
-    "mountain-shirvan",
-    "ganja-dashkesen",
-    "karabakh",
-    "east-zangezur",
-    "lankaran-astara",
-    "guba-khachmaz",
-    "central-aran",
-    "shaki-zaqatala",
-    "nakhchivan",
+import re
+from typing import Optional
+
+# Ordered canonical list. id is a stable slug; name_en/name_az are the source
+# region names with the "economic region - total" / "iqtisadi rayonu - cəmi"
+# suffix removed.
+CANONICAL = [
+    {"id": "baki", "name_en": "Baku", "name_az": "Bakı"},
+    {"id": "nakhchivan", "name_en": "Nakhchivan Autonomous Republic",
+     "name_az": "Naxçıvan Muxtar Respublikası"},
+    {"id": "absheron-xizi", "name_en": "Absheron-Khizi",
+     "name_az": "Abşeron-Xızı"},
+    {"id": "mountain-shirvan", "name_en": "Daghlig Shirvan",
+     "name_az": "Dağlıq Şirvan"},
+    {"id": "ganja-dashkesen", "name_en": "Ganja-Dashkasan",
+     "name_az": "Gəncə-Daşkəsən"},
+    {"id": "karabakh", "name_en": "Karabakh", "name_az": "Qarabağ"},
+    {"id": "gazakh-tovuz", "name_en": "Gazakh-Tovuz",
+     "name_az": "Qazax-Tovuz"},
+    {"id": "guba-khachmaz", "name_en": "Guba-Khachmaz",
+     "name_az": "Quba-Xaçmaz"},
+    {"id": "lankaran-astara", "name_en": "Lankaran-Astara",
+     "name_az": "Lənkəran-Astara"},
+    {"id": "central-aran", "name_en": "Central Aran",
+     "name_az": "Mərkəzi Aran"},
+    {"id": "mil-mughan", "name_en": "Mil-Mughan", "name_az": "Mil-Muğan"},
+    {"id": "shaki-zaqatala", "name_en": "Shaki-Zagatala",
+     "name_az": "Şəki-Zaqatala"},
+    {"id": "east-zangezur", "name_en": "Eastern Zangazur",
+     "name_az": "Şərqi Zəngəzur"},
+    {"id": "shirvan-salyan", "name_en": "Shirvan-Salyan",
+     "name_az": "Şirvan-Salyan"},
 ]
+
+REGION_IDS = [r["id"] for r in CANONICAL]
+
+# National-total row labels (scope="national", ADR 0004).
+_NATIONAL = {"republic of azerbaijan", "azərbaycan respublikası"}
+
+# Core token (lowercased) -> canonical id. Covers EN + AZ source spellings.
+_CORE_TO_ID = {
+    "baku": "baki", "bakı": "baki",
+    "nakhchivan": "nakhchivan", "naxçıvan": "nakhchivan",
+    "absheron-khizi": "absheron-xizi", "abşeron-xızı": "absheron-xizi",
+    "daghlig shirvan": "mountain-shirvan", "dağlıq şirvan": "mountain-shirvan",
+    "ganja-dashkasan": "ganja-dashkesen",
+    "gəncə-daşkəsən": "ganja-dashkesen",
+    "karabakh": "karabakh", "qarabağ": "karabakh",
+    "gazakh-tovuz": "gazakh-tovuz", "qazax-tovuz": "gazakh-tovuz",
+    "guba-khachmaz": "guba-khachmaz", "quba-xaçmaz": "guba-khachmaz",
+    "lankaran-astara": "lankaran-astara",
+    "lənkəran-astara": "lankaran-astara",
+    "central aran": "central-aran", "mərkəzi aran": "central-aran",
+    "mil-mughan": "mil-mughan", "mil-muğan": "mil-mughan",
+    "shaki-zagatala": "shaki-zaqatala", "şəki-zaqatala": "shaki-zaqatala",
+    "eastern zangazur": "east-zangezur", "şərqi zəngəzur": "east-zangezur",
+    "shirvan-salyan": "shirvan-salyan", "şirvan-salyan": "shirvan-salyan",
+}
+
+# Markers that indicate a row IS economic-region level.
+# stat.gov.az mixes Cyrillic homoglyphs into Latin text (observed:
+# "economiс region" with Cyrillic с U+0441). Map look-alike Cyrillic ->
+# Latin for MATCHING only (display names come from CANONICAL, untouched).
+_HOMOGLYPH = str.maketrans({
+    "а": "a", "е": "e", "о": "o", "р": "p", "с": "c", "х": "x", "у": "y",
+    "к": "k", "м": "m", "н": "h", "т": "t", "в": "v", "і": "i", "ј": "j",
+    "ѕ": "s", "ё": "e", "ԛ": "q", "ԝ": "w",
+})
+
+# A row IS economic-region level if it carries one of these markers.
+_REGION_MARKERS = ("economic region", "iqtisadi rayon")
+_SKIP_PREFIX = ("including", "o cümlədən", "9.")
+
+
+def normalize(s: str) -> str:
+    return re.sub(r"\s+", " ", str(s).replace("\n", " ")).strip()
+
+
+def _match(s: str) -> str:
+    """Lowercase + Cyrillic-homoglyph-folded form for fuzzy matching."""
+    return normalize(s).lower().translate(_HOMOGLYPH)
+
+
+def _core(name: str) -> str:
+    """Strip region-type suffixes to get the bare region name (folded)."""
+    s = _match(name)
+    for cut in (" - total", " - cəmi"):
+        i = s.find(cut)
+        if i != -1:
+            s = s[:i]
+    for w in ("economic region", "iqtisadi rayonu", "iqtisadi rayon",
+              "autonomous republic", "muxtar respublikası",
+              "muxtar respublika", "city", "şəhəri"):
+        s = s.replace(w, "")
+    return re.sub(r"\s+", " ", s).strip(" -")
+
+
+def is_national(name: str) -> bool:
+    return _match(name) in _NATIONAL
+
+
+def has_region_marker(name: str) -> bool:
+    """True if the row is explicitly an economic-region row."""
+    low = _match(name)
+    if not low or low.startswith(_SKIP_PREFIX):
+        return False
+    return any(m in low for m in _REGION_MARKERS)
+
+
+def resolve_region(name: str) -> Optional[str]:
+    """Region row -> canonical id. None if it cannot be resolved.
+
+    Safe for rayons: _CORE_TO_ID holds only the 14 region cores, and no
+    rayon name reduces to one of them.
+    """
+    low = _match(name)
+    if not low or low.startswith(_SKIP_PREFIX):
+        return None
+    return _CORE_TO_ID.get(_core(name))

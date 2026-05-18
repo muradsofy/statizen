@@ -42,3 +42,9 @@ next-env.d.ts
 
 # Obsidian (stray config; vault lives in sibling Statizen-vault per ADR 0001)
 .obsidian/
+
+# ETL python
+etl/.venv/
+etl/raw/
+etl/__pycache__/
+*.pyc

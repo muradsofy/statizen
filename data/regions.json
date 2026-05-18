@@ -1,3 +1,88 @@
 {
-  "regions": []
+  "regions": [
+    {
+      "id": "baki",
+      "name_en": "Baku",
+      "name_az": "Bakı",
+      "code": "baki"
+    },
+    {
+      "id": "nakhchivan",
+      "name_en": "Nakhchivan Autonomous Republic",
+      "name_az": "Naxçıvan Muxtar Respublikası",
+      "code": "nakhchivan"
+    },
+    {
+      "id": "absheron-xizi",
+      "name_en": "Absheron-Khizi",
+      "name_az": "Abşeron-Xızı",
+      "code": "absheron-xizi"
+    },
+    {
+      "id": "mountain-shirvan",
+      "name_en": "Daghlig Shirvan",
+      "name_az": "Dağlıq Şirvan",
+      "code": "mountain-shirvan"
+    },
+    {
+      "id": "ganja-dashkesen",
+      "name_en": "Ganja-Dashkasan",
+      "name_az": "Gəncə-Daşkəsən",
+      "code": "ganja-dashkesen"
+    },
+    {
+      "id": "karabakh",
+      "name_en": "Karabakh",
+      "name_az": "Qarabağ",
+      "code": "karabakh"
+    },
+    {
+      "id": "gazakh-tovuz",
+      "name_en": "Gazakh-Tovuz",
+      "name_az": "Qazax-Tovuz",
+      "code": "gazakh-tovuz"
+    },
+    {
+      "id": "guba-khachmaz",
+      "name_en": "Guba-Khachmaz",
+      "name_az": "Quba-Xaçmaz",
+      "code": "guba-khachmaz"
+    },
+    {
+      "id": "lankaran-astara",
+      "name_en": "Lankaran-Astara",
+      "name_az": "Lənkəran-Astara",
+      "code": "lankaran-astara"
+    },
+    {
+      "id": "central-aran",
+      "name_en": "Central Aran",
+      "name_az": "Mərkəzi Aran",
+      "code": "central-aran"
+    },
+    {
+      "id": "mil-mughan",
+      "name_en": "Mil-Mughan",
+      "name_az": "Mil-Muğan",
+      "code": "mil-mughan"
+    },
+    {
+      "id": "shaki-zaqatala",
+      "name_en": "Shaki-Zagatala",
+      "name_az": "Şəki-Zaqatala",
+      "code": "shaki-zaqatala"
+    },
+    {
+      "id": "east-zangezur",
+      "name_en": "Eastern Zangazur",
+      "name_az": "Şərqi Zəngəzur",
+      "code": "east-zangezur"
+    },
+    {
+      "id": "shirvan-salyan",
+      "name_en": "Shirvan-Salyan",
+      "name_az": "Şirvan-Salyan",
+      "code": "shirvan-salyan"
+    }
+  ]
 }
