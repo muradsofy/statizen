@@ -1,0 +1,364 @@
+{
+  "regions": [
+    {
+      "id": "baki",
+      "name_en": "Baku",
+      "name_az": "Bakı",
+      "rayons": []
+    },
+    {
+      "id": "nakhchivan",
+      "name_en": "Nakhchivan Autonomous Republic",
+      "name_az": "Naxçıvan Muxtar Respublikası",
+      "rayons": []
+    },
+    {
+      "id": "absheron-xizi",
+      "name_en": "Absheron-Khizi",
+      "name_az": "Abşeron-Xızı",
+      "rayons": [
+        {
+          "name_en": "Sumgayit city",
+          "name_az": "Sumqayıt şəhəri"
+        },
+        {
+          "name_en": "Absheron district",
+          "name_az": "Abşeron rayonu"
+        },
+        {
+          "name_en": "Khizi district",
+          "name_az": "Xızı rayonu"
+        }
+      ]
+    },
+    {
+      "id": "mountain-shirvan",
+      "name_en": "Daghlig Shirvan",
+      "name_az": "Dağlıq Şirvan",
+      "rayons": [
+        {
+          "name_en": "Aghsu district",
+          "name_az": "Ağsu rayonu"
+        },
+        {
+          "name_en": "Ismayilli district",
+          "name_az": "İsmayıllı rayonu"
+        },
+        {
+          "name_en": "Gobustan district",
+          "name_az": "Qobustan rayonu"
+        },
+        {
+          "name_en": "Shamakhi district",
+          "name_az": "Şamaxı rayonu"
+        }
+      ]
+    },
+    {
+      "id": "ganja-dashkesen",
+      "name_en": "Ganja-Dashkasan",
+      "name_az": "Gəncə-Daşkəsən",
+      "rayons": [
+        {
+          "name_en": "Ganja city",
+          "name_az": "Gəncə şəhəri"
+        },
+        {
+          "name_en": "Naftalan city",
+          "name_az": "Naftalan şəhəri"
+        },
+        {
+          "name_en": "Dashkasan district",
+          "name_az": "Daşkəsən rayonu"
+        },
+        {
+          "name_en": "Goranboy district",
+          "name_az": "Goranboy rayonu"
+        },
+        {
+          "name_en": "Goygol district",
+          "name_az": "Göygöl rayonu"
+        },
+        {
+          "name_en": "Samukh district",
+          "name_az": "Samux rayonu"
+        }
+      ]
+    },
+    {
+      "id": "karabakh",
+      "name_en": "Karabakh",
+      "name_az": "Qarabağ",
+      "rayons": [
+        {
+          "name_en": "Khankandi city",
+          "name_az": "Xankəndi şəhəri"
+        },
+        {
+          "name_en": "Aghjabadi district",
+          "name_az": "Ağcabədi rayonu"
+        },
+        {
+          "name_en": "Aghdam district",
+          "name_az": "Ağdam rayonu"
+        },
+        {
+          "name_en": "Aghdara district",
+          "name_az": "Ağdərə rayonu"
+        },
+        {
+          "name_en": "Barda district",
+          "name_az": "Bərdə rayonu"
+        },
+        {
+          "name_en": "Fuzuli district",
+          "name_az": "Füzuli rayonu"
+        },
+        {
+          "name_en": "Khojaly district",
+          "name_az": "Xocalı rayonu"
+        },
+        {
+          "name_en": "Khojavand district",
+          "name_az": "Xocavənd rayonu"
+        },
+        {
+          "name_en": "Shusha district",
+          "name_az": "Şuşa rayonu"
+        },
+        {
+          "name_en": "Tartar district",
+          "name_az": "Tərtər rayonu"
+        }
+      ]
+    },
+    {
+      "id": "gazakh-tovuz",
+      "name_en": "Gazakh-Tovuz",
+      "name_az": "Qazax-Tovuz",
+      "rayons": [
+        {
+          "name_en": "Aghstafa district",
+          "name_az": "Ağstafa rayonu"
+        },
+        {
+          "name_en": "Gadabay district",
+          "name_az": "Gədəbəy rayonu"
+        },
+        {
+          "name_en": "Gazakh district",
+          "name_az": "Qazax rayonu"
+        },
+        {
+          "name_en": "Shamkir district",
+          "name_az": "Şəmkir rayonu"
+        },
+        {
+          "name_en": "Tovuz district",
+          "name_az": "Tovuz rayonu"
+        }
+      ]
+    },
+    {
+      "id": "guba-khachmaz",
+      "name_en": "Guba-Khachmaz",
+      "name_az": "Quba-Xaçmaz",
+      "rayons": [
+        {
+          "name_en": "Khachmaz district",
+          "name_az": "Xaçmaz rayonu"
+        },
+        {
+          "name_en": "Guba district",
+          "name_az": "Quba rayonu"
+        },
+        {
+          "name_en": "Gusar district",
+          "name_az": "Qusar rayonu"
+        },
+        {
+          "name_en": "Siyazan district",
+          "name_az": "Siyəzən rayonu"
+        },
+        {
+          "name_en": "Shabran district",
+          "name_az": "Şabran rayonu"
+        }
+      ]
+    },
+    {
+      "id": "lankaran-astara",
+      "name_en": "Lankaran-Astara",
+      "name_az": "Lənkəran-Astara",
+      "rayons": [
+        {
+          "name_en": "Astara district",
+          "name_az": "Astara rayonu"
+        },
+        {
+          "name_en": "Jalilabad district",
+          "name_az": "Cəlilabad rayonu"
+        },
+        {
+          "name_en": "Lerik district",
+          "name_az": "Lerik rayonu"
+        },
+        {
+          "name_en": "Lankaran district",
+          "name_az": "Lənkəran rayonu"
+        },
+        {
+          "name_en": "Masalli district",
+          "name_az": "Masallı rayonu"
+        },
+        {
+          "name_en": "Yardimli district",
+          "name_az": "Yardımlı rayonu"
+        }
+      ]
+    },
+    {
+      "id": "central-aran",
+      "name_en": "Central Aran",
+      "name_az": "Mərkəzi Aran",
+      "rayons": [
+        {
+          "name_en": "Mingachevir city",
+          "name_az": "Mingəçevir şəhəri"
+        },
+        {
+          "name_en": "Agdash district",
+          "name_az": "Ağdaş rayonu"
+        },
+        {
+          "name_en": "Goychay district",
+          "name_az": "Göyçay rayonu"
+        },
+        {
+          "name_en": "Kurdamir district",
+          "name_az": "Kürdəmir rayonu"
+        },
+        {
+          "name_en": "Ujar district",
+          "name_az": "Ucar rayonu"
+        },
+        {
+          "name_en": "Yevlakh district",
+          "name_az": "Yevlax rayonu"
+        },
+        {
+          "name_en": "Zardab district",
+          "name_az": "Zərdab rayonu"
+        }
+      ]
+    },
+    {
+      "id": "mil-mughan",
+      "name_en": "Mil-Mughan",
+      "name_az": "Mil-Muğan",
+      "rayons": [
+        {
+          "name_en": "Beylagan district",
+          "name_az": "Beyləqan rayonu"
+        },
+        {
+          "name_en": "Imishli district",
+          "name_az": "İmişli rayonu"
+        },
+        {
+          "name_en": "Saatli district",
+          "name_az": "Saatlı rayonu"
+        },
+        {
+          "name_en": "Sabirabad district",
+          "name_az": "Sabirabad rayonu"
+        }
+      ]
+    },
+    {
+      "id": "shaki-zaqatala",
+      "name_en": "Shaki-Zagatala",
+      "name_az": "Şəki-Zaqatala",
+      "rayons": [
+        {
+          "name_en": "Balakan district",
+          "name_az": "Balakən rayonu"
+        },
+        {
+          "name_en": "Gakh district",
+          "name_az": "Qax rayonu"
+        },
+        {
+          "name_en": "Gabala district",
+          "name_az": "Qəbələ rayonu"
+        },
+        {
+          "name_en": "Oghuz district",
+          "name_az": "Oğuz rayonu"
+        },
+        {
+          "name_en": "Shaki district",
+          "name_az": "Şəki rayonu"
+        },
+        {
+          "name_en": "Zagatala district",
+          "name_az": "Zaqatala rayonu"
+        }
+      ]
+    },
+    {
+      "id": "east-zangezur",
+      "name_en": "Eastern Zangazur",
+      "name_az": "Şərqi Zəngəzur",
+      "rayons": [
+        {
+          "name_en": "Jabrayil district",
+          "name_az": "Cəbrayıl rayonu"
+        },
+        {
+          "name_en": "Kalbajar district",
+          "name_az": "Kəlbəcər rayonu"
+        },
+        {
+          "name_en": "Gubadli district",
+          "name_az": "Qubadlı rayonu"
+        },
+        {
+          "name_en": "Lachin district",
+          "name_az": "Laçın rayonu"
+        },
+        {
+          "name_en": "Zangilan district",
+          "name_az": "Zəngilan rayonu"
+        }
+      ]
+    },
+    {
+      "id": "shirvan-salyan",
+      "name_en": "Shirvan-Salyan",
+      "name_az": "Şirvan-Salyan",
+      "rayons": [
+        {
+          "name_en": "Shirvan city",
+          "name_az": "Şirvan şəhəri"
+        },
+        {
+          "name_en": "Bilasuvar district",
+          "name_az": "Biləsuvar rayonu"
+        },
+        {
+          "name_en": "Hajigabul district",
+          "name_az": "Hacıqabul rayonu"
+        },
+        {
+          "name_en": "Neftchala district",
+          "name_az": "Neftçala rayonu"
+        },
+        {
+          "name_en": "Salyan district",
+          "name_az": "Salyan rayonu"
+        }
+      ]
+    }
+  ]
+}
