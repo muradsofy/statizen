@@ -1,0 +1,17 @@
+{
+  "_note": "Figma node id -> canonical region id (ADR 0008). Identified by geographic position from unlabeled 'Union' shapes + AZBA label. Visual verification required (Rule 01).",
+  "24:283": "baki",
+  "24:286": "nakhchivan",
+  "24:292": "gazakh-tovuz",
+  "24:289": "ganja-dashkesen",
+  "24:293": "guba-khachmaz",
+  "24:281": "shaki-zaqatala",
+  "24:294": "mountain-shirvan",
+  "24:288": "absheron-xizi",
+  "24:297": "central-aran",
+  "24:302": "karabakh",
+  "24:291": "mil-mughan",
+  "24:305": "shirvan-salyan",
+  "24:282": "east-zangezur",
+  "24:284": "lankaran-astara"
+}

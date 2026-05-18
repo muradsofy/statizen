@@ -48,3 +48,9 @@ etl/.venv/
 etl/raw/
 etl/__pycache__/
 *.pyc
+# Bulky raw map downloads + render artifacts; keep the reproducible
+# Figma pipeline (etl/geo/figma/*.json + *.py)
+etl/geo/*
+!etl/geo/figma/
+etl/geo/figma/*.png
+etl/geo/figma/*.svg

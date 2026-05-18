@@ -78,3 +78,25 @@ export interface IndicatorsFile {
 export interface ValuesFile {
   values: ValueRow[];
 }
+
+/** One region's pre-projected SVG path (Figma design space, not geo). */
+export interface RegionGeo {
+  id: RegionId;
+  name_en: string;
+  name_az: string;
+  /** SVG path data, absolute coords in the file's viewBox. */
+  d: string;
+  /** Label/centroid point in viewBox coords. */
+  cx: number;
+  cy: number;
+  /** Originating Figma node id (provenance). */
+  source_node: string;
+}
+
+export interface GeoFile {
+  viewBox: string;
+  width: number;
+  height: number;
+  source: string;
+  regions: RegionGeo[];
+}
