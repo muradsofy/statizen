@@ -1,0 +1,75 @@
+// Canonical TS types matching the JSON shapes in /data.
+// Shapes per PROJECT.md §"ETL design"; `scope`/`source` per vault ADR 0004
+// (national-context layer architected now, populated in Phase 2).
+
+export type RegionId =
+  | "baki"
+  | "absheron-xizi"
+  | "mountain-shirvan"
+  | "ganja-dashkesen"
+  | "karabakh"
+  | "east-zangezur"
+  | "lankaran-astara"
+  | "guba-khachmaz"
+  | "central-aran"
+  | "shaki-zaqatala"
+  | "nakhchivan";
+
+export type Locale = "en" | "az";
+
+/** A geographic/statistical scope a value can belong to. */
+export type Scope = "region" | "national";
+
+export interface Region {
+  id: RegionId;
+  name_en: string;
+  name_az: string;
+  /** [lon, lat] for label placement / map centring. */
+  centroid: [number, number];
+  /** Official administrative code. */
+  code: string;
+}
+
+export interface Indicator {
+  id: string;
+  label_en: string;
+  label_az: string;
+  /** e.g. "%", "persons", "manat". */
+  unit: string;
+  /** Origin file/dataset this indicator was parsed from. */
+  source_file: string;
+  /** ISO date string of the source's last update. */
+  last_updated: string;
+}
+
+/** Optional sex breakdown carried when the source provides it. */
+export interface ValueBreakdown {
+  male?: number;
+  female?: number;
+  total: number;
+}
+
+export interface ValueRow {
+  /** RegionId when scope==="region"; a country code (e.g. "AZ") when "national". */
+  region_id: string;
+  indicator_id: string;
+  year: number;
+  value: number;
+  breakdown?: ValueBreakdown;
+  /** Phase 1: always "region". Phase 2 adds "national". */
+  scope: Scope;
+  /** Provenance, e.g. "stat.gov.az". Distinguishes future API feeds. */
+  source: string;
+}
+
+export interface RegionsFile {
+  regions: Region[];
+}
+
+export interface IndicatorsFile {
+  indicators: Indicator[];
+}
+
+export interface ValuesFile {
+  values: ValueRow[];
+}

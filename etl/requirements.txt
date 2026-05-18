@@ -1,0 +1,1 @@
+# Pinned in build Phase 1. Expected: pandas, openpyxl, xlrd, requests.
