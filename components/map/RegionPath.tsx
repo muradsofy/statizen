@@ -31,9 +31,11 @@ export function RegionPath({
       tabIndex={0}
       role="button"
       aria-label={locale === "az" ? geo.name_az : geo.name_en}
-      style={{ cursor: "pointer", transition: "fill 120ms ease" }}
+      style={{ cursor: "pointer", outline: "none", transition: "fill 120ms ease" }}
       onMouseEnter={() => onEnter(geo.id)}
       onMouseLeave={onLeave}
+      onFocus={() => onEnter(geo.id)}
+      onBlur={onLeave}
       onClick={() => onSelect(geo.id)}
       onKeyDown={(e) => {
         if (e.key === "Enter" || e.key === " ") {
