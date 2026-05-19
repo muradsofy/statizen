@@ -3,8 +3,10 @@
 import { motion } from "framer-motion";
 import { regionsData } from "@/lib/data/loadData";
 import { useAppStore } from "@/lib/state/store";
-import { ScrollArea } from "@/components/ui/scroll-area";
 import { surface, color, glow } from "@/lib/ui/tokens";
+
+const FADE =
+  "linear-gradient(to bottom, transparent 0, #000 28px, #000 calc(100% - 28px), transparent 100%)";
 
 export function LocationsPanel() {
   const regions = regionsData.regions;
@@ -21,12 +23,21 @@ export function LocationsPanel() {
       transition={{ duration: 0.2 }}
       style={{ ...surface, width: 200, height: 300, padding: 24 }}
     >
-      <ScrollArea style={{ height: "100%", width: "100%" }}>
+      <div
+        className="no-scrollbar"
+        style={{
+          height: "100%",
+          width: "100%",
+          overflowY: "auto",
+          maskImage: FADE,
+          WebkitMaskImage: FADE,
+        }}
+      >
         <ul
           style={{
             listStyle: "none",
             margin: 0,
-            padding: 0,
+            padding: "12px 0",
             display: "flex",
             flexDirection: "column",
             gap: 16,
@@ -73,7 +84,7 @@ export function LocationsPanel() {
             );
           })}
         </ul>
-      </ScrollArea>
+      </div>
     </motion.div>
   );
 }

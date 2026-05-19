@@ -89,6 +89,8 @@ export interface RegionGeo {
   /** Label/centroid point in viewBox coords. */
   cx: number;
   cy: number;
+  /** Tight bounding box of this region (viewBox coords). */
+  bbox: GeoBBox;
   /** Originating Figma node id (provenance). */
   source_node: string;
 }

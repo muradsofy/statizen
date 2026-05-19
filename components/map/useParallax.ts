@@ -32,8 +32,8 @@ export function useParallax(maxPx = 24): {
     function onMove(e: PointerEvent) {
       const nx = (e.clientX / window.innerWidth) * 2 - 1; // -1..1
       const ny = (e.clientY / window.innerHeight) * 2 - 1;
-      xRaw.set(-nx * maxPx);
-      yRaw.set(-ny * maxPx);
+      xRaw.set(nx * maxPx);
+      yRaw.set(ny * maxPx);
     }
     window.addEventListener("pointermove", onMove, { passive: true });
     return () => window.removeEventListener("pointermove", onMove);

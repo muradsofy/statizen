@@ -17,13 +17,22 @@ const PAD = 24;
 const VB = `${bbox.x - PAD} ${bbox.y - PAD} ${bbox.w + PAD * 2} ${
   bbox.h + PAD * 2
 }`;
+const VW = bbox.w + PAD * 2; // visible viewBox extent (meet → whole VB shown)
+const VH = bbox.h + PAD * 2;
 const CX = bbox.x + bbox.w / 2; // content centre (viewBox units)
 const CY = bbox.y + bbox.h / 2;
-const K = 0.45; // how far to nudge toward a selected region (not fully)
 const BASE_SCALE = 1.0;
-const SEL_SCALE = 1.16;
+const FIT_MARGIN = 0.55; // selected region uses ~55% of the view → fully shown
+const SEL_MIN = 1.3;
+const SEL_MAX = 3.0;
 const PARALLAX = Math.round(bbox.w * 0.03);
 const SPRING = { stiffness: 120, damping: 22, mass: 0.5 };
+
+/** Zoom that makes a region's bbox fully fit the view with margin. */
+function fitScale(rw: number, rh: number): number {
+  const s = Math.min(VW / rw, VH / rh) * FIT_MARGIN;
+  return Math.max(SEL_MIN, Math.min(SEL_MAX, s));
+}
 
 export function AzerbaijanMap() {
   const selectedRegionId = useAppStore((s) => s.selectedRegionId);
@@ -40,9 +49,10 @@ export function AzerbaijanMap() {
   useEffect(() => {
     const r = regionsGeo.regions.find((g) => g.id === selectedRegionId);
     if (r) {
-      cx.set(CX + (r.cx - CX) * K);
-      cy.set(CY + (r.cy - CY) * K);
-      scale.set(SEL_SCALE);
+      // centre on the region's bbox centre and zoom so it fully fits
+      cx.set(r.bbox.x + r.bbox.w / 2);
+      cy.set(r.bbox.y + r.bbox.h / 2);
+      scale.set(fitScale(r.bbox.w, r.bbox.h));
     } else {
       cx.set(CX);
       cy.set(CY);
@@ -70,7 +80,7 @@ export function AzerbaijanMap() {
   return (
     <svg
       viewBox={VB}
-      preserveAspectRatio="xMidYMid slice"
+      preserveAspectRatio="xMidYMid meet"
       width="100%"
       height="100%"
       role="group"

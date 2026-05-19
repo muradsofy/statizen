@@ -42,12 +42,21 @@ for r in comb["regions"]:
     assert rid in regs, rid
     assert rid not in seen, f"duplicate region {rid}"
     seen.add(rid)
+    baked = shift(r["d"], r["x"], r["y"])
+    rn = [float(n) for n in re.findall(r"-?\d+(?:\.\d+)?", baked)]
+    rxs, rys = rn[0::2], rn[1::2]
     regions.append({
         "id": rid,
         "name_en": regs[rid]["name_en"],
         "name_az": regs[rid]["name_az"],
-        "d": shift(r["d"], r["x"], r["y"]),
+        "d": baked,
         "cx": r["cx"], "cy": r["cy"],
+        "bbox": {
+            "x": round(min(rxs)),
+            "y": round(min(rys)),
+            "w": round(max(rxs) - min(rxs)),
+            "h": round(max(rys) - min(rys)),
+        },
         "source_node": r["id"],
     })
 assert len(regions) == 14, len(regions)
