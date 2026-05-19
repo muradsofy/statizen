@@ -7,6 +7,7 @@ import { LocationsPanel } from "./LocationsPanel";
 import { DataCard } from "./DataCard";
 import { IndicatorPicker } from "./IndicatorPicker";
 import { RegionPicker } from "./RegionPicker";
+import { LocaleToggle } from "./LocaleToggle";
 
 export function Overlays() {
   useUrlSync();
@@ -20,7 +21,11 @@ export function Overlays() {
         <div style={{ pointerEvents: "auto" }}>
           <Wordmark />
         </div>
-        <div style={{ pointerEvents: "auto" }}>
+        <div
+          className="flex items-center gap-2"
+          style={{ pointerEvents: "auto" }}
+        >
+          <LocaleToggle />
           <FollowUs />
         </div>
       </div>

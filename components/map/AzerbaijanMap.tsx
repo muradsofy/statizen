@@ -14,6 +14,7 @@ import { useAppStore } from "@/lib/state/store";
 import { useParallax } from "./useParallax";
 import { RegionPath } from "./RegionPath";
 import { color } from "@/lib/ui/tokens";
+import { t } from "@/lib/i18n/strings";
 
 const { bbox } = regionsGeo;
 const PAD = 24;
@@ -116,7 +117,7 @@ export function AzerbaijanMap() {
       width="100%"
       height="100%"
       role="group"
-      aria-label="Map of Azerbaijan economic regions"
+      aria-label={t("mapAria", locale)}
       style={{ display: "block", width: "100%", height: "100%" }}
       onClick={() => setSelected(null)}
     >

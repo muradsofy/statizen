@@ -137,3 +137,20 @@
 .no-scrollbar::-webkit-scrollbar {
   display: none;
 }
+
+/* Keyboard-only focus indicators (mouse focus stays clean). Uses
+ * box-shadow so it doesn't fight inline `outline: none` on buttons. */
+button:focus {
+  outline: none;
+}
+button:focus-visible {
+  box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.55);
+  border-radius: 12px;
+}
+svg [role="button"]:focus {
+  outline: none;
+}
+svg [role="button"]:focus-visible {
+  stroke: #ffffff;
+  stroke-width: 2;
+}

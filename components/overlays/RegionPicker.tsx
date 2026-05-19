@@ -3,6 +3,7 @@
 import { regionsData } from "@/lib/data/loadData";
 import { useAppStore } from "@/lib/state/store";
 import { Dropdown } from "./Dropdown";
+import { t } from "@/lib/i18n/strings";
 
 export interface RegionPickerProps {
   width?: number | string;
@@ -22,9 +23,9 @@ export function RegionPicker({ width = "100%" }: RegionPickerProps) {
     <Dropdown
       value={selectedRegionId}
       options={options}
-      placeholder={locale === "az" ? "Bölgə seçin" : "Select a region"}
+      placeholder={t("selectRegion", locale)}
       onChange={setSelected}
-      ariaLabel={locale === "az" ? "Bölgə" : "Region"}
+      ariaLabel={t("region", locale)}
       width={width}
     />
   );

@@ -12,6 +12,20 @@ export const metadata: Metadata = {
   title: "Statizen — Azerbaijan Labour Map",
   description:
     "Interactive map of Azerbaijan's labour statistics by economic region. Source: stat.gov.az.",
+  openGraph: {
+    title: "Statizen — Azerbaijan Labour Map",
+    description:
+      "Interactive map of Azerbaijan's labour statistics by economic region. Source: stat.gov.az.",
+    type: "website",
+    images: [{ url: "/og.png", width: 1200, height: 630, alt: "Statizen" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Statizen — Azerbaijan Labour Map",
+    description:
+      "Interactive map of Azerbaijan's labour statistics by economic region.",
+    images: ["/og.png"],
+  },
 };
 
 export default function RootLayout({

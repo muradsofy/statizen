@@ -3,6 +3,7 @@
 import { indicatorsData } from "@/lib/data/loadData";
 import { useAppStore } from "@/lib/state/store";
 import { Dropdown } from "./Dropdown";
+import { t } from "@/lib/i18n/strings";
 
 export interface IndicatorPickerProps {
   width?: number | string;
@@ -23,7 +24,7 @@ export function IndicatorPicker({ width = 350 }: IndicatorPickerProps) {
       value={activeIndicatorId}
       options={options}
       onChange={setActive}
-      ariaLabel={locale === "az" ? "Göstərici" : "Indicator"}
+      ariaLabel={t("indicator", locale)}
       width={width}
     />
   );

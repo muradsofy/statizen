@@ -14,6 +14,7 @@ import {
 import { formatValue } from "@/lib/data/format";
 import { useAppStore } from "@/lib/state/store";
 import { surface, color, glow } from "@/lib/ui/tokens";
+import { t } from "@/lib/i18n/strings";
 
 export interface DataCardProps {
   /** Mobile variant: p16, title 20px, region 14px, content-height (Figma 30:296). */
@@ -76,9 +77,7 @@ export function DataCard({ compact = false, width }: DataCardProps = {}) {
             textAlign: "center",
           }}
         >
-          {locale === "az"
-            ? "Məlumat üçün bölgə seçin"
-            : "Select a region to see data"}
+          {t("selectRegionLong", locale)}
         </div>
       ) : (
         <>
@@ -151,9 +150,7 @@ export function DataCard({ compact = false, width }: DataCardProps = {}) {
               <span>stat.gov.az</span>
               <span>
                 {indicator
-                  ? `${
-                      locale === "az" ? "Yeniləndi" : "Updated"
-                    }: ${indicator.last_updated}`
+                  ? `${t("updated", locale)}: ${indicator.last_updated}`
                   : ""}
               </span>
             </div>
