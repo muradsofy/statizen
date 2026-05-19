@@ -1,5 +1,17 @@
-// Top-left wordmark. Stub — build Phase 8 (brand name is open question B4).
+import { color } from "@/lib/ui/tokens";
 
 export function Wordmark() {
-  return null;
+  return (
+    <span
+      style={{
+        fontSize: 16,
+        fontWeight: 500,
+        color: color.text,
+        letterSpacing: "-0.2px",
+        userSelect: "none",
+      }}
+    >
+      Statizen
+    </span>
+  );
 }

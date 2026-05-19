@@ -1,6 +1,7 @@
 "use client";
 
 import type { RegionGeo } from "@/types/data";
+import { color } from "@/lib/ui/tokens";
 
 export interface RegionPathProps {
   geo: RegionGeo;
@@ -21,12 +22,16 @@ export function RegionPath({
   onLeave,
   onSelect,
 }: RegionPathProps) {
-  const fill = active ? "#6c5ce7" : hovered ? "#2e2e34" : "#1c1c1f";
+  const fill = active
+    ? color.accent
+    : hovered
+      ? "#1d1d20"
+      : color.mapFill;
   return (
     <path
       d={geo.d}
       fill={fill}
-      stroke={active ? "#b9a9ff" : "rgba(255,255,255,0.09)"}
+      stroke={active ? "rgba(255,255,255,0.35)" : color.mapStroke}
       strokeWidth={active ? 1.5 : 1}
       tabIndex={0}
       role="button"

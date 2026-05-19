@@ -13,19 +13,7 @@ import {
 } from "@/lib/data/selectors";
 import { formatValue } from "@/lib/data/format";
 import { useAppStore } from "@/lib/state/store";
-
-const panelStyle: React.CSSProperties = {
-  width: 340,
-  height: 300,
-  background: "#141416",
-  border: "1px solid rgba(255,255,255,0.08)",
-  borderRadius: 14,
-  padding: 24,
-  display: "flex",
-  flexDirection: "column",
-};
-
-const muted = "#8a8a8e";
+import { surface, color, glow } from "@/lib/ui/tokens";
 
 export function DataCard() {
   const selectedRegionId = useAppStore((s) => s.selectedRegionId);
@@ -55,14 +43,24 @@ export function DataCard() {
       initial={{ opacity: 0, y: 8 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.2, delay: 0.05 }}
-      style={panelStyle}
+      style={{
+        ...surface,
+        width: 300,
+        height: 300,
+        padding: 24,
+        display: "flex",
+        flexDirection: "column",
+        justifyContent: "space-between",
+        overflow: "clip",
+      }}
     >
       {!region ? (
         <div
           style={{
             margin: "auto",
-            color: muted,
-            fontSize: 14,
+            color: color.muted,
+            fontSize: 16,
+            letterSpacing: "-0.32px",
             textAlign: "center",
           }}
         >
@@ -72,46 +70,64 @@ export function DataCard() {
         </div>
       ) : (
         <>
-          <div style={{ color: muted, fontSize: 12, letterSpacing: 0.3 }}>
-            {locale === "az" ? region.name_az : region.name_en}
-          </div>
           <div
-            style={{
-              color: "#fff",
-              fontSize: 18,
-              fontWeight: 500,
-              marginTop: 4,
-              lineHeight: 1.3,
-            }}
+            style={{ display: "flex", flexDirection: "column", gap: 4 }}
           >
-            {label}
-          </div>
-          <div style={{ color: muted, fontSize: 12, marginTop: 2 }}>
-            stat.gov.az
+            <div
+              style={{
+                fontSize: 12,
+                color: color.muted,
+                letterSpacing: "-0.24px",
+              }}
+            >
+              {locale === "az" ? region.name_az : region.name_en}
+            </div>
+            <div
+              style={{
+                fontSize: 24,
+                color: color.text,
+                letterSpacing: "-0.48px",
+                textShadow: glow,
+                lineHeight: 1.2,
+              }}
+            >
+              {label}
+            </div>
+            <div
+              style={{
+                fontSize: 14,
+                color: color.muted,
+                letterSpacing: "-0.28px",
+              }}
+            >
+              stat.gov.az
+            </div>
           </div>
 
-          <div style={{ marginTop: "auto" }}>
+          <div style={{ display: "flex", flexDirection: "column", gap: 12 }}>
             {latest ? (
               <div
                 style={{
-                  color: "#fff",
-                  fontSize: 52,
-                  fontWeight: 600,
+                  fontSize: 40,
+                  fontWeight: 500,
+                  color: color.text,
+                  letterSpacing: "-0.8px",
+                  textShadow: glow,
                   lineHeight: 1,
                 }}
               >
                 {formatValue(latest.value, indicator!.unit, locale)}
               </div>
             ) : (
-              <div style={{ color: muted, fontSize: 20 }}>
+              <div style={{ fontSize: 20, color: color.muted }}>
                 {locale === "az" ? "Məlumat yoxdur" : "No data"}
               </div>
             )}
             <div
               style={{
-                color: muted,
-                fontSize: 11,
-                marginTop: 12,
+                fontSize: 12,
+                color: color.muted,
+                letterSpacing: "-0.24px",
                 display: "flex",
                 justifyContent: "space-between",
               }}

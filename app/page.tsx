@@ -7,7 +7,7 @@ export default function Home() {
       style={{
         position: "fixed",
         inset: 0,
-        background: "#0a0a0b",
+        background: "#000000",
         overflow: "hidden",
       }}
     >

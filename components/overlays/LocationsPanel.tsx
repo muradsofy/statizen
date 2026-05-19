@@ -4,16 +4,7 @@ import { motion } from "framer-motion";
 import { regionsData } from "@/lib/data/loadData";
 import { useAppStore } from "@/lib/state/store";
 import { ScrollArea } from "@/components/ui/scroll-area";
-
-const panelStyle: React.CSSProperties = {
-  width: 220,
-  height: 300,
-  background: "#141416",
-  border: "1px solid rgba(255,255,255,0.08)",
-  borderRadius: 14,
-  padding: 8,
-  backdropFilter: "none",
-};
+import { surface, color, glow } from "@/lib/ui/tokens";
 
 export function LocationsPanel() {
   const regions = regionsData.regions;
@@ -28,10 +19,19 @@ export function LocationsPanel() {
       initial={{ opacity: 0, y: 8 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.2 }}
-      style={panelStyle}
+      style={{ ...surface, width: 200, height: 300, padding: 24 }}
     >
-      <ScrollArea style={{ height: "100%" }}>
-        <ul style={{ listStyle: "none", margin: 0, padding: 0 }}>
+      <ScrollArea style={{ height: "100%", width: "100%" }}>
+        <ul
+          style={{
+            listStyle: "none",
+            margin: 0,
+            padding: 0,
+            display: "flex",
+            flexDirection: "column",
+            gap: 16,
+          }}
+        >
           {regions.map((r) => {
             const active = selectedRegionId === r.id;
             const hovered = hoveredRegionId === r.id;
@@ -42,28 +42,29 @@ export function LocationsPanel() {
                   onClick={() => setSelected(r.id)}
                   onMouseEnter={() => setHovered(r.id)}
                   onMouseLeave={() => setHovered(null)}
+                  onFocus={() => setHovered(r.id)}
+                  onBlur={() => setHovered(null)}
                   style={{
                     display: "block",
                     width: "100%",
                     textAlign: "left",
-                    padding: "7px 12px",
+                    padding: 0,
                     margin: 0,
                     border: "none",
-                    borderRadius: 8,
-                    background: active
-                      ? "rgba(108,92,231,0.16)"
-                      : hovered
-                        ? "rgba(255,255,255,0.05)"
-                        : "transparent",
-                    color: active
-                      ? "#ffffff"
-                      : hovered
-                        ? "#d6d6d8"
-                        : "#8a8a8e",
-                    fontWeight: active ? 500 : 400,
-                    fontSize: 14,
+                    background: "transparent",
                     cursor: "pointer",
-                    transition: "background 120ms ease, color 120ms ease",
+                    outline: "none",
+                    fontSize: active ? 20 : 16,
+                    fontWeight: 400,
+                    letterSpacing: active ? "-0.4px" : "-0.32px",
+                    color: active
+                      ? color.text
+                      : hovered
+                        ? "rgba(255,255,255,0.8)"
+                        : color.muted,
+                    textShadow: active ? glow : "none",
+                    transition:
+                      "color 120ms ease, font-size 120ms ease, text-shadow 120ms ease",
                   }}
                 >
                   {locale === "az" ? r.name_az : r.name_en}
