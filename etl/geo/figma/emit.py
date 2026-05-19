@@ -55,7 +55,21 @@ assert len(regions) == 14, len(regions)
 order = list(regs.keys())
 regions.sort(key=lambda x: order.index(x["id"]))
 
+# Tight bounding box over all baked region paths (for zoom-to-country).
+xs, ys = [], []
+for rg in regions:
+    nums = [float(n) for n in re.findall(r"-?\d+(?:\.\d+)?", rg["d"])]
+    xs += nums[0::2]
+    ys += nums[1::2]
+bbox = {
+    "x": round(min(xs)),
+    "y": round(min(ys)),
+    "w": round(max(xs) - min(xs)),
+    "h": round(max(ys) - min(ys)),
+}
+
 out = {"viewBox": f"0 0 {W} {H}", "width": W, "height": H,
+       "bbox": bbox,
        "source": "Figma design N6wxEKiXeVu9boXMEvd3qE node 24:280",
        "regions": regions}
 dest = ROOT / "public" / "geo" / "regions.json"

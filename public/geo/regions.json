@@ -2,6 +2,12 @@
  "viewBox": "0 0 1512 1184",
  "width": 1512,
  "height": 1184,
+ "bbox": {
+  "x": 88,
+  "y": -58,
+  "w": 1513,
+  "h": 1184
+ },
  "source": "Figma design N6wxEKiXeVu9boXMEvd3qE node 24:280",
  "regions": [
   {

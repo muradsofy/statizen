@@ -93,10 +93,19 @@ export interface RegionGeo {
   source_node: string;
 }
 
+export interface GeoBBox {
+  x: number;
+  y: number;
+  w: number;
+  h: number;
+}
+
 export interface GeoFile {
   viewBox: string;
   width: number;
   height: number;
+  /** Tight bounding box over all region paths (zoom-to-country). */
+  bbox: GeoBBox;
   source: string;
   regions: RegionGeo[];
 }
