@@ -15,7 +15,13 @@ import { formatValue } from "@/lib/data/format";
 import { useAppStore } from "@/lib/state/store";
 import { surface, color, glow } from "@/lib/ui/tokens";
 
-export function DataCard() {
+export interface DataCardProps {
+  /** Mobile variant: p16, title 20px, region 14px, content-height (Figma 30:296). */
+  compact?: boolean;
+  width?: number | string;
+}
+
+export function DataCard({ compact = false, width }: DataCardProps = {}) {
   const selectedRegionId = useAppStore((s) => s.selectedRegionId);
   const activeIndicatorId = useAppStore((s) => s.activeIndicatorId);
   const locale = useAppStore((s) => s.locale);
@@ -50,12 +56,13 @@ export function DataCard() {
       transition={{ duration: 0.2, delay: 0.05 }}
       style={{
         ...surface,
-        width: 300,
-        height: 300,
-        padding: 24,
+        width: width ?? (compact ? "100%" : 300),
+        height: compact ? "auto" : 300,
+        padding: compact ? 16 : 24,
         display: "flex",
         flexDirection: "column",
-        justifyContent: "space-between",
+        gap: compact ? 24 : undefined,
+        justifyContent: compact ? "flex-start" : "space-between",
         overflow: "clip",
       }}
     >
@@ -93,9 +100,9 @@ export function DataCard() {
             )}
             <div
               style={{
-                fontSize: 24,
+                fontSize: compact ? 20 : 24,
                 color: color.text,
-                letterSpacing: "-0.48px",
+                letterSpacing: compact ? "-0.4px" : "-0.48px",
                 textShadow: glow,
                 lineHeight: 1.2,
               }}
@@ -104,9 +111,9 @@ export function DataCard() {
             </div>
             <div
               style={{
-                fontSize: 16,
+                fontSize: compact ? 14 : 16,
                 color: color.muted,
-                letterSpacing: "-0.32px",
+                letterSpacing: compact ? "-0.28px" : "-0.32px",
               }}
             >
               {regionName}

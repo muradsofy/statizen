@@ -1,10 +1,13 @@
 "use client";
 
-import { useEffect, useRef } from "react";
+import { useEffect, useRef, useState } from "react";
 import {
+  motion,
   useSpring,
   useTransform,
   useMotionValueEvent,
+  animate,
+  useMotionValue,
 } from "framer-motion";
 import { regionsGeo } from "@/lib/map/loadGeo";
 import { useAppStore } from "@/lib/state/store";
@@ -41,7 +44,20 @@ export function AzerbaijanMap() {
   const setHovered = useAppStore((s) => s.setHoveredRegion);
   const setSelected = useAppStore((s) => s.setSelectedRegion);
 
-  const { x: px, y: py } = useParallax(PARALLAX);
+  // Coarse pointer (touch) → drag-to-pan; fine pointer (mouse) → parallax.
+  const [coarse, setCoarse] = useState(false);
+  useEffect(() => {
+    const m = window.matchMedia("(pointer: coarse)");
+    const apply = () => setCoarse(m.matches);
+    apply();
+    m.addEventListener?.("change", apply);
+    return () => m.removeEventListener?.("change", apply);
+  }, []);
+
+  const { x: px, y: py } = useParallax(coarse ? 0 : PARALLAX);
+  // Drag offset in screen pixels (applied to the wrapper via CSS translate).
+  const dragX = useMotionValue(0);
+  const dragY = useMotionValue(0);
   const scale = useSpring(BASE_SCALE, SPRING);
   const cx = useSpring(CX, SPRING);
   const cy = useSpring(CY, SPRING);
@@ -58,7 +74,10 @@ export function AzerbaijanMap() {
       cy.set(CY);
       scale.set(BASE_SCALE);
     }
-  }, [selectedRegionId, cx, cy, scale]);
+    // Selection cancels any accumulated drag — bring the region into view
+    animate(dragX, 0, { type: "spring", ...SPRING });
+    animate(dragY, 0, { type: "spring", ...SPRING });
+  }, [selectedRegionId, cx, cy, scale, dragX, dragY]);
 
   const transform = useTransform(
     [scale, cx, cy, px, py],
@@ -78,6 +97,19 @@ export function AzerbaijanMap() {
   }, [transform]);
 
   return (
+    <motion.div
+      drag={coarse}
+      dragMomentum={false}
+      style={{
+        position: "absolute",
+        inset: 0,
+        width: "100%",
+        height: "100%",
+        x: dragX,
+        y: dragY,
+        touchAction: coarse ? "none" : "auto",
+      }}
+    >
     <svg
       viewBox={VB}
       preserveAspectRatio="xMidYMid meet"
@@ -111,5 +143,6 @@ export function AzerbaijanMap() {
         ))}
       </g>
     </svg>
+    </motion.div>
   );
 }
