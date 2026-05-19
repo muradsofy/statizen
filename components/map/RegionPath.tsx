@@ -41,10 +41,14 @@ export function RegionPath({
       onMouseLeave={onLeave}
       onFocus={() => onEnter(geo.id)}
       onBlur={onLeave}
-      onClick={() => onSelect(geo.id)}
+      onClick={(e) => {
+        e.stopPropagation();
+        onSelect(geo.id);
+      }}
       onKeyDown={(e) => {
         if (e.key === "Enter" || e.key === " ") {
           e.preventDefault();
+          e.stopPropagation();
           onSelect(geo.id);
         }
       }}

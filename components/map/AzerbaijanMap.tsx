@@ -86,8 +86,10 @@ export function AzerbaijanMap() {
       role="group"
       aria-label="Map of Azerbaijan economic regions"
       style={{ display: "block", width: "100%", height: "100%" }}
+      onClick={() => setSelected(null)}
     >
       <rect
+        data-testid="map-bg"
         x={bbox.x - PAD}
         y={bbox.y - PAD}
         width={bbox.w + PAD * 2}
