@@ -1,4 +1,5 @@
 import { AzerbaijanMap } from "@/components/map/AzerbaijanMap";
+import { Overlays } from "@/components/overlays/Overlays";
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
       }}
     >
       <AzerbaijanMap />
+      <Overlays />
     </main>
   );
 }
