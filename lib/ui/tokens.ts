@@ -8,8 +8,9 @@ export const color = {
   text: "#ffffff",
   muted: "rgba(255,255,255,0.5)",
   accent: "#612bf4", // active region (from reference)
-  mapFill: "#0e0e0e",
-  mapStroke: "rgba(255,255,255,0.08)",
+  mapFill: "#0e0e0e", // region fill (Figma exact)
+  mapStroke: "#5f5f5f", // region outline rgb(95,95,95) (Figma exact)
+  mapStrokeActive: "rgba(255,255,255,0.6)",
 } as const;
 
 export const glow = "0 0 10px rgba(255,255,255,0.5)";

@@ -1,5 +1,6 @@
 "use client";
 
+import { useEffect, useRef } from "react";
 import { motion } from "framer-motion";
 import { regionsData } from "@/lib/data/loadData";
 import { useAppStore } from "@/lib/state/store";
@@ -16,6 +17,15 @@ export function LocationsPanel() {
   const setSelected = useAppStore((s) => s.setSelectedRegion);
   const setHovered = useAppStore((s) => s.setHoveredRegion);
 
+  const scrollRef = useRef<HTMLDivElement>(null);
+  useEffect(() => {
+    if (!selectedRegionId || !scrollRef.current) return;
+    const el = scrollRef.current.querySelector<HTMLElement>(
+      `[data-region="${selectedRegionId}"]`,
+    );
+    el?.scrollIntoView({ block: "center", behavior: "smooth" });
+  }, [selectedRegionId]);
+
   return (
     <motion.div
       initial={{ opacity: 0, y: 8 }}
@@ -24,6 +34,7 @@ export function LocationsPanel() {
       style={{ ...surface, width: 200, height: 300, padding: 24 }}
     >
       <div
+        ref={scrollRef}
         className="no-scrollbar"
         style={{
           height: "100%",
@@ -50,6 +61,7 @@ export function LocationsPanel() {
               <li key={r.id}>
                 <button
                   type="button"
+                  data-region={r.id}
                   onClick={() => setSelected(r.id)}
                   onMouseEnter={() => setHovered(r.id)}
                   onMouseLeave={() => setHovered(null)}

@@ -75,10 +75,22 @@ export function DataCard() {
         </div>
       ) : (
         <>
-          {/* top: indicator title + source (Figma 19:609, gap 4) */}
+          {/* top: year, indicator title, region (Figma 30:130, gap 6) */}
           <div
-            style={{ display: "flex", flexDirection: "column", gap: 4 }}
+            style={{ display: "flex", flexDirection: "column", gap: 6 }}
           >
+            {latest && (
+              <div
+                style={{
+                  fontSize: 14,
+                  fontWeight: 500,
+                  color: color.muted,
+                  letterSpacing: "-0.28px",
+                }}
+              >
+                {latest.year}
+              </div>
+            )}
             <div
               style={{
                 fontSize: 24,
@@ -92,68 +104,44 @@ export function DataCard() {
             </div>
             <div
               style={{
-                fontSize: 14,
+                fontSize: 16,
                 color: color.muted,
-                letterSpacing: "-0.28px",
+                letterSpacing: "-0.32px",
               }}
             >
-              stat.gov.az
+              {regionName}
             </div>
           </div>
 
-          {/* bottom: Figma "Total" row → [region] [big value] (gap 16) */}
-          <div style={{ display: "flex", flexDirection: "column", gap: 16 }}>
+          {/* bottom: big value + source/updated row (Figma 30:173, gap 6) */}
+          <div style={{ display: "flex", flexDirection: "column", gap: 6 }}>
+            <div
+              style={{
+                fontSize: 40,
+                fontWeight: 500,
+                color: color.text,
+                letterSpacing: "-0.8px",
+                textShadow: glow,
+                lineHeight: 1.1,
+                whiteSpace: "nowrap",
+              }}
+            >
+              {latest
+                ? formatValue(latest.value, indicator!.unit, locale)
+                : "—"}
+            </div>
             <div
               style={{
                 display: "flex",
                 alignItems: "baseline",
                 justifyContent: "space-between",
-                gap: 12,
-              }}
-            >
-              <span
-                style={{
-                  fontSize: 20,
-                  color: color.text,
-                  letterSpacing: "-0.4px",
-                }}
-              >
-                {regionName}
-              </span>
-              <span
-                style={{
-                  fontSize: 40,
-                  fontWeight: 500,
-                  color: color.text,
-                  letterSpacing: "-0.8px",
-                  textShadow: glow,
-                  lineHeight: 1,
-                  whiteSpace: "nowrap",
-                }}
-              >
-                {latest
-                  ? formatValue(latest.value, indicator!.unit, locale)
-                  : locale === "az"
-                    ? "—"
-                    : "—"}
-              </span>
-            </div>
-            <div
-              style={{
-                fontSize: 12,
+                fontSize: 14,
                 color: color.muted,
-                letterSpacing: "-0.24px",
-                display: "flex",
-                justifyContent: "space-between",
+                letterSpacing: "-0.28px",
+                whiteSpace: "nowrap",
               }}
             >
-              <span>
-                {latest
-                  ? `${locale === "az" ? "İl" : "Year"}: ${latest.year}`
-                  : locale === "az"
-                    ? "Məlumat yoxdur"
-                    : "No data"}
-              </span>
+              <span>stat.gov.az</span>
               <span>
                 {indicator
                   ? `${

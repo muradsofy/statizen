@@ -31,8 +31,9 @@ export function RegionPath({
     <path
       d={geo.d}
       fill={fill}
-      stroke={active ? "rgba(255,255,255,0.35)" : color.mapStroke}
+      stroke={active ? color.mapStrokeActive : color.mapStroke}
       strokeWidth={active ? 1.5 : 1}
+      vectorEffect="non-scaling-stroke"
       tabIndex={0}
       role="button"
       aria-label={locale === "az" ? geo.name_az : geo.name_en}
