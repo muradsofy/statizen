@@ -54,3 +54,6 @@ etl/geo/*
 !etl/geo/figma/
 etl/geo/figma/*.png
 etl/geo/figma/*.svg
+
+# Static export
+out/
