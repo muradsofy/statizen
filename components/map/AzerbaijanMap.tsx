@@ -12,6 +12,7 @@ import {
 import { regionsGeo } from "@/lib/map/loadGeo";
 import { useAppStore } from "@/lib/state/store";
 import { useParallax } from "./useParallax";
+import { usePinchZoom } from "./usePinchZoom";
 import { RegionPath } from "./RegionPath";
 import { color } from "@/lib/ui/tokens";
 import { t } from "@/lib/i18n/strings";
@@ -33,6 +34,7 @@ const BASE_SCALE_MOBILE = 1.4;
 const FIT_MARGIN = 0.55; // selected region uses ~55% of the view → fully shown
 const SEL_MIN = 1.3;
 const SEL_MAX = 3.0;
+const PINCH_MAX = 3.0; // upper bound for manual two-finger zoom
 const PARALLAX = Math.round(bbox.w * 0.03);
 const SPRING = { stiffness: 120, damping: 22, mass: 0.5 };
 
@@ -70,6 +72,17 @@ export function AzerbaijanMap() {
     return () => m.removeEventListener?.("change", apply);
   }, []);
 
+  // Viewport size for clamping the touch drag — without this the user can
+  // drag the country off-screen and reveal the empty black background.
+  const [vp, setVp] = useState({ w: 0, h: 0 });
+  useEffect(() => {
+    const measure = () =>
+      setVp({ w: window.innerWidth, h: window.innerHeight });
+    measure();
+    window.addEventListener("resize", measure);
+    return () => window.removeEventListener("resize", measure);
+  }, []);
+
   const { x: px, y: py } = useParallax(coarse ? 0 : PARALLAX);
   // Drag offset in screen pixels (applied to the wrapper via CSS translate).
   const dragX = useMotionValue(0);
@@ -96,6 +109,12 @@ export function AzerbaijanMap() {
     animate(dragY, 0, { type: "spring", ...SPRING });
   }, [selectedRegionId, cx, cy, scale, dragX, dragY, baseScale]);
 
+  // Pinch-to-zoom on touch. Reports isPinching so we can disable the
+  // single-finger drag while two fingers are down (otherwise framer's
+  // drag tracks one finger and skews the pinch).
+  const wrapperRef = useRef<HTMLDivElement>(null);
+  const { isPinching } = usePinchZoom(wrapperRef, scale, baseScale, PINCH_MAX);
+
   const transform = useTransform(
     [scale, cx, cy, px, py],
     ([s, x, y, ox, oy]: number[]) => {
@@ -115,8 +134,21 @@ export function AzerbaijanMap() {
 
   return (
     <motion.div
-      drag={coarse}
+      ref={wrapperRef}
+      drag={coarse && !isPinching}
       dragMomentum={false}
+      dragElastic={0.15}
+      // Clamp the touch drag so the user can't expose more than ~20% of
+      // empty viewport past the map on any side. The map renders at
+      // baseScale (1.4× on mobile) so the "extra" content beyond the
+      // viewport is (baseScale − 1)/2 on each side. Add a little slack so
+      // the elastic rebound feels natural.
+      dragConstraints={{
+        left: -vp.w * (baseScale - 1) * 0.5,
+        right: vp.w * (baseScale - 1) * 0.5,
+        top: -vp.h * (baseScale - 1) * 0.5,
+        bottom: vp.h * (baseScale - 1) * 0.5,
+      }}
       style={{
         position: "absolute",
         inset: 0,

@@ -5,7 +5,7 @@ import { indicatorsData } from "@/lib/data/loadData";
 import { useAppStore } from "@/lib/state/store";
 import { surface } from "@/lib/ui/tokens";
 import { t } from "@/lib/i18n/strings";
-import { haptic } from "@/lib/haptics";
+import { hapticScrub } from "@/lib/haptics";
 
 export interface YearPickerProps {
   /** Mobile variant: 40px tall, 6px track, 14px pill text (Figma 34:348). */
@@ -73,7 +73,9 @@ export function YearPicker({ compact = false, width = "100%" }: YearPickerProps)
     const i = parseInt(e.target.value, 10);
     const y = years[i];
     if (y === undefined || y === currentYear) return;
-    haptic("selection"); // 8ms tick per year change
+    // hapticScrub throttles so each pulse plays — navigator.vibrate
+    // cancels in-flight pulses, so unthrottled scrubs feel like nothing.
+    hapticScrub("selection");
     setYear(y === latestYear ? null : y);
   }
 

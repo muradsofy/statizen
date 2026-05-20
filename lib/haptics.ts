@@ -46,3 +46,25 @@ function getInstance(): WebHaptics | null {
 export function haptic(pattern: Pattern = "selection"): void {
   getInstance()?.trigger(pattern);
 }
+
+let _lastScrubAt = 0;
+
+/**
+ * Throttled haptic for continuous gestures like a range-slider drag.
+ * `navigator.vibrate` cancels the in-flight pulse on every new call, so
+ * firing on every input event during a drag produces ZERO perceived
+ * vibration. This caps the rate so each tick has time to actually buzz.
+ *
+ * Default 30 ms gap → ~33 ticks/second, perceptible without missing
+ * fast scrubs entirely.
+ */
+export function hapticScrub(
+  pattern: Pattern = "selection",
+  minGapMs = 30,
+): void {
+  const now =
+    typeof performance !== "undefined" ? performance.now() : Date.now();
+  if (now - _lastScrubAt < minGapMs) return;
+  _lastScrubAt = now;
+  getInstance()?.trigger(pattern);
+}
