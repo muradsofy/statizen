@@ -1,0 +1,1700 @@
+{
+  "values": [
+    {
+      "region_id": "AZ",
+      "indicator_id": "families_purchased_housing",
+      "year": 2008,
+      "value": 1008,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "families_purchased_housing",
+      "year": 2009,
+      "value": 941,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "families_purchased_housing",
+      "year": 2010,
+      "value": 743,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "families_purchased_housing",
+      "year": 2011,
+      "value": 788,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "families_purchased_housing",
+      "year": 2012,
+      "value": 413,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "families_purchased_housing",
+      "year": 2013,
+      "value": 661,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "families_purchased_housing",
+      "year": 2014,
+      "value": 547,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "families_purchased_housing",
+      "year": 2015,
+      "value": 501,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "families_purchased_housing",
+      "year": 2016,
+      "value": 1764,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "families_purchased_housing",
+      "year": 2017,
+      "value": 2484,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "families_purchased_housing",
+      "year": 2018,
+      "value": 4402,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "families_purchased_housing",
+      "year": 2019,
+      "value": 4562,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "families_purchased_housing",
+      "year": 2020,
+      "value": 5610,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "families_purchased_housing",
+      "year": 2021,
+      "value": 3258,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "families_purchased_housing",
+      "year": 2022,
+      "value": 1794,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "families_purchased_housing",
+      "year": 2023,
+      "value": 2827,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "families_purchased_housing",
+      "year": 2024,
+      "value": 2555,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "families_purchased_housing",
+      "year": 2008,
+      "value": 268,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "families_purchased_housing",
+      "year": 2009,
+      "value": 310,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "families_purchased_housing",
+      "year": 2010,
+      "value": 106,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "families_purchased_housing",
+      "year": 2011,
+      "value": 256,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "families_purchased_housing",
+      "year": 2012,
+      "value": 253,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "families_purchased_housing",
+      "year": 2013,
+      "value": 220,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "families_purchased_housing",
+      "year": 2014,
+      "value": 188,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "families_purchased_housing",
+      "year": 2015,
+      "value": 142,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "families_purchased_housing",
+      "year": 2016,
+      "value": 361,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "families_purchased_housing",
+      "year": 2017,
+      "value": 550,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "families_purchased_housing",
+      "year": 2018,
+      "value": 1968,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "families_purchased_housing",
+      "year": 2019,
+      "value": 2554,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "families_purchased_housing",
+      "year": 2020,
+      "value": 1708,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "families_purchased_housing",
+      "year": 2021,
+      "value": 1873,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "families_purchased_housing",
+      "year": 2022,
+      "value": 724,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "families_purchased_housing",
+      "year": 2023,
+      "value": 799,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "families_purchased_housing",
+      "year": 2024,
+      "value": 352,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "families_purchased_housing",
+      "year": 2008,
+      "value": 200,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "families_purchased_housing",
+      "year": 2009,
+      "value": 10,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "families_purchased_housing",
+      "year": 2010,
+      "value": 67,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "families_purchased_housing",
+      "year": 2011,
+      "value": 30,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "families_purchased_housing",
+      "year": 2012,
+      "value": 22,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "families_purchased_housing",
+      "year": 2013,
+      "value": 9,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "families_purchased_housing",
+      "year": 2014,
+      "value": 104,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "families_purchased_housing",
+      "year": 2015,
+      "value": 85,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "families_purchased_housing",
+      "year": 2016,
+      "value": 39,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "families_purchased_housing",
+      "year": 2017,
+      "value": 3,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "families_purchased_housing",
+      "year": 2018,
+      "value": 4,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "families_purchased_housing",
+      "year": 2019,
+      "value": 17,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "families_purchased_housing",
+      "year": 2020,
+      "value": 11,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "families_purchased_housing",
+      "year": 2021,
+      "value": 30,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "families_purchased_housing",
+      "year": 2022,
+      "value": 30,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "families_purchased_housing",
+      "year": 2023,
+      "value": 19,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "families_purchased_housing",
+      "year": 2024,
+      "value": 10,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "families_purchased_housing",
+      "year": 2008,
+      "value": 16,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "families_purchased_housing",
+      "year": 2009,
+      "value": 37,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "families_purchased_housing",
+      "year": 2010,
+      "value": 121,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "families_purchased_housing",
+      "year": 2011,
+      "value": 1,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "families_purchased_housing",
+      "year": 2012,
+      "value": 1,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "families_purchased_housing",
+      "year": 2013,
+      "value": 23,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "families_purchased_housing",
+      "year": 2014,
+      "value": 46,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "families_purchased_housing",
+      "year": 2015,
+      "value": 110,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "families_purchased_housing",
+      "year": 2016,
+      "value": 36,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "families_purchased_housing",
+      "year": 2017,
+      "value": 208,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "families_purchased_housing",
+      "year": 2018,
+      "value": 2214,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "families_purchased_housing",
+      "year": 2019,
+      "value": 1449,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "families_purchased_housing",
+      "year": 2020,
+      "value": 107,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "families_purchased_housing",
+      "year": 2021,
+      "value": 856,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "families_purchased_housing",
+      "year": 2022,
+      "value": 493,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "families_purchased_housing",
+      "year": 2023,
+      "value": 214,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "families_purchased_housing",
+      "year": 2024,
+      "value": 307,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "families_purchased_housing",
+      "year": 2008,
+      "value": 69,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "families_purchased_housing",
+      "year": 2010,
+      "value": 44,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "families_purchased_housing",
+      "year": 2011,
+      "value": 14,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "families_purchased_housing",
+      "year": 2017,
+      "value": 8,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "families_purchased_housing",
+      "year": 2018,
+      "value": 40,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "families_purchased_housing",
+      "year": 2019,
+      "value": 10,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "families_purchased_housing",
+      "year": 2020,
+      "value": 43,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "families_purchased_housing",
+      "year": 2022,
+      "value": 13,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "families_purchased_housing",
+      "year": 2023,
+      "value": 20,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "families_purchased_housing",
+      "year": 2024,
+      "value": 21,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "families_purchased_housing",
+      "year": 2008,
+      "value": 81,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "families_purchased_housing",
+      "year": 2009,
+      "value": 35,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "families_purchased_housing",
+      "year": 2010,
+      "value": 6,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "families_purchased_housing",
+      "year": 2011,
+      "value": 10,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "families_purchased_housing",
+      "year": 2015,
+      "value": 83,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "families_purchased_housing",
+      "year": 2016,
+      "value": 22,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "families_purchased_housing",
+      "year": 2017,
+      "value": 5,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "families_purchased_housing",
+      "year": 2019,
+      "value": 30,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "families_purchased_housing",
+      "year": 2020,
+      "value": 347,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "families_purchased_housing",
+      "year": 2021,
+      "value": 220,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "families_purchased_housing",
+      "year": 2022,
+      "value": 157,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "families_purchased_housing",
+      "year": 2023,
+      "value": 239,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "families_purchased_housing",
+      "year": 2024,
+      "value": 42,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "families_purchased_housing",
+      "year": 2008,
+      "value": 16,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "families_purchased_housing",
+      "year": 2009,
+      "value": 25,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "families_purchased_housing",
+      "year": 2010,
+      "value": 6,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "families_purchased_housing",
+      "year": 2011,
+      "value": 50,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "families_purchased_housing",
+      "year": 2013,
+      "value": 1,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "families_purchased_housing",
+      "year": 2014,
+      "value": 95,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "families_purchased_housing",
+      "year": 2015,
+      "value": 15,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "families_purchased_housing",
+      "year": 2016,
+      "value": 418,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "families_purchased_housing",
+      "year": 2017,
+      "value": 1593,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "families_purchased_housing",
+      "year": 2019,
+      "value": 72,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "families_purchased_housing",
+      "year": 2020,
+      "value": 725,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "families_purchased_housing",
+      "year": 2021,
+      "value": 191,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "families_purchased_housing",
+      "year": 2022,
+      "value": 72,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "families_purchased_housing",
+      "year": 2023,
+      "value": 473,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "families_purchased_housing",
+      "year": 2024,
+      "value": 992,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "families_purchased_housing",
+      "year": 2008,
+      "value": 56,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "families_purchased_housing",
+      "year": 2009,
+      "value": 140,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "families_purchased_housing",
+      "year": 2010,
+      "value": 85,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "families_purchased_housing",
+      "year": 2011,
+      "value": 35,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "families_purchased_housing",
+      "year": 2012,
+      "value": 67,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "families_purchased_housing",
+      "year": 2013,
+      "value": 165,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "families_purchased_housing",
+      "year": 2014,
+      "value": 25,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "families_purchased_housing",
+      "year": 2015,
+      "value": 4,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "families_purchased_housing",
+      "year": 2016,
+      "value": 309,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "families_purchased_housing",
+      "year": 2017,
+      "value": 6,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "families_purchased_housing",
+      "year": 2018,
+      "value": 10,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "families_purchased_housing",
+      "year": 2019,
+      "value": 51,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "families_purchased_housing",
+      "year": 2020,
+      "value": 89,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "families_purchased_housing",
+      "year": 2021,
+      "value": 3,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "families_purchased_housing",
+      "year": 2022,
+      "value": 19,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "families_purchased_housing",
+      "year": 2023,
+      "value": 52,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "families_purchased_housing",
+      "year": 2024,
+      "value": 15,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "families_purchased_housing",
+      "year": 2008,
+      "value": 16,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "families_purchased_housing",
+      "year": 2009,
+      "value": 1,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "families_purchased_housing",
+      "year": 2011,
+      "value": 69,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "families_purchased_housing",
+      "year": 2012,
+      "value": 36,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "families_purchased_housing",
+      "year": 2013,
+      "value": 37,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "families_purchased_housing",
+      "year": 2014,
+      "value": 2,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "families_purchased_housing",
+      "year": 2015,
+      "value": 9,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "families_purchased_housing",
+      "year": 2017,
+      "value": 2,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "families_purchased_housing",
+      "year": 2018,
+      "value": 4,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "families_purchased_housing",
+      "year": 2019,
+      "value": 11,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "families_purchased_housing",
+      "year": 2020,
+      "value": 70,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "families_purchased_housing",
+      "year": 2022,
+      "value": 10,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "families_purchased_housing",
+      "year": 2023,
+      "value": 17,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "families_purchased_housing",
+      "year": 2024,
+      "value": 1,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "families_purchased_housing",
+      "year": 2008,
+      "value": 61,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "families_purchased_housing",
+      "year": 2009,
+      "value": 56,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "families_purchased_housing",
+      "year": 2010,
+      "value": 37,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "families_purchased_housing",
+      "year": 2011,
+      "value": 81,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "families_purchased_housing",
+      "year": 2013,
+      "value": 63,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "families_purchased_housing",
+      "year": 2017,
+      "value": 11,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "families_purchased_housing",
+      "year": 2019,
+      "value": 92,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "families_purchased_housing",
+      "year": 2020,
+      "value": 168,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "families_purchased_housing",
+      "year": 2021,
+      "value": 45,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "families_purchased_housing",
+      "year": 2022,
+      "value": 22,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "families_purchased_housing",
+      "year": 2023,
+      "value": 26,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "families_purchased_housing",
+      "year": 2024,
+      "value": 70,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "families_purchased_housing",
+      "year": 2009,
+      "value": 67,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "families_purchased_housing",
+      "year": 2010,
+      "value": 50,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "families_purchased_housing",
+      "year": 2011,
+      "value": 70,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "families_purchased_housing",
+      "year": 2013,
+      "value": 21,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "families_purchased_housing",
+      "year": 2015,
+      "value": 14,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "families_purchased_housing",
+      "year": 2016,
+      "value": 27,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "families_purchased_housing",
+      "year": 2017,
+      "value": 3,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "families_purchased_housing",
+      "year": 2018,
+      "value": 4,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "families_purchased_housing",
+      "year": 2019,
+      "value": 40,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "families_purchased_housing",
+      "year": 2020,
+      "value": 1291,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "families_purchased_housing",
+      "year": 2021,
+      "value": 24,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "families_purchased_housing",
+      "year": 2022,
+      "value": 51,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "families_purchased_housing",
+      "year": 2023,
+      "value": 61,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "families_purchased_housing",
+      "year": 2024,
+      "value": 111,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "families_purchased_housing",
+      "year": 2008,
+      "value": 153,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "families_purchased_housing",
+      "year": 2009,
+      "value": 150,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "families_purchased_housing",
+      "year": 2010,
+      "value": 191,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "families_purchased_housing",
+      "year": 2011,
+      "value": 55,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "families_purchased_housing",
+      "year": 2012,
+      "value": 30,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "families_purchased_housing",
+      "year": 2013,
+      "value": 22,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "families_purchased_housing",
+      "year": 2014,
+      "value": 45,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "families_purchased_housing",
+      "year": 2015,
+      "value": 16,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "families_purchased_housing",
+      "year": 2016,
+      "value": 357,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "families_purchased_housing",
+      "year": 2018,
+      "value": 57,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "families_purchased_housing",
+      "year": 2019,
+      "value": 175,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "families_purchased_housing",
+      "year": 2020,
+      "value": 125,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "families_purchased_housing",
+      "year": 2022,
+      "value": 92,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "families_purchased_housing",
+      "year": 2023,
+      "value": 36,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "families_purchased_housing",
+      "year": 2024,
+      "value": 6,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "families_purchased_housing",
+      "year": 2008,
+      "value": 72,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "families_purchased_housing",
+      "year": 2009,
+      "value": 16,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "families_purchased_housing",
+      "year": 2010,
+      "value": 21,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "families_purchased_housing",
+      "year": 2011,
+      "value": 59,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "families_purchased_housing",
+      "year": 2013,
+      "value": 70,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "families_purchased_housing",
+      "year": 2014,
+      "value": 21,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "families_purchased_housing",
+      "year": 2016,
+      "value": 165,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "families_purchased_housing",
+      "year": 2017,
+      "value": 29,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "families_purchased_housing",
+      "year": 2018,
+      "value": 1,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "families_purchased_housing",
+      "year": 2019,
+      "value": 9,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "families_purchased_housing",
+      "year": 2020,
+      "value": 83,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "families_purchased_housing",
+      "year": 2022,
+      "value": 20,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "families_purchased_housing",
+      "year": 2023,
+      "value": 69,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "families_purchased_housing",
+      "year": 2024,
+      "value": 42,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "east-zangezur",
+      "indicator_id": "families_purchased_housing",
+      "year": 2017,
+      "value": 46,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "east-zangezur",
+      "indicator_id": "families_purchased_housing",
+      "year": 2018,
+      "value": 100,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "east-zangezur",
+      "indicator_id": "families_purchased_housing",
+      "year": 2022,
+      "value": 66,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "east-zangezur",
+      "indicator_id": "families_purchased_housing",
+      "year": 2023,
+      "value": 720,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "east-zangezur",
+      "indicator_id": "families_purchased_housing",
+      "year": 2024,
+      "value": 523,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "families_purchased_housing",
+      "year": 2009,
+      "value": 94,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "families_purchased_housing",
+      "year": 2010,
+      "value": 9,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "families_purchased_housing",
+      "year": 2011,
+      "value": 58,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "families_purchased_housing",
+      "year": 2012,
+      "value": 4,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "families_purchased_housing",
+      "year": 2013,
+      "value": 30,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "families_purchased_housing",
+      "year": 2014,
+      "value": 21,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "families_purchased_housing",
+      "year": 2015,
+      "value": 23,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "families_purchased_housing",
+      "year": 2016,
+      "value": 30,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "families_purchased_housing",
+      "year": 2017,
+      "value": 20,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "families_purchased_housing",
+      "year": 2019,
+      "value": 52,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "families_purchased_housing",
+      "year": 2020,
+      "value": 843,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "families_purchased_housing",
+      "year": 2021,
+      "value": 16,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "families_purchased_housing",
+      "year": 2022,
+      "value": 25,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "families_purchased_housing",
+      "year": 2023,
+      "value": 82,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "families_purchased_housing",
+      "year": 2024,
+      "value": 63,
+      "scope": "region",
+      "source": "stat.gov.az"
+    }
+  ]
+}

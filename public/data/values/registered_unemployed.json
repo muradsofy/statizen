@@ -1,0 +1,812 @@
+{
+  "values": [
+    {
+      "region_id": "AZ",
+      "indicator_id": "registered_unemployed",
+      "year": 2015,
+      "value": 28877,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "registered_unemployed",
+      "year": 2016,
+      "value": 32972,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "registered_unemployed",
+      "year": 2017,
+      "value": 38481,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "registered_unemployed",
+      "year": 2018,
+      "value": 20088,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "registered_unemployed",
+      "year": 2019,
+      "value": 81272,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "registered_unemployed",
+      "year": 2023,
+      "value": 217608,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "registered_unemployed",
+      "year": 2024,
+      "value": 217228,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "registered_unemployed",
+      "year": 2015,
+      "value": 12113,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "registered_unemployed",
+      "year": 2016,
+      "value": 14812,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "registered_unemployed",
+      "year": 2017,
+      "value": 18926,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "registered_unemployed",
+      "year": 2018,
+      "value": 9243,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "registered_unemployed",
+      "year": 2019,
+      "value": 26342,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "registered_unemployed",
+      "year": 2023,
+      "value": 45870,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "registered_unemployed",
+      "year": 2024,
+      "value": 35518,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "registered_unemployed",
+      "year": 2019,
+      "value": 76,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "registered_unemployed",
+      "year": 2023,
+      "value": 990,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "registered_unemployed",
+      "year": 2024,
+      "value": 9677,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "registered_unemployed",
+      "year": 2015,
+      "value": 1499,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "registered_unemployed",
+      "year": 2016,
+      "value": 1457,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "registered_unemployed",
+      "year": 2017,
+      "value": 2032,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "registered_unemployed",
+      "year": 2018,
+      "value": 1761,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "registered_unemployed",
+      "year": 2019,
+      "value": 7787,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "registered_unemployed",
+      "year": 2023,
+      "value": 12743,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "registered_unemployed",
+      "year": 2024,
+      "value": 10837,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "registered_unemployed",
+      "year": 2015,
+      "value": 791,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "registered_unemployed",
+      "year": 2016,
+      "value": 819,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "registered_unemployed",
+      "year": 2017,
+      "value": 691,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "registered_unemployed",
+      "year": 2018,
+      "value": 310,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "registered_unemployed",
+      "year": 2019,
+      "value": 1937,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "registered_unemployed",
+      "year": 2023,
+      "value": 7124,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "registered_unemployed",
+      "year": 2024,
+      "value": 7784,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "registered_unemployed",
+      "year": 2015,
+      "value": 810,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "registered_unemployed",
+      "year": 2016,
+      "value": 990,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "registered_unemployed",
+      "year": 2017,
+      "value": 1235,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "registered_unemployed",
+      "year": 2018,
+      "value": 624,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "registered_unemployed",
+      "year": 2019,
+      "value": 5014,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "registered_unemployed",
+      "year": 2023,
+      "value": 10959,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "registered_unemployed",
+      "year": 2024,
+      "value": 8929,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "registered_unemployed",
+      "year": 2015,
+      "value": 3166,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "registered_unemployed",
+      "year": 2016,
+      "value": 3164,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "registered_unemployed",
+      "year": 2017,
+      "value": 2959,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "registered_unemployed",
+      "year": 2018,
+      "value": 1686,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "registered_unemployed",
+      "year": 2019,
+      "value": 5632,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "registered_unemployed",
+      "year": 2023,
+      "value": 19431,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "registered_unemployed",
+      "year": 2024,
+      "value": 23139,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "registered_unemployed",
+      "year": 2015,
+      "value": 989,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "registered_unemployed",
+      "year": 2016,
+      "value": 1191,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "registered_unemployed",
+      "year": 2017,
+      "value": 1405,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "registered_unemployed",
+      "year": 2018,
+      "value": 702,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "registered_unemployed",
+      "year": 2019,
+      "value": 8825,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "registered_unemployed",
+      "year": 2023,
+      "value": 16303,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "registered_unemployed",
+      "year": 2024,
+      "value": 17822,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "registered_unemployed",
+      "year": 2015,
+      "value": 969,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "registered_unemployed",
+      "year": 2016,
+      "value": 1282,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "registered_unemployed",
+      "year": 2017,
+      "value": 1386,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "registered_unemployed",
+      "year": 2018,
+      "value": 926,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "registered_unemployed",
+      "year": 2019,
+      "value": 4553,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "registered_unemployed",
+      "year": 2023,
+      "value": 14782,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "registered_unemployed",
+      "year": 2024,
+      "value": 15229,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "registered_unemployed",
+      "year": 2015,
+      "value": 839,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "registered_unemployed",
+      "year": 2016,
+      "value": 948,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "registered_unemployed",
+      "year": 2017,
+      "value": 1213,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "registered_unemployed",
+      "year": 2018,
+      "value": 896,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "registered_unemployed",
+      "year": 2019,
+      "value": 3680,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "registered_unemployed",
+      "year": 2023,
+      "value": 21345,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "registered_unemployed",
+      "year": 2024,
+      "value": 17751,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "registered_unemployed",
+      "year": 2015,
+      "value": 2921,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "registered_unemployed",
+      "year": 2016,
+      "value": 3245,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "registered_unemployed",
+      "year": 2017,
+      "value": 2904,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "registered_unemployed",
+      "year": 2018,
+      "value": 812,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "registered_unemployed",
+      "year": 2019,
+      "value": 6218,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "registered_unemployed",
+      "year": 2023,
+      "value": 18718,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "registered_unemployed",
+      "year": 2024,
+      "value": 19801,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "registered_unemployed",
+      "year": 2015,
+      "value": 584,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "registered_unemployed",
+      "year": 2016,
+      "value": 692,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "registered_unemployed",
+      "year": 2017,
+      "value": 939,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "registered_unemployed",
+      "year": 2018,
+      "value": 384,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "registered_unemployed",
+      "year": 2019,
+      "value": 1353,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "registered_unemployed",
+      "year": 2023,
+      "value": 12185,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "registered_unemployed",
+      "year": 2024,
+      "value": 8294,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "registered_unemployed",
+      "year": 2015,
+      "value": 803,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "registered_unemployed",
+      "year": 2016,
+      "value": 913,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "registered_unemployed",
+      "year": 2017,
+      "value": 1178,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "registered_unemployed",
+      "year": 2018,
+      "value": 731,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "registered_unemployed",
+      "year": 2019,
+      "value": 2932,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "registered_unemployed",
+      "year": 2023,
+      "value": 15108,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "registered_unemployed",
+      "year": 2024,
+      "value": 20028,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "east-zangezur",
+      "indicator_id": "registered_unemployed",
+      "year": 2015,
+      "value": 1541,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "east-zangezur",
+      "indicator_id": "registered_unemployed",
+      "year": 2016,
+      "value": 1680,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "east-zangezur",
+      "indicator_id": "registered_unemployed",
+      "year": 2017,
+      "value": 1727,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "east-zangezur",
+      "indicator_id": "registered_unemployed",
+      "year": 2018,
+      "value": 815,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "east-zangezur",
+      "indicator_id": "registered_unemployed",
+      "year": 2019,
+      "value": 2367,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "east-zangezur",
+      "indicator_id": "registered_unemployed",
+      "year": 2023,
+      "value": 9346,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "east-zangezur",
+      "indicator_id": "registered_unemployed",
+      "year": 2024,
+      "value": 9330,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "registered_unemployed",
+      "year": 2015,
+      "value": 1852,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "registered_unemployed",
+      "year": 2016,
+      "value": 1779,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "registered_unemployed",
+      "year": 2017,
+      "value": 1886,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "registered_unemployed",
+      "year": 2018,
+      "value": 1198,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "registered_unemployed",
+      "year": 2019,
+      "value": 4556,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "registered_unemployed",
+      "year": 2023,
+      "value": 12704,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "registered_unemployed",
+      "year": 2024,
+      "value": 13089,
+      "scope": "region",
+      "source": "stat.gov.az"
+    }
+  ]
+}

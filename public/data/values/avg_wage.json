@@ -1,0 +1,1204 @@
+{
+  "values": [
+    {
+      "region_id": "AZ",
+      "indicator_id": "avg_wage",
+      "year": 2015,
+      "value": 466.9,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "avg_wage",
+      "year": 2016,
+      "value": 499.8,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "avg_wage",
+      "year": 2017,
+      "value": 528.5,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "avg_wage",
+      "year": 2018,
+      "value": 544.6,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "avg_wage",
+      "year": 2019,
+      "value": 635.1,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "avg_wage",
+      "year": 2020,
+      "value": 707.7,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "avg_wage",
+      "year": 2021,
+      "value": 732.1,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "avg_wage",
+      "year": 2022,
+      "value": 840,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "avg_wage",
+      "year": 2023,
+      "value": 933.9,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "avg_wage",
+      "year": 2024,
+      "value": 1009.4,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "avg_wage",
+      "year": 2015,
+      "value": 666.8,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "avg_wage",
+      "year": 2016,
+      "value": 742.2,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "avg_wage",
+      "year": 2017,
+      "value": 785.5,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "avg_wage",
+      "year": 2018,
+      "value": 789.1,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "avg_wage",
+      "year": 2019,
+      "value": 868.8,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "avg_wage",
+      "year": 2020,
+      "value": 927.8,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "avg_wage",
+      "year": 2021,
+      "value": 951.3,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "avg_wage",
+      "year": 2022,
+      "value": 1080.6,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "avg_wage",
+      "year": 2023,
+      "value": 1183.8,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "avg_wage",
+      "year": 2024,
+      "value": 1269.3,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "avg_wage",
+      "year": 2015,
+      "value": 399.7,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "avg_wage",
+      "year": 2016,
+      "value": 413.1,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "avg_wage",
+      "year": 2017,
+      "value": 420.1,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "avg_wage",
+      "year": 2018,
+      "value": 433,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "avg_wage",
+      "year": 2019,
+      "value": 484.2,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "avg_wage",
+      "year": 2020,
+      "value": 535,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "avg_wage",
+      "year": 2021,
+      "value": 553.6,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "avg_wage",
+      "year": 2022,
+      "value": 610.8,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "avg_wage",
+      "year": 2023,
+      "value": 689,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "avg_wage",
+      "year": 2024,
+      "value": 782.4,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "avg_wage",
+      "year": 2015,
+      "value": 360.9,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "avg_wage",
+      "year": 2016,
+      "value": 358.6,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "avg_wage",
+      "year": 2017,
+      "value": 384.7,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "avg_wage",
+      "year": 2018,
+      "value": 404.2,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "avg_wage",
+      "year": 2019,
+      "value": 503,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "avg_wage",
+      "year": 2020,
+      "value": 582.9,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "avg_wage",
+      "year": 2021,
+      "value": 605.9,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "avg_wage",
+      "year": 2022,
+      "value": 689.2,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "avg_wage",
+      "year": 2023,
+      "value": 774.7,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "avg_wage",
+      "year": 2024,
+      "value": 807.3,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "avg_wage",
+      "year": 2015,
+      "value": 269.8,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "avg_wage",
+      "year": 2016,
+      "value": 263.5,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "avg_wage",
+      "year": 2017,
+      "value": 281.5,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "avg_wage",
+      "year": 2018,
+      "value": 306.8,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "avg_wage",
+      "year": 2019,
+      "value": 396,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "avg_wage",
+      "year": 2020,
+      "value": 461.4,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "avg_wage",
+      "year": 2021,
+      "value": 471,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "avg_wage",
+      "year": 2022,
+      "value": 556.2,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "avg_wage",
+      "year": 2023,
+      "value": 614.2,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "avg_wage",
+      "year": 2024,
+      "value": 647.6,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "avg_wage",
+      "year": 2015,
+      "value": 298.1,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "avg_wage",
+      "year": 2016,
+      "value": 301.6,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "avg_wage",
+      "year": 2017,
+      "value": 316.5,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "avg_wage",
+      "year": 2018,
+      "value": 348,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "avg_wage",
+      "year": 2019,
+      "value": 423.6,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "avg_wage",
+      "year": 2020,
+      "value": 506.2,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "avg_wage",
+      "year": 2021,
+      "value": 528,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "avg_wage",
+      "year": 2022,
+      "value": 611,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "avg_wage",
+      "year": 2023,
+      "value": 683,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "avg_wage",
+      "year": 2024,
+      "value": 722.5,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "avg_wage",
+      "year": 2015,
+      "value": 242,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "avg_wage",
+      "year": 2016,
+      "value": 238.8,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "avg_wage",
+      "year": 2017,
+      "value": 242.2,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "avg_wage",
+      "year": 2018,
+      "value": 279.5,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "avg_wage",
+      "year": 2019,
+      "value": 344.9,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "avg_wage",
+      "year": 2020,
+      "value": 409.9,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "avg_wage",
+      "year": 2021,
+      "value": 437.4,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "avg_wage",
+      "year": 2022,
+      "value": 536.6,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "avg_wage",
+      "year": 2023,
+      "value": 602.3,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "avg_wage",
+      "year": 2024,
+      "value": 645.3,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "avg_wage",
+      "year": 2015,
+      "value": 281.1,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "avg_wage",
+      "year": 2016,
+      "value": 279.3,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "avg_wage",
+      "year": 2017,
+      "value": 287,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "avg_wage",
+      "year": 2018,
+      "value": 311,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "avg_wage",
+      "year": 2019,
+      "value": 390.3,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "avg_wage",
+      "year": 2020,
+      "value": 475.3,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "avg_wage",
+      "year": 2021,
+      "value": 498.4,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "avg_wage",
+      "year": 2022,
+      "value": 577.4,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "avg_wage",
+      "year": 2023,
+      "value": 642.7,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "avg_wage",
+      "year": 2024,
+      "value": 686.2,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "avg_wage",
+      "year": 2015,
+      "value": 303.5,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "avg_wage",
+      "year": 2016,
+      "value": 303.3,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "avg_wage",
+      "year": 2017,
+      "value": 317.1,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "avg_wage",
+      "year": 2018,
+      "value": 330.9,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "avg_wage",
+      "year": 2019,
+      "value": 414.3,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "avg_wage",
+      "year": 2020,
+      "value": 498.3,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "avg_wage",
+      "year": 2021,
+      "value": 507,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "avg_wage",
+      "year": 2022,
+      "value": 577.7,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "avg_wage",
+      "year": 2023,
+      "value": 640.2,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "avg_wage",
+      "year": 2024,
+      "value": 675.4,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "avg_wage",
+      "year": 2015,
+      "value": 276.2,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "avg_wage",
+      "year": 2016,
+      "value": 276.6,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "avg_wage",
+      "year": 2017,
+      "value": 287.8,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "avg_wage",
+      "year": 2018,
+      "value": 303.8,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "avg_wage",
+      "year": 2019,
+      "value": 379.1,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "avg_wage",
+      "year": 2020,
+      "value": 447.3,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "avg_wage",
+      "year": 2021,
+      "value": 460.3,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "avg_wage",
+      "year": 2022,
+      "value": 543.8,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "avg_wage",
+      "year": 2023,
+      "value": 598.6,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "avg_wage",
+      "year": 2024,
+      "value": 634.6,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "avg_wage",
+      "year": 2015,
+      "value": 259.4,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "avg_wage",
+      "year": 2016,
+      "value": 250.7,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "avg_wage",
+      "year": 2017,
+      "value": 261.6,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "avg_wage",
+      "year": 2018,
+      "value": 283.6,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "avg_wage",
+      "year": 2019,
+      "value": 373,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "avg_wage",
+      "year": 2020,
+      "value": 439.8,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "avg_wage",
+      "year": 2021,
+      "value": 454.4,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "avg_wage",
+      "year": 2022,
+      "value": 525.2,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "avg_wage",
+      "year": 2023,
+      "value": 588.9,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "avg_wage",
+      "year": 2024,
+      "value": 621.2,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "avg_wage",
+      "year": 2015,
+      "value": 275.7,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "avg_wage",
+      "year": 2016,
+      "value": 271.7,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "avg_wage",
+      "year": 2017,
+      "value": 276.2,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "avg_wage",
+      "year": 2018,
+      "value": 289.2,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "avg_wage",
+      "year": 2019,
+      "value": 373.1,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "avg_wage",
+      "year": 2020,
+      "value": 443.1,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "avg_wage",
+      "year": 2021,
+      "value": 454.5,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "avg_wage",
+      "year": 2022,
+      "value": 524.2,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "avg_wage",
+      "year": 2023,
+      "value": 593.2,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "avg_wage",
+      "year": 2024,
+      "value": 634.5,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "avg_wage",
+      "year": 2015,
+      "value": 255.4,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "avg_wage",
+      "year": 2016,
+      "value": 252.3,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "avg_wage",
+      "year": 2017,
+      "value": 258.5,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "avg_wage",
+      "year": 2018,
+      "value": 288.3,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "avg_wage",
+      "year": 2019,
+      "value": 361.1,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "avg_wage",
+      "year": 2020,
+      "value": 429.8,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "avg_wage",
+      "year": 2021,
+      "value": 443.9,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "avg_wage",
+      "year": 2022,
+      "value": 514.6,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "avg_wage",
+      "year": 2023,
+      "value": 577.5,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "avg_wage",
+      "year": 2024,
+      "value": 622.1,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "east-zangezur",
+      "indicator_id": "avg_wage",
+      "year": 2015,
+      "value": 258.3,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "east-zangezur",
+      "indicator_id": "avg_wage",
+      "year": 2016,
+      "value": 245.5,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "east-zangezur",
+      "indicator_id": "avg_wage",
+      "year": 2017,
+      "value": 259.8,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "east-zangezur",
+      "indicator_id": "avg_wage",
+      "year": 2018,
+      "value": 330.3,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "east-zangezur",
+      "indicator_id": "avg_wage",
+      "year": 2019,
+      "value": 414.1,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "east-zangezur",
+      "indicator_id": "avg_wage",
+      "year": 2020,
+      "value": 500.3,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "east-zangezur",
+      "indicator_id": "avg_wage",
+      "year": 2021,
+      "value": 482.7,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "east-zangezur",
+      "indicator_id": "avg_wage",
+      "year": 2022,
+      "value": 583,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "east-zangezur",
+      "indicator_id": "avg_wage",
+      "year": 2023,
+      "value": 653,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "east-zangezur",
+      "indicator_id": "avg_wage",
+      "year": 2024,
+      "value": 718.9,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "avg_wage",
+      "year": 2015,
+      "value": 316.9,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "avg_wage",
+      "year": 2016,
+      "value": 318.1,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "avg_wage",
+      "year": 2017,
+      "value": 348.1,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "avg_wage",
+      "year": 2018,
+      "value": 366.9,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "avg_wage",
+      "year": 2019,
+      "value": 456.5,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "avg_wage",
+      "year": 2020,
+      "value": 518.3,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "avg_wage",
+      "year": 2021,
+      "value": 542.5,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "avg_wage",
+      "year": 2022,
+      "value": 625,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "avg_wage",
+      "year": 2023,
+      "value": 691.1,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "avg_wage",
+      "year": 2024,
+      "value": 727.6,
+      "scope": "region",
+      "source": "stat.gov.az"
+    }
+  ]
+}

@@ -45,7 +45,13 @@ CANONICAL = [
 REGION_IDS = [r["id"] for r in CANONICAL]
 
 # National-total row labels (scope="national", ADR 0004).
-_NATIONAL = {"republic of azerbaijan", "azərbaycan respublikası"}
+_NATIONAL = {
+    "republic of azerbaijan",
+    "azərbaycan respublikası",
+    "republic-total",          # trade chapter
+    "republic - total",        # variant spacing
+    "azərbaycan respublikası - cəmi",
+}
 
 # Core token (lowercased) -> canonical id. Covers EN + AZ source spellings.
 _CORE_TO_ID = {
@@ -53,6 +59,7 @@ _CORE_TO_ID = {
     "nakhchivan": "nakhchivan", "naxçıvan": "nakhchivan",
     "absheron-khizi": "absheron-xizi", "abşeron-xızı": "absheron-xizi",
     "daghlig shirvan": "mountain-shirvan", "dağlıq şirvan": "mountain-shirvan",
+    "daglig shirvan": "mountain-shirvan",  # source typo (no 'h')
     "ganja-dashkasan": "ganja-dashkesen",
     "gəncə-daşkəsən": "ganja-dashkesen",
     "karabakh": "karabakh", "qarabağ": "karabakh",
@@ -62,7 +69,9 @@ _CORE_TO_ID = {
     "lənkəran-astara": "lankaran-astara",
     "central aran": "central-aran", "mərkəzi aran": "central-aran",
     "mil-mughan": "mil-mughan", "mil-muğan": "mil-mughan",
+    "mil-mugan": "mil-mughan",  # source typo (no 'h')
     "shaki-zagatala": "shaki-zaqatala", "şəki-zaqatala": "shaki-zaqatala",
+    "sheki-zagatala": "shaki-zaqatala",  # alt EN spelling
     "eastern zangazur": "east-zangezur", "şərqi zəngəzur": "east-zangezur",
     "shirvan-salyan": "shirvan-salyan", "şirvan-salyan": "shirvan-salyan",
 }
@@ -94,6 +103,8 @@ def _match(s: str) -> str:
 def _core(name: str) -> str:
     """Strip region-type suffixes to get the bare region name (folded)."""
     s = _match(name)
+    # Drop trailing footnote markers like " 1)", " 2)" used in crime tables.
+    s = re.sub(r"\s+\d+\)\s*$", "", s)
     for cut in (" - total", " - cəmi"):
         i = s.find(cut)
         if i != -1:
@@ -106,13 +117,28 @@ def _core(name: str) -> str:
 
 
 def is_national(name: str) -> bool:
-    return _match(name) in _NATIONAL
+    s = _match(name)
+    for cut in (" - total", " - cəmi"):
+        i = s.find(cut)
+        if i != -1:
+            s = s[:i]
+    return s.strip() in _NATIONAL
+
+
+_FOOTNOTE_RE = re.compile(r"^\s*\d+\)")
 
 
 def has_region_marker(name: str) -> bool:
-    """True if the row is explicitly an economic-region row."""
+    """True if the row is explicitly an economic-region row.
+
+    Excludes footnote-prose rows that incidentally mention "economic region"
+    inside a sentence (e.g. "1) Until 2023 information on Karabakh economic
+    region considers …" at the bottom of healthcare/003_6).
+    """
     low = _match(name)
     if not low or low.startswith(_SKIP_PREFIX):
+        return False
+    if _FOOTNOTE_RE.match(low):
         return False
     return any(m in low for m in _REGION_MARKERS)
 

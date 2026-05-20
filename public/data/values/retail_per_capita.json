@@ -1,0 +1,2804 @@
+{
+  "values": [
+    {
+      "region_id": "AZ",
+      "indicator_id": "retail_per_capita",
+      "year": 2000,
+      "value": 264.2,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "retail_per_capita",
+      "year": 2001,
+      "value": 293.2,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "retail_per_capita",
+      "year": 2002,
+      "value": 328.4,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "retail_per_capita",
+      "year": 2003,
+      "value": 369.8,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "retail_per_capita",
+      "year": 2004,
+      "value": 444.2,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "retail_per_capita",
+      "year": 2005,
+      "value": 542.7,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "retail_per_capita",
+      "year": 2006,
+      "value": 666,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "retail_per_capita",
+      "year": 2007,
+      "value": 862.9,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "retail_per_capita",
+      "year": 2008,
+      "value": 1214.1,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "retail_per_capita",
+      "year": 2009,
+      "value": 1302,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "retail_per_capita",
+      "year": 2010,
+      "value": 1484.4,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "retail_per_capita",
+      "year": 2011,
+      "value": 1754.1,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "retail_per_capita",
+      "year": 2012,
+      "value": 1913.6,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "retail_per_capita",
+      "year": 2013,
+      "value": 2114.3,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "retail_per_capita",
+      "year": 2014,
+      "value": 2336.8,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "retail_per_capita",
+      "year": 2015,
+      "value": 2699.16,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "retail_per_capita",
+      "year": 2016,
+      "value": 3132.49,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "retail_per_capita",
+      "year": 2017,
+      "value": 3623.18,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "retail_per_capita",
+      "year": 2018,
+      "value": 3777.06,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "retail_per_capita",
+      "year": 2019,
+      "value": 3966.46,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "retail_per_capita",
+      "year": 2020,
+      "value": 4016.62,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "retail_per_capita",
+      "year": 2021,
+      "value": 4402.07,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "retail_per_capita",
+      "year": 2022,
+      "value": 5167.9,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "retail_per_capita",
+      "year": 2023,
+      "value": 5810.52,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "retail_per_capita",
+      "year": 2024,
+      "value": 6096.59,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "retail_per_capita",
+      "year": 2000,
+      "value": 502.72,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "retail_per_capita",
+      "year": 2001,
+      "value": 576.93,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "retail_per_capita",
+      "year": 2002,
+      "value": 650.77,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "retail_per_capita",
+      "year": 2003,
+      "value": 752.51,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "retail_per_capita",
+      "year": 2004,
+      "value": 906.93,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "retail_per_capita",
+      "year": 2005,
+      "value": 1098.54,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "retail_per_capita",
+      "year": 2006,
+      "value": 1338.19,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "retail_per_capita",
+      "year": 2007,
+      "value": 1697.8,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "retail_per_capita",
+      "year": 2008,
+      "value": 2402.36,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "retail_per_capita",
+      "year": 2009,
+      "value": 2543.22,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "retail_per_capita",
+      "year": 2010,
+      "value": 2896.96,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "retail_per_capita",
+      "year": 2011,
+      "value": 3407.95,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "retail_per_capita",
+      "year": 2012,
+      "value": 3791.5,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "retail_per_capita",
+      "year": 2013,
+      "value": 4331.06,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "retail_per_capita",
+      "year": 2014,
+      "value": 4882.52,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "retail_per_capita",
+      "year": 2015,
+      "value": 5838.99,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "retail_per_capita",
+      "year": 2016,
+      "value": 6817.83,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "retail_per_capita",
+      "year": 2017,
+      "value": 8009.04,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "retail_per_capita",
+      "year": 2018,
+      "value": 8423.12,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "retail_per_capita",
+      "year": 2019,
+      "value": 8781.45,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "retail_per_capita",
+      "year": 2020,
+      "value": 9079.42,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "retail_per_capita",
+      "year": 2021,
+      "value": 9996.3,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "retail_per_capita",
+      "year": 2022,
+      "value": 11924.97,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "retail_per_capita",
+      "year": 2023,
+      "value": 13879.02,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "retail_per_capita",
+      "year": 2024,
+      "value": 16079.55,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "retail_per_capita",
+      "year": 2000,
+      "value": 182.79,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "retail_per_capita",
+      "year": 2001,
+      "value": 195.86,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "retail_per_capita",
+      "year": 2002,
+      "value": 216.2,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "retail_per_capita",
+      "year": 2003,
+      "value": 262.06,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "retail_per_capita",
+      "year": 2004,
+      "value": 305.02,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "retail_per_capita",
+      "year": 2005,
+      "value": 376.75,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "retail_per_capita",
+      "year": 2006,
+      "value": 502.43,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "retail_per_capita",
+      "year": 2007,
+      "value": 645.62,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "retail_per_capita",
+      "year": 2008,
+      "value": 991.79,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "retail_per_capita",
+      "year": 2009,
+      "value": 1165.98,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "retail_per_capita",
+      "year": 2010,
+      "value": 1458.45,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "retail_per_capita",
+      "year": 2011,
+      "value": 1890.51,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "retail_per_capita",
+      "year": 2012,
+      "value": 2214.53,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "retail_per_capita",
+      "year": 2013,
+      "value": 2461.73,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "retail_per_capita",
+      "year": 2014,
+      "value": 2502.24,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "retail_per_capita",
+      "year": 2015,
+      "value": 2774.92,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "retail_per_capita",
+      "year": 2016,
+      "value": 3245.91,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "retail_per_capita",
+      "year": 2017,
+      "value": 3540.53,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "retail_per_capita",
+      "year": 2018,
+      "value": 3603.8,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "retail_per_capita",
+      "year": 2019,
+      "value": 3625.99,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "retail_per_capita",
+      "year": 2020,
+      "value": 3630.66,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "retail_per_capita",
+      "year": 2021,
+      "value": 3728.65,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "retail_per_capita",
+      "year": 2022,
+      "value": 3773.43,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "retail_per_capita",
+      "year": 2023,
+      "value": 2435.9,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "retail_per_capita",
+      "year": 2024,
+      "value": 2581.21,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "retail_per_capita",
+      "year": 2000,
+      "value": 227.61,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "retail_per_capita",
+      "year": 2001,
+      "value": 248.33,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "retail_per_capita",
+      "year": 2002,
+      "value": 233.64,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "retail_per_capita",
+      "year": 2003,
+      "value": 252.58,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "retail_per_capita",
+      "year": 2004,
+      "value": 300.74,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "retail_per_capita",
+      "year": 2005,
+      "value": 365.72,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "retail_per_capita",
+      "year": 2006,
+      "value": 440.61,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "retail_per_capita",
+      "year": 2007,
+      "value": 588.24,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "retail_per_capita",
+      "year": 2008,
+      "value": 814.18,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "retail_per_capita",
+      "year": 2009,
+      "value": 872.81,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "retail_per_capita",
+      "year": 2010,
+      "value": 972.05,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "retail_per_capita",
+      "year": 2011,
+      "value": 1121.38,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "retail_per_capita",
+      "year": 2012,
+      "value": 1192.29,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "retail_per_capita",
+      "year": 2013,
+      "value": 1234.37,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "retail_per_capita",
+      "year": 2014,
+      "value": 1408.24,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "retail_per_capita",
+      "year": 2015,
+      "value": 1563.7,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "retail_per_capita",
+      "year": 2016,
+      "value": 1813.81,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "retail_per_capita",
+      "year": 2017,
+      "value": 2109.11,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "retail_per_capita",
+      "year": 2018,
+      "value": 2233.14,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "retail_per_capita",
+      "year": 2019,
+      "value": 1691.72,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "retail_per_capita",
+      "year": 2020,
+      "value": 1745.04,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "retail_per_capita",
+      "year": 2021,
+      "value": 2268.53,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "retail_per_capita",
+      "year": 2022,
+      "value": 2973.79,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "retail_per_capita",
+      "year": 2023,
+      "value": 3396.45,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "retail_per_capita",
+      "year": 2024,
+      "value": 3842.34,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "retail_per_capita",
+      "year": 2000,
+      "value": 181.82,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "retail_per_capita",
+      "year": 2001,
+      "value": 192.94,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "retail_per_capita",
+      "year": 2002,
+      "value": 202.42,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "retail_per_capita",
+      "year": 2003,
+      "value": 229.61,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "retail_per_capita",
+      "year": 2004,
+      "value": 271.29,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "retail_per_capita",
+      "year": 2005,
+      "value": 335.73,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "retail_per_capita",
+      "year": 2006,
+      "value": 411.44,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "retail_per_capita",
+      "year": 2007,
+      "value": 551.25,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "retail_per_capita",
+      "year": 2008,
+      "value": 809.5,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "retail_per_capita",
+      "year": 2009,
+      "value": 859.93,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "retail_per_capita",
+      "year": 2010,
+      "value": 969.25,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "retail_per_capita",
+      "year": 2011,
+      "value": 1146.97,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "retail_per_capita",
+      "year": 2012,
+      "value": 1197.06,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "retail_per_capita",
+      "year": 2013,
+      "value": 1278.25,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "retail_per_capita",
+      "year": 2014,
+      "value": 1419.02,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "retail_per_capita",
+      "year": 2015,
+      "value": 1606.29,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "retail_per_capita",
+      "year": 2016,
+      "value": 1846.58,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "retail_per_capita",
+      "year": 2017,
+      "value": 2102.04,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "retail_per_capita",
+      "year": 2018,
+      "value": 2149.1,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "retail_per_capita",
+      "year": 2019,
+      "value": 2293.27,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "retail_per_capita",
+      "year": 2020,
+      "value": 2262.14,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "retail_per_capita",
+      "year": 2021,
+      "value": 2369.03,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "retail_per_capita",
+      "year": 2022,
+      "value": 2709.63,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "retail_per_capita",
+      "year": 2023,
+      "value": 2921.64,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "retail_per_capita",
+      "year": 2024,
+      "value": 3021.01,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "retail_per_capita",
+      "year": 2000,
+      "value": 202.23,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "retail_per_capita",
+      "year": 2001,
+      "value": 219.66,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "retail_per_capita",
+      "year": 2002,
+      "value": 218.32,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "retail_per_capita",
+      "year": 2003,
+      "value": 267.07,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "retail_per_capita",
+      "year": 2004,
+      "value": 321.72,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "retail_per_capita",
+      "year": 2005,
+      "value": 389.99,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "retail_per_capita",
+      "year": 2006,
+      "value": 481.57,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "retail_per_capita",
+      "year": 2007,
+      "value": 645.67,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "retail_per_capita",
+      "year": 2008,
+      "value": 879.93,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "retail_per_capita",
+      "year": 2009,
+      "value": 967.1,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "retail_per_capita",
+      "year": 2010,
+      "value": 1085.15,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "retail_per_capita",
+      "year": 2011,
+      "value": 1295.55,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "retail_per_capita",
+      "year": 2012,
+      "value": 1340.37,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "retail_per_capita",
+      "year": 2013,
+      "value": 1445.14,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "retail_per_capita",
+      "year": 2014,
+      "value": 1566.55,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "retail_per_capita",
+      "year": 2015,
+      "value": 1766.18,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "retail_per_capita",
+      "year": 2016,
+      "value": 2060.57,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "retail_per_capita",
+      "year": 2017,
+      "value": 2376.62,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "retail_per_capita",
+      "year": 2018,
+      "value": 2451.87,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "retail_per_capita",
+      "year": 2019,
+      "value": 2636,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "retail_per_capita",
+      "year": 2020,
+      "value": 2633.11,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "retail_per_capita",
+      "year": 2021,
+      "value": 2878.82,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "retail_per_capita",
+      "year": 2022,
+      "value": 3311.1,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "retail_per_capita",
+      "year": 2023,
+      "value": 3658.88,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "retail_per_capita",
+      "year": 2024,
+      "value": 4004.77,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "retail_per_capita",
+      "year": 2000,
+      "value": 176.51,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "retail_per_capita",
+      "year": 2001,
+      "value": 189.79,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "retail_per_capita",
+      "year": 2002,
+      "value": 167.83,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "retail_per_capita",
+      "year": 2003,
+      "value": 189.93,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "retail_per_capita",
+      "year": 2004,
+      "value": 225.96,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "retail_per_capita",
+      "year": 2005,
+      "value": 275.42,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "retail_per_capita",
+      "year": 2006,
+      "value": 343.2,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "retail_per_capita",
+      "year": 2007,
+      "value": 412.3,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "retail_per_capita",
+      "year": 2008,
+      "value": 588.45,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "retail_per_capita",
+      "year": 2009,
+      "value": 625.34,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "retail_per_capita",
+      "year": 2010,
+      "value": 706.37,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "retail_per_capita",
+      "year": 2011,
+      "value": 798.36,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "retail_per_capita",
+      "year": 2012,
+      "value": 853.95,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "retail_per_capita",
+      "year": 2013,
+      "value": 922.4,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "retail_per_capita",
+      "year": 2014,
+      "value": 1040.48,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "retail_per_capita",
+      "year": 2015,
+      "value": 1153.12,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "retail_per_capita",
+      "year": 2016,
+      "value": 1322.19,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "retail_per_capita",
+      "year": 2017,
+      "value": 1514.7,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "retail_per_capita",
+      "year": 2018,
+      "value": 1594.31,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "retail_per_capita",
+      "year": 2019,
+      "value": 1746.01,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "retail_per_capita",
+      "year": 2020,
+      "value": 1655.32,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "retail_per_capita",
+      "year": 2021,
+      "value": 1802.61,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "retail_per_capita",
+      "year": 2022,
+      "value": 2150.36,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "retail_per_capita",
+      "year": 2023,
+      "value": 2437.9,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "retail_per_capita",
+      "year": 2024,
+      "value": 2084.33,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "retail_per_capita",
+      "year": 2000,
+      "value": 187.69,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "retail_per_capita",
+      "year": 2001,
+      "value": 204.56,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "retail_per_capita",
+      "year": 2002,
+      "value": 219.57,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "retail_per_capita",
+      "year": 2003,
+      "value": 249.34,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "retail_per_capita",
+      "year": 2004,
+      "value": 296.68,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "retail_per_capita",
+      "year": 2005,
+      "value": 373.54,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "retail_per_capita",
+      "year": 2006,
+      "value": 460.09,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "retail_per_capita",
+      "year": 2007,
+      "value": 597.08,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "retail_per_capita",
+      "year": 2008,
+      "value": 791.82,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "retail_per_capita",
+      "year": 2009,
+      "value": 844.79,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "retail_per_capita",
+      "year": 2010,
+      "value": 943.2,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "retail_per_capita",
+      "year": 2011,
+      "value": 1090.27,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "retail_per_capita",
+      "year": 2012,
+      "value": 1176.37,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "retail_per_capita",
+      "year": 2013,
+      "value": 1273.84,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "retail_per_capita",
+      "year": 2014,
+      "value": 1382.29,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "retail_per_capita",
+      "year": 2015,
+      "value": 1548.89,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "retail_per_capita",
+      "year": 2016,
+      "value": 1776.43,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "retail_per_capita",
+      "year": 2017,
+      "value": 2028.7,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "retail_per_capita",
+      "year": 2018,
+      "value": 2106.41,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "retail_per_capita",
+      "year": 2019,
+      "value": 2299.19,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "retail_per_capita",
+      "year": 2020,
+      "value": 2258.3,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "retail_per_capita",
+      "year": 2021,
+      "value": 2481.8,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "retail_per_capita",
+      "year": 2022,
+      "value": 2898.4,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "retail_per_capita",
+      "year": 2023,
+      "value": 3178.34,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "retail_per_capita",
+      "year": 2024,
+      "value": 3285.26,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "retail_per_capita",
+      "year": 2000,
+      "value": 181.24,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "retail_per_capita",
+      "year": 2001,
+      "value": 196.88,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "retail_per_capita",
+      "year": 2002,
+      "value": 217.26,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "retail_per_capita",
+      "year": 2003,
+      "value": 247.66,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "retail_per_capita",
+      "year": 2004,
+      "value": 298.86,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "retail_per_capita",
+      "year": 2005,
+      "value": 376.45,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "retail_per_capita",
+      "year": 2006,
+      "value": 461.94,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "retail_per_capita",
+      "year": 2007,
+      "value": 604.97,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "retail_per_capita",
+      "year": 2008,
+      "value": 866.17,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "retail_per_capita",
+      "year": 2009,
+      "value": 958.61,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "retail_per_capita",
+      "year": 2010,
+      "value": 1096.31,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "retail_per_capita",
+      "year": 2011,
+      "value": 1315.96,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "retail_per_capita",
+      "year": 2012,
+      "value": 1387.87,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "retail_per_capita",
+      "year": 2013,
+      "value": 1441.65,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "retail_per_capita",
+      "year": 2014,
+      "value": 1535.37,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "retail_per_capita",
+      "year": 2015,
+      "value": 1689.39,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "retail_per_capita",
+      "year": 2016,
+      "value": 1944.05,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "retail_per_capita",
+      "year": 2017,
+      "value": 2220.18,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "retail_per_capita",
+      "year": 2018,
+      "value": 2275.52,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "retail_per_capita",
+      "year": 2019,
+      "value": 2523.03,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "retail_per_capita",
+      "year": 2020,
+      "value": 2510.8,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "retail_per_capita",
+      "year": 2021,
+      "value": 2709.43,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "retail_per_capita",
+      "year": 2022,
+      "value": 3083.77,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "retail_per_capita",
+      "year": 2023,
+      "value": 3360.72,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "retail_per_capita",
+      "year": 2024,
+      "value": 3572.84,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "retail_per_capita",
+      "year": 2000,
+      "value": 192.53,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "retail_per_capita",
+      "year": 2001,
+      "value": 208.16,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "retail_per_capita",
+      "year": 2002,
+      "value": 231.52,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "retail_per_capita",
+      "year": 2003,
+      "value": 258.63,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "retail_per_capita",
+      "year": 2004,
+      "value": 304.18,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "retail_per_capita",
+      "year": 2005,
+      "value": 369.23,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "retail_per_capita",
+      "year": 2006,
+      "value": 452.74,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "retail_per_capita",
+      "year": 2007,
+      "value": 591.97,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "retail_per_capita",
+      "year": 2008,
+      "value": 789.62,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "retail_per_capita",
+      "year": 2009,
+      "value": 836.07,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "retail_per_capita",
+      "year": 2010,
+      "value": 952.55,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "retail_per_capita",
+      "year": 2011,
+      "value": 1097.51,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "retail_per_capita",
+      "year": 2012,
+      "value": 1150.37,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "retail_per_capita",
+      "year": 2013,
+      "value": 1202.39,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "retail_per_capita",
+      "year": 2014,
+      "value": 1271.05,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "retail_per_capita",
+      "year": 2015,
+      "value": 1404.69,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "retail_per_capita",
+      "year": 2016,
+      "value": 1625.28,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "retail_per_capita",
+      "year": 2017,
+      "value": 1851.33,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "retail_per_capita",
+      "year": 2018,
+      "value": 1894.83,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "retail_per_capita",
+      "year": 2019,
+      "value": 2035.24,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "retail_per_capita",
+      "year": 2020,
+      "value": 1947.67,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "retail_per_capita",
+      "year": 2021,
+      "value": 2096.18,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "retail_per_capita",
+      "year": 2022,
+      "value": 2449.3,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "retail_per_capita",
+      "year": 2023,
+      "value": 2655.31,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "retail_per_capita",
+      "year": 2024,
+      "value": 2693.61,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "retail_per_capita",
+      "year": 2000,
+      "value": 189.42,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "retail_per_capita",
+      "year": 2001,
+      "value": 203.63,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "retail_per_capita",
+      "year": 2002,
+      "value": 212.76,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "retail_per_capita",
+      "year": 2003,
+      "value": 241.71,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "retail_per_capita",
+      "year": 2004,
+      "value": 289.34,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "retail_per_capita",
+      "year": 2005,
+      "value": 368.93,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "retail_per_capita",
+      "year": 2006,
+      "value": 457.85,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "retail_per_capita",
+      "year": 2007,
+      "value": 647.69,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "retail_per_capita",
+      "year": 2008,
+      "value": 927.9,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "retail_per_capita",
+      "year": 2009,
+      "value": 1025.9,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "retail_per_capita",
+      "year": 2010,
+      "value": 1164.73,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "retail_per_capita",
+      "year": 2011,
+      "value": 1450.77,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "retail_per_capita",
+      "year": 2012,
+      "value": 1565.34,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "retail_per_capita",
+      "year": 2013,
+      "value": 1675.58,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "retail_per_capita",
+      "year": 2014,
+      "value": 1810.78,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "retail_per_capita",
+      "year": 2015,
+      "value": 1999.38,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "retail_per_capita",
+      "year": 2016,
+      "value": 2312.41,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "retail_per_capita",
+      "year": 2017,
+      "value": 2640.1,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "retail_per_capita",
+      "year": 2018,
+      "value": 2711.57,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "retail_per_capita",
+      "year": 2019,
+      "value": 2926.21,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "retail_per_capita",
+      "year": 2020,
+      "value": 2845.15,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "retail_per_capita",
+      "year": 2021,
+      "value": 3038.14,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "retail_per_capita",
+      "year": 2022,
+      "value": 3390.63,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "retail_per_capita",
+      "year": 2023,
+      "value": 3691.64,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "retail_per_capita",
+      "year": 2024,
+      "value": 3898.58,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "retail_per_capita",
+      "year": 2000,
+      "value": 183.02,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "retail_per_capita",
+      "year": 2001,
+      "value": 196.95,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "retail_per_capita",
+      "year": 2002,
+      "value": 188.59,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "retail_per_capita",
+      "year": 2003,
+      "value": 221.75,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "retail_per_capita",
+      "year": 2004,
+      "value": 264.61,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "retail_per_capita",
+      "year": 2005,
+      "value": 311.78,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "retail_per_capita",
+      "year": 2006,
+      "value": 384.21,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "retail_per_capita",
+      "year": 2007,
+      "value": 516.15,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "retail_per_capita",
+      "year": 2008,
+      "value": 707.16,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "retail_per_capita",
+      "year": 2009,
+      "value": 725.38,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "retail_per_capita",
+      "year": 2010,
+      "value": 824.83,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "retail_per_capita",
+      "year": 2011,
+      "value": 932.04,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "retail_per_capita",
+      "year": 2012,
+      "value": 969.97,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "retail_per_capita",
+      "year": 2013,
+      "value": 1028.19,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "retail_per_capita",
+      "year": 2014,
+      "value": 1140.82,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "retail_per_capita",
+      "year": 2015,
+      "value": 1273.28,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "retail_per_capita",
+      "year": 2016,
+      "value": 1474.37,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "retail_per_capita",
+      "year": 2017,
+      "value": 1692.97,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "retail_per_capita",
+      "year": 2018,
+      "value": 1748.68,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "retail_per_capita",
+      "year": 2019,
+      "value": 1854.13,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "retail_per_capita",
+      "year": 2020,
+      "value": 1887.72,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "retail_per_capita",
+      "year": 2021,
+      "value": 2077.44,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "retail_per_capita",
+      "year": 2022,
+      "value": 2419.34,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "retail_per_capita",
+      "year": 2023,
+      "value": 2636.47,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "retail_per_capita",
+      "year": 2024,
+      "value": 2807.58,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "retail_per_capita",
+      "year": 2000,
+      "value": 192.29,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "retail_per_capita",
+      "year": 2001,
+      "value": 207.1,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "retail_per_capita",
+      "year": 2002,
+      "value": 223.39,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "retail_per_capita",
+      "year": 2003,
+      "value": 248.76,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "retail_per_capita",
+      "year": 2004,
+      "value": 300.86,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "retail_per_capita",
+      "year": 2005,
+      "value": 371.66,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "retail_per_capita",
+      "year": 2006,
+      "value": 456.29,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "retail_per_capita",
+      "year": 2007,
+      "value": 603.98,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "retail_per_capita",
+      "year": 2008,
+      "value": 842.18,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "retail_per_capita",
+      "year": 2009,
+      "value": 879.94,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "retail_per_capita",
+      "year": 2010,
+      "value": 999.02,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "retail_per_capita",
+      "year": 2011,
+      "value": 1144.63,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "retail_per_capita",
+      "year": 2012,
+      "value": 1190.85,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "retail_per_capita",
+      "year": 2013,
+      "value": 1238.58,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "retail_per_capita",
+      "year": 2014,
+      "value": 1313.56,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "retail_per_capita",
+      "year": 2015,
+      "value": 1459.58,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "retail_per_capita",
+      "year": 2016,
+      "value": 1683.9,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "retail_per_capita",
+      "year": 2017,
+      "value": 1921.16,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "retail_per_capita",
+      "year": 2018,
+      "value": 1976.35,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "retail_per_capita",
+      "year": 2019,
+      "value": 2106.26,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "retail_per_capita",
+      "year": 2020,
+      "value": 2112.6,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "retail_per_capita",
+      "year": 2021,
+      "value": 2220.26,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "retail_per_capita",
+      "year": 2022,
+      "value": 2545.28,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "retail_per_capita",
+      "year": 2023,
+      "value": 2780.22,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "retail_per_capita",
+      "year": 2024,
+      "value": 2874.9,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "retail_per_capita",
+      "year": 2000,
+      "value": 196.18,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "retail_per_capita",
+      "year": 2001,
+      "value": 208.57,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "retail_per_capita",
+      "year": 2002,
+      "value": 216.77,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "retail_per_capita",
+      "year": 2003,
+      "value": 248.37,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "retail_per_capita",
+      "year": 2004,
+      "value": 302.65,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "retail_per_capita",
+      "year": 2005,
+      "value": 363,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "retail_per_capita",
+      "year": 2006,
+      "value": 444.9,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "retail_per_capita",
+      "year": 2007,
+      "value": 570.45,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "retail_per_capita",
+      "year": 2008,
+      "value": 811.12,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "retail_per_capita",
+      "year": 2009,
+      "value": 904.99,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "retail_per_capita",
+      "year": 2010,
+      "value": 1014.25,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "retail_per_capita",
+      "year": 2011,
+      "value": 1208.25,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "retail_per_capita",
+      "year": 2012,
+      "value": 1328.03,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "retail_per_capita",
+      "year": 2013,
+      "value": 1441.61,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "retail_per_capita",
+      "year": 2014,
+      "value": 1584.2,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "retail_per_capita",
+      "year": 2015,
+      "value": 1766.8,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "retail_per_capita",
+      "year": 2016,
+      "value": 2054.45,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "retail_per_capita",
+      "year": 2017,
+      "value": 2353.06,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "retail_per_capita",
+      "year": 2018,
+      "value": 2439.09,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "retail_per_capita",
+      "year": 2019,
+      "value": 2694.14,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "retail_per_capita",
+      "year": 2020,
+      "value": 2652.34,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "retail_per_capita",
+      "year": 2021,
+      "value": 2891.01,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "retail_per_capita",
+      "year": 2022,
+      "value": 3270.25,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "retail_per_capita",
+      "year": 2023,
+      "value": 3555.39,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "retail_per_capita",
+      "year": 2024,
+      "value": 3775.96,
+      "scope": "region",
+      "source": "stat.gov.az"
+    }
+  ]
+}

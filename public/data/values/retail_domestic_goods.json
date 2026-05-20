@@ -1,0 +1,1236 @@
+{
+  "values": [
+    {
+      "region_id": "AZ",
+      "indicator_id": "retail_domestic_goods",
+      "year": 2013,
+      "value": 12951163.9,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "retail_domestic_goods",
+      "year": 2014,
+      "value": 14704580.5,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "retail_domestic_goods",
+      "year": 2015,
+      "value": 16165633.7,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "retail_domestic_goods",
+      "year": 2016,
+      "value": 18979188.5,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "retail_domestic_goods",
+      "year": 2017,
+      "value": 22304147.4,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "retail_domestic_goods",
+      "year": 2018,
+      "value": 23706967.5,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "retail_domestic_goods",
+      "year": 2019,
+      "value": 25010387.8,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "retail_domestic_goods",
+      "year": 2020,
+      "value": 25678196.3,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "retail_domestic_goods",
+      "year": 2021,
+      "value": 28384666.1,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "retail_domestic_goods",
+      "year": 2022,
+      "value": 33398724.9,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "retail_domestic_goods",
+      "year": 2023,
+      "value": 36712866.0,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "retail_domestic_goods",
+      "year": 2013,
+      "value": 6024860,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "retail_domestic_goods",
+      "year": 2014,
+      "value": 6887037.5,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "retail_domestic_goods",
+      "year": 2015,
+      "value": 8196342.1,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "retail_domestic_goods",
+      "year": 2016,
+      "value": 9604362.8,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "retail_domestic_goods",
+      "year": 2017,
+      "value": 11075888.5,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "retail_domestic_goods",
+      "year": 2018,
+      "value": 12385163.1,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "retail_domestic_goods",
+      "year": 2019,
+      "value": 13091222.7,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "retail_domestic_goods",
+      "year": 2020,
+      "value": 13399152.6,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "retail_domestic_goods",
+      "year": 2021,
+      "value": 15068623.1,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "retail_domestic_goods",
+      "year": 2022,
+      "value": 18468146.2,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "retail_domestic_goods",
+      "year": 2023,
+      "value": 21841781,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "retail_domestic_goods",
+      "year": 2013,
+      "value": 762056.3,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "retail_domestic_goods",
+      "year": 2014,
+      "value": 786992.2,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "retail_domestic_goods",
+      "year": 2015,
+      "value": 910047.2,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "retail_domestic_goods",
+      "year": 2016,
+      "value": 1099265.4,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "retail_domestic_goods",
+      "year": 2017,
+      "value": 1212915,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "retail_domestic_goods",
+      "year": 2018,
+      "value": 1245774,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "retail_domestic_goods",
+      "year": 2019,
+      "value": 1280943,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "retail_domestic_goods",
+      "year": 2020,
+      "value": 1258003.7,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "retail_domestic_goods",
+      "year": 2021,
+      "value": 1259841.8,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "retail_domestic_goods",
+      "year": 2022,
+      "value": 1299489.2,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "retail_domestic_goods",
+      "year": 2023,
+      "value": 705534.8,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "retail_domestic_goods",
+      "year": 2013,
+      "value": 562516.8,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "retail_domestic_goods",
+      "year": 2014,
+      "value": 673979.1,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "retail_domestic_goods",
+      "year": 2015,
+      "value": 580690.5,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "retail_domestic_goods",
+      "year": 2016,
+      "value": 683975,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "retail_domestic_goods",
+      "year": 2017,
+      "value": 831824.2,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "retail_domestic_goods",
+      "year": 2018,
+      "value": 898465,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "retail_domestic_goods",
+      "year": 2019,
+      "value": 1027615,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "retail_domestic_goods",
+      "year": 2020,
+      "value": 1086410.9,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "retail_domestic_goods",
+      "year": 2021,
+      "value": 1225267,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "retail_domestic_goods",
+      "year": 2022,
+      "value": 1423275,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "retail_domestic_goods",
+      "year": 2023,
+      "value": 1693112.8,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "retail_domestic_goods",
+      "year": 2013,
+      "value": 259680.5,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "retail_domestic_goods",
+      "year": 2014,
+      "value": 316264,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "retail_domestic_goods",
+      "year": 2015,
+      "value": 354289.7,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "retail_domestic_goods",
+      "year": 2016,
+      "value": 410279.8,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "retail_domestic_goods",
+      "year": 2017,
+      "value": 477413.2,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "retail_domestic_goods",
+      "year": 2018,
+      "value": 460267.9,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "retail_domestic_goods",
+      "year": 2019,
+      "value": 487206.8,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "retail_domestic_goods",
+      "year": 2020,
+      "value": 505753.7,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "retail_domestic_goods",
+      "year": 2021,
+      "value": 526060.2,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "retail_domestic_goods",
+      "year": 2022,
+      "value": 612226.5,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "retail_domestic_goods",
+      "year": 2023,
+      "value": 632024.5,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "retail_domestic_goods",
+      "year": 2013,
+      "value": 607200.0,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "retail_domestic_goods",
+      "year": 2014,
+      "value": 710147.1,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "retail_domestic_goods",
+      "year": 2015,
+      "value": 715091,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "retail_domestic_goods",
+      "year": 2016,
+      "value": 855043.1,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "retail_domestic_goods",
+      "year": 2017,
+      "value": 988711.1,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "retail_domestic_goods",
+      "year": 2018,
+      "value": 979834.7,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "retail_domestic_goods",
+      "year": 2019,
+      "value": 1119593.6,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "retail_domestic_goods",
+      "year": 2020,
+      "value": 1189143.2,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "retail_domestic_goods",
+      "year": 2021,
+      "value": 1254999.4,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "retail_domestic_goods",
+      "year": 2022,
+      "value": 1374544.8,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "retail_domestic_goods",
+      "year": 2023,
+      "value": 1432404.5,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "retail_domestic_goods",
+      "year": 2013,
+      "value": 427489.6,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "retail_domestic_goods",
+      "year": 2014,
+      "value": 477637.1,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "retail_domestic_goods",
+      "year": 2015,
+      "value": 476104.6,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "retail_domestic_goods",
+      "year": 2016,
+      "value": 566397.7,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "retail_domestic_goods",
+      "year": 2017,
+      "value": 703915.8,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "retail_domestic_goods",
+      "year": 2018,
+      "value": 692569.9,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "retail_domestic_goods",
+      "year": 2019,
+      "value": 724043,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "retail_domestic_goods",
+      "year": 2020,
+      "value": 754490.1,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "retail_domestic_goods",
+      "year": 2021,
+      "value": 823748.7,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "retail_domestic_goods",
+      "year": 2022,
+      "value": 956859.6,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "retail_domestic_goods",
+      "year": 2023,
+      "value": 975463.2,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "retail_domestic_goods",
+      "year": 2013,
+      "value": 594520.2,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "retail_domestic_goods",
+      "year": 2014,
+      "value": 720240.8,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "retail_domestic_goods",
+      "year": 2015,
+      "value": 754068.7,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "retail_domestic_goods",
+      "year": 2016,
+      "value": 870862.5,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "retail_domestic_goods",
+      "year": 2017,
+      "value": 1077268.8,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "retail_domestic_goods",
+      "year": 2018,
+      "value": 1090174,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "retail_domestic_goods",
+      "year": 2019,
+      "value": 1151403.5,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "retail_domestic_goods",
+      "year": 2020,
+      "value": 1171868.9,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "retail_domestic_goods",
+      "year": 2021,
+      "value": 1300463.3,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "retail_domestic_goods",
+      "year": 2022,
+      "value": 1493272.5,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "retail_domestic_goods",
+      "year": 2023,
+      "value": 1529590.2,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "retail_domestic_goods",
+      "year": 2013,
+      "value": 546178.1,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "retail_domestic_goods",
+      "year": 2014,
+      "value": 609369.5,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "retail_domestic_goods",
+      "year": 2015,
+      "value": 604996,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "retail_domestic_goods",
+      "year": 2016,
+      "value": 707294.6,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "retail_domestic_goods",
+      "year": 2017,
+      "value": 870681.9,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "retail_domestic_goods",
+      "year": 2018,
+      "value": 861360.2,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "retail_domestic_goods",
+      "year": 2019,
+      "value": 918946.5,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "retail_domestic_goods",
+      "year": 2020,
+      "value": 971919.6,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "retail_domestic_goods",
+      "year": 2021,
+      "value": 1050373.7,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "retail_domestic_goods",
+      "year": 2022,
+      "value": 1210589.4,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "retail_domestic_goods",
+      "year": 2023,
+      "value": 1155353.9,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "retail_domestic_goods",
+      "year": 2013,
+      "value": 857745.5,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "retail_domestic_goods",
+      "year": 2014,
+      "value": 922683.2,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "retail_domestic_goods",
+      "year": 2015,
+      "value": 896827.6,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "retail_domestic_goods",
+      "year": 2016,
+      "value": 1059188.2,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "retail_domestic_goods",
+      "year": 2017,
+      "value": 1316988.8,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "retail_domestic_goods",
+      "year": 2018,
+      "value": 1203934.9,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "retail_domestic_goods",
+      "year": 2019,
+      "value": 1248487.1,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "retail_domestic_goods",
+      "year": 2020,
+      "value": 1265927.8,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "retail_domestic_goods",
+      "year": 2021,
+      "value": 1408519.7,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "retail_domestic_goods",
+      "year": 2022,
+      "value": 1545746.8,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "retail_domestic_goods",
+      "year": 2023,
+      "value": 1534425.8,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "retail_domestic_goods",
+      "year": 2013,
+      "value": 887608.1,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "retail_domestic_goods",
+      "year": 2014,
+      "value": 993725.4,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "retail_domestic_goods",
+      "year": 2015,
+      "value": 973339.5,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "retail_domestic_goods",
+      "year": 2016,
+      "value": 1147839.4,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "retail_domestic_goods",
+      "year": 2017,
+      "value": 1381321.4,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "retail_domestic_goods",
+      "year": 2018,
+      "value": 1461341.7,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "retail_domestic_goods",
+      "year": 2019,
+      "value": 1505614.4,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "retail_domestic_goods",
+      "year": 2020,
+      "value": 1499788.3,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "retail_domestic_goods",
+      "year": 2021,
+      "value": 1578171.7,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "retail_domestic_goods",
+      "year": 2022,
+      "value": 1755308.7,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "retail_domestic_goods",
+      "year": 2023,
+      "value": 1882320.5,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "retail_domestic_goods",
+      "year": 2013,
+      "value": 422000.1,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "retail_domestic_goods",
+      "year": 2014,
+      "value": 444395.7,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "retail_domestic_goods",
+      "year": 2015,
+      "value": 462449.4,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "retail_domestic_goods",
+      "year": 2016,
+      "value": 553618.6,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "retail_domestic_goods",
+      "year": 2017,
+      "value": 663596.5,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "retail_domestic_goods",
+      "year": 2018,
+      "value": 693264.6,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "retail_domestic_goods",
+      "year": 2019,
+      "value": 695891.7,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "retail_domestic_goods",
+      "year": 2020,
+      "value": 714213.4,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "retail_domestic_goods",
+      "year": 2021,
+      "value": 834106.3,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "retail_domestic_goods",
+      "year": 2022,
+      "value": 950024.3,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "retail_domestic_goods",
+      "year": 2023,
+      "value": 990777.6,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "retail_domestic_goods",
+      "year": 2013,
+      "value": 542336.1,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "retail_domestic_goods",
+      "year": 2014,
+      "value": 614407.1,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "retail_domestic_goods",
+      "year": 2015,
+      "value": 632726.3,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "retail_domestic_goods",
+      "year": 2016,
+      "value": 699603.3,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "retail_domestic_goods",
+      "year": 2017,
+      "value": 794746.4,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "retail_domestic_goods",
+      "year": 2018,
+      "value": 825474.9,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "retail_domestic_goods",
+      "year": 2019,
+      "value": 863173.9,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "retail_domestic_goods",
+      "year": 2020,
+      "value": 933038.7,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "retail_domestic_goods",
+      "year": 2021,
+      "value": 1018598.2,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "retail_domestic_goods",
+      "year": 2022,
+      "value": 1122647,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "retail_domestic_goods",
+      "year": 2023,
+      "value": 1112299.4,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "retail_domestic_goods",
+      "year": 2013,
+      "value": 456972.6,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "retail_domestic_goods",
+      "year": 2014,
+      "value": 547701.8,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "retail_domestic_goods",
+      "year": 2015,
+      "value": 608661.1,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "retail_domestic_goods",
+      "year": 2016,
+      "value": 721458.1,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "retail_domestic_goods",
+      "year": 2017,
+      "value": 908875.8,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "retail_domestic_goods",
+      "year": 2018,
+      "value": 909342.6,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "retail_domestic_goods",
+      "year": 2019,
+      "value": 896246.6,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "retail_domestic_goods",
+      "year": 2020,
+      "value": 928485.4,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "retail_domestic_goods",
+      "year": 2021,
+      "value": 1035893,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "retail_domestic_goods",
+      "year": 2022,
+      "value": 1186594.9,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "retail_domestic_goods",
+      "year": 2023,
+      "value": 1227777.8,
+      "scope": "region",
+      "source": "stat.gov.az"
+    }
+  ]
+}

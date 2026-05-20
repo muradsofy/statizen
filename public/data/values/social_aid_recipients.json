@@ -1,0 +1,2044 @@
+{
+  "values": [
+    {
+      "region_id": "AZ",
+      "indicator_id": "social_aid_recipients",
+      "year": 2009,
+      "value": 749965,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "social_aid_recipients",
+      "year": 2010,
+      "value": 657317,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "social_aid_recipients",
+      "year": 2011,
+      "value": 552514,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "social_aid_recipients",
+      "year": 2012,
+      "value": 541989,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "social_aid_recipients",
+      "year": 2013,
+      "value": 133613,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "social_aid_recipients",
+      "year": 2014,
+      "value": 143337,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "social_aid_recipients",
+      "year": 2015,
+      "value": 94794,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "social_aid_recipients",
+      "year": 2016,
+      "value": 105009,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "social_aid_recipients",
+      "year": 2017,
+      "value": 132368,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "social_aid_recipients",
+      "year": 2018,
+      "value": 80193,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "social_aid_recipients",
+      "year": 2019,
+      "value": 43171,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "social_aid_recipients",
+      "year": 2020,
+      "value": 72170,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "social_aid_recipients",
+      "year": 2021,
+      "value": 77269,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "social_aid_recipients",
+      "year": 2022,
+      "value": 44716,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "social_aid_recipients",
+      "year": 2023,
+      "value": 65545,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "social_aid_recipients",
+      "year": 2024,
+      "value": 63968,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "social_aid_recipients",
+      "year": 2025,
+      "value": 75959,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "social_aid_recipients",
+      "year": 2009,
+      "value": 153252,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "social_aid_recipients",
+      "year": 2010,
+      "value": 135684,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "social_aid_recipients",
+      "year": 2011,
+      "value": 126117,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "social_aid_recipients",
+      "year": 2012,
+      "value": 101393,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "social_aid_recipients",
+      "year": 2013,
+      "value": 31570,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "social_aid_recipients",
+      "year": 2014,
+      "value": 31586,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "social_aid_recipients",
+      "year": 2015,
+      "value": 17023,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "social_aid_recipients",
+      "year": 2016,
+      "value": 21539,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "social_aid_recipients",
+      "year": 2017,
+      "value": 23276,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "social_aid_recipients",
+      "year": 2018,
+      "value": 11237,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "social_aid_recipients",
+      "year": 2019,
+      "value": 6343,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "social_aid_recipients",
+      "year": 2020,
+      "value": 8635,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "social_aid_recipients",
+      "year": 2021,
+      "value": 7715,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "social_aid_recipients",
+      "year": 2022,
+      "value": 3877,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "social_aid_recipients",
+      "year": 2023,
+      "value": 6643,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "social_aid_recipients",
+      "year": 2024,
+      "value": 10187,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "social_aid_recipients",
+      "year": 2025,
+      "value": 10402,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "social_aid_recipients",
+      "year": 2009,
+      "value": 9811,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "social_aid_recipients",
+      "year": 2010,
+      "value": 13383,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "social_aid_recipients",
+      "year": 2011,
+      "value": 13088,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "social_aid_recipients",
+      "year": 2012,
+      "value": 12406,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "social_aid_recipients",
+      "year": 2013,
+      "value": 3029,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "social_aid_recipients",
+      "year": 2014,
+      "value": 3023,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "social_aid_recipients",
+      "year": 2015,
+      "value": 2986,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "social_aid_recipients",
+      "year": 2016,
+      "value": 2715,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "social_aid_recipients",
+      "year": 2017,
+      "value": 2043,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "social_aid_recipients",
+      "year": 2018,
+      "value": 901,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "social_aid_recipients",
+      "year": 2019,
+      "value": 501,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "social_aid_recipients",
+      "year": 2020,
+      "value": 542,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "social_aid_recipients",
+      "year": 2021,
+      "value": 543,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "social_aid_recipients",
+      "year": 2022,
+      "value": 457,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "social_aid_recipients",
+      "year": 2023,
+      "value": 470,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "social_aid_recipients",
+      "year": 2024,
+      "value": 1760,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "social_aid_recipients",
+      "year": 2025,
+      "value": 2846,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "social_aid_recipients",
+      "year": 2009,
+      "value": 45174,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "social_aid_recipients",
+      "year": 2010,
+      "value": 30055,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "social_aid_recipients",
+      "year": 2011,
+      "value": 33957,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "social_aid_recipients",
+      "year": 2012,
+      "value": 23535,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "social_aid_recipients",
+      "year": 2013,
+      "value": 8691,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "social_aid_recipients",
+      "year": 2014,
+      "value": 9441,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "social_aid_recipients",
+      "year": 2015,
+      "value": 6758,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "social_aid_recipients",
+      "year": 2016,
+      "value": 7094,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "social_aid_recipients",
+      "year": 2017,
+      "value": 8046,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "social_aid_recipients",
+      "year": 2018,
+      "value": 4483,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "social_aid_recipients",
+      "year": 2019,
+      "value": 3299,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "social_aid_recipients",
+      "year": 2020,
+      "value": 4110,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "social_aid_recipients",
+      "year": 2021,
+      "value": 3376,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "social_aid_recipients",
+      "year": 2022,
+      "value": 2610,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "social_aid_recipients",
+      "year": 2023,
+      "value": 3822,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "social_aid_recipients",
+      "year": 2024,
+      "value": 3303,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "social_aid_recipients",
+      "year": 2025,
+      "value": 4144,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "social_aid_recipients",
+      "year": 2009,
+      "value": 24300,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "social_aid_recipients",
+      "year": 2010,
+      "value": 24238,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "social_aid_recipients",
+      "year": 2011,
+      "value": 20981,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "social_aid_recipients",
+      "year": 2012,
+      "value": 20216,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "social_aid_recipients",
+      "year": 2013,
+      "value": 6139,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "social_aid_recipients",
+      "year": 2014,
+      "value": 5364,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "social_aid_recipients",
+      "year": 2015,
+      "value": 3804,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "social_aid_recipients",
+      "year": 2016,
+      "value": 3805,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "social_aid_recipients",
+      "year": 2017,
+      "value": 4427,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "social_aid_recipients",
+      "year": 2018,
+      "value": 2996,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "social_aid_recipients",
+      "year": 2019,
+      "value": 1033,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "social_aid_recipients",
+      "year": 2020,
+      "value": 1890,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "social_aid_recipients",
+      "year": 2021,
+      "value": 1808,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "social_aid_recipients",
+      "year": 2022,
+      "value": 1165,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "social_aid_recipients",
+      "year": 2023,
+      "value": 1880,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "social_aid_recipients",
+      "year": 2024,
+      "value": 2233,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "social_aid_recipients",
+      "year": 2025,
+      "value": 2828,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "social_aid_recipients",
+      "year": 2009,
+      "value": 46057,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "social_aid_recipients",
+      "year": 2010,
+      "value": 40254,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "social_aid_recipients",
+      "year": 2011,
+      "value": 34693,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "social_aid_recipients",
+      "year": 2012,
+      "value": 32631,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "social_aid_recipients",
+      "year": 2013,
+      "value": 8964,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "social_aid_recipients",
+      "year": 2014,
+      "value": 9371,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "social_aid_recipients",
+      "year": 2015,
+      "value": 6635,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "social_aid_recipients",
+      "year": 2016,
+      "value": 7554,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "social_aid_recipients",
+      "year": 2017,
+      "value": 10125,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "social_aid_recipients",
+      "year": 2018,
+      "value": 6649,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "social_aid_recipients",
+      "year": 2019,
+      "value": 3638,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "social_aid_recipients",
+      "year": 2020,
+      "value": 5419,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "social_aid_recipients",
+      "year": 2021,
+      "value": 6117,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "social_aid_recipients",
+      "year": 2022,
+      "value": 3450,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "social_aid_recipients",
+      "year": 2023,
+      "value": 5050,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "social_aid_recipients",
+      "year": 2024,
+      "value": 4967,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "social_aid_recipients",
+      "year": 2025,
+      "value": 7208,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "social_aid_recipients",
+      "year": 2009,
+      "value": 65751,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "social_aid_recipients",
+      "year": 2010,
+      "value": 44053,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "social_aid_recipients",
+      "year": 2011,
+      "value": 34229,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "social_aid_recipients",
+      "year": 2012,
+      "value": 41792,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "social_aid_recipients",
+      "year": 2013,
+      "value": 10155,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "social_aid_recipients",
+      "year": 2014,
+      "value": 11620,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "social_aid_recipients",
+      "year": 2015,
+      "value": 6713,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "social_aid_recipients",
+      "year": 2016,
+      "value": 7787,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "social_aid_recipients",
+      "year": 2017,
+      "value": 10812,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "social_aid_recipients",
+      "year": 2018,
+      "value": 5723,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "social_aid_recipients",
+      "year": 2019,
+      "value": 4473,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "social_aid_recipients",
+      "year": 2020,
+      "value": 7425,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "social_aid_recipients",
+      "year": 2021,
+      "value": 7718,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "social_aid_recipients",
+      "year": 2022,
+      "value": 4569,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "social_aid_recipients",
+      "year": 2023,
+      "value": 5811,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "social_aid_recipients",
+      "year": 2024,
+      "value": 5222,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "social_aid_recipients",
+      "year": 2025,
+      "value": 4727,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "social_aid_recipients",
+      "year": 2009,
+      "value": 59300,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "social_aid_recipients",
+      "year": 2010,
+      "value": 53794,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "social_aid_recipients",
+      "year": 2011,
+      "value": 43028,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "social_aid_recipients",
+      "year": 2012,
+      "value": 54414,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "social_aid_recipients",
+      "year": 2013,
+      "value": 9273,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "social_aid_recipients",
+      "year": 2014,
+      "value": 10770,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "social_aid_recipients",
+      "year": 2015,
+      "value": 7271,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "social_aid_recipients",
+      "year": 2016,
+      "value": 8527,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "social_aid_recipients",
+      "year": 2017,
+      "value": 8827,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "social_aid_recipients",
+      "year": 2018,
+      "value": 5533,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "social_aid_recipients",
+      "year": 2019,
+      "value": 1577,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "social_aid_recipients",
+      "year": 2020,
+      "value": 2158,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "social_aid_recipients",
+      "year": 2021,
+      "value": 3234,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "social_aid_recipients",
+      "year": 2022,
+      "value": 3185,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "social_aid_recipients",
+      "year": 2023,
+      "value": 6724,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "social_aid_recipients",
+      "year": 2024,
+      "value": 5618,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "social_aid_recipients",
+      "year": 2025,
+      "value": 6629,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "social_aid_recipients",
+      "year": 2009,
+      "value": 32838,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "social_aid_recipients",
+      "year": 2010,
+      "value": 43502,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "social_aid_recipients",
+      "year": 2011,
+      "value": 33141,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "social_aid_recipients",
+      "year": 2012,
+      "value": 29060,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "social_aid_recipients",
+      "year": 2013,
+      "value": 6460,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "social_aid_recipients",
+      "year": 2014,
+      "value": 8011,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "social_aid_recipients",
+      "year": 2015,
+      "value": 5639,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "social_aid_recipients",
+      "year": 2016,
+      "value": 6837,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "social_aid_recipients",
+      "year": 2017,
+      "value": 6616,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "social_aid_recipients",
+      "year": 2018,
+      "value": 6683,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "social_aid_recipients",
+      "year": 2019,
+      "value": 4409,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "social_aid_recipients",
+      "year": 2020,
+      "value": 6777,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "social_aid_recipients",
+      "year": 2021,
+      "value": 5990,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "social_aid_recipients",
+      "year": 2022,
+      "value": 2794,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "social_aid_recipients",
+      "year": 2023,
+      "value": 3759,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "social_aid_recipients",
+      "year": 2024,
+      "value": 2313,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "social_aid_recipients",
+      "year": 2025,
+      "value": 3914,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "social_aid_recipients",
+      "year": 2009,
+      "value": 97569,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "social_aid_recipients",
+      "year": 2010,
+      "value": 79723,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "social_aid_recipients",
+      "year": 2011,
+      "value": 57598,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "social_aid_recipients",
+      "year": 2012,
+      "value": 69854,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "social_aid_recipients",
+      "year": 2013,
+      "value": 15502,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "social_aid_recipients",
+      "year": 2014,
+      "value": 17447,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "social_aid_recipients",
+      "year": 2015,
+      "value": 10965,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "social_aid_recipients",
+      "year": 2016,
+      "value": 10174,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "social_aid_recipients",
+      "year": 2017,
+      "value": 22126,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "social_aid_recipients",
+      "year": 2018,
+      "value": 13574,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "social_aid_recipients",
+      "year": 2019,
+      "value": 6754,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "social_aid_recipients",
+      "year": 2020,
+      "value": 16659,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "social_aid_recipients",
+      "year": 2021,
+      "value": 20328,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "social_aid_recipients",
+      "year": 2022,
+      "value": 8122,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "social_aid_recipients",
+      "year": 2023,
+      "value": 12227,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "social_aid_recipients",
+      "year": 2024,
+      "value": 10813,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "social_aid_recipients",
+      "year": 2025,
+      "value": 12191,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "social_aid_recipients",
+      "year": 2009,
+      "value": 67906,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "social_aid_recipients",
+      "year": 2010,
+      "value": 70422,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "social_aid_recipients",
+      "year": 2011,
+      "value": 49890,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "social_aid_recipients",
+      "year": 2012,
+      "value": 50148,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "social_aid_recipients",
+      "year": 2013,
+      "value": 10486,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "social_aid_recipients",
+      "year": 2014,
+      "value": 10677,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "social_aid_recipients",
+      "year": 2015,
+      "value": 8367,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "social_aid_recipients",
+      "year": 2016,
+      "value": 8875,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "social_aid_recipients",
+      "year": 2017,
+      "value": 10420,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "social_aid_recipients",
+      "year": 2018,
+      "value": 7024,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "social_aid_recipients",
+      "year": 2019,
+      "value": 2835,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "social_aid_recipients",
+      "year": 2020,
+      "value": 4955,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "social_aid_recipients",
+      "year": 2021,
+      "value": 6015,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "social_aid_recipients",
+      "year": 2022,
+      "value": 4210,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "social_aid_recipients",
+      "year": 2023,
+      "value": 5534,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "social_aid_recipients",
+      "year": 2024,
+      "value": 5227,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "social_aid_recipients",
+      "year": 2025,
+      "value": 6956,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "social_aid_recipients",
+      "year": 2009,
+      "value": 48116,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "social_aid_recipients",
+      "year": 2010,
+      "value": 39005,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "social_aid_recipients",
+      "year": 2011,
+      "value": 36937,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "social_aid_recipients",
+      "year": 2012,
+      "value": 32674,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "social_aid_recipients",
+      "year": 2013,
+      "value": 6113,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "social_aid_recipients",
+      "year": 2014,
+      "value": 6722,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "social_aid_recipients",
+      "year": 2015,
+      "value": 5690,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "social_aid_recipients",
+      "year": 2016,
+      "value": 5816,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "social_aid_recipients",
+      "year": 2017,
+      "value": 7282,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "social_aid_recipients",
+      "year": 2018,
+      "value": 4947,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "social_aid_recipients",
+      "year": 2019,
+      "value": 1584,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "social_aid_recipients",
+      "year": 2020,
+      "value": 3126,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "social_aid_recipients",
+      "year": 2021,
+      "value": 3224,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "social_aid_recipients",
+      "year": 2022,
+      "value": 2211,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "social_aid_recipients",
+      "year": 2023,
+      "value": 2621,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "social_aid_recipients",
+      "year": 2024,
+      "value": 2953,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "social_aid_recipients",
+      "year": 2025,
+      "value": 3508,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "social_aid_recipients",
+      "year": 2009,
+      "value": 45496,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "social_aid_recipients",
+      "year": 2010,
+      "value": 37460,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "social_aid_recipients",
+      "year": 2011,
+      "value": 31015,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "social_aid_recipients",
+      "year": 2012,
+      "value": 29670,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "social_aid_recipients",
+      "year": 2013,
+      "value": 7361,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "social_aid_recipients",
+      "year": 2014,
+      "value": 8195,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "social_aid_recipients",
+      "year": 2015,
+      "value": 7069,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "social_aid_recipients",
+      "year": 2016,
+      "value": 7696,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "social_aid_recipients",
+      "year": 2017,
+      "value": 9347,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "social_aid_recipients",
+      "year": 2018,
+      "value": 4731,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "social_aid_recipients",
+      "year": 2019,
+      "value": 1262,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "social_aid_recipients",
+      "year": 2020,
+      "value": 1914,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "social_aid_recipients",
+      "year": 2021,
+      "value": 1995,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "social_aid_recipients",
+      "year": 2022,
+      "value": 1312,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "social_aid_recipients",
+      "year": 2023,
+      "value": 1798,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "social_aid_recipients",
+      "year": 2024,
+      "value": 1932,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "social_aid_recipients",
+      "year": 2025,
+      "value": 2743,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "east-zangezur",
+      "indicator_id": "social_aid_recipients",
+      "year": 2009,
+      "value": 5404,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "east-zangezur",
+      "indicator_id": "social_aid_recipients",
+      "year": 2010,
+      "value": 4293,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "east-zangezur",
+      "indicator_id": "social_aid_recipients",
+      "year": 2011,
+      "value": 3910,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "east-zangezur",
+      "indicator_id": "social_aid_recipients",
+      "year": 2012,
+      "value": 8409,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "east-zangezur",
+      "indicator_id": "social_aid_recipients",
+      "year": 2013,
+      "value": 1598,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "east-zangezur",
+      "indicator_id": "social_aid_recipients",
+      "year": 2014,
+      "value": 1657,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "east-zangezur",
+      "indicator_id": "social_aid_recipients",
+      "year": 2015,
+      "value": 1348,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "east-zangezur",
+      "indicator_id": "social_aid_recipients",
+      "year": 2016,
+      "value": 1272,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "east-zangezur",
+      "indicator_id": "social_aid_recipients",
+      "year": 2017,
+      "value": 1249,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "east-zangezur",
+      "indicator_id": "social_aid_recipients",
+      "year": 2018,
+      "value": 312,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "east-zangezur",
+      "indicator_id": "social_aid_recipients",
+      "year": 2019,
+      "value": 2819,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "east-zangezur",
+      "indicator_id": "social_aid_recipients",
+      "year": 2020,
+      "value": 4099,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "east-zangezur",
+      "indicator_id": "social_aid_recipients",
+      "year": 2021,
+      "value": 3611,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "east-zangezur",
+      "indicator_id": "social_aid_recipients",
+      "year": 2022,
+      "value": 2181,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "east-zangezur",
+      "indicator_id": "social_aid_recipients",
+      "year": 2023,
+      "value": 3059,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "east-zangezur",
+      "indicator_id": "social_aid_recipients",
+      "year": 2024,
+      "value": 2985,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "east-zangezur",
+      "indicator_id": "social_aid_recipients",
+      "year": 2025,
+      "value": 2719,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "social_aid_recipients",
+      "year": 2009,
+      "value": 48991,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "social_aid_recipients",
+      "year": 2010,
+      "value": 41451,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "social_aid_recipients",
+      "year": 2011,
+      "value": 33930,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "social_aid_recipients",
+      "year": 2012,
+      "value": 35787,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "social_aid_recipients",
+      "year": 2013,
+      "value": 8272,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "social_aid_recipients",
+      "year": 2014,
+      "value": 9453,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "social_aid_recipients",
+      "year": 2015,
+      "value": 4526,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "social_aid_recipients",
+      "year": 2016,
+      "value": 5318,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "social_aid_recipients",
+      "year": 2017,
+      "value": 7772,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "social_aid_recipients",
+      "year": 2018,
+      "value": 5400,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "social_aid_recipients",
+      "year": 2019,
+      "value": 2644,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "social_aid_recipients",
+      "year": 2020,
+      "value": 4461,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "social_aid_recipients",
+      "year": 2021,
+      "value": 5595,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "social_aid_recipients",
+      "year": 2022,
+      "value": 4573,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "social_aid_recipients",
+      "year": 2023,
+      "value": 6147,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "social_aid_recipients",
+      "year": 2024,
+      "value": 4455,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "social_aid_recipients",
+      "year": 2025,
+      "value": 5144,
+      "scope": "region",
+      "source": "stat.gov.az"
+    }
+  ]
+}

@@ -52,3 +52,26 @@ export function selectLatestValue(
   }
   return latest;
 }
+
+/**
+ * Value for a region + indicator at a specific year, or undefined if that
+ * year is a source gap. Caller decides whether to fall back to latest.
+ */
+export function selectValueAt(
+  values: ValueRow[],
+  regionId: string,
+  indicatorId: string,
+  year: number,
+): ValueRow | undefined {
+  for (const v of values) {
+    if (
+      v.region_id === regionId &&
+      v.indicator_id === indicatorId &&
+      v.scope === "region" &&
+      v.year === year
+    ) {
+      return v;
+    }
+  }
+  return undefined;
+}

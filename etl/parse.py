@@ -1,4 +1,6 @@
-"""Parse stat.gov.az labour .xls into normalized value rows.
+"""Parse stat.gov.az .xls files into normalized value rows.
+
+Driven by the chapter registry in chapters.py — no per-indicator code here.
 
 Files are NOT uniform: the year-header row is detected, not assumed (observed
 at row 6 or 7 depending on file). Region name is in the first non-empty cell
@@ -11,23 +13,10 @@ from pathlib import Path
 
 import xlrd
 
+import chapters
 import regions
 
 RAW_DIR = Path(__file__).parent / "raw"
-
-# indicator_id -> (file code, sheet name, unit, label_en)
-INDICATORS = {
-    "labour_force": ("009_1", "9.1", "persons", "Labour force"),
-    "employed": ("009_2", "9.2", "persons", "Employed population"),
-    "unemployment_rate": ("009_3-4", "9.4", "%", "Unemployment rate"),
-    "employees": ("009_5", "9.5", "persons", "Number of employees"),
-    "avg_wage": ("009_6", "9.6", "manat",
-                 "Average monthly nominal wage"),
-    "registered_unemployed": ("009_7", "9.7", "persons",
-                              "Registered unemployed"),
-    "unemployment_benefits": ("009_8", "9.8", "persons",
-                              "Unemployment insurance recipients"),
-}
 
 
 def _find_year_row(sh):
@@ -63,14 +52,25 @@ def parse_indicator(indicator_id: str):
 
     Returns (rows, meta). Raises SystemExit on any unresolved region row.
     """
-    code, sheet, unit, label_en = INDICATORS[indicator_id]
-    path = RAW_DIR / f"{code}_en.xls"
+    info = None
+    chapter = None
+    for iid, ch, code, sheet, unit, label_en in chapters.iter_indicators():
+        if iid == indicator_id:
+            info = (code, sheet, unit, label_en)
+            chapter = ch
+            break
+    if info is None:
+        raise SystemExit(f"FAIL: indicator {indicator_id!r} not in registry")
+    code, sheet, unit, label_en = info
+
+    path = RAW_DIR / f"{chapter}__{code}_en.xls"
     if not path.exists():
         raise SystemExit(f"FAIL: missing {path} — run download.py first")
     book = xlrd.open_workbook(str(path))
     if sheet not in book.sheet_names():
         raise SystemExit(
-            f"FAIL {code}: sheet {sheet!r} not in {book.sheet_names()}")
+            f"FAIL {chapter}/{code}: sheet {sheet!r} not in "
+            f"{book.sheet_names()}")
     sh = book.sheet_by_name(sheet)
     year_row, year_cols = _find_year_row(sh)
 
@@ -96,8 +96,8 @@ def parse_indicator(indicator_id: str):
             scope = "region"
         elif regions.has_region_marker(name):
             raise SystemExit(
-                f"FAIL {code}: economic-region row {name!r} did not "
-                f"resolve (Rule 01 — add alias in regions.py)")
+                f"FAIL {chapter}/{code}: economic-region row {name!r} did "
+                f"not resolve (Rule 01 — add alias in regions.py)")
         else:
             continue  # rayon / marker — skipped in Phase 1
 
@@ -117,6 +117,7 @@ def parse_indicator(indicator_id: str):
 
     meta = {
         "id": indicator_id,
+        "chapter": chapter,
         "label_en": label_en,
         "unit": unit,
         "source_file": f"stat.gov.az {code}en.xls",
@@ -124,3 +125,22 @@ def parse_indicator(indicator_id: str):
         "years": sorted(set(year_cols.values())),
     }
     return rows, meta
+
+
+def az_title_for(indicator_id: str) -> str:
+    """The AZ source-title sentence for an indicator (used as label_az)."""
+    code = sheet = None
+    chapter = None
+    for iid, ch, c, s, _, _ in chapters.iter_indicators():
+        if iid == indicator_id:
+            code, sheet, chapter = c, s, ch
+            break
+    if code is None:
+        return ""
+    path = RAW_DIR / f"{chapter}__{code}_az.xls"
+    if not path.exists():
+        return ""
+    book = xlrd.open_workbook(str(path))
+    if sheet not in book.sheet_names():
+        return ""
+    return find_title(book.sheet_by_name(sheet), sheet)

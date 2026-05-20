@@ -1,0 +1,1140 @@
+{
+  "values": [
+    {
+      "region_id": "AZ",
+      "indicator_id": "unemployment_benefits",
+      "year": 2015,
+      "value": 1543,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "unemployment_benefits",
+      "year": 2016,
+      "value": 1857,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "unemployment_benefits",
+      "year": 2017,
+      "value": 6974,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "unemployment_benefits",
+      "year": 2018,
+      "value": 1117,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "unemployment_benefits",
+      "year": 2019,
+      "value": 540,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "unemployment_benefits",
+      "year": 2020,
+      "value": 727,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "unemployment_benefits",
+      "year": 2021,
+      "value": 1615,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "unemployment_benefits",
+      "year": 2022,
+      "value": 2332,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "unemployment_benefits",
+      "year": 2023,
+      "value": 2797,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "unemployment_benefits",
+      "year": 2024,
+      "value": 3963,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "unemployment_benefits",
+      "year": 2015,
+      "value": 718,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "unemployment_benefits",
+      "year": 2016,
+      "value": 474,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "unemployment_benefits",
+      "year": 2017,
+      "value": 3448,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "unemployment_benefits",
+      "year": 2018,
+      "value": 599,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "unemployment_benefits",
+      "year": 2019,
+      "value": 330,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "unemployment_benefits",
+      "year": 2020,
+      "value": 447,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "unemployment_benefits",
+      "year": 2021,
+      "value": 850,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "unemployment_benefits",
+      "year": 2022,
+      "value": 1206,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "unemployment_benefits",
+      "year": 2023,
+      "value": 1581,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "unemployment_benefits",
+      "year": 2024,
+      "value": 1417,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "unemployment_benefits",
+      "year": 2023,
+      "value": 121,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "unemployment_benefits",
+      "year": 2024,
+      "value": 92,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "unemployment_benefits",
+      "year": 2015,
+      "value": 136,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "unemployment_benefits",
+      "year": 2016,
+      "value": 350,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "unemployment_benefits",
+      "year": 2017,
+      "value": 528,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "unemployment_benefits",
+      "year": 2018,
+      "value": 114,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "unemployment_benefits",
+      "year": 2019,
+      "value": 45,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "unemployment_benefits",
+      "year": 2020,
+      "value": 90,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "unemployment_benefits",
+      "year": 2021,
+      "value": 134,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "unemployment_benefits",
+      "year": 2022,
+      "value": 386,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "unemployment_benefits",
+      "year": 2023,
+      "value": 460,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "unemployment_benefits",
+      "year": 2024,
+      "value": 448,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "unemployment_benefits",
+      "year": 2015,
+      "value": 41,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "unemployment_benefits",
+      "year": 2016,
+      "value": 101,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "unemployment_benefits",
+      "year": 2017,
+      "value": 140,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "unemployment_benefits",
+      "year": 2018,
+      "value": 22,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "unemployment_benefits",
+      "year": 2019,
+      "value": 6,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "unemployment_benefits",
+      "year": 2020,
+      "value": 14,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "unemployment_benefits",
+      "year": 2021,
+      "value": 42,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "unemployment_benefits",
+      "year": 2022,
+      "value": 55,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "unemployment_benefits",
+      "year": 2023,
+      "value": 36,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "unemployment_benefits",
+      "year": 2024,
+      "value": 62,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "unemployment_benefits",
+      "year": 2015,
+      "value": 67,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "unemployment_benefits",
+      "year": 2016,
+      "value": 105,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "unemployment_benefits",
+      "year": 2017,
+      "value": 349,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "unemployment_benefits",
+      "year": 2018,
+      "value": 31,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "unemployment_benefits",
+      "year": 2019,
+      "value": 28,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "unemployment_benefits",
+      "year": 2020,
+      "value": 24,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "unemployment_benefits",
+      "year": 2021,
+      "value": 127,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "unemployment_benefits",
+      "year": 2022,
+      "value": 100,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "unemployment_benefits",
+      "year": 2023,
+      "value": 141,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "unemployment_benefits",
+      "year": 2024,
+      "value": 259,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "unemployment_benefits",
+      "year": 2015,
+      "value": 63,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "unemployment_benefits",
+      "year": 2016,
+      "value": 143,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "unemployment_benefits",
+      "year": 2017,
+      "value": 297,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "unemployment_benefits",
+      "year": 2018,
+      "value": 18,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "unemployment_benefits",
+      "year": 2019,
+      "value": 19,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "unemployment_benefits",
+      "year": 2020,
+      "value": 11,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "unemployment_benefits",
+      "year": 2021,
+      "value": 73,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "unemployment_benefits",
+      "year": 2022,
+      "value": 101,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "unemployment_benefits",
+      "year": 2023,
+      "value": 78,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "unemployment_benefits",
+      "year": 2024,
+      "value": 486,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "unemployment_benefits",
+      "year": 2015,
+      "value": 84,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "unemployment_benefits",
+      "year": 2016,
+      "value": 111,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "unemployment_benefits",
+      "year": 2017,
+      "value": 285,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "unemployment_benefits",
+      "year": 2018,
+      "value": 20,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "unemployment_benefits",
+      "year": 2019,
+      "value": 14,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "unemployment_benefits",
+      "year": 2020,
+      "value": 19,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "unemployment_benefits",
+      "year": 2021,
+      "value": 120,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "unemployment_benefits",
+      "year": 2022,
+      "value": 92,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "unemployment_benefits",
+      "year": 2023,
+      "value": 94,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "unemployment_benefits",
+      "year": 2024,
+      "value": 159,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "unemployment_benefits",
+      "year": 2015,
+      "value": 49,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "unemployment_benefits",
+      "year": 2016,
+      "value": 134,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "unemployment_benefits",
+      "year": 2017,
+      "value": 205,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "unemployment_benefits",
+      "year": 2018,
+      "value": 22,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "unemployment_benefits",
+      "year": 2019,
+      "value": 13,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "unemployment_benefits",
+      "year": 2020,
+      "value": 11,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "unemployment_benefits",
+      "year": 2021,
+      "value": 80,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "unemployment_benefits",
+      "year": 2022,
+      "value": 92,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "unemployment_benefits",
+      "year": 2023,
+      "value": 44,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "unemployment_benefits",
+      "year": 2024,
+      "value": 123,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "unemployment_benefits",
+      "year": 2015,
+      "value": 40,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "unemployment_benefits",
+      "year": 2016,
+      "value": 42,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "unemployment_benefits",
+      "year": 2017,
+      "value": 222,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "unemployment_benefits",
+      "year": 2018,
+      "value": 53,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "unemployment_benefits",
+      "year": 2019,
+      "value": 8,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "unemployment_benefits",
+      "year": 2020,
+      "value": 6,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "unemployment_benefits",
+      "year": 2021,
+      "value": 29,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "unemployment_benefits",
+      "year": 2022,
+      "value": 59,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "unemployment_benefits",
+      "year": 2023,
+      "value": 41,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "unemployment_benefits",
+      "year": 2024,
+      "value": 116,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "unemployment_benefits",
+      "year": 2015,
+      "value": 76,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "unemployment_benefits",
+      "year": 2016,
+      "value": 72,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "unemployment_benefits",
+      "year": 2017,
+      "value": 315,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "unemployment_benefits",
+      "year": 2018,
+      "value": 58,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "unemployment_benefits",
+      "year": 2019,
+      "value": 12,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "unemployment_benefits",
+      "year": 2020,
+      "value": 9,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "unemployment_benefits",
+      "year": 2021,
+      "value": 53,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "unemployment_benefits",
+      "year": 2022,
+      "value": 114,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "unemployment_benefits",
+      "year": 2023,
+      "value": 92,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "unemployment_benefits",
+      "year": 2024,
+      "value": 296,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "unemployment_benefits",
+      "year": 2015,
+      "value": 55,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "unemployment_benefits",
+      "year": 2016,
+      "value": 57,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "unemployment_benefits",
+      "year": 2017,
+      "value": 236,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "unemployment_benefits",
+      "year": 2018,
+      "value": 21,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "unemployment_benefits",
+      "year": 2019,
+      "value": 8,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "unemployment_benefits",
+      "year": 2020,
+      "value": 2,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "unemployment_benefits",
+      "year": 2021,
+      "value": 12,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "unemployment_benefits",
+      "year": 2022,
+      "value": 8,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "unemployment_benefits",
+      "year": 2023,
+      "value": 13,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "unemployment_benefits",
+      "year": 2024,
+      "value": 132,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "unemployment_benefits",
+      "year": 2015,
+      "value": 81,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "unemployment_benefits",
+      "year": 2016,
+      "value": 70,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "unemployment_benefits",
+      "year": 2017,
+      "value": 269,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "unemployment_benefits",
+      "year": 2018,
+      "value": 23,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "unemployment_benefits",
+      "year": 2019,
+      "value": 11,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "unemployment_benefits",
+      "year": 2020,
+      "value": 13,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "unemployment_benefits",
+      "year": 2021,
+      "value": 37,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "unemployment_benefits",
+      "year": 2022,
+      "value": 31,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "unemployment_benefits",
+      "year": 2023,
+      "value": 35,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "unemployment_benefits",
+      "year": 2024,
+      "value": 143,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "east-zangezur",
+      "indicator_id": "unemployment_benefits",
+      "year": 2015,
+      "value": 56,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "east-zangezur",
+      "indicator_id": "unemployment_benefits",
+      "year": 2016,
+      "value": 86,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "east-zangezur",
+      "indicator_id": "unemployment_benefits",
+      "year": 2017,
+      "value": 293,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "east-zangezur",
+      "indicator_id": "unemployment_benefits",
+      "year": 2018,
+      "value": 93,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "east-zangezur",
+      "indicator_id": "unemployment_benefits",
+      "year": 2019,
+      "value": 34,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "east-zangezur",
+      "indicator_id": "unemployment_benefits",
+      "year": 2020,
+      "value": 5,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "east-zangezur",
+      "indicator_id": "unemployment_benefits",
+      "year": 2021,
+      "value": 13,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "east-zangezur",
+      "indicator_id": "unemployment_benefits",
+      "year": 2022,
+      "value": 27,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "east-zangezur",
+      "indicator_id": "unemployment_benefits",
+      "year": 2023,
+      "value": 16,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "east-zangezur",
+      "indicator_id": "unemployment_benefits",
+      "year": 2024,
+      "value": 32,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "unemployment_benefits",
+      "year": 2015,
+      "value": 77,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "unemployment_benefits",
+      "year": 2016,
+      "value": 112,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "unemployment_benefits",
+      "year": 2017,
+      "value": 387,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "unemployment_benefits",
+      "year": 2018,
+      "value": 43,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "unemployment_benefits",
+      "year": 2019,
+      "value": 12,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "unemployment_benefits",
+      "year": 2020,
+      "value": 76,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "unemployment_benefits",
+      "year": 2021,
+      "value": 45,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "unemployment_benefits",
+      "year": 2022,
+      "value": 61,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "unemployment_benefits",
+      "year": 2023,
+      "value": 45,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "unemployment_benefits",
+      "year": 2024,
+      "value": 198,
+      "scope": "region",
+      "source": "stat.gov.az"
+    }
+  ]
+}

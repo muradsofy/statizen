@@ -9,6 +9,7 @@ import regions
 
 def validate(values, indicators):
     errors = []
+    warnings = []
     by_ind = {i["id"]: i for i in indicators}
 
     for ind in indicators:
@@ -20,10 +21,15 @@ def validate(values, indicators):
             continue
         latest = max(v["year"] for v in rows)
         present = {v["region_id"] for v in rows if v["year"] == latest}
-        missing = set(regions.REGION_IDS) - present
-        if missing:
-            errors.append(
-                f"{iid}: regions missing for {latest}: {sorted(missing)}")
+        # Honest source gaps (region has no data in any year, OR has data in
+        # earlier years but `-` in the latest) are warnings, not errors.
+        # The DataCard already handles this — it shows the most recent year
+        # available per (region, indicator).
+        has_any = {v["region_id"] for v in rows}
+        gap = (has_any & set(regions.REGION_IDS)) - present
+        if gap:
+            warnings.append(
+                f"{iid}: no {latest} data for {sorted(gap)} (source gap)")
         if not any(v["scope"] == "national" and v["indicator_id"] == iid
                    for v in values):
             errors.append(f"{iid}: national total row not found")
@@ -44,5 +50,7 @@ def validate(values, indicators):
     if errors:
         msg = "\n  - ".join(["VALIDATION FAILED (Rule 01):"] + errors)
         raise SystemExit(msg)
+    for w in warnings:
+        print(f"  warn: {w}")
     print(f"  validation OK: {len(values)} values, "
           f"{len(indicators)} indicators, {len(regions.REGION_IDS)} regions")

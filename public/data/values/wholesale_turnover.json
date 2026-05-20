@@ -1,0 +1,2252 @@
+{
+  "values": [
+    {
+      "region_id": "AZ",
+      "indicator_id": "wholesale_turnover",
+      "year": 2005,
+      "value": 4853300,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "wholesale_turnover",
+      "year": 2006,
+      "value": 6180128.9,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "wholesale_turnover",
+      "year": 2007,
+      "value": 8426500,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "wholesale_turnover",
+      "year": 2008,
+      "value": 11419800.2,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "wholesale_turnover",
+      "year": 2009,
+      "value": 12733068.7,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "wholesale_turnover",
+      "year": 2010,
+      "value": 14995000.4,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "wholesale_turnover",
+      "year": 2011,
+      "value": 18950003.1,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "wholesale_turnover",
+      "year": 2012,
+      "value": 20544099.8,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "wholesale_turnover",
+      "year": 2013,
+      "value": 22742300.0,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "wholesale_turnover",
+      "year": 2014,
+      "value": 25132615,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "wholesale_turnover",
+      "year": 2015,
+      "value": 26351381.5,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "wholesale_turnover",
+      "year": 2016,
+      "value": 27529133.2,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "wholesale_turnover",
+      "year": 2017,
+      "value": 31024812.4,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "wholesale_turnover",
+      "year": 2018,
+      "value": 31562604.7,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "wholesale_turnover",
+      "year": 2019,
+      "value": 30803639.9,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "wholesale_turnover",
+      "year": 2020,
+      "value": 28482873.1,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "wholesale_turnover",
+      "year": 2021,
+      "value": 31981875.1,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "wholesale_turnover",
+      "year": 2022,
+      "value": 31596987.6,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "wholesale_turnover",
+      "year": 2023,
+      "value": 34142001.4,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "wholesale_turnover",
+      "year": 2024,
+      "value": 35969444.6,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "wholesale_turnover",
+      "year": 2005,
+      "value": 3061509.9,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "wholesale_turnover",
+      "year": 2006,
+      "value": 3983451.4,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "wholesale_turnover",
+      "year": 2007,
+      "value": 5502755.8,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "wholesale_turnover",
+      "year": 2008,
+      "value": 7694157.6,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "wholesale_turnover",
+      "year": 2009,
+      "value": 8388163.5,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "wholesale_turnover",
+      "year": 2010,
+      "value": 9809564.1,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "wholesale_turnover",
+      "year": 2011,
+      "value": 12958664.6,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "wholesale_turnover",
+      "year": 2012,
+      "value": 14071374.6,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "wholesale_turnover",
+      "year": 2013,
+      "value": 15975231.6,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "wholesale_turnover",
+      "year": 2014,
+      "value": 17903378.3,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "wholesale_turnover",
+      "year": 2015,
+      "value": 18964258.3,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "wholesale_turnover",
+      "year": 2016,
+      "value": 20238434.7,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "wholesale_turnover",
+      "year": 2017,
+      "value": 23955624.3,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "wholesale_turnover",
+      "year": 2018,
+      "value": 25625229.7,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "wholesale_turnover",
+      "year": 2019,
+      "value": 25325981.7,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "wholesale_turnover",
+      "year": 2020,
+      "value": 24055349.5,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "wholesale_turnover",
+      "year": 2021,
+      "value": 26865060,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "wholesale_turnover",
+      "year": 2022,
+      "value": 26840858.5,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "wholesale_turnover",
+      "year": 2023,
+      "value": 29462982,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "wholesale_turnover",
+      "year": 2024,
+      "value": 30870856.1,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "wholesale_turnover",
+      "year": 2005,
+      "value": 146569.7,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "wholesale_turnover",
+      "year": 2006,
+      "value": 191584,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "wholesale_turnover",
+      "year": 2007,
+      "value": 253637.7,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "wholesale_turnover",
+      "year": 2008,
+      "value": 344878,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "wholesale_turnover",
+      "year": 2009,
+      "value": 385812,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "wholesale_turnover",
+      "year": 2010,
+      "value": 497834,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "wholesale_turnover",
+      "year": 2011,
+      "value": 568500.1,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "wholesale_turnover",
+      "year": 2012,
+      "value": 909159.2,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "wholesale_turnover",
+      "year": 2013,
+      "value": 939161.5,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "wholesale_turnover",
+      "year": 2014,
+      "value": 949601.8,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "wholesale_turnover",
+      "year": 2015,
+      "value": 969232.9,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "wholesale_turnover",
+      "year": 2016,
+      "value": 1104200,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "wholesale_turnover",
+      "year": 2017,
+      "value": 1209160,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "wholesale_turnover",
+      "year": 2018,
+      "value": 1218637.6,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "wholesale_turnover",
+      "year": 2019,
+      "value": 1279450.9,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "wholesale_turnover",
+      "year": 2020,
+      "value": 1273408.3,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "wholesale_turnover",
+      "year": 2021,
+      "value": 1339170.4,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "wholesale_turnover",
+      "year": 2022,
+      "value": 1468705.9,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "wholesale_turnover",
+      "year": 2023,
+      "value": 810208,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "wholesale_turnover",
+      "year": 2024,
+      "value": 850877.2,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "wholesale_turnover",
+      "year": 2005,
+      "value": 153606.9,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "wholesale_turnover",
+      "year": 2006,
+      "value": 194797.6,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "wholesale_turnover",
+      "year": 2007,
+      "value": 252626.5,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "wholesale_turnover",
+      "year": 2008,
+      "value": 329803.9,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "wholesale_turnover",
+      "year": 2009,
+      "value": 395871.1,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "wholesale_turnover",
+      "year": 2010,
+      "value": 443102.3,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "wholesale_turnover",
+      "year": 2011,
+      "value": 524157.1,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "wholesale_turnover",
+      "year": 2012,
+      "value": 548075.5,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "wholesale_turnover",
+      "year": 2013,
+      "value": 583115.6,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "wholesale_turnover",
+      "year": 2014,
+      "value": 663461.2,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "wholesale_turnover",
+      "year": 2015,
+      "value": 701906.7,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "wholesale_turnover",
+      "year": 2016,
+      "value": 726665,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "wholesale_turnover",
+      "year": 2017,
+      "value": 793535.6,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "wholesale_turnover",
+      "year": 2018,
+      "value": 771379.6,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "wholesale_turnover",
+      "year": 2019,
+      "value": 1511534.6,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "wholesale_turnover",
+      "year": 2020,
+      "value": 868301.9,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "wholesale_turnover",
+      "year": 2021,
+      "value": 1169267,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "wholesale_turnover",
+      "year": 2022,
+      "value": 900563,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "wholesale_turnover",
+      "year": 2023,
+      "value": 1046273.9,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "wholesale_turnover",
+      "year": 2024,
+      "value": 1354454.7,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "wholesale_turnover",
+      "year": 2005,
+      "value": 81535.5,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "wholesale_turnover",
+      "year": 2006,
+      "value": 98016.9,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "wholesale_turnover",
+      "year": 2007,
+      "value": 128757.1,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "wholesale_turnover",
+      "year": 2008,
+      "value": 165587.1,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "wholesale_turnover",
+      "year": 2009,
+      "value": 185648.1,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "wholesale_turnover",
+      "year": 2010,
+      "value": 222076,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "wholesale_turnover",
+      "year": 2011,
+      "value": 247108,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "wholesale_turnover",
+      "year": 2012,
+      "value": 249820.4,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "wholesale_turnover",
+      "year": 2013,
+      "value": 258186.9,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "wholesale_turnover",
+      "year": 2014,
+      "value": 284262.4,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "wholesale_turnover",
+      "year": 2015,
+      "value": 293003.8,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "wholesale_turnover",
+      "year": 2016,
+      "value": 225204.8,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "wholesale_turnover",
+      "year": 2017,
+      "value": 170970.7,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "wholesale_turnover",
+      "year": 2018,
+      "value": 58154.8,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "wholesale_turnover",
+      "year": 2019,
+      "value": 28685.5,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "wholesale_turnover",
+      "year": 2020,
+      "value": 17878.2,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "wholesale_turnover",
+      "year": 2021,
+      "value": 19332.6,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "wholesale_turnover",
+      "year": 2022,
+      "value": 22236.9,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "wholesale_turnover",
+      "year": 2023,
+      "value": 50146.2,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "wholesale_turnover",
+      "year": 2024,
+      "value": 70848.7,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "wholesale_turnover",
+      "year": 2005,
+      "value": 199179.6,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "wholesale_turnover",
+      "year": 2006,
+      "value": 245969,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "wholesale_turnover",
+      "year": 2007,
+      "value": 332762.6,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "wholesale_turnover",
+      "year": 2008,
+      "value": 396495.5,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "wholesale_turnover",
+      "year": 2009,
+      "value": 477744.7,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "wholesale_turnover",
+      "year": 2010,
+      "value": 552265.9,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "wholesale_turnover",
+      "year": 2011,
+      "value": 593703.6,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "wholesale_turnover",
+      "year": 2012,
+      "value": 616466.9,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "wholesale_turnover",
+      "year": 2013,
+      "value": 669145.4,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "wholesale_turnover",
+      "year": 2014,
+      "value": 721276.2,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "wholesale_turnover",
+      "year": 2015,
+      "value": 756152.4,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "wholesale_turnover",
+      "year": 2016,
+      "value": 774329.6,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "wholesale_turnover",
+      "year": 2017,
+      "value": 733048.1,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "wholesale_turnover",
+      "year": 2018,
+      "value": 617593.7,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "wholesale_turnover",
+      "year": 2019,
+      "value": 445166.8,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "wholesale_turnover",
+      "year": 2020,
+      "value": 268834.8,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "wholesale_turnover",
+      "year": 2021,
+      "value": 228513.4,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "wholesale_turnover",
+      "year": 2022,
+      "value": 354569.8,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "wholesale_turnover",
+      "year": 2023,
+      "value": 500240.2,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "wholesale_turnover",
+      "year": 2024,
+      "value": 423470,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "wholesale_turnover",
+      "year": 2005,
+      "value": 106772.7,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "wholesale_turnover",
+      "year": 2006,
+      "value": 122069.9,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "wholesale_turnover",
+      "year": 2007,
+      "value": 164485.4,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "wholesale_turnover",
+      "year": 2008,
+      "value": 212912,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "wholesale_turnover",
+      "year": 2009,
+      "value": 235943.7,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "wholesale_turnover",
+      "year": 2010,
+      "value": 284470.2,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "wholesale_turnover",
+      "year": 2011,
+      "value": 340152.5,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "wholesale_turnover",
+      "year": 2012,
+      "value": 346367.3,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "wholesale_turnover",
+      "year": 2013,
+      "value": 367015.0,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "wholesale_turnover",
+      "year": 2014,
+      "value": 400984.2,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "wholesale_turnover",
+      "year": 2015,
+      "value": 412538.5,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "wholesale_turnover",
+      "year": 2016,
+      "value": 379216.3,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "wholesale_turnover",
+      "year": 2017,
+      "value": 337927.5,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "wholesale_turnover",
+      "year": 2018,
+      "value": 309359.3,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "wholesale_turnover",
+      "year": 2019,
+      "value": 170133,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "wholesale_turnover",
+      "year": 2020,
+      "value": 191777.9,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "wholesale_turnover",
+      "year": 2021,
+      "value": 211148.4,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "wholesale_turnover",
+      "year": 2022,
+      "value": 187247.4,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "wholesale_turnover",
+      "year": 2023,
+      "value": 288814.3,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "wholesale_turnover",
+      "year": 2024,
+      "value": 304043.9,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "wholesale_turnover",
+      "year": 2005,
+      "value": 122788.4,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "wholesale_turnover",
+      "year": 2006,
+      "value": 150795.2,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "wholesale_turnover",
+      "year": 2007,
+      "value": 216645.4,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "wholesale_turnover",
+      "year": 2008,
+      "value": 261399.2,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "wholesale_turnover",
+      "year": 2009,
+      "value": 312851.5,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "wholesale_turnover",
+      "year": 2010,
+      "value": 334388.5,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "wholesale_turnover",
+      "year": 2011,
+      "value": 388475,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "wholesale_turnover",
+      "year": 2012,
+      "value": 396090.1,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "wholesale_turnover",
+      "year": 2013,
+      "value": 421167.2,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "wholesale_turnover",
+      "year": 2014,
+      "value": 449251.3,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "wholesale_turnover",
+      "year": 2015,
+      "value": 459414.1,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "wholesale_turnover",
+      "year": 2016,
+      "value": 349646.3,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "wholesale_turnover",
+      "year": 2017,
+      "value": 337464.4,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "wholesale_turnover",
+      "year": 2018,
+      "value": 384095.5,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "wholesale_turnover",
+      "year": 2019,
+      "value": 361166.3,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "wholesale_turnover",
+      "year": 2020,
+      "value": 352551.5,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "wholesale_turnover",
+      "year": 2021,
+      "value": 374158.6,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "wholesale_turnover",
+      "year": 2022,
+      "value": 278019.8,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "wholesale_turnover",
+      "year": 2023,
+      "value": 306756.3,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "wholesale_turnover",
+      "year": 2024,
+      "value": 304797.1,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "wholesale_turnover",
+      "year": 2005,
+      "value": 136377.7,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "wholesale_turnover",
+      "year": 2006,
+      "value": 161301.4,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "wholesale_turnover",
+      "year": 2007,
+      "value": 214033.3,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "wholesale_turnover",
+      "year": 2008,
+      "value": 283211.0,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "wholesale_turnover",
+      "year": 2009,
+      "value": 332333.2,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "wholesale_turnover",
+      "year": 2010,
+      "value": 400366.5,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "wholesale_turnover",
+      "year": 2011,
+      "value": 476592.5,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "wholesale_turnover",
+      "year": 2012,
+      "value": 486484.3,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "wholesale_turnover",
+      "year": 2013,
+      "value": 501571.9,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "wholesale_turnover",
+      "year": 2014,
+      "value": 528647.8,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "wholesale_turnover",
+      "year": 2015,
+      "value": 538365.6,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "wholesale_turnover",
+      "year": 2016,
+      "value": 478706.9,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "wholesale_turnover",
+      "year": 2017,
+      "value": 463138.2,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "wholesale_turnover",
+      "year": 2018,
+      "value": 366987.7,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "wholesale_turnover",
+      "year": 2019,
+      "value": 337852.9,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "wholesale_turnover",
+      "year": 2020,
+      "value": 189286.1,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "wholesale_turnover",
+      "year": 2021,
+      "value": 328821.2,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "wholesale_turnover",
+      "year": 2022,
+      "value": 149521,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "wholesale_turnover",
+      "year": 2023,
+      "value": 195433.2,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "wholesale_turnover",
+      "year": 2024,
+      "value": 255126.9,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "wholesale_turnover",
+      "year": 2005,
+      "value": 206265.3,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "wholesale_turnover",
+      "year": 2006,
+      "value": 252149.3,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "wholesale_turnover",
+      "year": 2007,
+      "value": 323240.7,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "wholesale_turnover",
+      "year": 2008,
+      "value": 425615.9,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "wholesale_turnover",
+      "year": 2009,
+      "value": 492769.7,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "wholesale_turnover",
+      "year": 2010,
+      "value": 603998.7,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "wholesale_turnover",
+      "year": 2011,
+      "value": 664766,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "wholesale_turnover",
+      "year": 2012,
+      "value": 679681.1,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "wholesale_turnover",
+      "year": 2013,
+      "value": 721161.2,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "wholesale_turnover",
+      "year": 2014,
+      "value": 756852.7,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "wholesale_turnover",
+      "year": 2015,
+      "value": 778382.1,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "wholesale_turnover",
+      "year": 2016,
+      "value": 800611.1,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "wholesale_turnover",
+      "year": 2017,
+      "value": 792635.3,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "wholesale_turnover",
+      "year": 2018,
+      "value": 544861.4,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "wholesale_turnover",
+      "year": 2019,
+      "value": 376364.5,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "wholesale_turnover",
+      "year": 2020,
+      "value": 413745.3,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "wholesale_turnover",
+      "year": 2021,
+      "value": 471872.9,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "wholesale_turnover",
+      "year": 2022,
+      "value": 420260.0,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "wholesale_turnover",
+      "year": 2023,
+      "value": 455543.3,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "wholesale_turnover",
+      "year": 2024,
+      "value": 375724.5,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "wholesale_turnover",
+      "year": 2005,
+      "value": 222766.4,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "wholesale_turnover",
+      "year": 2006,
+      "value": 276869.7,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "wholesale_turnover",
+      "year": 2007,
+      "value": 363182.3,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "wholesale_turnover",
+      "year": 2008,
+      "value": 453366.0,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "wholesale_turnover",
+      "year": 2009,
+      "value": 519509.2,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "wholesale_turnover",
+      "year": 2010,
+      "value": 641786,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "wholesale_turnover",
+      "year": 2011,
+      "value": 730901.5,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "wholesale_turnover",
+      "year": 2012,
+      "value": 751913.9,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "wholesale_turnover",
+      "year": 2013,
+      "value": 779280.8,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "wholesale_turnover",
+      "year": 2014,
+      "value": 833704.8,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "wholesale_turnover",
+      "year": 2015,
+      "value": 849961,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "wholesale_turnover",
+      "year": 2016,
+      "value": 794241.1,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "wholesale_turnover",
+      "year": 2017,
+      "value": 716103.8,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "wholesale_turnover",
+      "year": 2018,
+      "value": 439348.4,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "wholesale_turnover",
+      "year": 2019,
+      "value": 216015.5,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "wholesale_turnover",
+      "year": 2020,
+      "value": 215150.6,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "wholesale_turnover",
+      "year": 2021,
+      "value": 252987.8,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "wholesale_turnover",
+      "year": 2022,
+      "value": 265845.4,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "wholesale_turnover",
+      "year": 2023,
+      "value": 344263.2,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "wholesale_turnover",
+      "year": 2024,
+      "value": 230749.9,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "wholesale_turnover",
+      "year": 2005,
+      "value": 128127.1,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "wholesale_turnover",
+      "year": 2006,
+      "value": 150795.2,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "wholesale_turnover",
+      "year": 2007,
+      "value": 196337.6,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "wholesale_turnover",
+      "year": 2008,
+      "value": 227254.1,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "wholesale_turnover",
+      "year": 2009,
+      "value": 275034.3,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "wholesale_turnover",
+      "year": 2010,
+      "value": 320593.1,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "wholesale_turnover",
+      "year": 2011,
+      "value": 382600.5,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "wholesale_turnover",
+      "year": 2012,
+      "value": 390748.7,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "wholesale_turnover",
+      "year": 2013,
+      "value": 396954.7,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "wholesale_turnover",
+      "year": 2014,
+      "value": 434769.3,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "wholesale_turnover",
+      "year": 2015,
+      "value": 431431.4,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "wholesale_turnover",
+      "year": 2016,
+      "value": 430792.3,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "wholesale_turnover",
+      "year": 2017,
+      "value": 416028.5,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "wholesale_turnover",
+      "year": 2018,
+      "value": 307723.8,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "wholesale_turnover",
+      "year": 2019,
+      "value": 264337,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "wholesale_turnover",
+      "year": 2020,
+      "value": 220522.7,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "wholesale_turnover",
+      "year": 2021,
+      "value": 273523,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "wholesale_turnover",
+      "year": 2022,
+      "value": 264316.1,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "wholesale_turnover",
+      "year": 2023,
+      "value": 228607.8,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "wholesale_turnover",
+      "year": 2024,
+      "value": 268515.5,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "wholesale_turnover",
+      "year": 2005,
+      "value": 164041.6,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "wholesale_turnover",
+      "year": 2006,
+      "value": 201472.2,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "wholesale_turnover",
+      "year": 2007,
+      "value": 268889.8,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "wholesale_turnover",
+      "year": 2008,
+      "value": 347161.9,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "wholesale_turnover",
+      "year": 2009,
+      "value": 401219.1,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "wholesale_turnover",
+      "year": 2010,
+      "value": 474891.7,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "wholesale_turnover",
+      "year": 2011,
+      "value": 563573,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "wholesale_turnover",
+      "year": 2012,
+      "value": 573632.3,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "wholesale_turnover",
+      "year": 2013,
+      "value": 599924.9,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "wholesale_turnover",
+      "year": 2014,
+      "value": 627532.7,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "wholesale_turnover",
+      "year": 2015,
+      "value": 629199.3,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "wholesale_turnover",
+      "year": 2016,
+      "value": 647393.1,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "wholesale_turnover",
+      "year": 2017,
+      "value": 637974,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "wholesale_turnover",
+      "year": 2018,
+      "value": 519745.8,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "wholesale_turnover",
+      "year": 2019,
+      "value": 277585.6,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "wholesale_turnover",
+      "year": 2020,
+      "value": 243399.2,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "wholesale_turnover",
+      "year": 2021,
+      "value": 271568.2,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "wholesale_turnover",
+      "year": 2022,
+      "value": 262852.2,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "wholesale_turnover",
+      "year": 2023,
+      "value": 222408.3,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "wholesale_turnover",
+      "year": 2024,
+      "value": 323462.6,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "east-zangezur",
+      "indicator_id": "wholesale_turnover",
+      "year": 2024,
+      "value": 113776.4,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "wholesale_turnover",
+      "year": 2005,
+      "value": 123759.2,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "wholesale_turnover",
+      "year": 2006,
+      "value": 150857.1,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "wholesale_turnover",
+      "year": 2007,
+      "value": 209145.8,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "wholesale_turnover",
+      "year": 2008,
+      "value": 277958,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "wholesale_turnover",
+      "year": 2009,
+      "value": 330168.6,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "wholesale_turnover",
+      "year": 2010,
+      "value": 409663.4,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "wholesale_turnover",
+      "year": 2011,
+      "value": 510808.7,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "wholesale_turnover",
+      "year": 2012,
+      "value": 524285.5,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "wholesale_turnover",
+      "year": 2013,
+      "value": 530383.3,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "wholesale_turnover",
+      "year": 2014,
+      "value": 578892.3,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "wholesale_turnover",
+      "year": 2015,
+      "value": 567535.4,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "wholesale_turnover",
+      "year": 2016,
+      "value": 579692,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "wholesale_turnover",
+      "year": 2017,
+      "value": 461202,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "wholesale_turnover",
+      "year": 2018,
+      "value": 399487.4,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "wholesale_turnover",
+      "year": 2019,
+      "value": 209365.6,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "wholesale_turnover",
+      "year": 2020,
+      "value": 172667.1,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "wholesale_turnover",
+      "year": 2021,
+      "value": 176451.6,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "wholesale_turnover",
+      "year": 2022,
+      "value": 181991.6,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "wholesale_turnover",
+      "year": 2023,
+      "value": 230324.7,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "wholesale_turnover",
+      "year": 2024,
+      "value": 222741.1,
+      "scope": "region",
+      "source": "stat.gov.az"
+    }
+  ]
+}

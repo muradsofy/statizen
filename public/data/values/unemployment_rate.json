@@ -1,0 +1,1172 @@
+{
+  "values": [
+    {
+      "region_id": "AZ",
+      "indicator_id": "unemployment_rate",
+      "year": 2015,
+      "value": 5.0,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "unemployment_rate",
+      "year": 2016,
+      "value": 5.0432,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "unemployment_rate",
+      "year": 2017,
+      "value": 4.9608,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "unemployment_rate",
+      "year": 2018,
+      "value": 4.9449,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "unemployment_rate",
+      "year": 2019,
+      "value": 5.0038,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "unemployment_rate",
+      "year": 2020,
+      "value": 7.2432,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "unemployment_rate",
+      "year": 2021,
+      "value": 6.0387,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "unemployment_rate",
+      "year": 2022,
+      "value": 5.6462,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "unemployment_rate",
+      "year": 2023,
+      "value": 5.4559,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "unemployment_rate",
+      "year": 2024,
+      "value": 5.3144,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "unemployment_rate",
+      "year": 2015,
+      "value": 6.0,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "unemployment_rate",
+      "year": 2016,
+      "value": 6.0833,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "unemployment_rate",
+      "year": 2017,
+      "value": 6.0772,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "unemployment_rate",
+      "year": 2018,
+      "value": 6.0035,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "unemployment_rate",
+      "year": 2019,
+      "value": 4.7268,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "unemployment_rate",
+      "year": 2020,
+      "value": 6.9863,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "unemployment_rate",
+      "year": 2021,
+      "value": 6.0197,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "unemployment_rate",
+      "year": 2022,
+      "value": 5.6593,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "unemployment_rate",
+      "year": 2023,
+      "value": 5.3842,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "unemployment_rate",
+      "year": 2024,
+      "value": 4.7956,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "unemployment_rate",
+      "year": 2019,
+      "value": 0.0305,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "unemployment_rate",
+      "year": 2020,
+      "value": 0.1181,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "unemployment_rate",
+      "year": 2021,
+      "value": 0.0993,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "unemployment_rate",
+      "year": 2022,
+      "value": 0.0742,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "unemployment_rate",
+      "year": 2023,
+      "value": 0.3834,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "unemployment_rate",
+      "year": 2024,
+      "value": 3.5978,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "unemployment_rate",
+      "year": 2015,
+      "value": 5.2,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "unemployment_rate",
+      "year": 2016,
+      "value": 5.2534,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "unemployment_rate",
+      "year": 2017,
+      "value": 5.2864,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "unemployment_rate",
+      "year": 2018,
+      "value": 5.2797,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "unemployment_rate",
+      "year": 2019,
+      "value": 4.9471,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "unemployment_rate",
+      "year": 2020,
+      "value": 7.3703,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "unemployment_rate",
+      "year": 2021,
+      "value": 6.2154,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "unemployment_rate",
+      "year": 2022,
+      "value": 5.7847,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "unemployment_rate",
+      "year": 2023,
+      "value": 5.5536,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "unemployment_rate",
+      "year": 2024,
+      "value": 4.9361,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "unemployment_rate",
+      "year": 2015,
+      "value": 4.6,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "unemployment_rate",
+      "year": 2016,
+      "value": 4.6791,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "unemployment_rate",
+      "year": 2017,
+      "value": 4.6104,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "unemployment_rate",
+      "year": 2018,
+      "value": 4.8277,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "unemployment_rate",
+      "year": 2019,
+      "value": 4.6501,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "unemployment_rate",
+      "year": 2020,
+      "value": 6.8226,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "unemployment_rate",
+      "year": 2021,
+      "value": 5.5038,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "unemployment_rate",
+      "year": 2022,
+      "value": 5.0913,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "unemployment_rate",
+      "year": 2023,
+      "value": 5.1555,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "unemployment_rate",
+      "year": 2024,
+      "value": 4.8828,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "unemployment_rate",
+      "year": 2015,
+      "value": 5.3,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "unemployment_rate",
+      "year": 2016,
+      "value": 5.3915,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "unemployment_rate",
+      "year": 2017,
+      "value": 5.3554,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "unemployment_rate",
+      "year": 2018,
+      "value": 5.4193,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "unemployment_rate",
+      "year": 2019,
+      "value": 5.8776,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "unemployment_rate",
+      "year": 2020,
+      "value": 8.578,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "unemployment_rate",
+      "year": 2021,
+      "value": 7.272,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "unemployment_rate",
+      "year": 2022,
+      "value": 6.7862,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "unemployment_rate",
+      "year": 2023,
+      "value": 6.4897,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "unemployment_rate",
+      "year": 2024,
+      "value": 5.7473,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "unemployment_rate",
+      "year": 2015,
+      "value": 5.0,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "unemployment_rate",
+      "year": 2016,
+      "value": 5.081,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "unemployment_rate",
+      "year": 2017,
+      "value": 4.837,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "unemployment_rate",
+      "year": 2018,
+      "value": 4.8635,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "unemployment_rate",
+      "year": 2019,
+      "value": 5.6275,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "unemployment_rate",
+      "year": 2020,
+      "value": 8.1966,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "unemployment_rate",
+      "year": 2021,
+      "value": 6.8156,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "unemployment_rate",
+      "year": 2022,
+      "value": 6.3376,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "unemployment_rate",
+      "year": 2023,
+      "value": 6.1953,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "unemployment_rate",
+      "year": 2024,
+      "value": 6.7124,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "unemployment_rate",
+      "year": 2015,
+      "value": 4.6,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "unemployment_rate",
+      "year": 2016,
+      "value": 4.7084,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "unemployment_rate",
+      "year": 2017,
+      "value": 4.4582,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "unemployment_rate",
+      "year": 2018,
+      "value": 4.3748,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "unemployment_rate",
+      "year": 2019,
+      "value": 4.5601,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "unemployment_rate",
+      "year": 2020,
+      "value": 6.5854,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "unemployment_rate",
+      "year": 2021,
+      "value": 5.314,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "unemployment_rate",
+      "year": 2022,
+      "value": 4.9605,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "unemployment_rate",
+      "year": 2023,
+      "value": 4.8055,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "unemployment_rate",
+      "year": 2024,
+      "value": 5.0382,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "unemployment_rate",
+      "year": 2015,
+      "value": 4.4,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "unemployment_rate",
+      "year": 2016,
+      "value": 4.4406,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "unemployment_rate",
+      "year": 2017,
+      "value": 4.3729,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "unemployment_rate",
+      "year": 2018,
+      "value": 4.2646,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "unemployment_rate",
+      "year": 2019,
+      "value": 6.1427,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "unemployment_rate",
+      "year": 2020,
+      "value": 8.7904,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "unemployment_rate",
+      "year": 2021,
+      "value": 7.2098,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "unemployment_rate",
+      "year": 2022,
+      "value": 6.7364,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "unemployment_rate",
+      "year": 2023,
+      "value": 6.4166,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "unemployment_rate",
+      "year": 2024,
+      "value": 6.0105,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "unemployment_rate",
+      "year": 2015,
+      "value": 4.8,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "unemployment_rate",
+      "year": 2016,
+      "value": 4.857,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "unemployment_rate",
+      "year": 2017,
+      "value": 4.7925,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "unemployment_rate",
+      "year": 2018,
+      "value": 4.6823,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "unemployment_rate",
+      "year": 2019,
+      "value": 5.7641,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "unemployment_rate",
+      "year": 2020,
+      "value": 8.0331,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "unemployment_rate",
+      "year": 2021,
+      "value": 6.6747,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "unemployment_rate",
+      "year": 2022,
+      "value": 6.2389,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "unemployment_rate",
+      "year": 2023,
+      "value": 5.9356,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "unemployment_rate",
+      "year": 2024,
+      "value": 5.1791,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "unemployment_rate",
+      "year": 2015,
+      "value": 5.7,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "unemployment_rate",
+      "year": 2016,
+      "value": 5.7665,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "unemployment_rate",
+      "year": 2017,
+      "value": 5.5933,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "unemployment_rate",
+      "year": 2018,
+      "value": 5.7688,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "unemployment_rate",
+      "year": 2019,
+      "value": 6.4066,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "unemployment_rate",
+      "year": 2020,
+      "value": 8.9351,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "unemployment_rate",
+      "year": 2021,
+      "value": 7.2567,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "unemployment_rate",
+      "year": 2022,
+      "value": 6.8103,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "unemployment_rate",
+      "year": 2023,
+      "value": 6.5832,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "unemployment_rate",
+      "year": 2024,
+      "value": 6.4507,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "unemployment_rate",
+      "year": 2015,
+      "value": 4.5,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "unemployment_rate",
+      "year": 2016,
+      "value": 4.6196,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "unemployment_rate",
+      "year": 2017,
+      "value": 4.3981,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "unemployment_rate",
+      "year": 2018,
+      "value": 4.2115,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "unemployment_rate",
+      "year": 2019,
+      "value": 5.3573,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "unemployment_rate",
+      "year": 2020,
+      "value": 7.5713,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "unemployment_rate",
+      "year": 2021,
+      "value": 6.0554,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "unemployment_rate",
+      "year": 2022,
+      "value": 5.6698,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "unemployment_rate",
+      "year": 2023,
+      "value": 5.4032,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "unemployment_rate",
+      "year": 2024,
+      "value": 4.5738,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "unemployment_rate",
+      "year": 2015,
+      "value": 4.4,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "unemployment_rate",
+      "year": 2016,
+      "value": 4.4781,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "unemployment_rate",
+      "year": 2017,
+      "value": 4.3795,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "unemployment_rate",
+      "year": 2018,
+      "value": 4.2904,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "unemployment_rate",
+      "year": 2019,
+      "value": 3.911,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "unemployment_rate",
+      "year": 2020,
+      "value": 5.7759,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "unemployment_rate",
+      "year": 2021,
+      "value": 4.6725,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "unemployment_rate",
+      "year": 2022,
+      "value": 4.3603,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "unemployment_rate",
+      "year": 2023,
+      "value": 4.4917,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "unemployment_rate",
+      "year": 2024,
+      "value": 5.4837,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "east-zangezur",
+      "indicator_id": "unemployment_rate",
+      "year": 2015,
+      "value": 6.0,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "east-zangezur",
+      "indicator_id": "unemployment_rate",
+      "year": 2016,
+      "value": 6.1039,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "east-zangezur",
+      "indicator_id": "unemployment_rate",
+      "year": 2017,
+      "value": 6.0821,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "east-zangezur",
+      "indicator_id": "unemployment_rate",
+      "year": 2018,
+      "value": 6.3506,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "east-zangezur",
+      "indicator_id": "unemployment_rate",
+      "year": 2019,
+      "value": 6.8346,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "east-zangezur",
+      "indicator_id": "unemployment_rate",
+      "year": 2020,
+      "value": 9.8993,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "east-zangezur",
+      "indicator_id": "unemployment_rate",
+      "year": 2021,
+      "value": 8.4338,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "east-zangezur",
+      "indicator_id": "unemployment_rate",
+      "year": 2022,
+      "value": 7.908,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "east-zangezur",
+      "indicator_id": "unemployment_rate",
+      "year": 2023,
+      "value": 7.6242,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "east-zangezur",
+      "indicator_id": "unemployment_rate",
+      "year": 2024,
+      "value": 7.4117,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "unemployment_rate",
+      "year": 2015,
+      "value": 4.9,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "unemployment_rate",
+      "year": 2016,
+      "value": 4.9783,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "unemployment_rate",
+      "year": 2017,
+      "value": 4.9262,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "unemployment_rate",
+      "year": 2018,
+      "value": 4.9768,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "unemployment_rate",
+      "year": 2019,
+      "value": 6.0754,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "unemployment_rate",
+      "year": 2020,
+      "value": 8.6161,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "unemployment_rate",
+      "year": 2021,
+      "value": 7.1357,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "unemployment_rate",
+      "year": 2022,
+      "value": 6.6599,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "unemployment_rate",
+      "year": 2023,
+      "value": 6.3515,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "unemployment_rate",
+      "year": 2024,
+      "value": 5.6671,
+      "scope": "region",
+      "source": "stat.gov.az"
+    }
+  ]
+}

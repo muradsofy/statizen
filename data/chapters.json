@@ -1,0 +1,34 @@
+{
+  "chapters": [
+    {
+      "id": "demoqraphy",
+      "label_en": "Demography",
+      "label_az": "Demoqrafiya",
+      "order": 5
+    },
+    {
+      "id": "labour",
+      "label_en": "Labour market",
+      "label_az": "Əmək bazarı",
+      "order": 10
+    },
+    {
+      "id": "healthcare",
+      "label_en": "Health & social",
+      "label_az": "Səhiyyə və sosial",
+      "order": 20
+    },
+    {
+      "id": "crimes",
+      "label_en": "Crime",
+      "label_az": "Cinayət",
+      "order": 30
+    },
+    {
+      "id": "trade",
+      "label_en": "Trade",
+      "label_az": "Ticarət",
+      "order": 40
+    }
+  ]
+}

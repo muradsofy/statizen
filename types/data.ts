@@ -37,6 +37,8 @@ export interface Region {
 
 export interface Indicator {
   id: string;
+  /** Chapter slug (matches Chapter.id). Groups indicators in the UI picker. */
+  chapter: string;
   label_en: string;
   label_az: string;
   /** e.g. "%", "persons", "manat". */
@@ -45,6 +47,21 @@ export interface Indicator {
   source_file: string;
   /** ISO date string of the source's last update. */
   last_updated: string;
+  /** Sorted ascending list of years with data — drives the YearPicker. */
+  years: number[];
+}
+
+export interface Chapter {
+  /** stat.gov.az URL slug, e.g. "labour", "demoqraphy". */
+  id: string;
+  label_en: string;
+  label_az: string;
+  /** Display order in the UI. Lower comes first. */
+  order: number;
+}
+
+export interface ChaptersFile {
+  chapters: Chapter[];
 }
 
 /** Optional sex breakdown carried when the source provides it. */
