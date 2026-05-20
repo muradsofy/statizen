@@ -16,6 +16,7 @@ export function useUrlSync() {
     const p = new URLSearchParams(window.location.search);
     const region = p.get("region");
     const indicator = p.get("indicator");
+    const year = p.get("year");
     const lang = p.get("lang");
     const st = useAppStore.getState();
     if (region && regionsData.regions.some((r) => r.id === region)) {
@@ -26,6 +27,9 @@ export function useUrlSync() {
       indicatorsData.indicators.some((i) => i.id === indicator)
     ) {
       st.setActiveIndicator(indicator);
+    }
+    if (year && /^\d{4}$/.test(year)) {
+      st.setSelectedYear(parseInt(year, 10));
     }
     if (lang === "az" || lang === "en") {
       st.setLocale(lang as Locale);
@@ -42,6 +46,7 @@ export function useUrlSync() {
       if (
         s.selectedRegionId === prev.selectedRegionId &&
         s.activeIndicatorId === prev.activeIndicatorId &&
+        s.selectedYear === prev.selectedYear &&
         s.locale === prev.locale
       ) {
         return;
@@ -52,6 +57,8 @@ export function useUrlSync() {
       if (s.selectedRegionId) q.set("region", s.selectedRegionId);
       else q.delete("region");
       q.set("indicator", s.activeIndicatorId);
+      if (s.selectedYear !== null) q.set("year", String(s.selectedYear));
+      else q.delete("year");
       if (s.locale !== "en") q.set("lang", s.locale);
       else q.delete("lang");
 

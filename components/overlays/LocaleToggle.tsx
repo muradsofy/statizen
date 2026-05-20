@@ -3,6 +3,7 @@
 import { useAppStore } from "@/lib/state/store";
 import { surface, color, glow } from "@/lib/ui/tokens";
 import { t } from "@/lib/i18n/strings";
+import { haptic } from "@/lib/haptics";
 import type { Locale } from "@/types/data";
 
 export function LocaleToggle() {
@@ -14,7 +15,10 @@ export function LocaleToggle() {
     return (
       <button
         type="button"
-        onClick={() => setLocale(value)}
+        onClick={() => {
+          if (!active) haptic("light");
+          setLocale(value);
+        }}
         aria-pressed={active}
         aria-label={`${label} (${value})`}
         style={{

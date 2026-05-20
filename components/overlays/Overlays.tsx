@@ -6,7 +6,8 @@ import { FollowUs } from "./FollowUs";
 import { LocationsPanel } from "./LocationsPanel";
 import { DataCard } from "./DataCard";
 import { IndicatorPicker } from "./IndicatorPicker";
-import { RegionPicker } from "./RegionPicker";
+import { RegionPill } from "./RegionPicker";
+import { YearPicker } from "./YearPicker";
 import { LocaleToggle } from "./LocaleToggle";
 
 export function Overlays() {
@@ -32,13 +33,13 @@ export function Overlays() {
 
       {/* Desktop indicator picker (top-left under header) */}
       <div
-        className="hidden md:block fixed left-[88px] top-[108px] z-10"
+        className="hidden md:block fixed left-[88px] top-[120px] z-10"
         style={{ pointerEvents: "auto" }}
       >
         <IndicatorPicker width={350} />
       </div>
 
-      {/* Desktop bottom-left pair: locations list + data card */}
+      {/* Desktop bottom-left: locations list + data card */}
       <div
         className="hidden md:flex fixed left-[88px] bottom-9 gap-[18px] z-10"
         style={{ pointerEvents: "none" }}
@@ -51,21 +52,41 @@ export function Overlays() {
         </div>
       </div>
 
-      {/* Mobile bottom stack: indicator + region dropdowns + compact data card */}
+      {/* Desktop year picker — bottom-right (Figma 34:321: y=874, height=56,
+          so bottom = 982 - 874 - 56 = 52px from the bottom edge). */}
       <div
-        className="md:hidden fixed left-5 right-5 bottom-6 flex flex-col gap-3 z-10"
+        className="hidden md:block fixed right-[88px] bottom-[52px] z-10"
+        style={{ pointerEvents: "auto", width: 350 }}
+      >
+        <YearPicker />
+      </div>
+
+      {/* Mobile chapter+indicator row — top under header (Figma 34:332 at y=77) */}
+      <div
+        className="md:hidden fixed left-5 right-5 top-[77px] z-10"
+        style={{ pointerEvents: "auto" }}
+      >
+        <IndicatorPicker width="100%" layout="row" />
+      </div>
+
+      {/* Mobile bottom stack — Figma 30:310 sits at y=523, height=289 in a
+          844px frame → bottom = 844 - 523 - 289 = 32px from the bottom edge.
+          Order top→bottom: Region pill, DataCard, YearPicker. */}
+      <div
+        className="md:hidden fixed left-5 right-5 bottom-[32px] flex flex-col gap-3 z-10"
         style={{ pointerEvents: "none" }}
       >
         <div style={{ pointerEvents: "auto" }}>
-          <IndicatorPicker width="100%" />
-        </div>
-        <div style={{ pointerEvents: "auto" }}>
-          <RegionPicker width="100%" />
+          <RegionPill />
         </div>
         <div style={{ pointerEvents: "auto" }}>
           <DataCard compact width="100%" />
         </div>
+        <div style={{ pointerEvents: "auto" }}>
+          <YearPicker compact width="100%" />
+        </div>
       </div>
+
     </>
   );
 }

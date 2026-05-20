@@ -1,23 +1,81 @@
 // Display formatting for indicator values. Shows the real number — no
 // rounding of percentages beyond 1 decimal, no smoothing (Rule 01).
+//
+// The Figma design (30:132) appends the unit to the indicator title in
+// parentheses (e.g. "Unemployment rate (%)") and drops the separate subtitle
+// next to the big value, so this file exposes:
+//   - `formatValue` for the big numeric display
+//   - `unitSuffix` for the "(unit)" decoration appended to the title
 
 import type { Locale } from "@/types/data";
 
+function compactNumber(n: number, locale: Locale): string {
+  const az = locale === "az";
+  const loc = az ? "az" : "en-US";
+  const abs = Math.abs(n);
+  if (abs >= 1_000_000) {
+    const m = n / 1_000_000;
+    const dp = Math.abs(m) >= 100 ? 0 : Math.abs(m) >= 10 ? 1 : 2;
+    const num = new Intl.NumberFormat(loc, {
+      minimumFractionDigits: dp,
+      maximumFractionDigits: dp,
+    }).format(m);
+    return `${num}${az ? " mln" : "M"}`;
+  }
+  return new Intl.NumberFormat(loc).format(Math.round(n));
+}
+
+/** Big-number display for the DataCard hero value. */
 export function formatValue(
   value: number,
   unit: string,
   locale: Locale,
 ): string {
   const loc = locale === "az" ? "az" : "en-US";
-  if (unit === "%") return `${value.toFixed(1)}%`;
-  const n = new Intl.NumberFormat(loc).format(Math.round(value));
-  if (unit === "manat") return `${n} ₼`;
-  return n; // persons
+  const fmtDp = (n: number, dp: number) =>
+    new Intl.NumberFormat(loc, { maximumFractionDigits: dp }).format(n);
+
+  switch (unit) {
+    case "%":
+      return `${value.toFixed(1)}%`;
+    case "manat":
+    case "thousand manat":
+      return compactNumber(unit === "thousand manat" ? value * 1000 : value, locale);
+    case "thousand persons":
+      return compactNumber(value * 1000, locale);
+    case "persons":
+    case "cases":
+    case "families":
+    case "facilities":
+      return compactNumber(value, locale);
+    case "m²":
+      return `${fmtDp(value, 1)} m²`;
+    default:
+      return compactNumber(value, locale);
+  }
 }
 
-export function unitLabel(unit: string, locale: Locale): string {
+/** "(unit)" string appended to the indicator title (Figma 30:132). */
+export function unitSuffix(unit: string, locale: Locale): string {
   const az = locale === "az";
-  if (unit === "%") return az ? "faiz" : "percent";
-  if (unit === "manat") return az ? "manat" : "manat";
-  return az ? "nəfər" : "persons";
+  switch (unit) {
+    case "%":
+      return "(%)";
+    case "manat":
+    case "thousand manat":
+      return "(manat)";
+    case "persons":
+    case "thousand persons":
+      return az ? "(nəfər)" : "(persons)";
+    case "m²":
+      return "(m²)";
+    case "cases":
+      return az ? "(hadisə)" : "(cases)";
+    case "families":
+      return az ? "(ailə)" : "(families)";
+    case "facilities":
+      return az ? "(obyekt)" : "(facilities)";
+    default:
+      return `(${unit})`;
+  }
 }

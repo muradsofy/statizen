@@ -1,23 +1,21 @@
 "use client";
 
 import { motion } from "framer-motion";
-import {
-  indicatorsData,
-  regionsData,
-  valuesData,
-} from "@/lib/data/loadData";
+import { indicatorsData, regionsData } from "@/lib/data/loadData";
+import { useIndicatorValues } from "@/lib/data/useIndicatorValues";
 import {
   selectIndicatorById,
   selectLatestValue,
   selectRegionById,
+  selectValueAt,
 } from "@/lib/data/selectors";
-import { formatValue } from "@/lib/data/format";
+import { formatValue, unitSuffix } from "@/lib/data/format";
 import { useAppStore } from "@/lib/state/store";
 import { surface, color, glow } from "@/lib/ui/tokens";
 import { t } from "@/lib/i18n/strings";
 
 export interface DataCardProps {
-  /** Mobile variant: p16, title 20px, region 14px, content-height (Figma 30:296). */
+  /** Mobile variant: smaller fonts (Figma 30:296, 20px title). */
   compact?: boolean;
   width?: number | string;
 }
@@ -25,6 +23,7 @@ export interface DataCardProps {
 export function DataCard({ compact = false, width }: DataCardProps = {}) {
   const selectedRegionId = useAppStore((s) => s.selectedRegionId);
   const activeIndicatorId = useAppStore((s) => s.activeIndicatorId);
+  const selectedYear = useAppStore((s) => s.selectedYear);
   const locale = useAppStore((s) => s.locale);
 
   const indicator = selectIndicatorById(
@@ -34,16 +33,27 @@ export function DataCard({ compact = false, width }: DataCardProps = {}) {
   const region = selectedRegionId
     ? selectRegionById(regionsData.regions, selectedRegionId)
     : undefined;
+  const { values } = useIndicatorValues(
+    region && indicator ? indicator.id : null,
+  );
+  // Prefer the explicitly-picked year when set; fall back to the latest
+  // available year (covers indicator default + gap years).
   const latest =
     region && indicator
-      ? selectLatestValue(valuesData.values, region.id, indicator.id)
+      ? (selectedYear !== null
+          ? selectValueAt(values, region.id, indicator.id, selectedYear)
+          : undefined) ??
+        selectLatestValue(values, region.id, indicator.id)
       : undefined;
 
-  const label = indicator
+  const labelBase = indicator
     ? locale === "az"
       ? indicator.label_az
       : indicator.label_en
     : "";
+  const titleWithUnit = indicator
+    ? `${labelBase} ${unitSuffix(indicator.unit, locale)}`
+    : labelBase;
   const regionName = region
     ? locale === "az"
       ? region.name_az
@@ -81,10 +91,8 @@ export function DataCard({ compact = false, width }: DataCardProps = {}) {
         </div>
       ) : (
         <>
-          {/* top: year, indicator title, region (Figma 30:130, gap 6) */}
-          <div
-            style={{ display: "flex", flexDirection: "column", gap: 6 }}
-          >
+          {/* Top: year, indicator title (with unit), region (Figma 30:130) */}
+          <div style={{ display: "flex", flexDirection: "column", gap: 6 }}>
             {latest && (
               <div
                 style={{
@@ -106,7 +114,7 @@ export function DataCard({ compact = false, width }: DataCardProps = {}) {
                 lineHeight: 1.2,
               }}
             >
-              {label}
+              {titleWithUnit}
             </div>
             <div
               style={{
@@ -119,7 +127,7 @@ export function DataCard({ compact = false, width }: DataCardProps = {}) {
             </div>
           </div>
 
-          {/* bottom: big value + source/updated row (Figma 30:173, gap 6) */}
+          {/* Bottom: big value + source/updated row (Figma 30:173) */}
           <div style={{ display: "flex", flexDirection: "column", gap: 6 }}>
             <div
               style={{

@@ -154,3 +154,44 @@ svg [role="button"]:focus-visible {
   stroke: #ffffff;
   stroke-width: 2;
 }
+
+/* YearPicker range input — overlay is invisible (cursor lives on track) */
+.year-slider {
+  -webkit-appearance: none;
+  appearance: none;
+  background: transparent;
+  outline: none;
+  border: none;
+}
+.year-slider::-webkit-slider-runnable-track {
+  background: transparent;
+  border: none;
+}
+.year-slider::-moz-range-track {
+  background: transparent;
+  border: none;
+}
+.year-slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 24px;
+  height: 24px;
+  background: transparent;
+  border: 0;
+  box-shadow: none;
+  cursor: pointer;
+}
+.year-slider::-moz-range-thumb {
+  width: 24px;
+  height: 24px;
+  background: transparent;
+  border: 0;
+  box-shadow: none;
+  cursor: pointer;
+}
+.year-slider:focus-visible::-webkit-slider-thumb {
+  box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.4);
+}
+.year-slider:focus-visible::-moz-range-thumb {
+  box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.4);
+}

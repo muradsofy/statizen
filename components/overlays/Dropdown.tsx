@@ -3,6 +3,7 @@
 import { useEffect, useRef, useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import { surface, color, glow } from "@/lib/ui/tokens";
+import { haptic } from "@/lib/haptics";
 
 export interface DropdownOption {
   value: string;
@@ -15,10 +16,14 @@ export interface DropdownProps {
   placeholder?: string;
   onChange: (value: string) => void;
   ariaLabel?: string;
-  /** Trigger width — number (px) or "100%". Default 350 (Figma). */
+  /** Trigger width — number (px) or "100%" or "auto" for intrinsic. Default 350 (Figma). */
   width?: number | string;
   /** Max height of the open menu (scrolls past). Default 280. */
   menuMaxHeight?: number;
+  /** Vertical padding of the trigger button. Default 12. */
+  paddingY?: number;
+  /** Show the chevron icon on the right (default true). */
+  showChevron?: boolean;
 }
 
 const FADE =
@@ -32,8 +37,11 @@ export function Dropdown({
   ariaLabel,
   width = 350,
   menuMaxHeight = 280,
+  paddingY = 12,
+  showChevron = true,
 }: DropdownProps) {
   const [open, setOpen] = useState(false);
+  const [openUp, setOpenUp] = useState(false);
   const rootRef = useRef<HTMLDivElement>(null);
 
   // close on outside click
@@ -51,6 +59,17 @@ export function Dropdown({
       window.removeEventListener("pointerdown", onDown);
       window.removeEventListener("keydown", onKey);
     };
+  }, [open]);
+
+  // Flip the menu above the trigger when there's more room above than below
+  // — covers mobile (picker pinned to bottom, browser chrome eating space)
+  // and is harmless on desktop (header picker has tons of room below).
+  useEffect(() => {
+    if (!open || !rootRef.current) return;
+    const rect = rootRef.current.getBoundingClientRect();
+    const spaceBelow = window.innerHeight - rect.bottom;
+    const spaceAbove = rect.top;
+    setOpenUp(spaceAbove > spaceBelow);
   }, [open]);
 
   const current = options.find((o) => o.value === value);
@@ -73,7 +92,7 @@ export function Dropdown({
         style={{
           ...surface,
           width: "100%",
-          padding: "12px 16px",
+          padding: `${paddingY}px 16px`,
           display: "flex",
           alignItems: "center",
           gap: 8,
@@ -98,20 +117,22 @@ export function Dropdown({
         >
           {label}
         </span>
-        <Chevron open={open} />
+        {showChevron && <Chevron open={open} />}
       </button>
 
       <AnimatePresence>
         {open && (
           <motion.div
-            initial={{ opacity: 0, y: -6 }}
+            initial={{ opacity: 0, y: openUp ? 6 : -6 }}
             animate={{ opacity: 1, y: 0 }}
-            exit={{ opacity: 0, y: -6 }}
+            exit={{ opacity: 0, y: openUp ? 6 : -6 }}
             transition={{ duration: 0.14 }}
             style={{
               ...surface,
               position: "absolute",
-              top: "calc(100% + 8px)",
+              ...(openUp
+                ? { bottom: "calc(100% + 8px)" }
+                : { top: "calc(100% + 8px)" }),
               left: 0,
               right: 0,
               padding: 8,
@@ -148,6 +169,7 @@ export function Dropdown({
                         type="button"
                         onClick={(e) => {
                           e.stopPropagation();
+                          if (opt.value !== value) haptic("selection");
                           onChange(opt.value);
                           setOpen(false);
                         }}
