@@ -69,14 +69,36 @@ export function YearPicker({ compact = false, width = "100%" }: YearPickerProps)
   const maxIdx = years.length - 1;
   const pct = maxIdx === 0 ? 100 : (idx / maxIdx) * 100;
 
+  // rAF-batch state updates so a fast drag can't fire hundreds of renders
+  // per second (iOS Safari kills the page when scripts run too long). We
+  // remember the latest requested year and apply it once per frame.
+  const pendingYearRef = useRef<number | null>(null);
+  const rafRef = useRef<number | null>(null);
+  useEffect(
+    () => () => {
+      if (rafRef.current != null) cancelAnimationFrame(rafRef.current);
+    },
+    [],
+  );
+
   function onSlide(e: React.ChangeEvent<HTMLInputElement>) {
     const i = parseInt(e.target.value, 10);
     const y = years[i];
-    if (y === undefined || y === currentYear) return;
-    // hapticScrub throttles so each pulse plays — navigator.vibrate
-    // cancels in-flight pulses, so unthrottled scrubs feel like nothing.
-    hapticScrub("selection");
-    setYear(y === latestYear ? null : y);
+    if (y === undefined) return;
+    pendingYearRef.current = y;
+    if (rafRef.current != null) return;
+    rafRef.current = requestAnimationFrame(() => {
+      rafRef.current = null;
+      const py = pendingYearRef.current;
+      pendingYearRef.current = null;
+      if (py === null || py === currentYear) return;
+      try {
+        hapticScrub("selection");
+      } catch {
+        /* haptic is a nice-to-have, never crash on it */
+      }
+      setYear(py === latestYear ? null : py);
+    });
   }
 
   const trackHeight = compact ? 6 : 8;
