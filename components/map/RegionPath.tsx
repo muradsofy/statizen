@@ -2,6 +2,7 @@
 
 import type { RegionGeo } from "@/types/data";
 import { color } from "@/lib/ui/tokens";
+import { haptic } from "@/lib/haptics";
 
 export interface RegionPathProps {
   geo: RegionGeo;
@@ -44,12 +45,14 @@ export function RegionPath({
       onBlur={onLeave}
       onClick={(e) => {
         e.stopPropagation();
+        if (!active) haptic("medium");
         onSelect(geo.id);
       }}
       onKeyDown={(e) => {
         if (e.key === "Enter" || e.key === " ") {
           e.preventDefault();
           e.stopPropagation();
+          if (!active) haptic("medium");
           onSelect(geo.id);
         }
       }}
