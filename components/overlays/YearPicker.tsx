@@ -62,16 +62,10 @@ export function YearPicker({ compact = false, width = "100%" }: YearPickerProps)
     return () => ro.disconnect();
   }, []);
 
-  if (!years.length || latestYear === null) return null;
-
-  const currentYear = selectedYear ?? latestYear;
-  const idx = Math.max(0, years.indexOf(currentYear));
-  const maxIdx = years.length - 1;
-  const pct = maxIdx === 0 ? 100 : (idx / maxIdx) * 100;
-
   // rAF-batch state updates so a fast drag can't fire hundreds of renders
   // per second (iOS Safari kills the page when scripts run too long). We
   // remember the latest requested year and apply it once per frame.
+  // Declared above the early-return below so hook order stays stable.
   const pendingYearRef = useRef<number | null>(null);
   const rafRef = useRef<number | null>(null);
   useEffect(
@@ -80,6 +74,13 @@ export function YearPicker({ compact = false, width = "100%" }: YearPickerProps)
     },
     [],
   );
+
+  if (!years.length || latestYear === null) return null;
+
+  const currentYear = selectedYear ?? latestYear;
+  const idx = Math.max(0, years.indexOf(currentYear));
+  const maxIdx = years.length - 1;
+  const pct = maxIdx === 0 ? 100 : (idx / maxIdx) * 100;
 
   function onSlide(e: React.ChangeEvent<HTMLInputElement>) {
     const i = parseInt(e.target.value, 10);
