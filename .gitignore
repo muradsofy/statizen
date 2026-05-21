@@ -43,6 +43,11 @@ next-env.d.ts
 # Obsidian (stray config; vault lives in sibling Statizen-vault per ADR 0001)
 .obsidian/
 
+# Claude Code / agent local configs — preview-server launch config,
+# settings, memory, etc. Stay out of the repo.
+.claude/
+CLAUDE.md
+
 # ETL python
 etl/.venv/
 etl/raw/
