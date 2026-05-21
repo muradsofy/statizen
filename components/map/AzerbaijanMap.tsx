@@ -135,7 +135,12 @@ export function AzerbaijanMap() {
   return (
     <motion.div
       ref={wrapperRef}
-      drag={coarse && !isPinching}
+      // Drag only when no region is selected. Once selected we recentre the
+      // SVG transform on the region's bbox, which throws off any drag-bound
+      // math derived from `baseScale` — panning then exposes the black
+      // background on the short side. The user can tap the bg to deselect
+      // and pan freely again.
+      drag={coarse && !isPinching && !selectedRegionId}
       dragMomentum={false}
       dragElastic={0.15}
       // Clamp the touch drag so the user can't expose more than ~20% of
