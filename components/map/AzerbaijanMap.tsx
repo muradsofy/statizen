@@ -11,7 +11,7 @@ import { regionsGeo } from "@/lib/map/loadGeo";
 import { useAppStore } from "@/lib/state/store";
 import { useParallax } from "./useParallax";
 import { useMapGestures } from "./useMapGestures";
-import { RegionPath } from "./RegionPath";
+import { RegionFill } from "./RegionFill";
 import { color } from "@/lib/ui/tokens";
 import { t } from "@/lib/i18n/strings";
 
@@ -154,9 +154,10 @@ export function AzerbaijanMap() {
         fill={color.bg}
       />
       <g ref={gRef}>
+        {/* Pass 1 — interactive fills. No stroke here. */}
         {regionsGeo.regions.map((geo) => (
-          <RegionPath
-            key={geo.id}
+          <RegionFill
+            key={`fill-${geo.id}`}
             geo={geo}
             locale={locale}
             active={selectedRegionId === geo.id}
@@ -166,6 +167,42 @@ export function AzerbaijanMap() {
             onSelect={setSelected}
           />
         ))}
+        {/* Pass 2 — strokes on top of every fill, so adjacent regions
+            can't paint over each other's borders. Non-interactive. The
+            active region's stroke is rendered last (after this loop)
+            so a later-drawn neighbour can never clip it. */}
+        <g pointerEvents="none">
+          {regionsGeo.regions.map((geo) =>
+            selectedRegionId === geo.id ? null : (
+              <path
+                key={`stroke-${geo.id}`}
+                d={geo.d}
+                fill="none"
+                stroke={color.mapStroke}
+                strokeWidth={1}
+                vectorEffect="non-scaling-stroke"
+                shapeRendering="geometricPrecision"
+              />
+            ),
+          )}
+          {selectedRegionId &&
+            (() => {
+              const r = regionsGeo.regions.find(
+                (g) => g.id === selectedRegionId,
+              );
+              if (!r) return null;
+              return (
+                <path
+                  d={r.d}
+                  fill="none"
+                  stroke={color.mapStrokeActive}
+                  strokeWidth={1.5}
+                  vectorEffect="non-scaling-stroke"
+                  shapeRendering="geometricPrecision"
+                />
+              );
+            })()}
+        </g>
       </g>
     </svg>
     </div>

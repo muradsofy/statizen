@@ -4,7 +4,7 @@ import type { RegionGeo } from "@/types/data";
 import { color } from "@/lib/ui/tokens";
 import { haptic } from "@/lib/haptics";
 
-export interface RegionPathProps {
+export interface RegionFillProps {
   geo: RegionGeo;
   locale: "en" | "az";
   active: boolean;
@@ -14,7 +14,13 @@ export interface RegionPathProps {
   onSelect: (id: string) => void;
 }
 
-export function RegionPath({
+/**
+ * Interactive fill layer for one region. Stroke is drawn separately in
+ * a second pass (see AzerbaijanMap) so adjacent regions' fills can't
+ * paint over each other's borders, and the active region's outline is
+ * never clipped by a later-drawn neighbour.
+ */
+export function RegionFill({
   geo,
   locale,
   active,
@@ -22,7 +28,7 @@ export function RegionPath({
   onEnter,
   onLeave,
   onSelect,
-}: RegionPathProps) {
+}: RegionFillProps) {
   const fill = active
     ? color.accent
     : hovered
@@ -32,9 +38,7 @@ export function RegionPath({
     <path
       d={geo.d}
       fill={fill}
-      stroke={active ? color.mapStrokeActive : color.mapStroke}
-      strokeWidth={active ? 1.5 : 1}
-      vectorEffect="non-scaling-stroke"
+      stroke="none"
       tabIndex={0}
       role="button"
       aria-label={locale === "az" ? geo.name_az : geo.name_en}
