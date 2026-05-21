@@ -2,15 +2,15 @@
 
 import { useEffect, useRef, useState } from "react";
 import {
-  motion,
-  useSpring,
+  useMotionValue,
   useTransform,
   useMotionValueEvent,
+  animate,
 } from "framer-motion";
 import { regionsGeo } from "@/lib/map/loadGeo";
 import { useAppStore } from "@/lib/state/store";
 import { useParallax } from "./useParallax";
-import { usePinchZoom } from "./usePinchZoom";
+import { useMapGestures } from "./useMapGestures";
 import { RegionPath } from "./RegionPath";
 import { color } from "@/lib/ui/tokens";
 import { t } from "@/lib/i18n/strings";
@@ -72,28 +72,40 @@ export function AzerbaijanMap() {
 
   const { x: px, y: py } = useParallax(coarse ? 0 : PARALLAX);
   const baseScale = mobileVp ? BASE_SCALE_MOBILE : BASE_SCALE_DESKTOP;
-  const scale = useSpring(baseScale, SPRING);
-  const cx = useSpring(CX, SPRING);
-  const cy = useSpring(CY, SPRING);
+  // Plain MotionValues — not springs. Pinch and pan write to these on
+  // every touchmove and need to track fingers without lag; selection
+  // transitions go through `animate(...)` below for a smooth zoom.
+  const scale = useMotionValue(baseScale);
+  const cx = useMotionValue(CX);
+  const cy = useMotionValue(CY);
 
   useEffect(() => {
     const r = regionsGeo.regions.find((g) => g.id === selectedRegionId);
     if (r) {
-      // centre on the region's bbox centre and zoom so it fully fits
-      cx.set(r.bbox.x + r.bbox.w / 2);
-      cy.set(r.bbox.y + r.bbox.h / 2);
-      scale.set(fitScale(r.bbox.w, r.bbox.h));
+      animate(cx, r.bbox.x + r.bbox.w / 2, SPRING);
+      animate(cy, r.bbox.y + r.bbox.h / 2, SPRING);
+      animate(scale, fitScale(r.bbox.w, r.bbox.h), SPRING);
     } else {
-      cx.set(CX);
-      cy.set(CY);
-      scale.set(baseScale);
+      animate(cx, CX, SPRING);
+      animate(cy, CY, SPRING);
+      animate(scale, baseScale, SPRING);
     }
   }, [selectedRegionId, cx, cy, scale, baseScale]);
 
-  // Two-finger pinch-to-zoom on touch devices (no single-finger drag —
-  // see comment on the motion.div below).
+  // Pinch-to-zoom + horizontal pan on touch. Pan updates cx in viewBox
+  // units (not wrapper translate) so the page background is never
+  // exposed even at the country edges.
   const wrapperRef = useRef<HTMLDivElement>(null);
-  usePinchZoom(wrapperRef, scale, baseScale, PINCH_MAX);
+  useMapGestures(wrapperRef, scale, cx, {
+    baseScale,
+    pinchMax: PINCH_MAX,
+    vbWidth: VW,
+    cxNeutral: CX,
+    contentLeft: bbox.x,
+    contentRight: bbox.x + bbox.w,
+    vbLeft: bbox.x - PAD,
+    vbRight: bbox.x + bbox.w + PAD,
+  });
 
   const transform = useTransform(
     [scale, cx, cy, px, py],
@@ -113,13 +125,8 @@ export function AzerbaijanMap() {
   }, [transform]);
 
   return (
-    <motion.div
+    <div
       ref={wrapperRef}
-      // Drag-to-pan is intentionally disabled: at baseScale the country
-      // already fits the viewport, so panning has nothing to reveal — it
-      // only exposes the black background past the map edge. Region tap
-      // (fit-to-region) and two-finger pinch cover all zoom needs. Pinch
-      // is wired separately via usePinchZoom on this ref.
       style={{
         position: "absolute",
         inset: 0,
@@ -161,6 +168,6 @@ export function AzerbaijanMap() {
         ))}
       </g>
     </svg>
-    </motion.div>
+    </div>
   );
 }
