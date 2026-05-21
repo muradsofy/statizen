@@ -36,6 +36,16 @@ export const STRINGS = {
     en: "Switch language",
     az: "Dili dəyişdir",
   },
+  share: { en: "Share", az: "Paylaş" },
+  shareAria: { en: "Share this data", az: "Bu məlumatı paylaş" },
+  shareTagline: {
+    en: "Azerbaijan regional statistics",
+    az: "Azərbaycanın regional statistikası",
+  },
+  downloadPng: { en: "Download PNG", az: "PNG yüklə" },
+  downloadPdf: { en: "Download PDF", az: "PDF yüklə" },
+  shareNative: { en: "Share…", az: "Paylaş…" },
+  source: { en: "Source", az: "Mənbə" },
 } as const;
 
 export type StringKey = keyof typeof STRINGS;

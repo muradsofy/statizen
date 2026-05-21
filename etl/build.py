@@ -27,7 +27,8 @@ def main() -> None:
     all_values = []
     indicators = []
     used_chapters = set()
-    for iid, ch, code, sheet, unit, _label in chapters.iter_indicators():
+    for iid, ch, code, sheet, unit, _label_en, label_az in \
+            chapters.iter_indicators():
         rows, meta = parse.parse_indicator(iid)
         all_values.extend(rows)
         used_chapters.add(ch)
@@ -35,8 +36,10 @@ def main() -> None:
             "id": meta["id"],
             "chapter": ch,
             "label_en": meta["label_en"],
-            # label_az: source AZ title sentence (honest, source-traced).
-            "label_az": parse.az_title_for(iid) or meta["label_en"],
+            # label_az: curated translation from etl/chapters.py — NOT the
+            # verbose source-XLS sentence (which carries "9.x" section
+            # numbers and bureaucratic boilerplate with no EN counterpart).
+            "label_az": label_az,
             "unit": meta["unit"],
             "source_file": meta["source_file"],
             "last_updated": RETRIEVED,

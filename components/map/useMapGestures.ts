@@ -3,9 +3,9 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import type { MotionValue } from "framer-motion";
 import { animate } from "framer-motion";
+import { spring } from "@/lib/ui/motion";
 
 const PAN_THRESHOLD_PX = 6;
-const SNAP_SPRING = { type: "spring" as const, stiffness: 220, damping: 26 };
 
 interface PinchStart {
   dist: number;
@@ -37,6 +37,12 @@ export interface MapGesturesOptions {
   /** Visible viewBox horizontal range — usually `[contentLeft − PAD, contentRight + PAD]`. */
   vbLeft: number;
   vbRight: number;
+  /**
+   * Called on any touchstart. Caller should `.stop()` any running
+   * selection animations on `scale`/`cx`/`cy` so the gesture writes
+   * don't fight a still-settling spring.
+   */
+  onGestureStart?: () => void;
 }
 
 /**
@@ -72,6 +78,7 @@ export function useMapGestures(
       options.contentRight,
       options.vbLeft,
       options.vbRight,
+      options.onGestureStart,
     ],
   );
 
@@ -92,6 +99,9 @@ export function useMapGestures(
     }
 
     function onTouchStart(e: TouchEvent) {
+      // Stop any running selection-zoom so this gesture's writes don't
+      // fight a still-settling spring (cancel-on-gesture).
+      opts.onGestureStart?.();
       if (e.touches.length === 1) {
         panRef.current = {
           x: e.touches[0].clientX,
@@ -143,13 +153,13 @@ export function useMapGestures(
         pinchRef.current = null;
         setIsPinching(false);
         if (scale.get() < opts.baseScale) {
-          animate(scale, opts.baseScale, SNAP_SPRING);
-          animate(cx, opts.cxNeutral, SNAP_SPRING);
+          animate(scale, opts.baseScale, spring.snapBack);
+          animate(cx, opts.cxNeutral, spring.snapBack);
         } else {
           const b = cxBoundsAt(scale.get());
           const curr = cx.get();
           const clamped = Math.max(b.min, Math.min(b.max, curr));
-          if (clamped !== curr) animate(cx, clamped, SNAP_SPRING);
+          if (clamped !== curr) animate(cx, clamped, spring.panClamp);
         }
       }
       if (panRef.current && e.touches.length === 0) {

@@ -42,6 +42,30 @@ export function useUrlSync() {
     }
     syncLang(useAppStore.getState().locale);
 
+    // Debounce window.history.replaceState. Safari throttles the
+    // history API hard (≈100 calls per 30 s) and kills the page once
+    // the budget is exhausted — a fast year-scrub at 60 Hz blew past
+    // that limit and crashed iOS. Coalesce bursty updates and write
+    // the URL once the store has been quiet for 200 ms.
+    let pending: ReturnType<typeof setTimeout> | null = null;
+    function writeUrl() {
+      const s = useAppStore.getState();
+      const q = new URLSearchParams(window.location.search);
+      if (s.selectedRegionId) q.set("region", s.selectedRegionId);
+      else q.delete("region");
+      q.set("indicator", s.activeIndicatorId);
+      if (s.selectedYear !== null) q.set("year", String(s.selectedYear));
+      else q.delete("year");
+      if (s.locale !== "en") q.set("lang", s.locale);
+      else q.delete("lang");
+      const qs = q.toString();
+      window.history.replaceState(
+        null,
+        "",
+        qs ? `?${qs}` : window.location.pathname,
+      );
+    }
+
     const unsub = useAppStore.subscribe((s, prev) => {
       if (
         s.selectedRegionId === prev.selectedRegionId &&
@@ -51,24 +75,18 @@ export function useUrlSync() {
       ) {
         return;
       }
+      // Lang attribute isn't throttled — apply immediately.
       if (s.locale !== prev.locale) syncLang(s.locale);
 
-      const q = new URLSearchParams(window.location.search);
-      if (s.selectedRegionId) q.set("region", s.selectedRegionId);
-      else q.delete("region");
-      q.set("indicator", s.activeIndicatorId);
-      if (s.selectedYear !== null) q.set("year", String(s.selectedYear));
-      else q.delete("year");
-      if (s.locale !== "en") q.set("lang", s.locale);
-      else q.delete("lang");
-
-      const qs = q.toString();
-      window.history.replaceState(
-        null,
-        "",
-        qs ? `?${qs}` : window.location.pathname,
-      );
+      if (pending !== null) clearTimeout(pending);
+      pending = setTimeout(() => {
+        pending = null;
+        writeUrl();
+      }, 200);
     });
-    return unsub;
+    return () => {
+      if (pending !== null) clearTimeout(pending);
+      unsub();
+    };
   }, []);
 }

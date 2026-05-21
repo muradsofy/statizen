@@ -17,6 +17,8 @@
     "d3-interpolate": "^3.0.1",
     "d3-scale": "^4.0.2",
     "framer-motion": "^12.39.0",
+    "html-to-image": "^1.11.13",
+    "jspdf": "^4.2.1",
     "lucide-react": "^1.16.0",
     "next": "15.5.18",
     "next-intl": "^4.12.0",

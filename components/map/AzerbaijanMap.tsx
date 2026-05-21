@@ -1,11 +1,14 @@
 "use client";
 
-import { useEffect, useRef, useState } from "react";
+import { useCallback, useEffect, useRef, useState } from "react";
 import {
+  motion,
   useMotionValue,
   useTransform,
   useMotionValueEvent,
+  useReducedMotion,
   animate,
+  type AnimationPlaybackControls,
 } from "framer-motion";
 import { regionsGeo } from "@/lib/map/loadGeo";
 import { useAppStore } from "@/lib/state/store";
@@ -13,6 +16,7 @@ import { useParallax } from "./useParallax";
 import { useMapGestures } from "./useMapGestures";
 import { RegionFill } from "./RegionFill";
 import { color } from "@/lib/ui/tokens";
+import { spring } from "@/lib/ui/motion";
 import { t } from "@/lib/i18n/strings";
 
 const { bbox } = regionsGeo;
@@ -34,7 +38,6 @@ const SEL_MIN = 1.3;
 const SEL_MAX = 3.0;
 const PINCH_MAX = 3.0; // upper bound for manual two-finger zoom
 const PARALLAX = Math.round(bbox.w * 0.03);
-const SPRING = { stiffness: 120, damping: 22, mass: 0.5 };
 
 /** Zoom that makes a region's bbox fully fit the view with margin. */
 function fitScale(rw: number, rh: number): number {
@@ -79,18 +82,50 @@ export function AzerbaijanMap() {
   const cx = useMotionValue(CX);
   const cy = useMotionValue(CY);
 
+  // Respect OS-level reduced-motion. Selection still re-centres + zooms,
+  // it just snaps instead of springs.
+  const reduced = useReducedMotion();
+
+  // Hold onto the currently-running selection animation controls so a
+  // new selection (or a gesture taking over) can `.stop()` them — no
+  // ghost springs settling into stale targets.
+  const selectAnims = useRef<AnimationPlaybackControls[]>([]);
+  const stopSelectAnims = useCallback(() => {
+    for (const a of selectAnims.current) a.stop();
+    selectAnims.current = [];
+  }, []);
+
   useEffect(() => {
+    stopSelectAnims();
     const r = regionsGeo.regions.find((g) => g.id === selectedRegionId);
-    if (r) {
-      animate(cx, r.bbox.x + r.bbox.w / 2, SPRING);
-      animate(cy, r.bbox.y + r.bbox.h / 2, SPRING);
-      animate(scale, fitScale(r.bbox.w, r.bbox.h), SPRING);
-    } else {
-      animate(cx, CX, SPRING);
-      animate(cy, CY, SPRING);
-      animate(scale, baseScale, SPRING);
+    const targets = r
+      ? {
+          cx: r.bbox.x + r.bbox.w / 2,
+          cy: r.bbox.y + r.bbox.h / 2,
+          scale: fitScale(r.bbox.w, r.bbox.h),
+          preset: spring.selectZoom,
+        }
+      : {
+          cx: CX,
+          cy: CY,
+          scale: baseScale,
+          preset: spring.deselect,
+        };
+
+    if (reduced) {
+      cx.set(targets.cx);
+      cy.set(targets.cy);
+      scale.set(targets.scale);
+      return;
     }
-  }, [selectedRegionId, cx, cy, scale, baseScale]);
+
+    selectAnims.current = [
+      animate(cx, targets.cx, targets.preset),
+      animate(cy, targets.cy, targets.preset),
+      animate(scale, targets.scale, targets.preset),
+    ];
+    return stopSelectAnims;
+  }, [selectedRegionId, cx, cy, scale, baseScale, reduced]);
 
   // Pinch-to-zoom + horizontal pan on touch. Pan updates cx in viewBox
   // units (not wrapper translate) so the page background is never
@@ -105,6 +140,7 @@ export function AzerbaijanMap() {
     contentRight: bbox.x + bbox.w,
     vbLeft: bbox.x - PAD,
     vbRight: bbox.x + bbox.w + PAD,
+    onGestureStart: stopSelectAnims,
   });
 
   const transform = useTransform(
@@ -191,15 +227,46 @@ export function AzerbaijanMap() {
                 (g) => g.id === selectedRegionId,
               );
               if (!r) return null;
+              const clipId = `active-clip-${r.id}`;
+              // Inset outline: clip the stroke to inside the region's
+              // fill so the outer half is hidden — no halo past the
+              // edge. Stroke width is doubled so the visible inner
+              // band ends up at ~1 px (half of 2 falls inside the clip,
+              // half outside is discarded).
+              //
+              // motion.path animates pathLength 0 → 1 on mount so the
+              // outline appears to *trace* around the selected region.
+              // Keyed by region id so React remounts when selection
+              // changes, re-triggering the animation each time.
               return (
-                <path
-                  d={r.d}
-                  fill="none"
-                  stroke={color.mapStrokeActive}
-                  strokeWidth={1.5}
-                  vectorEffect="non-scaling-stroke"
-                  shapeRendering="geometricPrecision"
-                />
+                <>
+                  <clipPath id={clipId}>
+                    <path d={r.d} />
+                  </clipPath>
+                  <motion.path
+                    key={`active-stroke-${r.id}`}
+                    d={r.d}
+                    fill="none"
+                    stroke={color.mapStrokeActive}
+                    strokeWidth={2}
+                    vectorEffect="non-scaling-stroke"
+                    shapeRendering="geometricPrecision"
+                    clipPath={`url(#${clipId})`}
+                    initial={reduced ? false : { pathLength: 0, opacity: 0 }}
+                    animate={{ pathLength: 1, opacity: 1 }}
+                    transition={
+                      reduced
+                        ? { duration: 0 }
+                        : {
+                            pathLength: {
+                              duration: 0.5,
+                              ease: [0.22, 1, 0.36, 1], // ease-out-quint
+                            },
+                            opacity: { duration: 0.15 },
+                          }
+                    }
+                  />
+                </>
               );
             })()}
         </g>

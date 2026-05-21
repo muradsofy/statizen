@@ -3,27 +3,53 @@
 import { useEffect, useLayoutEffect, useRef, useState } from "react";
 import { indicatorsData } from "@/lib/data/loadData";
 import { useAppStore } from "@/lib/state/store";
-import { surface } from "@/lib/ui/tokens";
 import { t } from "@/lib/i18n/strings";
 import { hapticScrub } from "@/lib/haptics";
 
 export interface YearPickerProps {
-  /** Mobile variant: 40px tall, 6px track, 14px pill text (Figma 34:348). */
+  /** Mobile variant retained for API back-compat; visual spec is identical. */
   compact?: boolean;
   width?: number | string;
 }
 
-/** Visual breathing room between the pill and the rounded track ends. */
-const PILL_INSET = 0;
+// Figma node 42:110 (mobile) / 34:321 (desktop) — both 350 × 32.
+const TRACK_HEIGHT = 32;
+// Hit-area expansion above + below the visible track. 32 + 2·6 = 44 px,
+// matching Apple's HIG minimum without changing the visual layout.
+const HIT_EXPAND_PX = 6;
+const PILL_HEIGHT = 32;
+const PILL_FONT_SIZE = 14;
 
 /**
- * Minimal horizontal track with a small white pill at the slider thumb
- * indicating the year. Matches Figma node 34:321 (desktop) / 34:348 (mobile).
- * The pill's edges sit flush against the rounded ends of the track at the
- * extreme positions — width is measured at runtime so 4-digit / mixed
- * Archivo glyphs all align.
+ * Year scrubber. Matches Figma node 42:110 (mobile) and 34:321 (desktop):
+ *
+ *   • 32 px tall pill-shaped track (`rgba(34,34,34,0.5)` + 6.55 px
+ *     backdrop blur + 0.5 px border `rgba(255,255,255,0.25)`,
+ *     border-radius 24).
+ *   • White pill (`#3c3c3c` text, 14 px Archivo SemiBold) sliding along
+ *     the full width, sitting on top of the border (`top: -0.5`).
+ *
+ * UX details that aren't in the design but matter on mobile:
+ *
+ *   • The native `<input type="range">` is invisible and expanded ±6 px
+ *     vertically so the full hit area is 44 px (HIG minimum).
+ *     `touch-action: pan-x` so the slider captures horizontal touches
+ *     without competing with vertical scroll.
+ *   • The pill's `left` change is *not* CSS-transitioned during a drag.
+ *     onChange already fires at the input's native rate (~60 Hz); a
+ *     parallel 80 ms transition on every frame just stacks up animations
+ *     and stutters. Transition is enabled only for non-drag jumps
+ *     (e.g. URL state changes, year reset).
+ *   • `setSelectedYear` is rAF-batched so a fast drag can't fire
+ *     hundreds of renders per second (iOS Safari kills pages that hang
+ *     the main thread). The store update is paired with a debounced URL
+ *     write in `useUrlSync` so we also don't hammer history.replaceState.
  */
 export function YearPicker({ compact = false, width = "100%" }: YearPickerProps) {
+  // `compact` is accepted but currently has no visual effect — kept for API
+  // back-compat with callers that already pass it.
+  void compact;
+
   const activeIndicatorId = useAppStore((s) => s.activeIndicatorId);
   const selectedYear = useAppStore((s) => s.selectedYear);
   const setYear = useAppStore((s) => s.setSelectedYear);
@@ -45,15 +71,15 @@ export function YearPicker({ compact = false, width = "100%" }: YearPickerProps)
     }
   }, [activeIndicatorId, selectedYear, years, setYear]);
 
-  // Measure pill width so we can keep its edges flush against the track ends.
+  // Measure pill width so the pill's left edge can sit flush against the
+  // track's right edge at the max year.
   const pillRef = useRef<HTMLDivElement>(null);
   const [pillWidth, setPillWidth] = useState(48);
-
   useLayoutEffect(() => {
     const el = pillRef.current;
     if (!el) return;
     const measure = () => {
-      const w = el.offsetWidth; // border-box width incl. padding
+      const w = el.offsetWidth;
       setPillWidth((prev) => (Math.abs(w - prev) > 0.5 ? w : prev));
     };
     measure();
@@ -62,9 +88,7 @@ export function YearPicker({ compact = false, width = "100%" }: YearPickerProps)
     return () => ro.disconnect();
   }, []);
 
-  // rAF-batch state updates so a fast drag can't fire hundreds of renders
-  // per second (iOS Safari kills the page when scripts run too long). We
-  // remember the latest requested year and apply it once per frame.
+  // rAF-batch state updates so a fast drag can't fire 60+ renders/sec.
   // Declared above the early-return below so hook order stays stable.
   const pendingYearRef = useRef<number | null>(null);
   const rafRef = useRef<number | null>(null);
@@ -74,6 +98,11 @@ export function YearPicker({ compact = false, width = "100%" }: YearPickerProps)
     },
     [],
   );
+
+  // True while the user is actively touching/dragging the slider —
+  // disables the pill's CSS transition so a 60 Hz scrub doesn't stack
+  // queued animations.
+  const [dragging, setDragging] = useState(false);
 
   if (!years.length || latestYear === null) return null;
 
@@ -102,83 +131,85 @@ export function YearPicker({ compact = false, width = "100%" }: YearPickerProps)
     });
   }
 
-  const trackHeight = compact ? 6 : 8;
-  const pillHeight = 24;
-  const pillFontSize = compact ? 14 : 16;
-  const containerHeight = compact ? 40 : 56;
-  const containerPad = compact ? "8px 8px" : "8px 8px";
-
   return (
     <div
       style={{
-        ...surface,
-        width,
-        height: containerHeight,
-        padding: containerPad,
         position: "relative",
-        display: "flex",
-        alignItems: "center",
-        overflow: "hidden",
+        width,
+        height: TRACK_HEIGHT,
+        background: "rgba(34, 34, 34, 0.5)",
+        backdropFilter: "blur(6.55px)",
+        WebkitBackdropFilter: "blur(6.55px)",
+        border: "0.5px solid rgba(255, 255, 255, 0.25)",
+        borderRadius: 24,
+        overflow: "clip",
+        boxSizing: "border-box",
       }}
     >
-      <div
+      <input
+        type="range"
+        min={0}
+        max={maxIdx}
+        step={1}
+        value={idx}
+        onChange={onSlide}
+        onPointerDown={() => setDragging(true)}
+        onPointerUp={() => setDragging(false)}
+        onPointerCancel={() => setDragging(false)}
+        onTouchStart={() => setDragging(true)}
+        onTouchEnd={() => setDragging(false)}
+        onTouchCancel={() => setDragging(false)}
+        aria-label={t("year", locale)}
         style={{
-          position: "relative",
-          flex: 1,
-          height: trackHeight,
-          background: "rgba(255,255,255,0.25)",
-          borderRadius: 999,
+          position: "absolute",
+          // Expand the hit area vertically while keeping the visible
+          // track at 32 px — touch target is now 44 px.
+          top: -HIT_EXPAND_PX,
+          left: 0,
+          width: "100%",
+          height: TRACK_HEIGHT + HIT_EXPAND_PX * 2,
+          opacity: 0,
+          margin: 0,
+          padding: 0,
+          background: "transparent",
+          WebkitAppearance: "none",
+          appearance: "none",
+          touchAction: "pan-x",
+          cursor: "pointer",
+          zIndex: 2,
+        }}
+        className="year-slider"
+      />
+      {/* Year pill. Sits on the track surface (top: -0.5 over the border).
+          left is anchored so the pill stays inside the track at idx=0 / max. */}
+      <div
+        ref={pillRef}
+        style={{
+          position: "absolute",
+          top: -0.5,
+          left: `calc((100% - ${pillWidth}px) * ${pct} / 100)`,
+          height: PILL_HEIGHT,
+          background: "#ffffff",
+          color: "#3c3c3c",
+          padding: "4px 8px",
+          borderRadius: 99,
+          fontSize: PILL_FONT_SIZE,
+          fontWeight: 600,
+          lineHeight: "16px",
+          letterSpacing: "-0.28px",
+          whiteSpace: "nowrap",
+          pointerEvents: "none",
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+          // Only transition when NOT actively dragging — the input fires
+          // onChange at ~60 Hz during a scrub and CSS transitions on
+          // every frame cause iOS jank.
+          transition: dragging ? "none" : "left 120ms ease-out",
+          willChange: "left",
         }}
       >
-        <input
-          type="range"
-          min={0}
-          max={maxIdx}
-          step={1}
-          value={idx}
-          onChange={onSlide}
-          aria-label={t("year", locale)}
-          style={{
-            position: "absolute",
-            inset: `${-(pillHeight - trackHeight) / 2}px 0`,
-            width: "100%",
-            height: pillHeight,
-            opacity: 0,
-            cursor: "pointer",
-            margin: 0,
-            padding: 0,
-            background: "transparent",
-            WebkitAppearance: "none",
-            appearance: "none",
-            zIndex: 2,
-          }}
-          className="year-slider"
-        />
-        {/* Year pill — left edge anchored so the pill stays inside the
-            track at idx=0 / idx=max, with a small inset on both ends. */}
-        <div
-          ref={pillRef}
-          style={{
-            position: "absolute",
-            top: "50%",
-            // pill left edge = inset + (trackWidth - pillWidth - 2*inset) * pct/100
-            left: `calc(${PILL_INSET}px + (100% - ${pillWidth + PILL_INSET * 2}px) * ${pct} / 100)`,
-            transform: "translateY(-50%)",
-            background: "#ffffff",
-            color: "#3c3c3c",
-            padding: "4px 6px",
-            borderRadius: 99,
-            fontSize: pillFontSize,
-            fontWeight: 600,
-            lineHeight: "16px",
-            letterSpacing: pillFontSize === 14 ? "-0.28px" : "-0.32px",
-            whiteSpace: "nowrap",
-            pointerEvents: "none",
-            transition: "left 80ms ease-out",
-          }}
-        >
-          {currentYear}
-        </div>
+        {currentYear}
       </div>
     </div>
   );
