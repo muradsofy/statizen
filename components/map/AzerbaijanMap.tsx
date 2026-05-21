@@ -6,8 +6,6 @@ import {
   useSpring,
   useTransform,
   useMotionValueEvent,
-  animate,
-  useMotionValue,
 } from "framer-motion";
 import { regionsGeo } from "@/lib/map/loadGeo";
 import { useAppStore } from "@/lib/state/store";
@@ -72,21 +70,7 @@ export function AzerbaijanMap() {
     return () => m.removeEventListener?.("change", apply);
   }, []);
 
-  // Viewport size for clamping the touch drag — without this the user can
-  // drag the country off-screen and reveal the empty black background.
-  const [vp, setVp] = useState({ w: 0, h: 0 });
-  useEffect(() => {
-    const measure = () =>
-      setVp({ w: window.innerWidth, h: window.innerHeight });
-    measure();
-    window.addEventListener("resize", measure);
-    return () => window.removeEventListener("resize", measure);
-  }, []);
-
   const { x: px, y: py } = useParallax(coarse ? 0 : PARALLAX);
-  // Drag offset in screen pixels (applied to the wrapper via CSS translate).
-  const dragX = useMotionValue(0);
-  const dragY = useMotionValue(0);
   const baseScale = mobileVp ? BASE_SCALE_MOBILE : BASE_SCALE_DESKTOP;
   const scale = useSpring(baseScale, SPRING);
   const cx = useSpring(CX, SPRING);
@@ -104,16 +88,12 @@ export function AzerbaijanMap() {
       cy.set(CY);
       scale.set(baseScale);
     }
-    // Selection cancels any accumulated drag — bring the region into view
-    animate(dragX, 0, { type: "spring", ...SPRING });
-    animate(dragY, 0, { type: "spring", ...SPRING });
-  }, [selectedRegionId, cx, cy, scale, dragX, dragY, baseScale]);
+  }, [selectedRegionId, cx, cy, scale, baseScale]);
 
-  // Pinch-to-zoom on touch. Reports isPinching so we can disable the
-  // single-finger drag while two fingers are down (otherwise framer's
-  // drag tracks one finger and skews the pinch).
+  // Two-finger pinch-to-zoom on touch devices (no single-finger drag —
+  // see comment on the motion.div below).
   const wrapperRef = useRef<HTMLDivElement>(null);
-  const { isPinching } = usePinchZoom(wrapperRef, scale, baseScale, PINCH_MAX);
+  usePinchZoom(wrapperRef, scale, baseScale, PINCH_MAX);
 
   const transform = useTransform(
     [scale, cx, cy, px, py],
@@ -135,32 +115,16 @@ export function AzerbaijanMap() {
   return (
     <motion.div
       ref={wrapperRef}
-      // Drag only when no region is selected. Once selected we recentre the
-      // SVG transform on the region's bbox, which throws off any drag-bound
-      // math derived from `baseScale` — panning then exposes the black
-      // background on the short side. The user can tap the bg to deselect
-      // and pan freely again.
-      drag={coarse && !isPinching && !selectedRegionId}
-      dragMomentum={false}
-      dragElastic={0.15}
-      // Clamp the touch drag so the user can't expose more than ~20% of
-      // empty viewport past the map on any side. The map renders at
-      // baseScale (1.4× on mobile) so the "extra" content beyond the
-      // viewport is (baseScale − 1)/2 on each side. Add a little slack so
-      // the elastic rebound feels natural.
-      dragConstraints={{
-        left: -vp.w * (baseScale - 1) * 0.5,
-        right: vp.w * (baseScale - 1) * 0.5,
-        top: -vp.h * (baseScale - 1) * 0.5,
-        bottom: vp.h * (baseScale - 1) * 0.5,
-      }}
+      // Drag-to-pan is intentionally disabled: at baseScale the country
+      // already fits the viewport, so panning has nothing to reveal — it
+      // only exposes the black background past the map edge. Region tap
+      // (fit-to-region) and two-finger pinch cover all zoom needs. Pinch
+      // is wired separately via usePinchZoom on this ref.
       style={{
         position: "absolute",
         inset: 0,
         width: "100%",
         height: "100%",
-        x: dragX,
-        y: dragY,
         touchAction: coarse ? "none" : "auto",
       }}
     >
