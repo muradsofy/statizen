@@ -1,7 +1,8 @@
 # Statizen
 
-Interactive map of Azerbaijan's labour statistics by economic region.
-Single-page, dark, full-bleed. Source data: **stat.gov.az**.
+Interactive map of Azerbaijan's regional statistics — demography, labour
+market, health, crime, and trade — by economic region. Single-page, dark,
+full-bleed. Lives at **statizen.space**. Source data: **stat.gov.az**.
 
 ![Statizen OG](./public/og.png)
 

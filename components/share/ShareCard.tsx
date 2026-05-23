@@ -36,7 +36,7 @@ const VB = `${bbox.x} ${bbox.y} ${bbox.w} ${bbox.h}`;
  *   • Big accent value with glow
  *   • Region name
  *   • Mini-map of Azerbaijan with the selected region highlighted
- *   • Footer: source citation + statizen.vercel.app
+ *   • Footer: source citation + statizen.space
  */
 export function ShareCard({
   region,
@@ -119,7 +119,7 @@ export function ShareCard({
       {/* Footer */}
       <footer style={footerStyle}>
         <span>{t("source", locale)}: stat.gov.az</span>
-        <span style={{ opacity: 0.9 }}>statizen.vercel.app</span>
+        <span style={{ opacity: 0.9 }}>statizen.space</span>
       </footer>
     </div>
   );

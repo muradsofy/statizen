@@ -8,22 +8,28 @@ const archivo = Archivo({
   axes: ["wdth"],
 });
 
+const SITE_URL = "https://statizen.space";
+const SITE_TITLE = "Statizen — Azerbaijan regional statistics";
+const SITE_DESCRIPTION =
+  "Interactive map of Azerbaijan's regional statistics — demography, labour market, health, crime, and trade across the 14 economic regions. Source: stat.gov.az.";
+
 export const metadata: Metadata = {
-  title: "Statizen — Azerbaijan Labour Map",
-  description:
-    "Interactive map of Azerbaijan's labour statistics by economic region. Source: stat.gov.az.",
+  metadataBase: new URL(SITE_URL),
+  title: SITE_TITLE,
+  description: SITE_DESCRIPTION,
+  alternates: { canonical: "/" },
   openGraph: {
-    title: "Statizen — Azerbaijan Labour Map",
-    description:
-      "Interactive map of Azerbaijan's labour statistics by economic region. Source: stat.gov.az.",
+    title: SITE_TITLE,
+    description: SITE_DESCRIPTION,
     type: "website",
+    url: SITE_URL,
+    siteName: "Statizen",
     images: [{ url: "/og.png", width: 1200, height: 630, alt: "Statizen" }],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Statizen — Azerbaijan Labour Map",
-    description:
-      "Interactive map of Azerbaijan's labour statistics by economic region.",
+    title: SITE_TITLE,
+    description: SITE_DESCRIPTION,
     images: ["/og.png"],
   },
 };
