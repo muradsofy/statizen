@@ -18,7 +18,9 @@ export interface DropdownProps {
   ariaLabel?: string;
   /** Trigger width — number (px) or "100%" or "auto" for intrinsic. Default 350 (Figma). */
   width?: number | string;
-  /** Max height of the open menu (scrolls past). Default 280. */
+  /** Ideal ceiling for the open menu. Dynamically clamped to fit the
+   *  available space in the viewport (with 16px breathing room), so on a
+   *  small phone the menu shrinks instead of overflowing. Default 480. */
   menuMaxHeight?: number;
   /** Vertical padding of the trigger button. Default 12. */
   paddingY?: number;
@@ -36,13 +38,19 @@ export function Dropdown({
   onChange,
   ariaLabel,
   width = 350,
-  menuMaxHeight = 280,
+  menuMaxHeight = 480,
   paddingY = 12,
   showChevron = true,
 }: DropdownProps) {
   const [open, setOpen] = useState(false);
   const [openUp, setOpenUp] = useState(false);
+  const [effectiveMax, setEffectiveMax] = useState(menuMaxHeight);
   const rootRef = useRef<HTMLDivElement>(null);
+
+  // Floor so a viewport pathologically short on space still shows a
+  // couple of items rather than a sliver.
+  const MIN_MENU_HEIGHT = 160;
+  const VIEWPORT_BREATHING_ROOM = 16;
 
   // close on outside click
   useEffect(() => {
@@ -64,13 +72,26 @@ export function Dropdown({
   // Flip the menu above the trigger when there's more room above than below
   // — covers mobile (picker pinned to bottom, browser chrome eating space)
   // and is harmless on desktop (header picker has tons of room below).
+  // Also clamp the menu height to whichever side wins, so a long region
+  // list on a short phone shrinks instead of overflowing.
   useEffect(() => {
     if (!open || !rootRef.current) return;
-    const rect = rootRef.current.getBoundingClientRect();
-    const spaceBelow = window.innerHeight - rect.bottom;
-    const spaceAbove = rect.top;
-    setOpenUp(spaceAbove > spaceBelow);
-  }, [open]);
+    function recompute() {
+      if (!rootRef.current) return;
+      const rect = rootRef.current.getBoundingClientRect();
+      const spaceBelow = window.innerHeight - rect.bottom;
+      const spaceAbove = rect.top;
+      const flip = spaceAbove > spaceBelow;
+      setOpenUp(flip);
+      const usable = (flip ? spaceAbove : spaceBelow) - VIEWPORT_BREATHING_ROOM;
+      setEffectiveMax(
+        Math.max(MIN_MENU_HEIGHT, Math.min(menuMaxHeight, usable)),
+      );
+    }
+    recompute();
+    window.addEventListener("resize", recompute);
+    return () => window.removeEventListener("resize", recompute);
+  }, [open, menuMaxHeight]);
 
   const current = options.find((o) => o.value === value);
   const label = current ? current.label : placeholder;
@@ -136,7 +157,7 @@ export function Dropdown({
               left: 0,
               right: 0,
               padding: 8,
-              maxHeight: menuMaxHeight,
+              maxHeight: effectiveMax,
               overflow: "hidden",
               zIndex: 20,
             }}
@@ -144,7 +165,7 @@ export function Dropdown({
             <div
               className="no-scrollbar"
               style={{
-                maxHeight: menuMaxHeight - 16,
+                maxHeight: effectiveMax - 16,
                 overflowY: "auto",
                 maskImage: FADE,
                 WebkitMaskImage: FADE,
