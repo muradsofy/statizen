@@ -48,6 +48,15 @@ export function IndicatorPicker({
   }
 
   if (layout === "row") {
+    // Mobile only. These dropdowns open *downward* (lots of space
+    // below) but must not grow into the RegionPill that sits at the top
+    // of the bottom UI stack — query its top edge at recompute time
+    // (re-evaluates on resize so it handles viewport changes / DataCard
+    // height changes correctly).
+    const boundaryBottom = () => {
+      const el = document.querySelector("[data-statizen-region-pill]");
+      return el ? (el as HTMLElement).getBoundingClientRect().top : undefined;
+    };
     // Per Figma 34:332 — both pills share width 1:1 (flex-[1_0_0]) with
     // chevrons on each.
     return (
@@ -69,6 +78,7 @@ export function IndicatorPicker({
               ariaLabel={t("chapter", locale)}
               width="100%"
               paddingY={12}
+              boundaryBottom={boundaryBottom}
             />
           </div>
         )}
@@ -80,11 +90,21 @@ export function IndicatorPicker({
             ariaLabel={t("indicator", locale)}
             width="100%"
             paddingY={12}
+            boundaryBottom={boundaryBottom}
           />
         </div>
       </div>
     );
   }
+
+  // Desktop only (stacked layout). Bound downward growth above the
+  // bottom-left LocationsPanel + DataCard cluster — same intent as
+  // the mobile bound, just keyed to a different element. Re-resolves
+  // on each recompute so it survives DataCard text-length changes.
+  const boundaryBottom = () => {
+    const el = document.querySelector("[data-statizen-desktop-bottom]");
+    return el ? (el as HTMLElement).getBoundingClientRect().top : undefined;
+  };
 
   return (
     <div style={{ display: "flex", flexDirection: "column", gap: 8, width }}>
@@ -95,6 +115,7 @@ export function IndicatorPicker({
           onChange={onChapterChange}
           ariaLabel={t("chapter", locale)}
           width="100%"
+          boundaryBottom={boundaryBottom}
         />
       )}
       <Dropdown
@@ -103,6 +124,7 @@ export function IndicatorPicker({
         onChange={setActive}
         ariaLabel={t("indicator", locale)}
         width="100%"
+        boundaryBottom={boundaryBottom}
       />
     </div>
   );

@@ -13,7 +13,6 @@ import type { Locale } from "@/types/data";
 export const STRINGS = {
   appTitle: { en: "Statizen", az: "Statizen" },
   followUs: { en: "Follow us", az: "Bizi izləyin" },
-  followUsComingSoon: { en: "Coming soon", az: "Tezliklə" },
   mapAria: {
     en: "Map of Azerbaijan economic regions",
     az: "Azərbaycanın iqtisadi rayonları xəritəsi",
@@ -32,10 +31,9 @@ export const STRINGS = {
   updated: { en: "Updated", az: "Yeniləndi" },
   localeEn: { en: "EN", az: "EN" },
   localeAz: { en: "AZ", az: "AZ" },
-  localeToggleAria: {
-    en: "Switch language",
-    az: "Dili dəyişdir",
-  },
+  language: { en: "Language", az: "Dil" },
+  theme: { en: "Theme", az: "Mövzu" },
+  themeComingSoon: { en: "Light mode soon", az: "İşıqlı rejim tezliklə" },
   share: { en: "Share", az: "Paylaş" },
   shareAria: { en: "Share this data", az: "Bu məlumatı paylaş" },
   shareTagline: {

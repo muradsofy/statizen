@@ -49,15 +49,28 @@ export function RegionPill({ width = "100%" }: { width?: number | string }) {
     label: locale === "az" ? r.name_az : r.name_en,
   }));
 
+  // Mobile-only: the IndicatorPicker row sits at top:77 and is ~44px
+  // tall (chapter+indicator row). Stop the upward-opening menu just
+  // below it so the two pickers never visually merge. The dropdown
+  // re-clamps on resize, so this constant is safe across orientations.
+  const REGION_MENU_TOP = 77 + 44 + 8;
+
+  // data-statizen-region-pill — stable selector for the mobile
+  // IndicatorPicker's `boundaryBottom`, which needs the RegionPill's
+  // top edge to know when to stop downward menu growth. Locale-neutral
+  // unlike the aria-label.
   return (
-    <Dropdown
-      value={selectedRegionId}
-      options={options}
-      placeholder={t("selectRegion", locale)}
-      onChange={setSelected}
-      ariaLabel={t("region", locale)}
-      width={width}
-      paddingY={12}
-    />
+    <div data-statizen-region-pill>
+      <Dropdown
+        value={selectedRegionId}
+        options={options}
+        placeholder={t("selectRegion", locale)}
+        onChange={setSelected}
+        ariaLabel={t("region", locale)}
+        width={width}
+        paddingY={12}
+        boundaryTop={REGION_MENU_TOP}
+      />
+    </div>
   );
 }

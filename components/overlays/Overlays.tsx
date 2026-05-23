@@ -10,7 +10,7 @@ import { IndicatorPicker } from "./IndicatorPicker";
 import { RegionPill } from "./RegionPicker";
 import { YearPicker } from "./YearPicker";
 import { ShareButton } from "./ShareButton";
-import { LocaleToggle } from "./LocaleToggle";
+import { HeaderMenu } from "./HeaderMenu";
 
 export function Overlays() {
   useUrlSync();
@@ -35,8 +35,8 @@ export function Overlays() {
           className="flex items-center gap-2"
           style={{ pointerEvents: "auto" }}
         >
-          <LocaleToggle />
           <FollowUs />
+          <HeaderMenu />
         </div>
       </div>
 
@@ -51,6 +51,7 @@ export function Overlays() {
       {/* Desktop bottom-left: locations list + data card */}
       <div
         className="hidden md:flex fixed left-[88px] bottom-9 gap-[18px] z-10"
+        data-statizen-desktop-bottom
         style={{ pointerEvents: "none" }}
       >
         <div style={{ pointerEvents: "auto" }}>

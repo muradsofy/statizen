@@ -73,7 +73,7 @@ export function ShareCard({
     >
       {/* Header */}
       <header style={headerStyle}>
-        <div style={wordmarkStyle}>Statizen</div>
+        <div style={wordmarkStyle}>statizen</div>
         <div style={taglineStyle}>{t("shareTagline", locale)}</div>
       </header>
 

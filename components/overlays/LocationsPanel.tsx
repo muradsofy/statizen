@@ -7,7 +7,7 @@ import { useAppStore } from "@/lib/state/store";
 import { surface, color, glow } from "@/lib/ui/tokens";
 
 const FADE =
-  "linear-gradient(to bottom, transparent 0, #000 28px, #000 calc(100% - 28px), transparent 100%)";
+  "linear-gradient(to bottom, transparent 0, #000 16px, #000 calc(100% - 16px), transparent 100%)";
 
 export function LocationsPanel() {
   const regions = regionsData.regions;
@@ -31,7 +31,12 @@ export function LocationsPanel() {
       initial={{ opacity: 0, y: 8 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.2 }}
-      style={{ ...surface, width: 200, height: 300, padding: 24 }}
+      style={{
+        ...surface,
+        width: 200,
+        height: 300,
+        padding: "16px 24px",
+      }}
     >
       <div
         ref={scrollRef}

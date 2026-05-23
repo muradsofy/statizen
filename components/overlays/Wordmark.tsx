@@ -11,7 +11,7 @@ export function Wordmark() {
         userSelect: "none",
       }}
     >
-      Statizen
+      statizen
     </span>
   );
 }
