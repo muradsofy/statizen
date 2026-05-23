@@ -14,7 +14,9 @@ interface PinchStart {
 
 interface PanStart {
   x: number;
+  y: number;
   cx: number;
+  cy: number;
   active: boolean;
 }
 
@@ -27,16 +29,23 @@ export interface MapGesturesOptions {
   pinchMax: number;
   /** Pinch can rubber-band below this factor of baseScale during the gesture. */
   pinchMinFactor?: number;
-  /** Full viewBox width (units) — used for px → vb conversion when panning. */
+  /** Full viewBox width/height (units) — used for px → vb conversion when panning. */
   vbWidth: number;
-  /** Centre of the country in viewBox units. Snap-back target for cx. */
+  vbHeight: number;
+  /** Centre of the country in viewBox units. Snap-back targets. */
   cxNeutral: number;
+  cyNeutral: number;
   /** Horizontal extent of the country content (viewBox units). */
   contentLeft: number;
   contentRight: number;
-  /** Visible viewBox horizontal range — usually `[contentLeft − PAD, contentRight + PAD]`. */
+  /** Vertical extent of the country content (viewBox units). */
+  contentTop: number;
+  contentBottom: number;
+  /** Visible viewBox ranges — usually content extent ± PAD. */
   vbLeft: number;
   vbRight: number;
+  vbTop: number;
+  vbBottom: number;
   /**
    * Called on any touchstart. Caller should `.stop()` any running
    * selection animations on `scale`/`cx`/`cy` so the gesture writes
@@ -46,19 +55,22 @@ export interface MapGesturesOptions {
 }
 
 /**
- * Two-finger pinch-to-zoom + single-finger horizontal pan over a ref'd
- * element. Mutates the supplied framer `scale` and `cx` MotionValues.
+ * Two-finger pinch-to-zoom + single-finger pan (both axes) over a ref'd
+ * element. Mutates the supplied framer `scale`, `cx`, and `cy`
+ * MotionValues.
  *
- * Pinch writes scale directly — pass a plain MotionValue (NOT a
- * useSpring) so the gesture tracks the fingers without lag. Pan updates
- * cx in viewBox units, clamped so country edges can't cross the
- * viewport edges (page background is never exposed). Activates only
- * after PAN_THRESHOLD_PX so taps still fire as onClick on region paths.
+ * Pinch writes scale directly — pass plain MotionValues (NOT springs)
+ * so the gesture tracks the fingers without lag. Pan updates cx/cy in
+ * viewBox units, each clamped so the country edges can't cross the
+ * viewport edges (page background is never exposed). Pan activates only
+ * after PAN_THRESHOLD_PX of combined motion, so taps still fire as
+ * onClick on region paths.
  */
 export function useMapGestures(
   ref: React.RefObject<HTMLElement | null>,
   scale: MotionValue<number>,
   cx: MotionValue<number>,
+  cy: MotionValue<number>,
   options: MapGesturesOptions,
 ) {
   const [isPinching, setIsPinching] = useState(false);
@@ -73,11 +85,17 @@ export function useMapGestures(
       options.pinchMax,
       options.pinchMinFactor,
       options.vbWidth,
+      options.vbHeight,
       options.cxNeutral,
+      options.cyNeutral,
       options.contentLeft,
       options.contentRight,
+      options.contentTop,
+      options.contentBottom,
       options.vbLeft,
       options.vbRight,
+      options.vbTop,
+      options.vbBottom,
       options.onGestureStart,
     ],
   );
@@ -98,6 +116,18 @@ export function useMapGestures(
       return { min: cxMin, max: cxMax };
     }
 
+    function cyBoundsAt(s: number): { min: number; max: number } {
+      const visH = opts.vbBottom - opts.vbTop;
+      const contentH = opts.contentBottom - opts.contentTop;
+      const ratio = (contentH * s) / visH;
+      if (ratio <= 1) return { min: opts.cyNeutral, max: opts.cyNeutral };
+      const centreVb = (opts.vbTop + opts.vbBottom) / 2;
+      const cyMin = opts.contentTop + (centreVb - opts.vbTop) / s;
+      const cyMax = opts.contentBottom + (centreVb - opts.vbBottom) / s;
+      if (cyMin > cyMax) return { min: opts.cyNeutral, max: opts.cyNeutral };
+      return { min: cyMin, max: cyMax };
+    }
+
     function onTouchStart(e: TouchEvent) {
       // Stop any running selection-zoom so this gesture's writes don't
       // fight a still-settling spring (cancel-on-gesture).
@@ -105,7 +135,9 @@ export function useMapGestures(
       if (e.touches.length === 1) {
         panRef.current = {
           x: e.touches[0].clientX,
+          y: e.touches[0].clientY,
           cx: cx.get(),
+          cy: cy.get(),
           active: false,
         };
       } else if (e.touches.length === 2) {
@@ -132,19 +164,28 @@ export function useMapGestures(
 
       if (panRef.current && e.touches.length === 1) {
         const dxPx = e.touches[0].clientX - panRef.current.x;
+        const dyPx = e.touches[0].clientY - panRef.current.y;
         if (!panRef.current.active) {
-          if (Math.abs(dxPx) < PAN_THRESHOLD_PX) return;
+          if (Math.hypot(dxPx, dyPx) < PAN_THRESHOLD_PX) return;
           panRef.current.active = true;
         }
         e.preventDefault();
         const elNow = ref.current;
         if (!elNow) return;
-        const elWidth = elNow.getBoundingClientRect().width || 1;
+        const elRect = elNow.getBoundingClientRect();
+        const elWidth = elRect.width || 1;
+        const elHeight = elRect.height || 1;
         const s = scale.get();
         const dCx = (-dxPx * opts.vbWidth) / (s * elWidth);
-        const target = panRef.current.cx + dCx;
-        const b = cxBoundsAt(s);
-        cx.set(Math.max(b.min, Math.min(b.max, target)));
+        const dCy = (-dyPx * opts.vbHeight) / (s * elHeight);
+        const bx = cxBoundsAt(s);
+        const by = cyBoundsAt(s);
+        cx.set(
+          Math.max(bx.min, Math.min(bx.max, panRef.current.cx + dCx)),
+        );
+        cy.set(
+          Math.max(by.min, Math.min(by.max, panRef.current.cy + dCy)),
+        );
       }
     }
 
@@ -155,11 +196,17 @@ export function useMapGestures(
         if (scale.get() < opts.baseScale) {
           animate(scale, opts.baseScale, spring.snapBack);
           animate(cx, opts.cxNeutral, spring.snapBack);
+          animate(cy, opts.cyNeutral, spring.snapBack);
         } else {
-          const b = cxBoundsAt(scale.get());
-          const curr = cx.get();
-          const clamped = Math.max(b.min, Math.min(b.max, curr));
-          if (clamped !== curr) animate(cx, clamped, spring.panClamp);
+          const s = scale.get();
+          const bx = cxBoundsAt(s);
+          const by = cyBoundsAt(s);
+          const cxNow = cx.get();
+          const cyNow = cy.get();
+          const cxClamped = Math.max(bx.min, Math.min(bx.max, cxNow));
+          const cyClamped = Math.max(by.min, Math.min(by.max, cyNow));
+          if (cxClamped !== cxNow) animate(cx, cxClamped, spring.panClamp);
+          if (cyClamped !== cyNow) animate(cy, cyClamped, spring.panClamp);
         }
       }
       if (panRef.current && e.touches.length === 0) {

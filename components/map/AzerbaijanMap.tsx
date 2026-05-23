@@ -250,19 +250,25 @@ export function AzerbaijanMap() {
     return stopSelectAnims;
   }, [selectedRegionId, cx, cy, scale, baseScale, cyNeutral, mobileVp, reduced]);
 
-  // Pinch-to-zoom + horizontal pan on touch. Pan updates cx in viewBox
+  // Pinch-to-zoom + two-axis pan on touch. Pan updates cx/cy in viewBox
   // units (not wrapper translate) so the page background is never
   // exposed even at the country edges.
   const wrapperRef = useRef<HTMLDivElement>(null);
-  useMapGestures(wrapperRef, scale, cx, {
+  useMapGestures(wrapperRef, scale, cx, cy, {
     baseScale,
     pinchMax: PINCH_MAX,
     vbWidth: VW,
+    vbHeight: VH,
     cxNeutral: CX,
+    cyNeutral,
     contentLeft: bbox.x,
     contentRight: bbox.x + bbox.w,
+    contentTop: bbox.y,
+    contentBottom: bbox.y + bbox.h,
     vbLeft: bbox.x - PAD,
     vbRight: bbox.x + bbox.w + PAD,
+    vbTop: bbox.y - PAD,
+    vbBottom: bbox.y + bbox.h + PAD,
     onGestureStart: stopSelectAnims,
   });
 
