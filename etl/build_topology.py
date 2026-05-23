@@ -34,11 +34,21 @@ OUT_PATH = Path(__file__).parents[1] / "public" / "geo" / "regions.topo.json"
 # inflates topology size with no perceptible visual gain.
 CURVE_SAMPLES = 6
 
-# Topology pre-quantisation: snaps every coordinate to a grid so adjacent
-# regions that *should* share an edge but have sub-pixel differences end up
-# with identical points. 1e5 quants over the Figma viewBox (~1500 units
-# wide) gives 0.015 px resolution — far below the pixel grid, so visually
-# lossless but enough to coalesce floating-point drift.
+# Vertex-clustering tolerance (viewBox units). The Figma source has each
+# region drawn as an independent path, so a shared edge between A and B
+# has slightly *different* coordinates on each side — measured drift sits
+# in dense clusters at 1.0u and 1.4u (≈ √2, diagonal moves on a 1u grid).
+# Union-find any cross-region vertices within this radius into a single
+# representative point before topology extraction; topojson then sees
+# bitwise-identical coordinates on shared edges and produces ONE arc per
+# edge instead of two near-parallel ones.
+#
+# 2.5u over a ~1500u-wide viewBox = 0.17% precision loss, well below any
+# visible threshold at the zoom levels the map supports (≤ 3× pinch).
+SNAP_TOLERANCE = 2.5
+
+# Topology pre-quantisation kept conservative — the clustering pass above
+# already coalesces drift, so this is just floating-point hygiene.
 QUANTIZATION = 100_000
 
 # Region IDs whose source SVG `d` carries small spurious subpaths
@@ -112,9 +122,112 @@ def feature_for(region: dict) -> dict:
     }
 
 
+def _snap_vertices(features: list[dict], tolerance: float) -> int:
+    """Cluster every vertex across every ring into groups within `tolerance`
+    units and replace each vertex with its cluster's centroid. Mutates
+    `features` in place. Returns the number of clusters formed.
+
+    Uses union-find with grid bucketing so neighbour lookup is O(1) per
+    point — runs in O(n) for n vertices regardless of how clustered they
+    are. Buckets are sized = `tolerance`, so any pair within the snap
+    radius lives in either the same bucket or one of the eight neighbours.
+    """
+    # Walk every ring and collect (feature_idx, ring_path, vertex_idx, x, y).
+    # Vertices appear once per occurrence — a ring's closing duplicate of
+    # the first point is included so it snaps consistently with the first.
+    refs: list[tuple] = []  # (feat_i, ring_ref, vert_i, x, y)
+    for fi, feat in enumerate(features):
+        geom = feat["geometry"]
+        if geom["type"] == "Polygon":
+            for ri, ring in enumerate(geom["coordinates"]):
+                for vi, (x, y) in enumerate(ring):
+                    refs.append((fi, (geom["coordinates"], ri), vi, x, y))
+        else:  # MultiPolygon
+            for pi, poly in enumerate(geom["coordinates"]):
+                for ri, ring in enumerate(poly):
+                    for vi, (x, y) in enumerate(ring):
+                        refs.append((fi, (poly, ri), vi, x, y))
+
+    n = len(refs)
+    parent = list(range(n))
+
+    def find(i: int) -> int:
+        while parent[i] != i:
+            parent[i] = parent[parent[i]]
+            i = parent[i]
+        return i
+
+    def union(i: int, j: int) -> None:
+        ri, rj = find(i), find(j)
+        if ri != rj:
+            parent[ri] = rj
+
+    # Bucket every point. Two points within `tolerance` lie in the same
+    # bucket or in one of the 8 surrounding buckets.
+    from collections import defaultdict
+    buckets: dict[tuple[int, int], list[int]] = defaultdict(list)
+    for i, (_, _, _, x, y) in enumerate(refs):
+        buckets[(int(x // tolerance), int(y // tolerance))].append(i)
+
+    tol_sq = tolerance * tolerance
+    for (bx, by), idxs in buckets.items():
+        # Compare against this bucket + the 4 forward-neighbour buckets
+        # (covers all 8 neighbours via the symmetric iteration order).
+        neighbours = [idxs]
+        for dx, dy in ((1, -1), (1, 0), (1, 1), (0, 1)):
+            other = buckets.get((bx + dx, by + dy))
+            if other:
+                neighbours.append(other)
+        flat = [i for grp in neighbours for i in grp]
+        # Compare every pair within the merged neighbourhood.
+        for a_pos, ia in enumerate(idxs):
+            xa, ya = refs[ia][3], refs[ia][4]
+            for ib in flat[a_pos + 1:]:
+                xb, yb = refs[ib][3], refs[ib][4]
+                dx = xa - xb
+                dy = ya - yb
+                if dx * dx + dy * dy <= tol_sq:
+                    union(ia, ib)
+
+    # Centroid per cluster, then rewrite every vertex with its centroid.
+    sums: dict[int, list[float]] = {}
+    for i, (_, _, _, x, y) in enumerate(refs):
+        root = find(i)
+        s = sums.get(root)
+        if s is None:
+            sums[root] = [x, y, 1]
+        else:
+            s[0] += x
+            s[1] += y
+            s[2] += 1
+    centroids = {r: (s[0] / s[2], s[1] / s[2]) for r, s in sums.items()}
+
+    for i, (_fi, (parent_list, ri), vi, _x, _y) in enumerate(refs):
+        cx, cy = centroids[find(i)]
+        parent_list[ri][vi] = (cx, cy)
+
+    return len(centroids)
+
+
 def main() -> None:
     src = json.loads(REGIONS_PATH.read_text())
     features = [feature_for(r) for r in src["regions"]]
+
+    raw_vertices = sum(
+        len(r)
+        for f in features
+        for r in (
+            f["geometry"]["coordinates"]
+            if f["geometry"]["type"] == "Polygon"
+            else [r for poly in f["geometry"]["coordinates"] for r in poly]
+        )
+    )
+    clusters = _snap_vertices(features, SNAP_TOLERANCE)
+    print(
+        f"  snap: {raw_vertices} vertices → {clusters} unique points "
+        f"(ε = {SNAP_TOLERANCE}u, dedup ratio {clusters / raw_vertices:.2%})"
+    )
+
     fc = {"type": "FeatureCollection", "features": features}
 
     topo = tp.Topology(
@@ -131,12 +244,6 @@ def main() -> None:
     out = json.loads(topo.to_json())
     OUT_PATH.write_text(json.dumps(out, separators=(",", ":")) + "\n")
 
-    # Quick sanity print: how many arcs were extracted vs raw vertex count?
-    raw_vertices = sum(len(r) for f in features
-                       for r in (f["geometry"]["coordinates"]
-                                  if f["geometry"]["type"] == "Polygon"
-                                  else [r for poly in f["geometry"]["coordinates"]
-                                          for r in poly]))
     arcs = len(out.get("arcs", []))
     print(f"  {len(features)} regions, {raw_vertices} raw vertices → "
           f"{arcs} unique arcs in topology")
