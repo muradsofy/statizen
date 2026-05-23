@@ -1,6 +1,7 @@
 "use client";
 
 import { useUrlSync } from "@/lib/state/useUrlSync";
+import { useAppStore } from "@/lib/state/store";
 import { Wordmark } from "./Wordmark";
 import { FollowUs } from "./FollowUs";
 import { LocationsPanel } from "./LocationsPanel";
@@ -8,10 +9,18 @@ import { DataCard } from "./DataCard";
 import { IndicatorPicker } from "./IndicatorPicker";
 import { RegionPill } from "./RegionPicker";
 import { YearPicker } from "./YearPicker";
+import { ShareButton } from "./ShareButton";
 import { LocaleToggle } from "./LocaleToggle";
 
 export function Overlays() {
   useUrlSync();
+  // ShareButton self-gates on (region + indicator + value). For the
+  // mobile bottom row layout we need to know *up front* whether the
+  // Share pill will be there — when it isn't, the YearPicker grows to
+  // fill the whole row. selectedRegionId is the dominant signal; the
+  // indicator/value fallback edge case (data gap on a real region) is
+  // rare enough that we accept "share button slot reserved but empty".
+  const hasRegion = useAppStore((s) => !!s.selectedRegionId);
   return (
     <>
       {/* Header — narrow padding on mobile, 88px gutter on desktop */}
@@ -52,13 +61,16 @@ export function Overlays() {
         </div>
       </div>
 
-      {/* Desktop year picker — bottom-right (Figma 34:321: y=874, height=56,
-          so bottom = 982 - 874 - 56 = 52px from the bottom edge). */}
+      {/* Desktop year picker + share button — bottom-right (Figma
+          47:3789: indicators frame at y=902 in a 982-tall page → bottom
+          = 982 - 902 - 44 = 36px from the bottom edge). 12px gap, no
+          fixed total width: YearPicker is 150px, Share grows to fit. */}
       <div
-        className="hidden md:block fixed right-[88px] bottom-[52px] z-10"
-        style={{ pointerEvents: "auto", width: 350 }}
+        className="hidden md:flex fixed right-[88px] bottom-[36px] z-10 gap-3 items-center"
+        style={{ pointerEvents: "auto" }}
       >
-        <YearPicker />
+        <YearPicker width={150} />
+        <ShareButton width="auto" />
       </div>
 
       {/* Mobile chapter+indicator row — top under header (Figma 34:332 at y=77) */}
@@ -69,11 +81,12 @@ export function Overlays() {
         <IndicatorPicker width="100%" layout="row" />
       </div>
 
-      {/* Mobile bottom stack — Figma 30:310 sits at y=523, height=289 in a
-          844px frame → bottom = 844 - 523 - 289 = 32px from the bottom edge.
-          Order top→bottom: Region pill, DataCard, YearPicker. */}
+      {/* Mobile bottom stack — Figma 30:310 at y=508, height=312 in an
+          844px frame → bottom = 844 - 508 - 312 = 24px from the bottom
+          edge. Order top→bottom: Region pill, DataCard, then a single
+          row with YearPicker + ShareButton (equal width, 12px gap). */}
       <div
-        className="md:hidden fixed left-5 right-5 bottom-[32px] flex flex-col gap-3 z-10"
+        className="md:hidden fixed left-[27px] right-[27px] bottom-[24px] flex flex-col gap-3 z-10"
         style={{ pointerEvents: "none" }}
       >
         <div style={{ pointerEvents: "auto" }}>
@@ -82,8 +95,18 @@ export function Overlays() {
         <div style={{ pointerEvents: "auto" }}>
           <DataCard compact width="100%" />
         </div>
-        <div style={{ pointerEvents: "auto" }}>
-          <YearPicker compact width="100%" />
+        <div
+          className="flex gap-3 items-center"
+          style={{ pointerEvents: "auto" }}
+        >
+          <div style={{ flex: "1 1 0", minWidth: 0 }}>
+            <YearPicker width="100%" />
+          </div>
+          {hasRegion && (
+            <div style={{ flex: "1 1 0", minWidth: 0 }}>
+              <ShareButton width="100%" />
+            </div>
+          )}
         </div>
       </div>
 

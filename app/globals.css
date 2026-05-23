@@ -147,12 +147,14 @@ button:focus-visible {
   box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.55);
   border-radius: 12px;
 }
-svg [role="button"]:focus {
-  outline: none;
-}
+svg [role="button"]:focus,
 svg [role="button"]:focus-visible {
-  stroke: #ffffff;
-  stroke-width: 2;
+  outline: none;
+  /* Don't draw a stroke for the keyboard focus indicator — it conflicts
+     with the same-colour anchoring stroke on the fill and reads as a
+     spurious outline on shift+click (which browsers treat as
+     focus-visible). Selection is already communicated via the fill
+     colour change + the DataCard update + the aria-label. */
 }
 
 /* YearPicker range input — overlay is invisible (cursor lives on track) */

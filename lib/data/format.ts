@@ -13,14 +13,25 @@ function compactNumber(n: number, locale: Locale): string {
   const az = locale === "az";
   const loc = az ? "az" : "en-US";
   const abs = Math.abs(n);
-  if (abs >= 1_000_000) {
-    const m = n / 1_000_000;
-    const dp = Math.abs(m) >= 100 ? 0 : Math.abs(m) >= 10 ? 1 : 2;
+
+  function abbreviate(scaled: number, suffix: string): string {
+    const a = Math.abs(scaled);
+    // ≥ 100 → no decimals (3+ sig figs already), 10–99 → 1, < 10 → 2.
+    const dp = a >= 100 ? 0 : a >= 10 ? 1 : 2;
     const num = new Intl.NumberFormat(loc, {
       minimumFractionDigits: dp,
       maximumFractionDigits: dp,
-    }).format(m);
-    return `${num}${az ? " mln" : "M"}`;
+    }).format(scaled);
+    return `${num}${suffix}`;
+  }
+
+  if (abs >= 1_000_000_000) {
+    // "B" / "mlrd" (milyard). Trade ETL values come in as thousand-manat;
+    // when re-multiplied by 1000 the top regions cross into billions.
+    return abbreviate(n / 1_000_000_000, az ? " mlrd" : "B");
+  }
+  if (abs >= 1_000_000) {
+    return abbreviate(n / 1_000_000, az ? " mln" : "M");
   }
   return new Intl.NumberFormat(loc).format(Math.round(n));
 }

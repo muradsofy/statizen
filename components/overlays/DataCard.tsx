@@ -1,10 +1,8 @@
 "use client";
 
-import { useState } from "react";
 import { AnimatePresence, motion, useReducedMotion } from "framer-motion";
 import { useFitText } from "@/lib/ui/useFitText";
-import { ShareDialog } from "@/components/share/ShareDialog";
-import { haptic } from "@/lib/haptics";
+import { UnitIcon, kindForUnit } from "@/components/icons/UnitIcon";
 import { indicatorsData, regionsData } from "@/lib/data/loadData";
 import { useIndicatorValues } from "@/lib/data/useIndicatorValues";
 import {
@@ -13,17 +11,35 @@ import {
   selectRegionById,
   selectValueAt,
 } from "@/lib/data/selectors";
-import { formatValue, unitSuffix } from "@/lib/data/format";
+import { formatValue } from "@/lib/data/format";
 import { useAppStore } from "@/lib/state/store";
 import { surface, color, glow } from "@/lib/ui/tokens";
 import { t } from "@/lib/i18n/strings";
 
 export interface DataCardProps {
-  /** Mobile variant: smaller fonts (Figma 30:296, 20px title). */
+  /** Mobile variant: 204 px fixed height (Figma 47:3482). */
   compact?: boolean;
   width?: number | string;
 }
 
+/**
+ * Figma node 47:3482 (mobile) / 45:127 (Card symbol). Layout:
+ *
+ *   ┌───────────────────────────────┐
+ *   │ Indicator title (no unit)     │  28 px Archivo Medium + glow
+ *   │ Region                        │  16 px @ 50% white
+ *   │                               │
+ *   │                               │
+ *   │ 50  [ ⓘ ]                     │  40 px SemiBold value + unit icon pill
+ *   │ stat.gov.az    Updated: …    │  12 px @ 25% white
+ *   └───────────────────────────────┘
+ *
+ * Drops the previous (year • title-with-unit • region) header in favour
+ * of Figma's plain (title • region) header — the year + unit have moved
+ * elsewhere (YearPicker stepper / unit icon pill). The share icon is no
+ * longer a card-corner button; it's its own pill alongside the
+ * YearPicker (see ShareButton + Overlays).
+ */
 export function DataCard({ compact = false, width }: DataCardProps = {}) {
   const selectedRegionId = useAppStore((s) => s.selectedRegionId);
   const activeIndicatorId = useAppStore((s) => s.activeIndicatorId);
@@ -40,8 +56,6 @@ export function DataCard({ compact = false, width }: DataCardProps = {}) {
   const { values } = useIndicatorValues(
     region && indicator ? indicator.id : null,
   );
-  // Prefer the explicitly-picked year when set; fall back to the latest
-  // available year (covers indicator default + gap years).
   const latest =
     region && indicator
       ? (selectedYear !== null
@@ -50,14 +64,11 @@ export function DataCard({ compact = false, width }: DataCardProps = {}) {
         selectLatestValue(values, region.id, indicator.id)
       : undefined;
 
-  const labelBase = indicator
+  const indicatorLabel = indicator
     ? locale === "az"
       ? indicator.label_az
       : indicator.label_en
     : "";
-  const titleWithUnit = indicator
-    ? `${labelBase} ${unitSuffix(indicator.unit, locale)}`
-    : labelBase;
   const regionName = region
     ? locale === "az"
       ? region.name_az
@@ -65,24 +76,31 @@ export function DataCard({ compact = false, width }: DataCardProps = {}) {
     : "";
 
   const reduced = useReducedMotion();
-  const [shareOpen, setShareOpen] = useState(false);
 
-  // Auto-shrink the title when it overflows 3 lines. AZ translations are
-  // longer than EN on average; some chapter titles (e.g. "Dövlət dəstəyi
-  // ilə mənzil alan ailələr") can fall just over the line at the base size.
-  const titleBase = compact ? 20 : 24;
-  const titleMin = compact ? 14 : 16;
+  // Auto-shrink the title when it overflows 3 lines.
+  // Mobile-compact starts at 24px; long indicator labels can shrink to 16px.
+  const titleBase = compact ? 24 : 32;
+  const titleMin = compact ? 16 : 20;
   const { ref: titleRef, fontSize: titleFontSize } = useFitText(
-    titleWithUnit,
+    indicatorLabel,
     { base: titleBase, min: titleMin, maxLines: 3 },
   );
+
   const swap = reduced
-    ? { initial: false, animate: { opacity: 1 }, exit: { opacity: 1 }, transition: { duration: 0 } }
+    ? {
+        initial: false,
+        animate: { opacity: 1 },
+        exit: { opacity: 1 },
+        transition: { duration: 0 },
+      }
     : {
         initial: { opacity: 0, y: 8 },
         animate: { opacity: 1, y: 0 },
         exit: { opacity: 0, y: -6 },
-        transition: { duration: 0.22, ease: [0.22, 1, 0.36, 1] as [number, number, number, number] },
+        transition: {
+          duration: 0.22,
+          ease: [0.22, 1, 0.36, 1] as [number, number, number, number],
+        },
       };
 
   return (
@@ -93,189 +111,137 @@ export function DataCard({ compact = false, width }: DataCardProps = {}) {
       style={{
         ...surface,
         position: "relative",
-        width: width ?? (compact ? "100%" : 300),
-        height: compact ? "auto" : 300,
-        padding: compact ? 16 : 24,
+        width: width ?? (compact ? "100%" : 336),
+        height: compact ? 204 : 300,
+        padding: 24,
         display: "flex",
         flexDirection: "column",
-        gap: compact ? 24 : undefined,
-        justifyContent: compact ? "flex-start" : "space-between",
+        justifyContent: "space-between",
         overflow: "clip",
       }}
     >
-      {/* Share button — only meaningful with a selected region. */}
-      {region && indicator && latest && (
-        <motion.button
-          type="button"
-          aria-label={t("shareAria", locale)}
-          onClick={() => {
-            haptic("light");
-            setShareOpen(true);
-          }}
-          whileTap={{ scale: 0.9 }}
-          whileHover={{ opacity: 1, background: "rgba(255,255,255,0.12)" }}
-          style={{
-            position: "absolute",
-            top: compact ? 12 : 16,
-            right: compact ? 12 : 16,
-            width: 32,
-            height: 32,
-            background: "rgba(255,255,255,0.06)",
-            border: "0.5px solid rgba(255,255,255,0.18)",
-            borderRadius: 999,
-            color: color.muted,
-            cursor: "pointer",
-            padding: 0,
-            display: "flex",
-            alignItems: "center",
-            justifyContent: "center",
-            zIndex: 1,
-          }}
-        >
-          {/* iOS-style share glyph (arrow up out of a tray) */}
-          <svg
-            width="14"
-            height="16"
-            viewBox="0 0 14 16"
-            fill="none"
-            aria-hidden
-          >
-            <path
-              d="M7 1v9"
-              stroke="currentColor"
-              strokeWidth="1.5"
-              strokeLinecap="round"
-            />
-            <path
-              d="M4 4l3-3 3 3"
-              stroke="currentColor"
-              strokeWidth="1.5"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-            />
-            <path
-              d="M1 9v4.5A1.5 1.5 0 0 0 2.5 15h9a1.5 1.5 0 0 0 1.5-1.5V9"
-              stroke="currentColor"
-              strokeWidth="1.5"
-              strokeLinecap="round"
-            />
-          </svg>
-        </motion.button>
-      )}
-      {region && indicator && latest && (
-        <ShareDialog
-          open={shareOpen}
-          onClose={() => setShareOpen(false)}
-          region={region}
-          indicator={indicator}
-          year={latest.year}
-          value={latest.value}
-          locale={locale}
-        />
-      )}
       <AnimatePresence mode="wait" initial={false}>
-      {!region ? (
-        <motion.div
-          key="placeholder"
-          {...swap}
-          style={{
-            margin: "auto",
-            color: color.muted,
-            fontSize: 16,
-            letterSpacing: "-0.32px",
-            textAlign: "center",
-          }}
-        >
-          {t("selectRegionLong", locale)}
-        </motion.div>
-      ) : (
-        <motion.div
-          key={`data-${region.id}`}
-          {...swap}
-          style={{
-            display: "flex",
-            flexDirection: "column",
-            gap: compact ? 24 : undefined,
-            justifyContent: compact ? "flex-start" : "space-between",
-            flex: 1,
-            minHeight: 0,
-          }}
-        >
-          {/* Top: year, indicator title (with unit), region (Figma 30:130) */}
-          <div style={{ display: "flex", flexDirection: "column", gap: 6 }}>
-            {latest && (
+        {!region || !indicator ? (
+          <motion.div
+            key="placeholder"
+            {...swap}
+            style={{
+              margin: "auto",
+              color: color.muted,
+              fontSize: 16,
+              letterSpacing: "-0.32px",
+              textAlign: "center",
+            }}
+          >
+            {t("selectRegionLong", locale)}
+          </motion.div>
+        ) : (
+          <motion.div
+            key={`data-${region.id}`}
+            {...swap}
+            style={{
+              display: "flex",
+              flexDirection: "column",
+              justifyContent: "space-between",
+              flex: 1,
+              minHeight: 0,
+              gap: 8,
+            }}
+          >
+            {/* Top: title + region. */}
+            <div
+              style={{ display: "flex", flexDirection: "column", gap: 0 }}
+            >
               <div
+                ref={titleRef}
                 style={{
-                  fontSize: 14,
+                  fontSize: titleFontSize,
                   fontWeight: 500,
-                  color: color.muted,
-                  letterSpacing: "-0.28px",
+                  // Scale tracking to ~-2% of font size so it stays
+                  // visually consistent when the auto-shrink kicks in.
+                  letterSpacing: `${-titleFontSize * 0.02}px`,
+                  color: color.text,
+                  textShadow: glow,
+                  lineHeight: 1.15,
                 }}
               >
-                {latest.year}
+                {indicatorLabel}
               </div>
-            )}
-            <div
-              ref={titleRef}
-              style={{
-                fontSize: titleFontSize,
-                color: color.text,
-                letterSpacing: compact ? "-0.4px" : "-0.48px",
-                textShadow: glow,
-                lineHeight: 1.2,
-              }}
-            >
-              {titleWithUnit}
+              <div
+                style={{
+                  fontSize: 16,
+                  color: color.muted,
+                  letterSpacing: "-0.32px",
+                  lineHeight: "16px",
+                  marginTop: 4,
+                }}
+              >
+                {regionName}
+              </div>
             </div>
-            <div
-              style={{
-                fontSize: compact ? 14 : 16,
-                color: color.muted,
-                letterSpacing: compact ? "-0.28px" : "-0.32px",
-              }}
-            >
-              {regionName}
-            </div>
-          </div>
 
-          {/* Bottom: big value + source/updated row (Figma 30:173) */}
-          <div style={{ display: "flex", flexDirection: "column", gap: 6 }}>
+            {/* Bottom: value + unit pill, source row. */}
             <div
-              style={{
-                fontSize: 40,
-                fontWeight: 500,
-                color: color.text,
-                letterSpacing: "-0.8px",
-                textShadow: glow,
-                lineHeight: 1.1,
-                whiteSpace: "nowrap",
-              }}
+              style={{ display: "flex", flexDirection: "column", gap: 8 }}
             >
-              {latest
-                ? formatValue(latest.value, indicator!.unit, locale)
-                : "—"}
+              <div
+                style={{
+                  display: "flex",
+                  alignItems: "center",
+                  gap: 8,
+                }}
+              >
+                <div
+                  style={{
+                    fontSize: 40,
+                    fontWeight: 600,
+                    color: color.text,
+                    letterSpacing: "-0.8px",
+                    textShadow: glow,
+                    lineHeight: 1,
+                    whiteSpace: "nowrap",
+                  }}
+                >
+                  {latest
+                    ? formatValue(latest.value, indicator.unit, locale)
+                    : "—"}
+                </div>
+                <div
+                  style={{
+                    background: "#ffffff",
+                    width: 24,
+                    height: 24,
+                    borderRadius: 18,
+                    padding: 3,
+                    display: "flex",
+                    alignItems: "center",
+                    justifyContent: "center",
+                    boxSizing: "border-box",
+                  }}
+                  aria-hidden
+                >
+                  <UnitIcon kind={kindForUnit(indicator.unit)} size={18} />
+                </div>
+              </div>
+              <div
+                style={{
+                  display: "flex",
+                  alignItems: "baseline",
+                  justifyContent: "space-between",
+                  fontSize: 12,
+                  color: color.faint,
+                  letterSpacing: "-0.24px",
+                  whiteSpace: "nowrap",
+                }}
+              >
+                <span>stat.gov.az</span>
+                <span>
+                  {`${t("updated", locale)}: ${indicator.last_updated}`}
+                </span>
+              </div>
             </div>
-            <div
-              style={{
-                display: "flex",
-                alignItems: "baseline",
-                justifyContent: "space-between",
-                fontSize: 14,
-                color: color.muted,
-                letterSpacing: "-0.28px",
-                whiteSpace: "nowrap",
-              }}
-            >
-              <span>stat.gov.az</span>
-              <span>
-                {indicator
-                  ? `${t("updated", locale)}: ${indicator.last_updated}`
-                  : ""}
-              </span>
-            </div>
-          </div>
-        </motion.div>
-      )}
+          </motion.div>
+        )}
       </AnimatePresence>
     </motion.div>
   );
