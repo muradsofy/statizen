@@ -7,7 +7,7 @@ import { surface, color, glow } from "@/lib/ui/tokens";
 import { useAppStore } from "@/lib/state/store";
 import { t } from "@/lib/i18n/strings";
 import { haptic } from "@/lib/haptics";
-import type { Locale } from "@/types/data";
+import type { Locale, Theme } from "@/types/data";
 
 /**
  * Header menu — the small `=` square pill in the top-right next to the
@@ -23,6 +23,8 @@ import type { Locale } from "@/types/data";
 export function HeaderMenu() {
   const locale = useAppStore((s) => s.locale);
   const setLocale = useAppStore((s) => s.setLocale);
+  const theme = useAppStore((s) => s.theme);
+  const setTheme = useAppStore((s) => s.setTheme);
 
   const [open, setOpen] = useState(false);
   const [triggerRect, setTriggerRect] = useState<DOMRect | null>(null);
@@ -69,6 +71,11 @@ export function HeaderMenu() {
     if (value !== locale) haptic("light");
     setLocale(value);
     // Don't auto-close — user might also want to flip another setting.
+  }
+
+  function changeTheme(value: Theme) {
+    if (value !== theme) haptic("light");
+    setTheme(value);
   }
 
   return (
@@ -130,18 +137,8 @@ export function HeaderMenu() {
                     onChange={changeLocale}
                   />
                 </Section>
-                {/* Theme switch slot — wired once light mode lands. */}
                 <Section label={t("theme", locale)}>
-                  <p
-                    style={{
-                      margin: 0,
-                      fontSize: 12,
-                      color: color.muted,
-                      letterSpacing: "-0.24px",
-                    }}
-                  >
-                    {t("themeComingSoon", locale)}
-                  </p>
+                  <ThemeSwitch theme={theme} onChange={changeTheme} locale={locale} />
                 </Section>
               </motion.div>
             )}
@@ -194,7 +191,7 @@ function LocaleSwitch({
         aria-label={`${label} (${value})`}
         style={{
           flex: "1 1 0",
-          background: active ? "rgba(255,255,255,0.06)" : "transparent",
+          background: active ? color.hoverStrong : "transparent",
           border: "none",
           padding: "6px 10px",
           color: active ? color.text : color.muted,
@@ -216,6 +213,106 @@ function LocaleSwitch({
       <Btn value="en" label="EN" />
       <Btn value="az" label="AZ" />
     </div>
+  );
+}
+
+function ThemeSwitch({
+  theme,
+  onChange,
+  locale,
+}: {
+  theme: Theme;
+  onChange: (t: Theme) => void;
+  locale: Locale;
+}) {
+  function Btn({
+    value,
+    label,
+    icon,
+  }: {
+    value: Theme;
+    label: string;
+    icon: React.ReactNode;
+  }) {
+    const active = theme === value;
+    return (
+      <button
+        type="button"
+        onClick={() => onChange(value)}
+        aria-pressed={active}
+        aria-label={label}
+        title={label}
+        style={{
+          flex: "1 1 0",
+          background: active ? color.hoverStrong : "transparent",
+          border: "none",
+          padding: "8px 0",
+          color: active ? color.text : color.muted,
+          textShadow: active ? glow : "none",
+          fontSize: 12,
+          letterSpacing: "-0.24px",
+          cursor: "pointer",
+          outline: "none",
+          borderRadius: 12,
+          display: "flex",
+          flexDirection: "column",
+          alignItems: "center",
+          gap: 4,
+          transition: "color 120ms ease, background 120ms ease",
+        }}
+      >
+        {icon}
+        <span>{label}</span>
+      </button>
+    );
+  }
+  return (
+    <div style={{ display: "flex", gap: 4 }}>
+      <Btn value="system" label={t("themeSystem", locale)} icon={<SystemIcon />} />
+      <Btn value="light" label={t("themeLight", locale)} icon={<SunIcon />} />
+      <Btn value="dark" label={t("themeDark", locale)} icon={<MoonIcon />} />
+    </div>
+  );
+}
+
+function SystemIcon() {
+  // Half-filled circle (split light/dark).
+  return (
+    <svg width={16} height={16} viewBox="0 0 16 16" fill="none" aria-hidden>
+      <circle cx="8" cy="8" r="6" stroke="currentColor" strokeWidth={1.2} />
+      <path d="M8 2 a6 6 0 0 1 0 12 z" fill="currentColor" />
+    </svg>
+  );
+}
+
+function SunIcon() {
+  return (
+    <svg
+      width={16}
+      height={16}
+      viewBox="0 0 16 16"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth={1.2}
+      strokeLinecap="round"
+      aria-hidden
+    >
+      <circle cx="8" cy="8" r="3" />
+      <path d="M8 1.5v1.5M8 13v1.5M1.5 8H3M13 8h1.5M3.3 3.3l1.05 1.05M11.65 11.65l1.05 1.05M3.3 12.7l1.05-1.05M11.65 4.35l1.05-1.05" />
+    </svg>
+  );
+}
+
+function MoonIcon() {
+  return (
+    <svg width={16} height={16} viewBox="0 0 16 16" fill="none" aria-hidden>
+      <path
+        d="M13.5 9.5A5.5 5.5 0 0 1 6.5 2.5a5.5 5.5 0 1 0 7 7Z"
+        stroke="currentColor"
+        strokeWidth={1.2}
+        strokeLinejoin="round"
+      />
+    </svg>
   );
 }
 

@@ -3,7 +3,7 @@
 import { useEffect } from "react";
 import { indicatorsData, regionsData } from "@/lib/data/loadData";
 import { useAppStore } from "./store";
-import type { Locale } from "@/types/data";
+import type { Locale, Theme } from "@/types/data";
 
 /**
  * Two-way sync between the store and ?region= & ?indicator= & ?lang= so
@@ -18,6 +18,7 @@ export function useUrlSync() {
     const indicator = p.get("indicator");
     const year = p.get("year");
     const lang = p.get("lang");
+    const theme = p.get("theme");
     const st = useAppStore.getState();
     if (region && regionsData.regions.some((r) => r.id === region)) {
       st.setSelectedRegion(region);
@@ -33,6 +34,9 @@ export function useUrlSync() {
     }
     if (lang === "az" || lang === "en") {
       st.setLocale(lang as Locale);
+    }
+    if (theme === "light" || theme === "dark" || theme === "system") {
+      st.setTheme(theme as Theme);
     }
 
     function syncLang(l: Locale) {
@@ -58,6 +62,9 @@ export function useUrlSync() {
       else q.delete("year");
       if (s.locale !== "en") q.set("lang", s.locale);
       else q.delete("lang");
+      // Default is "system" — only serialize explicit user choices.
+      if (s.theme !== "system") q.set("theme", s.theme);
+      else q.delete("theme");
       const qs = q.toString();
       window.history.replaceState(
         null,
@@ -71,7 +78,8 @@ export function useUrlSync() {
         s.selectedRegionId === prev.selectedRegionId &&
         s.activeIndicatorId === prev.activeIndicatorId &&
         s.selectedYear === prev.selectedYear &&
-        s.locale === prev.locale
+        s.locale === prev.locale &&
+        s.theme === prev.theme
       ) {
         return;
       }

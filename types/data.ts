@@ -22,6 +22,12 @@ export type RegionId =
 
 export type Locale = "en" | "az";
 
+/** User's theme preference. "system" defers to prefers-color-scheme. */
+export type Theme = "system" | "light" | "dark";
+
+/** Concretely applied theme — what the UI actually renders as. */
+export type ResolvedTheme = "light" | "dark";
+
 /** A geographic/statistical scope a value can belong to. */
 export type Scope = "region" | "national";
 

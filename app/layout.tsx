@@ -34,21 +34,55 @@ export const metadata: Metadata = {
   },
 };
 
+/**
+ * Pre-hydration theme bootstrap. Runs in the document <head> BEFORE
+ * React mounts, so the very first paint already has the right
+ * data-theme attribute (no flash of dark on light, or vice-versa).
+ * The full theming hook (lib/ui/useTheme) takes over after mount and
+ * keeps things in sync with localStorage / prefers-color-scheme.
+ */
+const themeBootstrap = `
+(function() {
+  try {
+    var s = localStorage.getItem('statizen.theme');
+    var t = (s === 'light' || s === 'dark' || s === 'system') ? s : 'system';
+    var resolved = t;
+    if (t === 'system') {
+      resolved = window.matchMedia('(prefers-color-scheme: light)').matches
+        ? 'light' : 'dark';
+    }
+    document.documentElement.dataset.theme = resolved;
+  } catch (e) {
+    document.documentElement.dataset.theme = 'dark';
+  }
+})();
+`;
+
 export default function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    // suppressHydrationWarning: the bootstrap script intentionally
+    // rewrites data-theme before React hydrates, so the SSR'd value
+    // ("dark") won't match the client. That's expected — the warning
+    // would otherwise fire on every page load for every user.
+    <html lang="en" data-theme="dark" suppressHydrationWarning>
+      <head>
+        <script dangerouslySetInnerHTML={{ __html: themeBootstrap }} />
+      </head>
       <body
         className={`${archivo.variable} antialiased`}
         style={{
           margin: 0,
-          background: "#000000",
-          color: "#ffffff",
+          background: "var(--c-bg)",
+          color: "var(--c-text)",
           fontFamily: "var(--font-archivo), sans-serif",
           fontVariationSettings: "'wdth' 100",
+          // Smooth theme flips — no flicker, no per-component animation
+          // needed (CSS vars cascade).
+          transition: "background-color 200ms ease, color 200ms ease",
         }}
       >
         {children}

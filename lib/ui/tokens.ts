@@ -1,29 +1,46 @@
-// Exact design tokens — see Statizen-vault/design/TOKENS.md.
-// Authoritative visual values pulled from Figma (no guessing).
+// Design tokens — authoritative visual surface for component code.
+//
+// Every value resolves at runtime to a CSS variable set by the
+// `[data-theme]` attribute on <html> (see app/globals.css). That keeps
+// JS components blissfully theme-agnostic — flip the attribute and the
+// whole UI repaints, no per-component re-render needed. WCAG-AA tuned
+// in both palettes; see the CSS file for the actual hex values.
 
 import type { CSSProperties } from "react";
 
 export const color = {
-  bg: "#000000",
-  text: "#ffffff",
-  muted: "rgba(255,255,255,0.5)",
-  accent: "#612bf4", // active region (from reference)
-  shareAccent: "#8a38f5", // Share button pill (Figma 47:3294) — brighter
-  mapFill: "#0e0e0e", // region fill (Figma exact)
-  mapStroke: "#5f5f5f", // region outline rgb(95,95,95) (Figma exact)
-  mapStrokeActive: "rgba(255,255,255,0.6)",
-  // DataCard footer (stat.gov.az / Updated) — fainter in the new design.
-  faint: "rgba(255,255,255,0.25)",
+  bg: "var(--c-bg)",
+  text: "var(--c-text)",
+  muted: "var(--c-muted)",
+  faint: "var(--c-faint)",
+  accent: "var(--c-accent)",
+  shareAccent: "var(--c-share-accent)",
+  /** Fill for the currently-selected region on the map. Themed —
+   *  vibrant on dark, soft pastel on light. Distinct from `accent`
+   *  so buttons/dialogs keep their brand purple. */
+  mapActive: "var(--c-map-active)",
+  mapFill: "var(--c-map-fill)",
+  mapFillHover: "var(--c-map-fill-hover)",
+  mapStroke: "var(--c-map-stroke)",
+  mapStrokeActive: "var(--c-map-stroke-active)",
+  /** List-row / button hover + active surface highlights. Inverts
+   *  cleanly between light and dark themes. */
+  hoverSoft: "var(--c-hover-soft)",
+  hoverStrong: "var(--c-hover-strong)",
+  hoverText: "var(--c-hover-text)",
+  /** Foreground that sits ON the purple `accent` (Share pill text,
+   *  etc.). Always white — accent purple is dark in both themes. */
+  onAccent: "var(--c-on-accent)",
 } as const;
 
-export const glow = "0 0 10px rgba(255,255,255,0.5)";
+export const glow = "var(--c-glow)";
 
-/** Shared panel / button surface (frosted dark, 6.55px blur). */
+/** Shared panel / button surface (frosted, 6.55px blur). */
 export const surface: CSSProperties = {
-  background: "rgba(34,34,34,0.5)",
+  background: "var(--c-surface-bg)",
   backdropFilter: "blur(6.55px)",
   WebkitBackdropFilter: "blur(6.55px)",
-  border: "0.5px solid rgba(255,255,255,0.25)",
+  border: "0.5px solid var(--c-surface-border)",
   borderRadius: 24,
 };
 

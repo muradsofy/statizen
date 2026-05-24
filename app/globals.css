@@ -117,6 +117,113 @@
   --sidebar-ring: oklch(0.556 0 0);
 }
 
+/* ───── Statizen theme tokens ─────
+ * Source of truth for every UI colour. Consumed via lib/ui/tokens.ts
+ * which re-exports each name as `var(--c-…)` so component code keeps
+ * a strongly-typed JS surface while the actual values switch with
+ * the `data-theme` attribute on <html>. WCAG-AA tuned: text on
+ * background ≥ 4.5:1 in both themes.
+ *
+ * Defaults are dark (preserves the prior look for any client without
+ * the inline theme bootstrap script). [data-theme="light"] overrides.
+ */
+:root,
+[data-theme="dark"] {
+  --c-bg: #000000;
+  --c-text: #ffffff;
+  --c-muted: rgba(255, 255, 255, 0.5);
+  --c-faint: rgba(255, 255, 255, 0.25);
+  --c-accent: #612bf4;
+  /* Share pill is a single brand purple across themes — no need to
+   * shift it for contrast (white text on this purple passes AA in
+   * both light and dark surroundings). */
+  --c-share-accent: #8a38f5;
+  /* Selected region fill on the map. Theme-specific because the
+   * brand purple shows differently against #000 vs #fafafa — light
+   * mode wants a soft pastel that reads as "highlighted" without
+   * yelling. */
+  --c-map-active: #8a38f5;
+  --c-map-fill: #0e0e0e;
+  --c-map-fill-hover: #1d1d20;
+  --c-map-stroke: #5f5f5f;
+  --c-map-stroke-active: rgba(255, 255, 255, 0.6);
+  --c-surface-bg: rgba(34, 34, 34, 0.55);
+  --c-surface-border: rgba(255, 255, 255, 0.3);
+  --c-glow: 0 0 10px rgba(255, 255, 255, 0.5);
+  --c-focus-ring: rgba(255, 255, 255, 0.55);
+  /* List-row + button hover/active highlights. Tinted from text
+   * colour so they invert cleanly between themes. */
+  --c-hover-soft: rgba(255, 255, 255, 0.04);
+  --c-hover-strong: rgba(255, 255, 255, 0.06);
+  --c-hover-text: rgba(255, 255, 255, 0.8);
+  /* Foreground that sits ON the purple accent (Share pill text,
+   * etc.). Theme-invariant because the brand purple is the same
+   * dark shade in both themes — black-on-purple fails contrast in
+   * light mode, so we force white. */
+  --c-on-accent: #ffffff;
+  /* Wordmark gets a pure-black/white pair (not the generic --c-text
+   * which is #0a0a0a / #fff). Pure black reads as more brandable in
+   * light mode against the slightly-grey header surface. */
+  --c-wordmark: #ffffff;
+  /* Soft viewport-edge vignette — fades toward the theme's bg colour
+   * so the visible content "lifts" toward the centre. Radial
+   * gradient is transparent through 55% then ramps to the edge tint. */
+  --c-vignette: radial-gradient(
+    ellipse 80% 75% at center,
+    transparent 0%,
+    transparent 50%,
+    rgba(0, 0, 0, 0.55) 100%
+  );
+}
+[data-theme="light"] {
+  --c-bg: #fafafa;
+  --c-text: #0a0a0a;
+  /* 0.62 black on #fafafa ≈ 7.6:1 → AAA for normal text. */
+  --c-muted: rgba(0, 0, 0, 0.62);
+  --c-faint: rgba(0, 0, 0, 0.42);
+  /* #612bf4 on #fafafa ≈ 5.6:1 → AA. Same purple, no shift, keeps
+   * brand. Selected region fill stays vivid. */
+  --c-accent: #612bf4;
+  /* Same brand purple in both themes — white text on it passes AA
+   * either way and one Share pill colour reads as a single brand
+   * across the site. */
+  --c-share-accent: #8a38f5;
+  /* Mid-pastel highlight for the selected region. Light enough to
+   * sit comfortably on #fafafa without overpowering, saturated
+   * enough to read clearly as "selected". */
+  --c-map-active: #c69efa;
+  --c-map-fill: #ebebeb;
+  --c-map-fill-hover: #dadada;
+  --c-map-stroke: #999999;
+  --c-map-stroke-active: rgba(0, 0, 0, 0.65);
+  /* Slightly grayer + more opaque frost so panels read clearly
+   * against the map without floating away. Pure white-tinted glass
+   * was getting lost against the off-white bg on mobile. */
+  --c-surface-bg: rgba(244, 244, 244, 0.78);
+  /* Darker hairline border for AA visibility on mobile — 0.12 was
+   * essentially invisible at the smaller scale. */
+  --c-surface-border: rgba(0, 0, 0, 0.22);
+  /* Soft near-black halo — mirrors the white glow used on dark
+   * without bleeding the brand purple into every emphasised text
+   * (which read as tinted, not as crisp dark text). */
+  --c-glow: 0 0 10px rgba(0, 0, 0, 0.25);
+  --c-focus-ring: rgba(0, 0, 0, 0.55);
+  --c-hover-soft: rgba(0, 0, 0, 0.04);
+  --c-hover-strong: rgba(0, 0, 0, 0.06);
+  --c-hover-text: rgba(0, 0, 0, 0.8);
+  --c-on-accent: #ffffff;
+  --c-wordmark: #000000;
+  /* Same vignette shape, light tint — fades toward off-white so the
+   * map's centre stays the focal point without the edges feeling
+   * empty. */
+  --c-vignette: radial-gradient(
+    ellipse 80% 75% at center,
+    transparent 0%,
+    transparent 50%,
+    rgba(250, 250, 250, 0.7) 100%
+  );
+}
+
 @layer base {
   * {
     @apply border-border outline-ring/50;
@@ -144,7 +251,7 @@ button:focus {
   outline: none;
 }
 button:focus-visible {
-  box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.55);
+  box-shadow: 0 0 0 2px var(--c-focus-ring);
   border-radius: 12px;
 }
 svg [role="button"]:focus,

@@ -33,7 +33,9 @@ export const STRINGS = {
   localeAz: { en: "AZ", az: "AZ" },
   language: { en: "Language", az: "Dil" },
   theme: { en: "Theme", az: "Mövzu" },
-  themeComingSoon: { en: "Light mode soon", az: "İşıqlı rejim tezliklə" },
+  themeSystem: { en: "System", az: "Sistem" },
+  themeLight: { en: "Light", az: "İşıqlı" },
+  themeDark: { en: "Dark", az: "Qaranlıq" },
   share: { en: "Share", az: "Paylaş" },
   shareAria: { en: "Share this data", az: "Bu məlumatı paylaş" },
   shareTagline: {
