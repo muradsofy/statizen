@@ -66,6 +66,65 @@ export function formatValue(
   }
 }
 
+/**
+ * Same logic as `formatValue` but returns the parts separately so an
+ * animated number component (NumberFlow) can tween the digit and a
+ * static `<span>` can carry the unit suffix. `display` is the
+ * already-scaled number to feed to NumberFlow; `decimals` are the
+ * fraction digits NumberFlow should keep stable.
+ */
+export interface FormattedParts {
+  display: number;
+  suffix: string;
+  decimals: number;
+}
+
+export function formatValueParts(
+  value: number,
+  unit: string,
+  locale: Locale,
+): FormattedParts {
+  const az = locale === "az";
+  switch (unit) {
+    case "%":
+      return { display: value, suffix: "%", decimals: 1 };
+    case "manat":
+    case "thousand manat":
+      return compactParts(
+        unit === "thousand manat" ? value * 1000 : value,
+        az,
+      );
+    case "thousand persons":
+      return compactParts(value * 1000, az);
+    case "persons":
+    case "cases":
+    case "families":
+    case "facilities":
+      return compactParts(value, az);
+    case "m²":
+      return { display: value, suffix: " m²", decimals: 1 };
+    default:
+      return compactParts(value, az);
+  }
+}
+
+function compactParts(n: number, az: boolean): FormattedParts {
+  const abs = Math.abs(n);
+  function dpFor(scaled: number): number {
+    const a = Math.abs(scaled);
+    return a >= 100 ? 0 : a >= 10 ? 1 : 2;
+  }
+  if (abs >= 1_000_000_000) {
+    const scaled = n / 1_000_000_000;
+    return { display: scaled, suffix: az ? " mlrd" : "B", decimals: dpFor(scaled) };
+  }
+  if (abs >= 1_000_000) {
+    const scaled = n / 1_000_000;
+    return { display: scaled, suffix: az ? " mln" : "M", decimals: dpFor(scaled) };
+  }
+  return { display: Math.round(n), suffix: "", decimals: 0 };
+}
+
 /** "(unit)" string appended to the indicator title (Figma 30:132). */
 export function unitSuffix(unit: string, locale: Locale): string {
   const az = locale === "az";

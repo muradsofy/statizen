@@ -1,6 +1,7 @@
 "use client";
 
 import { AnimatePresence, motion, useReducedMotion } from "framer-motion";
+import NumberFlow from "@number-flow/react";
 import { useFitText } from "@/lib/ui/useFitText";
 import { UnitIcon, kindForUnit } from "@/components/icons/UnitIcon";
 import { indicatorsData, regionsData } from "@/lib/data/loadData";
@@ -11,7 +12,7 @@ import {
   selectRegionById,
   selectValueAt,
 } from "@/lib/data/selectors";
-import { formatValue } from "@/lib/data/format";
+import { formatValueParts } from "@/lib/data/format";
 import { useAppStore } from "@/lib/state/store";
 import { surface, color, glow } from "@/lib/ui/tokens";
 import { t } from "@/lib/i18n/strings";
@@ -136,8 +137,13 @@ export function DataCard({ compact = false, width }: DataCardProps = {}) {
             {t("selectRegionLong", locale)}
           </motion.div>
         ) : (
+          /* Stable wrapper — keyed on "data" (not region.id) so the
+             whole card doesn't remount on every region change. Only
+             the region name (inner AnimatePresence) and the value
+             (NumberFlow's digit tween) animate when the region
+             changes within the same indicator. */
           <motion.div
-            key={`data-${region.id}`}
+            key="data"
             {...swap}
             style={{
               display: "flex",
@@ -167,6 +173,8 @@ export function DataCard({ compact = false, width }: DataCardProps = {}) {
               >
                 {indicatorLabel}
               </div>
+              {/* Region label — fades in fresh on each region change
+                  (same fade-up swap used everywhere else on the card). */}
               <div
                 style={{
                   fontSize: 16,
@@ -174,9 +182,25 @@ export function DataCard({ compact = false, width }: DataCardProps = {}) {
                   letterSpacing: "-0.32px",
                   lineHeight: "16px",
                   marginTop: 4,
+                  // Reserve the line so the swap doesn't shift layout
+                  // while the old label is exiting.
+                  position: "relative",
+                  height: 16,
                 }}
               >
-                {regionName}
+                <AnimatePresence mode="wait" initial={false}>
+                  <motion.span
+                    key={region.id}
+                    {...swap}
+                    style={{
+                      position: "absolute",
+                      inset: 0,
+                      whiteSpace: "nowrap",
+                    }}
+                  >
+                    {regionName}
+                  </motion.span>
+                </AnimatePresence>
               </div>
             </div>
 
@@ -200,15 +224,52 @@ export function DataCard({ compact = false, width }: DataCardProps = {}) {
                     textShadow: glow,
                     lineHeight: 1,
                     whiteSpace: "nowrap",
+                    display: "flex",
+                    alignItems: "baseline",
                   }}
                 >
-                  {latest
-                    ? formatValue(latest.value, indicator.unit, locale)
-                    : "—"}
+                  {latest ? (
+                    (() => {
+                      const parts = formatValueParts(
+                        latest.value,
+                        indicator.unit,
+                        locale,
+                      );
+                      return (
+                        <NumberFlow
+                          value={parts.display}
+                          locales={locale === "az" ? "az" : "en-US"}
+                          format={{
+                            minimumFractionDigits: parts.decimals,
+                            maximumFractionDigits: parts.decimals,
+                          }}
+                          suffix={parts.suffix}
+                          // Apple's iOS curve to match the rest of
+                          // the card's transitions.
+                          transformTiming={{
+                            duration: reduced ? 0 : 600,
+                            easing: "cubic-bezier(0.22, 1, 0.36, 1)",
+                          }}
+                          spinTiming={{
+                            duration: reduced ? 0 : 600,
+                            easing: "cubic-bezier(0.22, 1, 0.36, 1)",
+                          }}
+                          opacityTiming={{
+                            duration: reduced ? 0 : 300,
+                            easing: "ease-out",
+                          }}
+                        />
+                      );
+                    })()
+                  ) : (
+                    "—"
+                  )}
                 </div>
                 <div
                   style={{
-                    background: "#ffffff",
+                    // Inverts with theme — white on dark / dark on light
+                    // so the icon's contrast survives the theme flip.
+                    background: color.text,
                     width: 24,
                     height: 24,
                     borderRadius: 18,
@@ -220,7 +281,11 @@ export function DataCard({ compact = false, width }: DataCardProps = {}) {
                   }}
                   aria-hidden
                 >
-                  <UnitIcon kind={kindForUnit(indicator.unit)} size={18} />
+                  <UnitIcon
+                    kind={kindForUnit(indicator.unit)}
+                    size={18}
+                    tone="var(--c-bg)"
+                  />
                 </div>
               </div>
               <div
