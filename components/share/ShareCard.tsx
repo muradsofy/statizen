@@ -99,7 +99,7 @@ export function ShareCard({
             <path
               key={`fill-${g.id}`}
               d={g.d}
-              fill={g.id === region.id ? color.accent : color.mapFill}
+              fill={g.id === region.id ? color.mapActive : color.mapFill}
             />
           ))}
           {/* Pass 2 — strokes (so neighbours' fills can't paint over borders) */}

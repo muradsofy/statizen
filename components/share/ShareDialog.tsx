@@ -27,7 +27,7 @@ export interface ShareDialogProps {
 
 type Status = "idle" | "rendering" | "done" | "error";
 
-const PREVIEW_SCALE = 0.32; // 1080×1350 → ~346×432 preview
+const PREVIEW_SCALE = 0.27; // 1080×1350 → ~292×365 preview (fits ~600px viewports without scroll)
 
 /**
  * Modal/sheet that previews the ShareCard and offers three export
@@ -48,23 +48,6 @@ export function ShareDialog({
   const cardRef = useRef<HTMLDivElement>(null);
   const [status, setStatus] = useState<Status>("idle");
   const [errorMsg, setErrorMsg] = useState<string | null>(null);
-  // Web Share with files is iOS Safari / modern Chrome only. Hide the
-  // button on platforms that can't do it (we'd just fall back to PNG
-  // download, which is what the PNG button already does).
-  const [canNativeShare, setCanNativeShare] = useState(false);
-
-  useEffect(() => {
-    if (typeof navigator === "undefined") return;
-    const nav = navigator as Navigator & {
-      canShare?: (d: ShareData) => boolean;
-    };
-    setCanNativeShare(
-      typeof navigator.share === "function" &&
-        nav.canShare?.({
-          files: [new File([new Blob()], "probe.png", { type: "image/png" })],
-        }) === true,
-    );
-  }, []);
 
   useEffect(() => {
     if (open) {
@@ -201,8 +184,6 @@ export function ShareDialog({
               style={{
                 ...surface,
                 width: "min(520px, 100%)",
-                maxHeight: "calc(100vh - 40px)",
-                overflow: "auto",
                 display: "flex",
                 flexDirection: "column",
                 gap: 24,
@@ -268,12 +249,16 @@ export function ShareDialog({
                 </div>
               </div>
 
-              {/* Actions */}
+              {/* Actions — Share is always present on both mobile and
+                  desktop. When the Web Share API isn't available
+                  (desktop browsers without it), `shareImageNative`
+                  falls back to a PNG download so the button always
+                  does *something* useful. */}
               <div
                 style={{
                   display: "grid",
                   gap: 8,
-                  gridTemplateColumns: canNativeShare ? "1fr 1fr 1fr" : "1fr 1fr",
+                  gridTemplateColumns: "1fr 1fr 1fr",
                 }}
               >
                 <ActionButton
@@ -286,14 +271,12 @@ export function ShareDialog({
                   onClick={onDownloadPdf}
                   busy={status === "rendering"}
                 />
-                {canNativeShare && (
-                  <ActionButton
-                    label={t("shareNative", locale)}
-                    onClick={onShareNative}
-                    busy={status === "rendering"}
-                    primary
-                  />
-                )}
+                <ActionButton
+                  label={t("shareNative", locale)}
+                  onClick={onShareNative}
+                  busy={status === "rendering"}
+                  primary
+                />
               </div>
 
               {status === "error" && errorMsg && (
@@ -333,10 +316,12 @@ function ActionButton({
       whileHover={busy ? undefined : { opacity: 0.9 }}
       style={{
         padding: "12px 16px",
-        background: primary ? color.accent : "rgba(255,255,255,0.08)",
-        border: `0.5px solid ${primary ? "transparent" : "rgba(255,255,255,0.25)"}`,
+        background: primary ? color.accent : color.hoverStrong,
+        border: `0.5px solid ${primary ? "transparent" : "var(--c-surface-border)"}`,
         borderRadius: 12,
-        color: color.text,
+        // Primary sits on the purple accent — always-white foreground.
+        // Secondary sits on the themed sheet — inverts with theme.
+        color: primary ? color.onAccent : color.text,
         fontSize: 15,
         fontWeight: 500,
         letterSpacing: "-0.3px",

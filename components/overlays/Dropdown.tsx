@@ -73,11 +73,21 @@ export function Dropdown({
     setPortalTarget(document.body);
   }, []);
 
-  // close on outside click
+  // close on outside click. The menu renders in a portal at body so
+  // it's NOT inside rootRef — taps inside the menu would otherwise
+  // count as "outside" and close before the user can scroll the list
+  // on mobile. We tag the menu with [data-statizen-dropdown-menu]
+  // and exempt taps inside it here.
   useEffect(() => {
     if (!open) return;
     function onDown(e: PointerEvent) {
-      if (!rootRef.current?.contains(e.target as Node)) setOpen(false);
+      const target = e.target as Node;
+      if (rootRef.current?.contains(target)) return;
+      const inPortal = (target as Element | null)?.closest?.(
+        "[data-statizen-dropdown-menu]",
+      );
+      if (inPortal) return;
+      setOpen(false);
     }
     function onKey(e: KeyboardEvent) {
       if (e.key === "Escape") setOpen(false);
@@ -182,6 +192,7 @@ export function Dropdown({
           <AnimatePresence>
             {open && triggerRect && (
               <motion.div
+                data-statizen-dropdown-menu
                 initial={{ opacity: 0, y: openUp ? 6 : -6 }}
                 animate={{ opacity: 1, y: 0 }}
                 exit={{ opacity: 0, y: openUp ? 6 : -6 }}
@@ -211,6 +222,15 @@ export function Dropdown({
                   style={{
                     maxHeight: effectiveMax - 16,
                     overflowY: "auto",
+                    // Explicitly opt this region in to vertical pan
+                    // gestures — the map's wrapper uses
+                    // `touch-action: none` to capture all gestures
+                    // for its own pinch/pan; without this opt-in,
+                    // iOS would let the parent eat the touch and
+                    // the dropdown list wouldn't scroll.
+                    touchAction: "pan-y",
+                    WebkitOverflowScrolling: "touch",
+                    overscrollBehavior: "contain",
                     maskImage: FADE,
                     WebkitMaskImage: FADE,
                   }}
@@ -250,7 +270,7 @@ export function Dropdown({
                               border: "none",
                               borderRadius: 12,
                               background: active
-                                ? "rgba(255,255,255,0.06)"
+                                ? color.hoverStrong
                                 : "transparent",
                               color: active ? color.text : color.muted,
                               fontSize: 14,
@@ -263,7 +283,7 @@ export function Dropdown({
                             onMouseEnter={(e) => {
                               if (!active)
                                 e.currentTarget.style.background =
-                                  "rgba(255,255,255,0.04)";
+                                  "var(--c-hover-soft)";
                             }}
                             onMouseLeave={(e) => {
                               if (!active)

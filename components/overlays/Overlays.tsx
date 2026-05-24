@@ -1,6 +1,7 @@
 "use client";
 
 import { useUrlSync } from "@/lib/state/useUrlSync";
+import { useTheme } from "@/lib/ui/useTheme";
 import { useAppStore } from "@/lib/state/store";
 import { Wordmark } from "./Wordmark";
 import { FollowUs } from "./FollowUs";
@@ -14,6 +15,7 @@ import { HeaderMenu } from "./HeaderMenu";
 
 export function Overlays() {
   useUrlSync();
+  useTheme();
   // ShareButton self-gates on (region + indicator + value). For the
   // mobile bottom row layout we need to know *up front* whether the
   // Share pill will be there — when it isn't, the YearPicker grows to
@@ -23,18 +25,21 @@ export function Overlays() {
   const hasRegion = useAppStore((s) => !!s.selectedRegionId);
   return (
     <>
-      {/* Header — narrow padding on mobile, 88px gutter on desktop */}
+      {/* Header — narrow padding on mobile, 88px gutter on desktop.
+          The bar gets its own blurred surface so the wordmark +
+          @sofyzen / menu read as a distinct strip from the
+          dropdown pickers and map below. */}
       <div
         className="fixed top-0 left-0 right-0 flex items-center justify-between z-10 py-[23px] px-5 md:px-[88px]"
-        style={{ pointerEvents: "none" }}
+        style={{
+          background: "var(--c-surface-bg)",
+          backdropFilter: "blur(6.55px)",
+          WebkitBackdropFilter: "blur(6.55px)",
+          pointerEvents: "auto",
+        }}
       >
-        <div style={{ pointerEvents: "auto" }}>
-          <Wordmark />
-        </div>
-        <div
-          className="flex items-center gap-2"
-          style={{ pointerEvents: "auto" }}
-        >
+        <Wordmark />
+        <div className="flex items-center gap-2">
           <FollowUs />
           <HeaderMenu />
         </div>

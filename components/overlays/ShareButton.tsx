@@ -75,7 +75,10 @@ export function ShareButton({ width = "100%", height = 44 }: ShareButtonProps) {
           width,
           height,
           background: color.shareAccent,
-          color: color.text,
+          // Always-white foreground — brand purple is dark in both
+          // themes, so color.text (which inverts) would be unreadable
+          // in light mode.
+          color: color.onAccent,
           border: "none",
           borderRadius: 999,
           padding: "12px",

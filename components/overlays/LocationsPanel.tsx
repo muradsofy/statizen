@@ -88,7 +88,7 @@ export function LocationsPanel() {
                     color: active
                       ? color.text
                       : hovered
-                        ? "rgba(255,255,255,0.8)"
+                        ? color.hoverText
                         : color.muted,
                     textShadow: active ? glow : "none",
                     transition:

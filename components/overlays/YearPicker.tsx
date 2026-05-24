@@ -4,7 +4,7 @@ import { useEffect } from "react";
 import { motion } from "framer-motion";
 import { indicatorsData } from "@/lib/data/loadData";
 import { useAppStore } from "@/lib/state/store";
-import { color } from "@/lib/ui/tokens";
+import { color, surface } from "@/lib/ui/tokens";
 import { t } from "@/lib/i18n/strings";
 import { haptic } from "@/lib/haptics";
 
@@ -76,13 +76,11 @@ export function YearPicker({ compact = false, width }: YearPickerProps) {
   return (
     <div
       style={{
+        ...surface,
+        // Pill (not the usual surface rounded-24); override the radius.
+        borderRadius: 99,
         width,
         height: PILL_HEIGHT,
-        background: "rgba(34, 34, 34, 0.5)",
-        backdropFilter: "blur(6.55px)",
-        WebkitBackdropFilter: "blur(6.55px)",
-        border: "0.5px solid rgba(255, 255, 255, 0.25)",
-        borderRadius: 99,
         padding: `${PILL_PADDING_Y}px ${PILL_PADDING_X}px`,
         display: "flex",
         alignItems: "center",
