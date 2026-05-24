@@ -45,6 +45,10 @@ CURVE_SAMPLES = 6
 #
 # 2.5u over a ~1500u-wide viewBox = 0.17% precision loss, well below any
 # visible threshold at the zoom levels the map supports (≤ 3× pinch).
+# Tighter values (≤2.0) leave too many micro-arcs in the mesh — the
+# Figma source has digitization drift in the 0–2u range so we need
+# to be inclusive to coalesce them all. Topology fragments that still
+# slip through are dropped at runtime via MIN_ARC_LENGTH.
 SNAP_TOLERANCE = 2.5
 
 # Topology pre-quantisation kept conservative — the clustering pass above

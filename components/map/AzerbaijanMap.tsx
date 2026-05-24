@@ -10,7 +10,7 @@ import {
   animate,
   type AnimationPlaybackControls,
 } from "framer-motion";
-import { feature, mesh } from "topojson-client";
+import { feature } from "topojson-client";
 import type { Feature, MultiPolygon, Polygon } from "geojson";
 import { regionsGeo, regionsTopo } from "@/lib/map/loadGeo";
 import { geometryToD } from "@/lib/map/geoPath";
@@ -131,38 +131,6 @@ export function AzerbaijanMap() {
     }
     return out;
   }, []);
-
-  // Interior + exterior border meshes. When a region is selected, we
-  // EXCLUDE every edge that touches it — the active region becomes a
-  // pure-fill shape with no outlines (its own perimeter, its shared
-  // edges with neighbours, and any inner subpath artefacts like
-  // Karabakh's 7-vertex secondary ring all vanish). Visual edge comes
-  // from the purple fill meeting the dimmed neighbour fills.
-  const interiorMeshD = useMemo(() => {
-    return geometryToD(
-      mesh(regionsTopo, TOPO_COLLECTION, (a, b) => {
-        if (a === b) return false; // unshared edges go in EXTERIOR
-        const aId = (a as { id?: string }).id;
-        const bId = (b as { id?: string }).id;
-        if (selectedRegionId &&
-            (aId === selectedRegionId || bId === selectedRegionId)) {
-          return false;
-        }
-        return true;
-      }),
-    );
-  }, [selectedRegionId]);
-
-  const exteriorMeshD = useMemo(() => {
-    return geometryToD(
-      mesh(regionsTopo, TOPO_COLLECTION, (a, b) => {
-        if (a !== b) return false; // shared edges go in INTERIOR
-        const aId = (a as { id?: string }).id;
-        if (selectedRegionId && aId === selectedRegionId) return false;
-        return true;
-      }),
-    );
-  }, [selectedRegionId]);
 
   // Coarse pointer (touch) → drag-to-pan; fine pointer (mouse) → parallax.
   const [coarse, setCoarse] = useState(false);
@@ -289,6 +257,10 @@ export function AzerbaijanMap() {
     gRef.current?.setAttribute("transform", transform.get());
   }, [transform]);
 
+  // Entrance animation lives one level up in app/page.tsx — the parent
+  // motion.div owns the blur+fade-in choreography for the whole map
+  // layer in concert with the panels' reveal.
+
   return (
     <div
       ref={wrapperRef}
@@ -354,9 +326,9 @@ export function AzerbaijanMap() {
           if (!islands) return null;
           const isActive = selectedRegionId === geo.id;
           const islandFill = isActive
-            ? color.accent
+            ? color.mapActive
             : hoveredRegionId === geo.id
-              ? "#1d1d20"
+              ? color.mapFillHover
               : color.mapFill;
           // Islands keep full opacity unless their own region is
           // active (in which case they fade to 0.4 as "supporting
@@ -371,7 +343,7 @@ export function AzerbaijanMap() {
               key={`island-${geo.id}`}
               d={islands}
               fill={islandFill}
-              stroke={islandFill}
+              stroke={color.mapStroke}
               strokeWidth={1}
               vectorEffect="non-scaling-stroke"
               shapeRendering="geometricPrecision"
@@ -386,38 +358,13 @@ export function AzerbaijanMap() {
             />
           );
         })}
-        {/* Pass 2 — borders. Two single paths derived from the
-            topology mesh: interior shared edges + the country outline.
-            Each edge is drawn EXACTLY ONCE — no doubling, no
-            sub-pixel gaps between adjacent regions, no half-thickness
-            outer border. */}
-        <g pointerEvents="none">
-          {/* Interior + exterior borders. Both meshes EXCLUDE edges
-              touching the active region — that region is identified
-              purely by its purple fill against the dimmed neighbour
-              fills, with no outline of its own. Both fade to 0.5
-              opacity on selection. */}
-          <motion.path
-            d={interiorMeshD}
-            fill="none"
-            stroke={color.mapStroke}
-            strokeWidth={1}
-            vectorEffect="non-scaling-stroke"
-            shapeRendering="geometricPrecision"
-            animate={{ opacity: selectedRegionId ? 0.5 : 1 }}
-            transition={{ duration: 0.25, ease: [0.22, 1, 0.36, 1] }}
-          />
-          <motion.path
-            d={exteriorMeshD}
-            fill="none"
-            stroke={color.mapStroke}
-            strokeWidth={1}
-            vectorEffect="non-scaling-stroke"
-            shapeRendering="geometricPrecision"
-            animate={{ opacity: selectedRegionId ? 0.5 : 1 }}
-            transition={{ duration: 0.25, ease: [0.22, 1, 0.36, 1] }}
-          />
-        </g>
+        {/* Borders are drawn by each RegionFill stroking its own
+            perimeter (post-snap, adjacent regions share vertices so
+            overlapping strokes render as a single 1px line). The old
+            topology-mesh pass produced phantom shared arcs that
+            visually intruded into region interiors; per-region
+            perimeters guarantee every stroke sits exactly on a real
+            region boundary. */}
       </g>
     </svg>
     </div>

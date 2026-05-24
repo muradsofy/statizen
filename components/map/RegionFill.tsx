@@ -42,19 +42,21 @@ export function RegionFill({
   onSelect,
 }: RegionFillProps) {
   const fill = active
-    ? color.accent
+    ? color.mapActive
     : hovered
-      ? "#1d1d20"
+      ? color.mapFillHover
       : color.mapFill;
   return (
     <motion.path
       d={d ?? geo.d}
       fill={fill}
-      // Same-colour stroke anchors the fill edge: against the pure-black
-      // background the active region's saturated purple otherwise shows
-      // a thin anti-aliased rim. Stroke covers the AA transition zone
-      // so the perceived edge is sharp.
-      stroke={fill}
+      // Each region strokes its OWN perimeter as the border — borders
+      // are guaranteed to sit exactly on the region's drawn boundary,
+      // bypassing the topology-mesh's phantom-arc problems entirely.
+      // After the ETL snap pass, adjacent regions' vertices on shared
+      // edges are bit-identical, so the two overlapping strokes
+      // render as a single clean 1px line.
+      stroke={color.mapStroke}
       strokeWidth={1}
       vectorEffect="non-scaling-stroke"
       shapeRendering="geometricPrecision"
@@ -70,10 +72,21 @@ export function RegionFill({
         outline: "none",
         transition: "fill 120ms ease, stroke 120ms ease",
       }}
-      // Focus mode: when another region is selected, fade this one
-      // toward the bg so the active region pops. Active region stays at
-      // full opacity even when `dimmed` is theoretically passed.
-      animate={{ opacity: dimmed && !active ? 0.4 : 1 }}
+      // Focus mode: split fill and stroke opacity so the dim works
+      // uniformly across all borders. Single `opacity` would leave
+      // the selected region's stroke at full and neighbours' at 0.4
+      // — but the selected's full-opacity stroke wins where they
+      // overlap on the shared edge, so those borders never dim.
+      // SVG fill-opacity + stroke-opacity are independent attributes
+      // and bypass that overlap problem:
+      //   • fill-opacity: only neighbours dim (selected stays vivid)
+      //   • stroke-opacity: every region dims (including selected),
+      //     so every border reads as a uniformly softer grey when
+      //     any region is selected.
+      animate={{
+        fillOpacity: dimmed && !active ? 0.4 : 1,
+        strokeOpacity: active || dimmed ? 0.5 : 1,
+      }}
       transition={{ duration: 0.25, ease: [0.22, 1, 0.36, 1] }}
       onMouseEnter={() => onEnter(geo.id)}
       onMouseLeave={onLeave}
