@@ -6,6 +6,12 @@
  */
 export function Wordmark() {
   return (
+    // Deliberate plain <a> over next/link: a real navigation to "/"
+    // triggers a full page reload that clears URL search params
+    // (region/indicator/year/lang/theme), which is exactly the "back
+    // to default home" intent. Next/Link does client-side nav and
+    // would preserve the in-memory store state.
+    // eslint-disable-next-line @next/next/no-html-link-for-pages
     <a
       href="/"
       aria-label="statizen — back to home"
