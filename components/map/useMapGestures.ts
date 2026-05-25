@@ -104,14 +104,14 @@ export function useMapGestures(
     const el = ref.current;
     if (!el) return;
 
-    // Free-pan slack — at base scale the country fully fits the visible
-    // area, so the "edges can't cross the viewport edges" clamp would
-    // collapse to a single point. Allow ±FREE_PAN_FRACTION of the
-    // content dimension so the map can be dragged around at any zoom
-    // level (the user can shift the country off-center to inspect a
-    // specific region against the empty space). The country edges may
-    // leave the viewport, but never by more than this fraction.
-    const FREE_PAN_FRACTION = 0.35;
+    // Free-pan slack at base scale. The country fully fits the visible
+    // area at this zoom so the "edges can't cross the viewport edges"
+    // clamp would otherwise collapse to a single point. Allow shifting
+    // by ±FREE_PAN_FRACTION × content-extent in any direction so the
+    // map can be dragged around at any zoom level. At 1.0 the country
+    // can be moved a full content-width off-center (still leaves a
+    // portion in the viewport, so the user can't fully lose the map).
+    const FREE_PAN_FRACTION = 1.0;
 
     function cxBoundsAt(s: number): { min: number; max: number } {
       const visW = opts.vbRight - opts.vbLeft;
