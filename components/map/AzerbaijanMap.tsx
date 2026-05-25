@@ -247,6 +247,11 @@ export function AzerbaijanMap() {
     // of casual clicks and conflicts with the parallax response. Only
     // coarse pointers (touch) need the hand-tool affordance.
     enableMousePan: coarse,
+    // Touch pan is gated by selection: a fresh visitor sees the
+    // country centred and can only tap regions. Once a region is
+    // active, single-finger drag becomes free-pan so the user can
+    // wander to neighbouring regions inside the zoomed-in view.
+    enableTouchPan: !!selectedRegionId,
     vbWidth: VW,
     vbHeight: VH,
     cxNeutral: CX,

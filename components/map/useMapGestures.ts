@@ -35,6 +35,12 @@ export interface MapGesturesOptions {
    *  `true` only for touch/coarse-pointer devices where the swipe is
    *  the only pan affordance. */
   enableMousePan?: boolean;
+  /** Enable single-finger touch pan. When false, single touches act
+   *  purely as taps (region selection). Pinch-to-zoom is unaffected
+   *  by this flag. Defaults to true. Use to lock the map at its
+   *  neutral position in the no-selection state so first-time visitors
+   *  can't accidentally drag the country off-screen. */
+  enableTouchPan?: boolean;
   /** Full viewBox width/height (units) — used for px → vb conversion when panning. */
   vbWidth: number;
   vbHeight: number;
@@ -91,6 +97,7 @@ export function useMapGestures(
       options.pinchMax,
       options.pinchMinFactor,
       options.enableMousePan,
+      options.enableTouchPan,
       options.vbWidth,
       options.vbHeight,
       options.cxNeutral,
@@ -155,6 +162,14 @@ export function useMapGestures(
       // fight a still-settling spring (cancel-on-gesture).
       opts.onGestureStart?.();
       if (e.touches.length === 1) {
+        // Single-finger pan is gated: in the no-selection state we
+        // leave the touch as a pure tap so the country can't be
+        // dragged off-screen before the user has a target. Once a
+        // region is selected, pan is enabled for free exploration.
+        if (opts.enableTouchPan === false) {
+          panRef.current = null;
+          return;
+        }
         panRef.current = {
           x: e.touches[0].clientX,
           y: e.touches[0].clientY,
