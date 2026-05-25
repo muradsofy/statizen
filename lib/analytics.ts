@@ -1,31 +1,25 @@
-// Thin Umami Cloud analytics wrapper. The script is loaded in
-// app/layout.tsx only in production builds with a website-id env var
-// set; here we just call `window.umami.track(...)` when it's available.
-// Calls are no-ops in dev and during SSR.
+// Thin PostHog analytics wrapper. The client is initialised in
+// app/providers.tsx (PostHogProvider) only in production builds; here
+// we just call `posthog.capture(...)` when it's available. Calls are
+// no-ops in dev and during SSR.
 //
-// Umami's custom-events API: `umami.track('Event Name', { ...props })`.
-// Event names show up in the dashboard's "Events" tab; props become
-// columns under each event. Use stable short names — they're
-// string-matched on the server.
+// PostHog's capture API: `posthog.capture('Event Name', { ...props })`.
+// Event names show up in the Events tab; props become filterable
+// properties. Use stable short names — they're string-matched on the
+// server.
 //
-// Reference: https://umami.is/docs/track-events
+// Reference: https://posthog.com/docs/libraries/js#capturing-events
 
-type UmamiProps = Record<string, string | number | boolean | undefined>;
+import posthog from "posthog-js";
 
-declare global {
-  interface Window {
-    umami?: {
-      track: (event: string, props?: UmamiProps) => void;
-      identify?: (id: string, props?: UmamiProps) => void;
-    };
-  }
-}
+type EventProps = Record<string, string | number | boolean | undefined>;
 
-/** Send a custom event. Silently no-ops if Umami isn't loaded (dev mode,
- *  ad-blocked, SSR). Undefined / null prop values are stripped so we
- *  don't pollute the dashboard with "undefined" buckets. */
-export function track(event: string, props?: UmamiProps): void {
-  if (typeof window === "undefined" || !window.umami) return;
+/** Send a custom event. Silently no-ops if PostHog isn't loaded (dev
+ *  mode, ad-blocked, SSR). Undefined / null prop values are stripped
+ *  so we don't pollute the dashboard with "undefined" buckets. */
+export function track(event: string, props?: EventProps): void {
+  if (typeof window === "undefined") return;
+  if (!posthog.__loaded) return;
   const cleaned: Record<string, string | number | boolean> = {};
   if (props) {
     for (const [k, v] of Object.entries(props)) {
@@ -33,7 +27,7 @@ export function track(event: string, props?: UmamiProps): void {
     }
   }
   try {
-    window.umami.track(
+    posthog.capture(
       event,
       Object.keys(cleaned).length ? cleaned : undefined,
     );

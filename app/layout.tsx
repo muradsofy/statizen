@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Archivo } from "next/font/google";
-import Script from "next/script";
 import "./globals.css";
+import { PostHogProvider } from "./providers";
 
 const archivo = Archivo({
   variable: "--font-archivo",
@@ -13,23 +13,6 @@ const SITE_URL = "https://statizen.space";
 const SITE_TITLE = "Statizen — Azerbaijan regional statistics";
 const SITE_DESCRIPTION =
   "Interactive map of Azerbaijan's regional statistics — demography, labour market, health, crime, and trade across the 14 economic regions. Source: stat.gov.az.";
-
-// Umami Cloud configuration. `NEXT_PUBLIC_*` vars are inlined at build
-// time. The website-id is public (visible in the rendered script tag on
-// the live site), so a hardcoded fallback for prod is fine and avoids
-// hidden-env-var deploy footguns. Override via env for staging /
-// preview deployments that should NOT pollute prod analytics with
-// their traffic.
-const UMAMI_WEBSITE_ID =
-  process.env.NEXT_PUBLIC_UMAMI_WEBSITE_ID ||
-  "8db71bc0-c6a2-4708-ad8a-ea098632c893";
-const UMAMI_HOST =
-  process.env.NEXT_PUBLIC_UMAMI_HOST || "https://cloud.umami.is";
-const UMAMI_SCRIPT = `${UMAMI_HOST}/script.js`;
-// Umami auto-tracks pageviews and SPA route changes; we add named
-// custom events in lib/analytics.ts via `window.umami.track(...)`.
-const UMAMI_ENABLED =
-  process.env.NODE_ENV === "production" && UMAMI_WEBSITE_ID.length > 0;
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
@@ -89,14 +72,6 @@ export default function RootLayout({
     <html lang="en" data-theme="dark" suppressHydrationWarning>
       <head>
         <script dangerouslySetInnerHTML={{ __html: themeBootstrap }} />
-        {UMAMI_ENABLED && (
-          <Script
-            defer
-            data-website-id={UMAMI_WEBSITE_ID}
-            src={UMAMI_SCRIPT}
-            strategy="afterInteractive"
-          />
-        )}
       </head>
       <body
         className={`${archivo.variable} antialiased`}
@@ -111,7 +86,7 @@ export default function RootLayout({
           transition: "background-color 200ms ease, color 200ms ease",
         }}
       >
-        {children}
+        <PostHogProvider>{children}</PostHogProvider>
       </body>
     </html>
   );
