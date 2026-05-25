@@ -266,7 +266,11 @@ export function DataCard({ compact = false, width }: DataCardProps = {}) {
                     width: 24,
                     height: 24,
                     borderRadius: 18,
-                    padding: 0,
+                    // Mobile (compact) keeps a 4px gutter so the icon
+                    // renders at 16px — at the 40px value font, a 24px
+                    // icon read as too bulky on small screens. Desktop
+                    // stays icon-fills-pill (24px).
+                    padding: compact ? 4 : 0,
                     display: "flex",
                     alignItems: "center",
                     justifyContent: "center",
@@ -276,7 +280,7 @@ export function DataCard({ compact = false, width }: DataCardProps = {}) {
                 >
                   <UnitIcon
                     kind={kindForIndicator(indicator.unit, indicator.id)}
-                    size={24}
+                    size={compact ? 16 : 24}
                     tone="var(--c-bg)"
                   />
                 </div>
