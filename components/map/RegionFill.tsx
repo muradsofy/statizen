@@ -24,7 +24,10 @@ export interface RegionFillProps {
   dimmed?: boolean;
   onEnter: (id: string) => void;
   onLeave: () => void;
-  onSelect: (id: string) => void;
+  /** Receives the region id on first click, `null` when the already-
+   *  active region is clicked again (toggle-off). The store's
+   *  `setSelectedRegion` accepts both. */
+  onSelect: (id: string | null) => void;
 }
 
 /**
@@ -102,21 +105,26 @@ export function RegionFill({
       onBlur={onLeave}
       onClick={(e) => {
         e.stopPropagation();
-        if (!active) {
-          haptic("medium");
+        haptic("medium");
+        if (active) {
+          // Toggle-off: clicking the already-active region deselects.
+          onSelect(null);
+        } else {
           analytics.regionSelected(geo.id, "map");
+          onSelect(geo.id);
         }
-        onSelect(geo.id);
       }}
       onKeyDown={(e) => {
         if (e.key === "Enter" || e.key === " ") {
           e.preventDefault();
           e.stopPropagation();
-          if (!active) {
-            haptic("medium");
+          haptic("medium");
+          if (active) {
+            onSelect(null);
+          } else {
             analytics.regionSelected(geo.id, "map");
+            onSelect(geo.id);
           }
-          onSelect(geo.id);
         }
       }}
     />

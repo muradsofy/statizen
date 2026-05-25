@@ -70,8 +70,14 @@ export function LocationsPanel() {
                   type="button"
                   data-region={r.id}
                   onClick={() => {
-                    setSelected(r.id);
-                    analytics.regionSelected(r.id, "list");
+                    if (active) {
+                      // Toggle-off: same as clicking the map region
+                      // again, returns the map to its default state.
+                      setSelected(null);
+                    } else {
+                      setSelected(r.id);
+                      analytics.regionSelected(r.id, "list");
+                    }
                   }}
                   onMouseEnter={() => setHovered(r.id)}
                   onMouseLeave={() => setHovered(null)}

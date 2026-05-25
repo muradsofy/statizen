@@ -353,7 +353,9 @@ export function AzerbaijanMap() {
               transition={{ duration: 0.25, ease: [0.22, 1, 0.36, 1] }}
               onClick={(e) => {
                 e.stopPropagation();
-                setSelected(geo.id);
+                // Toggle-off when the island belongs to the active
+                // region (matches RegionFill's click-to-deselect).
+                setSelected(isActive ? null : geo.id);
               }}
             />
           );
