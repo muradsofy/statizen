@@ -59,8 +59,6 @@ etl/geo/*
 !etl/geo/figma/
 etl/geo/figma/*.png
 etl/geo/figma/*.svg
-# ...but the OG brand mark is a source asset the build embeds.
-!etl/geo/figma/logo.png
 
 # Static export
 out/
