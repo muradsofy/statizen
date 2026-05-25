@@ -1,9 +1,11 @@
 """Generate /public/og.png (1200x630) from the live geometry + wordmark.
 One-off; re-run if the brand or geometry changes."""
+import base64
 import json
 import subprocess
 from pathlib import Path
 
+SCRIPT_DIR = Path(__file__).parent
 ROOT = Path(__file__).parents[3]
 d = json.loads((ROOT / "public/geo/regions.json").read_text())
 bb = d["bbox"]
@@ -20,13 +22,23 @@ paths = "".join(
     f'stroke-width="1" vector-effect="non-scaling-stroke"/>'
     for r in d["regions"]
 )
+# Brand mark above the wordmark. Same PNG as android-chrome-512x512;
+# kept alongside this script so the OG render is hermetic (no fetch
+# at build time). Embedded as base64 because rsvg-convert resolves
+# <image href="..."> URIs relative to the SVG's CWD, which is brittle.
+logo_b64 = base64.b64encode((SCRIPT_DIR / "logo.png").read_bytes()).decode()
+logo_uri = f"data:image/png;base64,{logo_b64}"
+LOGO_SIZE = 80
+LOGO_X = 80
+LOGO_Y = 120
 svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}">
   <rect width="{W}" height="{H}" fill="#000"/>
   <g transform="translate({tx} {ty}) scale({scale})">{paths}</g>
-  <text x="80" y="280" font-family="Archivo, Inter, system-ui, sans-serif"
+  <image x="{LOGO_X}" y="{LOGO_Y}" width="{LOGO_SIZE}" height="{LOGO_SIZE}" href="{logo_uri}"/>
+  <text x="80" y="300" font-family="Archivo, Inter, system-ui, sans-serif"
     font-size="96" font-weight="600" fill="#ffffff"
     style="letter-spacing:-2px">Statizen</text>
-  <text x="80" y="332" font-family="Archivo, Inter, system-ui, sans-serif"
+  <text x="80" y="352" font-family="Archivo, Inter, system-ui, sans-serif"
     font-size="22" fill="rgba(255,255,255,0.55)"
     style="letter-spacing:-0.4px">Azerbaijan regional statistics — 10 chapters, 14 economic regions</text>
   <text x="80" y="566" font-family="Archivo, Inter, system-ui, sans-serif"
