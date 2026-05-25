@@ -104,11 +104,23 @@ export function useMapGestures(
     const el = ref.current;
     if (!el) return;
 
+    // Free-pan slack — at base scale the country fully fits the visible
+    // area, so the "edges can't cross the viewport edges" clamp would
+    // collapse to a single point. Allow ±FREE_PAN_FRACTION of the
+    // content dimension so the map can be dragged around at any zoom
+    // level (the user can shift the country off-center to inspect a
+    // specific region against the empty space). The country edges may
+    // leave the viewport, but never by more than this fraction.
+    const FREE_PAN_FRACTION = 0.35;
+
     function cxBoundsAt(s: number): { min: number; max: number } {
       const visW = opts.vbRight - opts.vbLeft;
       const contentW = opts.contentRight - opts.contentLeft;
       const ratio = (contentW * s) / visW;
-      if (ratio <= 1) return { min: opts.cxNeutral, max: opts.cxNeutral };
+      if (ratio <= 1) {
+        const slack = contentW * FREE_PAN_FRACTION;
+        return { min: opts.cxNeutral - slack, max: opts.cxNeutral + slack };
+      }
       const centreVb = (opts.vbLeft + opts.vbRight) / 2;
       const cxMin = opts.contentLeft + (centreVb - opts.vbLeft) / s;
       const cxMax = opts.contentRight + (centreVb - opts.vbRight) / s;
@@ -120,7 +132,10 @@ export function useMapGestures(
       const visH = opts.vbBottom - opts.vbTop;
       const contentH = opts.contentBottom - opts.contentTop;
       const ratio = (contentH * s) / visH;
-      if (ratio <= 1) return { min: opts.cyNeutral, max: opts.cyNeutral };
+      if (ratio <= 1) {
+        const slack = contentH * FREE_PAN_FRACTION;
+        return { min: opts.cyNeutral - slack, max: opts.cyNeutral + slack };
+      }
       const centreVb = (opts.vbTop + opts.vbBottom) / 2;
       const cyMin = opts.contentTop + (centreVb - opts.vbTop) / s;
       const cyMax = opts.contentBottom + (centreVb - opts.vbBottom) / s;
@@ -214,17 +229,94 @@ export function useMapGestures(
       }
     }
 
+    // ─────────────────────────────────────────────────────────────────
+    // Mouse-drag pan (desktop "hand tool"). Mirrors the touch logic
+    // with the same threshold so quick clicks on regions still fire
+    // through to onClick handlers and only sustained drags engage pan.
+    // Listeners are attached to `window` for move/up so a drag that
+    // leaves the wrapper still completes (Figma-like).
+    // ─────────────────────────────────────────────────────────────────
+
+    function onMouseDown(e: MouseEvent) {
+      // Left button only. Ignore middle/right so context menu + middle-
+      // click new-tab on outbound links still work.
+      if (e.button !== 0) return;
+      // Skip when a modifier is held — leave Cmd/Ctrl/Alt for browser
+      // shortcuts and future selection-modifier semantics.
+      if (e.metaKey || e.ctrlKey || e.altKey) return;
+      opts.onGestureStart?.();
+      panRef.current = {
+        x: e.clientX,
+        y: e.clientY,
+        cx: cx.get(),
+        cy: cy.get(),
+        active: false,
+      };
+    }
+
+    function onMouseMove(e: MouseEvent) {
+      if (!panRef.current) return;
+      const dxPx = e.clientX - panRef.current.x;
+      const dyPx = e.clientY - panRef.current.y;
+      if (!panRef.current.active) {
+        if (Math.hypot(dxPx, dyPx) < PAN_THRESHOLD_PX) return;
+        panRef.current.active = true;
+        // Cursor → grabbing once we're committed to a drag.
+        if (el) el.style.cursor = "grabbing";
+      }
+      e.preventDefault();
+      const elNow = ref.current;
+      if (!elNow) return;
+      const elRect = elNow.getBoundingClientRect();
+      const elWidth = elRect.width || 1;
+      const elHeight = elRect.height || 1;
+      const s = scale.get();
+      const dCx = (-dxPx * opts.vbWidth) / (s * elWidth);
+      const dCy = (-dyPx * opts.vbHeight) / (s * elHeight);
+      const bx = cxBoundsAt(s);
+      const by = cyBoundsAt(s);
+      cx.set(Math.max(bx.min, Math.min(bx.max, panRef.current.cx + dCx)));
+      cy.set(Math.max(by.min, Math.min(by.max, panRef.current.cy + dCy)));
+    }
+
+    function onMouseUp() {
+      const wasActive = panRef.current?.active ?? false;
+      panRef.current = null;
+      if (el) el.style.cursor = "grab";
+      // If a drag actually happened, swallow the trailing click so it
+      // doesn't bubble up and select a region underneath the pointer.
+      if (wasActive) {
+        const swallow = (e: Event) => {
+          e.stopPropagation();
+          e.preventDefault();
+          window.removeEventListener("click", swallow, true);
+        };
+        window.addEventListener("click", swallow, true);
+      }
+    }
+
+    // Initial cursor — grab indicates the map is pannable.
+    el.style.cursor = "grab";
+
     el.addEventListener("touchstart", onTouchStart, { passive: true });
     el.addEventListener("touchmove", onTouchMove, { passive: false });
     el.addEventListener("touchend", onTouchEnd);
     el.addEventListener("touchcancel", onTouchEnd);
+    el.addEventListener("mousedown", onMouseDown);
+    window.addEventListener("mousemove", onMouseMove);
+    window.addEventListener("mouseup", onMouseUp);
+
     return () => {
       el.removeEventListener("touchstart", onTouchStart);
       el.removeEventListener("touchmove", onTouchMove);
       el.removeEventListener("touchend", onTouchEnd);
       el.removeEventListener("touchcancel", onTouchEnd);
+      el.removeEventListener("mousedown", onMouseDown);
+      window.removeEventListener("mousemove", onMouseMove);
+      window.removeEventListener("mouseup", onMouseUp);
+      el.style.cursor = "";
     };
-  }, [ref, scale, cx, opts]);
+  }, [ref, scale, cx, cy, opts]);
 
   return { isPinching };
 }

@@ -269,7 +269,15 @@ export function AzerbaijanMap() {
         inset: 0,
         width: "100%",
         height: "100%",
+        // `none` on coarse pointers so single-finger pan / pinch
+        // don't trigger browser page scroll. `pan-y` for desktop
+        // keeps wheel-scroll passing through normally (the map is
+        // panned with mouse drag instead). useMapGestures sets
+        // `cursor: grab` / `grabbing` dynamically.
         touchAction: coarse ? "none" : "auto",
+        // No text/SVG selection while dragging.
+        userSelect: "none",
+        WebkitUserSelect: "none",
       }}
     >
     <svg
