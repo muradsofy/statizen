@@ -3,7 +3,7 @@
 import { useEffect, useRef, useState } from "react";
 import { createPortal } from "react-dom";
 import { AnimatePresence, motion } from "framer-motion";
-import { surface, color, glow } from "@/lib/ui/tokens";
+import { surface, color } from "@/lib/ui/tokens";
 import { haptic } from "@/lib/haptics";
 
 export interface DropdownOption {
@@ -169,7 +169,6 @@ export function Dropdown({
           textAlign: "left",
           cursor: "pointer",
           outline: "none",
-          textShadow: glow,
         }}
       >
         <span
@@ -277,7 +276,6 @@ export function Dropdown({
                               letterSpacing: "-0.28px",
                               cursor: "pointer",
                               outline: "none",
-                              textShadow: active ? glow : "none",
                               transition: "background 100ms ease",
                             }}
                             onMouseEnter={(e) => {

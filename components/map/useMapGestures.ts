@@ -29,6 +29,12 @@ export interface MapGesturesOptions {
   pinchMax: number;
   /** Pinch can rubber-band below this factor of baseScale during the gesture. */
   pinchMinFactor?: number;
+  /** Enable the desktop hand-tool (mouse drag pans the map, cursor:
+   *  grab/grabbing). When false, mouse clicks still pass through to
+   *  region selection but no pan is wired. Defaults to false — pass
+   *  `true` only for touch/coarse-pointer devices where the swipe is
+   *  the only pan affordance. */
+  enableMousePan?: boolean;
   /** Full viewBox width/height (units) — used for px → vb conversion when panning. */
   vbWidth: number;
   vbHeight: number;
@@ -84,6 +90,7 @@ export function useMapGestures(
       options.baseScale,
       options.pinchMax,
       options.pinchMinFactor,
+      options.enableMousePan,
       options.vbWidth,
       options.vbHeight,
       options.cxNeutral,
@@ -295,26 +302,32 @@ export function useMapGestures(
       }
     }
 
-    // Initial cursor — grab indicates the map is pannable.
-    el.style.cursor = "grab";
-
     el.addEventListener("touchstart", onTouchStart, { passive: true });
     el.addEventListener("touchmove", onTouchMove, { passive: false });
     el.addEventListener("touchend", onTouchEnd);
     el.addEventListener("touchcancel", onTouchEnd);
-    el.addEventListener("mousedown", onMouseDown);
-    window.addEventListener("mousemove", onMouseMove);
-    window.addEventListener("mouseup", onMouseUp);
+
+    // Desktop hand-tool — only enabled when the caller opts in.
+    // Without this, desktop mouse clicks fall straight through to
+    // region selection (the pre-pan behaviour the owner reverted to).
+    if (opts.enableMousePan) {
+      el.style.cursor = "grab";
+      el.addEventListener("mousedown", onMouseDown);
+      window.addEventListener("mousemove", onMouseMove);
+      window.addEventListener("mouseup", onMouseUp);
+    }
 
     return () => {
       el.removeEventListener("touchstart", onTouchStart);
       el.removeEventListener("touchmove", onTouchMove);
       el.removeEventListener("touchend", onTouchEnd);
       el.removeEventListener("touchcancel", onTouchEnd);
-      el.removeEventListener("mousedown", onMouseDown);
-      window.removeEventListener("mousemove", onMouseMove);
-      window.removeEventListener("mouseup", onMouseUp);
-      el.style.cursor = "";
+      if (opts.enableMousePan) {
+        el.removeEventListener("mousedown", onMouseDown);
+        window.removeEventListener("mousemove", onMouseMove);
+        window.removeEventListener("mouseup", onMouseUp);
+        el.style.cursor = "";
+      }
     };
   }, [ref, scale, cx, cy, opts]);
 

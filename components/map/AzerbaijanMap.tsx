@@ -35,14 +35,26 @@ const CY = bbox.y + bbox.h / 2;
 // viewport more aggressively than a 1.0 fit. Mobile overscans further since
 // the country's wide aspect leaves a lot of vertical letterbox at scale=1.
 const BASE_SCALE_DESKTOP = 1.15;
-const BASE_SCALE_MOBILE = 1.4;
+// Mobile default scale used to be 1.4 to fill the portrait viewport
+// more aggressively. The trade-off: southern regions ended up behind
+// the bottom panel stack (RegionPill + DataCard + YearPicker, ~340px
+// tall) in the no-selection state. Visitors had to select a northern
+// region first to trigger the auto-zoom that brought the south back
+// into view, then tap their actual target — a two-step dance.
+// Pulling the scale closer to 1.0 lets the entire country fit within
+// the 290-300px tappable band between the top dropdowns and the
+// bottom stack. Detail drops a notch but every region is reachable
+// from the default state without intermediate moves.
+const BASE_SCALE_MOBILE = 1.05;
 // Vertical shift of the country in the no-selection state on mobile.
-// Mobile layout has the DataCard + YearPicker + Share button stacked at
-// the bottom — without this bias, the country sits dead-centre and the
-// southern regions are partially hidden behind that stack. Positive
-// values shift the country *up* (the viewBox point we look at moves
-// down). 240 vb units ≈ 60 px on a 375 px viewport.
-const MOBILE_Y_BIAS = 240;
+// Positive values shift the country *up* (the viewBox point we look
+// at moves down). At baseScale 1.05 on a 375×812 viewport, the map's
+// effective px/vb ratio is ~0.23, so 1 vb ≈ 0.23 viewport-px. The
+// tappable map band sits between the indicator dropdowns (~y=186)
+// and the RegionPill (~y=488), centre ~y=337 — viewport centre is
+// at ~y=406, so the country needs to move up by ~69 px = ~300 vb
+// to seat its centre in that band.
+const MOBILE_Y_BIAS = 400;
 const FIT_MARGIN = 0.55; // selected region uses ~55% of the view → fully shown
 const SEL_MIN = 1.3;
 const SEL_MAX = 3.0;
@@ -183,17 +195,22 @@ export function AzerbaijanMap() {
   useEffect(() => {
     stopSelectAnims();
     const r = regionsGeo.regions.find((g) => g.id === selectedRegionId);
-    // The same vertical bias the neutral state uses — applied to the
-    // selected region too so it doesn't centre at *absolute* viewport
-    // midpoint (which is behind the bottom UI stack on mobile). The
-    // region ends up centred in the visible map area between the
-    // header / pickers and the DataCard stack.
-    const yBias = mobileVp ? MOBILE_Y_BIAS : 0;
+    // Vertical bias keeps the active content centred in the visible
+    // map band (header + dropdowns above, DataCard stack below).
+    // A static vb offset would visually multiply with the zoom level
+    // — a region at fitScale ~2.0 ended up shifted ~2× higher than
+    // the neutral country at baseScale 1.05, leaving a big empty gap
+    // below the selected region. Scale the bias inversely so the
+    // visual offset stays roughly constant across selection states.
+    const selScale = r ? fitScale(r.bbox.w, r.bbox.h) : baseScale;
+    const yBias = mobileVp
+      ? (MOBILE_Y_BIAS * baseScale) / selScale
+      : 0;
     const targets = r
       ? {
           cx: r.bbox.x + r.bbox.w / 2,
           cy: r.bbox.y + r.bbox.h / 2 + yBias,
-          scale: fitScale(r.bbox.w, r.bbox.h),
+          scale: selScale,
           preset: spring.selectZoom,
         }
       : {
@@ -225,6 +242,11 @@ export function AzerbaijanMap() {
   useMapGestures(wrapperRef, scale, cx, cy, {
     baseScale,
     pinchMax: PINCH_MAX,
+    // Mouse-drag pan is mobile-only. Desktop visitors expect a static
+    // map (clicks select regions); a hand-tool there gets in the way
+    // of casual clicks and conflicts with the parallax response. Only
+    // coarse pointers (touch) need the hand-tool affordance.
+    enableMousePan: coarse,
     vbWidth: VW,
     vbHeight: VH,
     cxNeutral: CX,
