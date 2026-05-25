@@ -143,7 +143,7 @@
    * mode wants a soft pastel that reads as "highlighted" without
    * yelling. */
   --c-map-active: #8a38f5;
-  --c-map-fill: #060606;
+  --c-map-fill: #0e0e10;
   --c-map-fill-hover: #1d1d20;
   --c-map-stroke: #3a3a3a;
   --c-map-stroke-active: rgba(255, 255, 255, 0.6);
