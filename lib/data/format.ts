@@ -149,6 +149,38 @@ function compactParts(n: number, locale: Locale): FormattedParts {
   return { display: Math.round(n), suffix: "", decimals: 0 };
 }
 
+/** Bare unit label, no parens. Used as the muted-text annotation next
+ *  to the DataCard value (e.g. "11,638 marriages"). Returns an empty
+ *  string for units that already self-describe in the value text — %
+ *  and m² — so callers don't double up. */
+export function unitLabel(unit: string, locale: Locale): string {
+  const pick = <T extends string>(en: T, az: T, ru: T): T =>
+    locale === "az" ? az : locale === "ru" ? ru : en;
+  switch (unit) {
+    case "%":
+      return ""; // already in the value (`4.8%`)
+    case "m²":
+      return ""; // already in the value (`20.9 m²`)
+    case "manat":
+    case "thousand manat":
+      return pick("manat", "manat", "манат");
+    case "persons":
+    case "thousand persons":
+      return pick("persons", "nəfər", "человек");
+    case "cases":
+      return pick("cases", "hadisə", "случаев");
+    case "families":
+      return pick("families", "ailə", "семей");
+    case "facilities":
+      return pick("facilities", "obyekt", "объектов");
+    case "tonnes":
+    case "thousand tonnes":
+      return pick("tonnes", "ton", "тонн");
+    default:
+      return unit;
+  }
+}
+
 /** "(unit)" string appended to the indicator title (Figma 30:132). */
 export function unitSuffix(unit: string, locale: Locale): string {
   const pick = <T extends string>(en: T, az: T, ru: T): T =>

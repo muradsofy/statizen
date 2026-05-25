@@ -234,6 +234,17 @@
   html {
     @apply font-sans;
   }
+  /* Lock the page itself from scrolling — `main` is position:fixed +
+   * overflow:hidden so all interactive layers (map, panels, dialogs)
+   * paint inside the viewport. Without these, mobile Safari rubber-
+   * bands the whole document on touch + a long DataCard title would
+   * push the body taller than the viewport and unlock scroll. */
+  html,
+  body {
+    height: 100%;
+    overflow: hidden;
+    overscroll-behavior: none;
+  }
 }
 
 /* Scrollable lists: no visible scrollbar; edges fade via mask. */

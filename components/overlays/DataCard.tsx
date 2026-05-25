@@ -3,7 +3,6 @@
 import { AnimatePresence, motion, useReducedMotion } from "framer-motion";
 import NumberFlow from "@number-flow/react";
 import { useFitText } from "@/lib/ui/useFitText";
-import { UnitIcon, kindForIndicator } from "@/components/icons/UnitIcon";
 import { indicatorsData, regionsData } from "@/lib/data/loadData";
 import { useIndicatorValues } from "@/lib/data/useIndicatorValues";
 import {
@@ -12,7 +11,7 @@ import {
   selectRegionById,
   selectValueAt,
 } from "@/lib/data/selectors";
-import { formatValueParts, numericLocale } from "@/lib/data/format";
+import { formatValueParts, numericLocale, unitLabel } from "@/lib/data/format";
 import { indicatorLabel as pickIndicatorLabel, regionName as pickRegionName } from "@/lib/i18n/localize";
 import { useAppStore } from "@/lib/state/store";
 import { surface, color, glow } from "@/lib/ui/tokens";
@@ -107,7 +106,8 @@ export function DataCard({ compact = false, width }: DataCardProps = {}) {
         position: "relative",
         width: width ?? (compact ? "100%" : 336),
         height: compact ? 204 : 300,
-        padding: 24,
+        // Mobile (compact): 16px per Figma 2024:301; desktop keeps 24.
+        padding: compact ? 16 : 24,
         display: "flex",
         flexDirection: "column",
         justifyContent: "space-between",
@@ -174,7 +174,10 @@ export function DataCard({ compact = false, width }: DataCardProps = {}) {
                   color: color.muted,
                   letterSpacing: "-0.32px",
                   lineHeight: "16px",
-                  marginTop: 6,
+                  // Mobile (compact): Figma 2024:302 sets itemSpacing 4
+                  // between title and region; desktop bumps to 6 for
+                  // breathing room at the larger title size.
+                  marginTop: compact ? 4 : 6,
                   // Reserve the line so the swap doesn't shift layout
                   // while the old label is exiting.
                   position: "relative",
@@ -197,14 +200,19 @@ export function DataCard({ compact = false, width }: DataCardProps = {}) {
               </div>
             </div>
 
-            {/* Bottom: value + unit pill, source row. */}
+            {/* Bottom: value row + source row. Mobile uses Figma 2024:305's
+                itemSpacing 4; desktop stays at 8. */}
             <div
-              style={{ display: "flex", flexDirection: "column", gap: 8 }}
+              style={{
+                display: "flex",
+                flexDirection: "column",
+                gap: compact ? 4 : 8,
+              }}
             >
               <div
                 style={{
                   display: "flex",
-                  alignItems: "center",
+                  alignItems: "baseline",
                   gap: 8,
                 }}
               >
@@ -258,32 +266,30 @@ export function DataCard({ compact = false, width }: DataCardProps = {}) {
                     "—"
                   )}
                 </div>
-                <div
-                  style={{
-                    // Inverts with theme — white on dark / dark on light
-                    // so the icon's contrast survives the theme flip.
-                    background: color.text,
-                    width: 24,
-                    height: 24,
-                    borderRadius: 18,
-                    // Mobile (compact) keeps a 4px gutter so the icon
-                    // renders at 16px — at the 40px value font, a 24px
-                    // icon read as too bulky on small screens. Desktop
-                    // stays icon-fills-pill (24px).
-                    padding: compact ? 4 : 0,
-                    display: "flex",
-                    alignItems: "center",
-                    justifyContent: "center",
-                    boxSizing: "border-box",
-                  }}
-                  aria-hidden
-                >
-                  <UnitIcon
-                    kind={kindForIndicator(indicator.unit, indicator.id)}
-                    size={compact ? 16 : 24}
-                    tone="var(--c-bg)"
-                  />
-                </div>
+                {(() => {
+                  // Bare-text unit annotation in muted colour at the right
+                  // of the big value. Empty for % / m² (those self-label
+                  // inside the value text). Aligned to the baseline of the
+                  // value digits so descenders sit on the same line.
+                  const label = unitLabel(indicator.unit, locale);
+                  if (!label) return null;
+                  return (
+                    <span
+                      aria-hidden
+                      style={{
+                        fontSize: compact ? 14 : 16,
+                        fontWeight: 400,
+                        color: color.muted,
+                        letterSpacing: "-0.3px",
+                        // Align with the digit baseline of the parent flex
+                        // (`alignItems: baseline`) so the label sits on
+                        // the value's baseline, not its descender line.
+                      }}
+                    >
+                      {label}
+                    </span>
+                  );
+                })()}
               </div>
               <div
                 style={{
