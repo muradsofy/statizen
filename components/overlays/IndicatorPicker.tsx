@@ -5,6 +5,8 @@ import { chaptersData, indicatorsData } from "@/lib/data/loadData";
 import { useAppStore } from "@/lib/state/store";
 import { Dropdown } from "./Dropdown";
 import { t } from "@/lib/i18n/strings";
+import { chapterLabel, indicatorLabel } from "@/lib/i18n/localize";
+import { analytics } from "@/lib/analytics";
 
 export interface IndicatorPickerProps {
   width?: number | string;
@@ -32,19 +34,28 @@ export function IndicatorPicker({
 
   const chapterOptions = chapters.map((c) => ({
     value: c.id,
-    label: locale === "az" ? c.label_az : c.label_en,
+    label: chapterLabel(c, locale),
   }));
 
   const indicatorOptions = indicators
     .filter((i) => i.chapter === activeChapterId)
     .map((i) => ({
       value: i.id,
-      label: locale === "az" ? i.label_az : i.label_en,
+      label: indicatorLabel(i, locale),
     }));
 
   function onChapterChange(chapterId: string) {
     const first = indicators.find((i) => i.chapter === chapterId);
-    if (first) setActive(first.id);
+    if (first) {
+      setActive(first.id);
+      analytics.indicatorChanged(first.id, chapterId);
+    }
+  }
+
+  function onIndicatorChange(indicatorId: string) {
+    setActive(indicatorId);
+    const ind = indicators.find((i) => i.id === indicatorId);
+    if (ind) analytics.indicatorChanged(indicatorId, ind.chapter);
   }
 
   if (layout === "row") {
@@ -86,7 +97,7 @@ export function IndicatorPicker({
           <Dropdown
             value={activeIndicatorId}
             options={indicatorOptions}
-            onChange={setActive}
+            onChange={onIndicatorChange}
             ariaLabel={t("indicator", locale)}
             width="100%"
             paddingY={12}

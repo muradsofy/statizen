@@ -3,9 +3,12 @@
 import type { CSSProperties } from "react";
 import type { Indicator, Region, Locale } from "@/types/data";
 import { regionsGeo } from "@/lib/map/loadGeo";
-import { color, glow } from "@/lib/ui/tokens";
+import { color } from "@/lib/ui/tokens";
 import { formatValue, unitSuffix } from "@/lib/data/format";
 import { t } from "@/lib/i18n/strings";
+import { regionName, indicatorLabel } from "@/lib/i18n/localize";
+
+export type ShareCardFormat = "post" | "story";
 
 export interface ShareCardProps {
   region: Region;
@@ -13,30 +16,40 @@ export interface ShareCardProps {
   year: number;
   value: number | null | undefined;
   locale: Locale;
+  /** Output canvas. `"post"` = 1080×1350 (Instagram feed, 4:5).
+   *  `"story"` = 1080×1920 (Instagram Story, 9:16). Default `"post"`. */
+  format?: ShareCardFormat;
 }
 
-const W = 1080;
-const H = 1350;
-const PAD = 64;
+/** Per-format canvas dimensions + safe-area paddings. Story padTop / padBottom
+ *  reserve room for Instagram's profile chip (top) and "Send message" bar
+ *  (bottom) so the wordmark and footer aren't covered by IG's UI. */
+const DIMS: Record<ShareCardFormat, {
+  W: number;
+  H: number;
+  padX: number;
+  padTop: number;
+  padBottom: number;
+  mapH: number;
+}> = {
+  post:  { W: 1080, H: 1350, padX: 64, padTop: 64,  padBottom: 64,  mapH: 380 },
+  story: { W: 1080, H: 1920, padX: 64, padTop: 220, padBottom: 280, mapH: 420 },
+};
 
 const { bbox } = regionsGeo;
 const VB = `${bbox.x} ${bbox.y} ${bbox.w} ${bbox.h}`;
 
 /**
- * Off-screen 1080×1350 template captured to PNG/PDF for sharing.
+ * Off-screen template captured to PNG/PDF for sharing. Two formats:
+ *
+ *   • `post`  — 1080×1350 (Instagram feed 4:5). Default.
+ *   • `story` — 1080×1920 (Instagram Story 9:16) with safe-area paddings
+ *               so the IG profile chip (top ~200px) and send-bar
+ *               (bottom ~280px) don't clip the wordmark / footer.
  *
  * Renders at native resolution regardless of viewport — html-to-image
- * captures the actual `width` × `height` we declare here, so the export
+ * captures the actual `width` × `height` declared here, so the export
  * is crisp on retina without zooming.
- *
- * Layout (top → bottom):
- *
- *   • Statizen wordmark + locale-aware tagline
- *   • Year + indicator title
- *   • Big accent value with glow
- *   • Region name
- *   • Mini-map of Azerbaijan with the selected region highlighted
- *   • Footer: source citation + statizen.space
  */
 export function ShareCard({
   region,
@@ -44,20 +57,22 @@ export function ShareCard({
   year,
   value,
   locale,
+  format = "post",
 }: ShareCardProps) {
-  const regionName = locale === "az" ? region.name_az : region.name_en;
-  const indicatorLabel =
-    locale === "az" ? indicator.label_az : indicator.label_en;
-  const titleWithUnit = `${indicatorLabel} ${unitSuffix(indicator.unit, locale)}`;
+  const regionNameStr = regionName(region, locale);
+  const indicatorLabelStr = indicatorLabel(indicator, locale);
+  const titleWithUnit = `${indicatorLabelStr} ${unitSuffix(indicator.unit, locale)}`;
   const formattedValue =
     value == null ? "—" : formatValue(value, indicator.unit, locale);
+
+  const dims = DIMS[format];
 
   return (
     <div
       style={{
         position: "relative",
-        width: W,
-        height: H,
+        width: dims.W,
+        height: dims.H,
         background: color.bg,
         color: color.text,
         fontFamily:
@@ -65,10 +80,10 @@ export function ShareCard({
         display: "flex",
         flexDirection: "column",
         boxSizing: "border-box",
-        padding: PAD,
-        // Soft purple wash behind the value so the card has visual depth
-        // even when rendered standalone.
-        backgroundImage: `radial-gradient(80% 60% at 50% 55%, rgba(97,43,244,0.18) 0%, rgba(0,0,0,0) 70%)`,
+        paddingTop: dims.padTop,
+        paddingBottom: dims.padBottom,
+        paddingLeft: dims.padX,
+        paddingRight: dims.padX,
       }}
     >
       {/* Header */}
@@ -77,16 +92,16 @@ export function ShareCard({
         <div style={taglineStyle}>{t("shareTagline", locale)}</div>
       </header>
 
-      {/* Hero */}
+      {/* Hero — fills remaining vertical space */}
       <main style={heroStyle}>
         <div style={yearStyle}>{year}</div>
         <div style={titleStyle}>{titleWithUnit}</div>
-        <div style={valueStyle}>{formattedValue}</div>
-        <div style={regionStyle}>{regionName}</div>
+        <div style={valueStyle(format)}>{formattedValue}</div>
+        <div style={regionStyle}>{regionNameStr}</div>
       </main>
 
       {/* Mini-map */}
-      <div style={mapWrapStyle}>
+      <div style={{ ...mapWrapStyle, height: dims.mapH }}>
         <svg
           viewBox={VB}
           width="100%"
@@ -94,7 +109,6 @@ export function ShareCard({
           preserveAspectRatio="xMidYMid meet"
           style={{ display: "block" }}
         >
-          {/* Pass 1 — fills */}
           {regionsGeo.regions.map((g) => (
             <path
               key={`fill-${g.id}`}
@@ -102,7 +116,6 @@ export function ShareCard({
               fill={g.id === region.id ? color.mapActive : color.mapFill}
             />
           ))}
-          {/* Pass 2 — strokes (so neighbours' fills can't paint over borders) */}
           {regionsGeo.regions.map((g) => (
             <path
               key={`stroke-${g.id}`}
@@ -148,7 +161,6 @@ const heroStyle: CSSProperties = {
   justifyContent: "center",
   alignItems: "flex-start",
   gap: 16,
-  // Pulled a bit toward the wordmark for visual balance with the map below.
   paddingTop: 24,
   paddingBottom: 24,
 };
@@ -162,18 +174,21 @@ const titleStyle: CSSProperties = {
   fontSize: 48,
   letterSpacing: "-1px",
   lineHeight: 1.1,
-  textShadow: glow,
 };
-const valueStyle: CSSProperties = {
-  fontSize: 240,
-  fontWeight: 700,
-  letterSpacing: "-6px",
-  lineHeight: 1,
-  color: color.text,
-  textShadow: "0 0 40px rgba(97,43,244,0.6), 0 0 12px rgba(255,255,255,0.4)",
-  marginTop: 8,
-  marginBottom: 8,
-};
+// Big value scales up a bit in story format — extra vertical canvas
+// rewards a punchier headline number.
+function valueStyle(format: ShareCardFormat): CSSProperties {
+  const size = format === "story" ? 280 : 240;
+  return {
+    fontSize: size,
+    fontWeight: 700,
+    letterSpacing: format === "story" ? "-7px" : "-6px",
+    lineHeight: 1,
+    color: color.text,
+    marginTop: 8,
+    marginBottom: 8,
+  };
+}
 const regionStyle: CSSProperties = {
   fontSize: 40,
   color: color.muted,
@@ -181,8 +196,6 @@ const regionStyle: CSSProperties = {
 };
 const mapWrapStyle: CSSProperties = {
   width: "100%",
-  height: 380,
-  // Slight surround so the country doesn't touch the edges.
   display: "flex",
   alignItems: "center",
   justifyContent: "center",
@@ -195,5 +208,4 @@ const footerStyle: CSSProperties = {
   color: color.muted,
   letterSpacing: "-0.3px",
   paddingTop: 24,
-  borderTop: "1px solid rgba(255,255,255,0.08)",
 };

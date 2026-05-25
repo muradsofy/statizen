@@ -1,0 +1,2764 @@
+{
+  "values": [
+    {
+      "region_id": "baki",
+      "indicator_id": "regional_output",
+      "year": 2003,
+      "value": 6740322.2,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "regional_output",
+      "year": 2004,
+      "value": 8549528.7,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "regional_output",
+      "year": 2005,
+      "value": 12551280.4,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "regional_output",
+      "year": 2006,
+      "value": 18511776.1,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "regional_output",
+      "year": 2007,
+      "value": 26897836.1,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "regional_output",
+      "year": 2008,
+      "value": 35592858.4,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "regional_output",
+      "year": 2009,
+      "value": 28301762.3,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "regional_output",
+      "year": 2010,
+      "value": 35295930.4,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "regional_output",
+      "year": 2011,
+      "value": 42730610.9,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "regional_output",
+      "year": 2012,
+      "value": 44297119.8,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "regional_output",
+      "year": 2013,
+      "value": 45007497.6,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "regional_output",
+      "year": 2014,
+      "value": 44684811.1,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "regional_output",
+      "year": 2015,
+      "value": 40355421.5,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "regional_output",
+      "year": 2016,
+      "value": 47466438.8,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "regional_output",
+      "year": 2017,
+      "value": 55790659.3,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "regional_output",
+      "year": 2018,
+      "value": 62499899.3,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "regional_output",
+      "year": 2019,
+      "value": 60910418.7,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "regional_output",
+      "year": 2020,
+      "value": 51599409,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "regional_output",
+      "year": 2021,
+      "value": 70808889.3,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "regional_output",
+      "year": 2022,
+      "value": 105895183.6,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "regional_output",
+      "year": 2023,
+      "value": 92483637.7,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "regional_output",
+      "year": 2024,
+      "value": 95467663.0,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "regional_output",
+      "year": 2025,
+      "value": 95782171.5,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "regional_output",
+      "year": 2003,
+      "value": 196784.9,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "regional_output",
+      "year": 2004,
+      "value": 264385.2,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "regional_output",
+      "year": 2005,
+      "value": 360060.7,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "regional_output",
+      "year": 2006,
+      "value": 454945.2,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "regional_output",
+      "year": 2007,
+      "value": 629744,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "regional_output",
+      "year": 2008,
+      "value": 934956.1,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "regional_output",
+      "year": 2009,
+      "value": 1159209.8,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "regional_output",
+      "year": 2010,
+      "value": 1465582.9,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "regional_output",
+      "year": 2011,
+      "value": 2294996.8,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "regional_output",
+      "year": 2012,
+      "value": 2679517.7,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "regional_output",
+      "year": 2013,
+      "value": 2873260.6,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "regional_output",
+      "year": 2014,
+      "value": 2851359.5,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "regional_output",
+      "year": 2015,
+      "value": 3024635.9,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "regional_output",
+      "year": 2016,
+      "value": 3293591.8,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "regional_output",
+      "year": 2017,
+      "value": 3438966.7,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "regional_output",
+      "year": 2018,
+      "value": 3527384.5,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "regional_output",
+      "year": 2019,
+      "value": 3613702.4,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "regional_output",
+      "year": 2020,
+      "value": 3687845,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "regional_output",
+      "year": 2021,
+      "value": 3316546.3,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "regional_output",
+      "year": 2022,
+      "value": 3257024.2,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "regional_output",
+      "year": 2023,
+      "value": 1552868.3,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "regional_output",
+      "year": 2024,
+      "value": 1632160.4,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "regional_output",
+      "year": 2025,
+      "value": 1720482.3,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "regional_output",
+      "year": 2003,
+      "value": 213261.6,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "regional_output",
+      "year": 2004,
+      "value": 347009.6,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "regional_output",
+      "year": 2005,
+      "value": 366801.4,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "regional_output",
+      "year": 2006,
+      "value": 489014.4,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "regional_output",
+      "year": 2007,
+      "value": 674720.6,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "regional_output",
+      "year": 2008,
+      "value": 1006401.8,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "regional_output",
+      "year": 2009,
+      "value": 669672.8,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "regional_output",
+      "year": 2010,
+      "value": 692609.3,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "regional_output",
+      "year": 2011,
+      "value": 968963.3,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "regional_output",
+      "year": 2012,
+      "value": 1229082.3,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "regional_output",
+      "year": 2013,
+      "value": 1371391.4,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "regional_output",
+      "year": 2014,
+      "value": 1534693.9,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "regional_output",
+      "year": 2015,
+      "value": 1578651.8,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "regional_output",
+      "year": 2016,
+      "value": 1921485.3,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "regional_output",
+      "year": 2017,
+      "value": 2300401.9,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "regional_output",
+      "year": 2018,
+      "value": 3062549.6,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "regional_output",
+      "year": 2019,
+      "value": 5313943.8,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "regional_output",
+      "year": 2020,
+      "value": 5596475,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "regional_output",
+      "year": 2021,
+      "value": 6230563.3,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "regional_output",
+      "year": 2022,
+      "value": 7208923.5,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "regional_output",
+      "year": 2023,
+      "value": 7852368,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "regional_output",
+      "year": 2024,
+      "value": 7912411.0,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "regional_output",
+      "year": 2025,
+      "value": 8529320.9,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "regional_output",
+      "year": 2003,
+      "value": 96286.8,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "regional_output",
+      "year": 2004,
+      "value": 114035.4,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "regional_output",
+      "year": 2005,
+      "value": 148572.3,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "regional_output",
+      "year": 2006,
+      "value": 168037.4,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "regional_output",
+      "year": 2007,
+      "value": 240500.5,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "regional_output",
+      "year": 2008,
+      "value": 351536.7,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "regional_output",
+      "year": 2009,
+      "value": 388930.1,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "regional_output",
+      "year": 2010,
+      "value": 430440.8,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "regional_output",
+      "year": 2011,
+      "value": 459904.2,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "regional_output",
+      "year": 2012,
+      "value": 527379.8,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "regional_output",
+      "year": 2013,
+      "value": 553118.2,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "regional_output",
+      "year": 2014,
+      "value": 549890.1,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "regional_output",
+      "year": 2015,
+      "value": 589198.9,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "regional_output",
+      "year": 2016,
+      "value": 656560.5,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "regional_output",
+      "year": 2017,
+      "value": 798775,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "regional_output",
+      "year": 2018,
+      "value": 883300.6,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "regional_output",
+      "year": 2019,
+      "value": 1026125.8,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "regional_output",
+      "year": 2020,
+      "value": 868018.1,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "regional_output",
+      "year": 2021,
+      "value": 947126.2,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "regional_output",
+      "year": 2022,
+      "value": 1100825.7,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "regional_output",
+      "year": 2023,
+      "value": 1313188.3,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "regional_output",
+      "year": 2024,
+      "value": 1199607.4,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "regional_output",
+      "year": 2025,
+      "value": 1259656.7,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "regional_output",
+      "year": 2003,
+      "value": 174611.7,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "regional_output",
+      "year": 2004,
+      "value": 226784.8,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "regional_output",
+      "year": 2005,
+      "value": 311344.2,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "regional_output",
+      "year": 2006,
+      "value": 441331,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "regional_output",
+      "year": 2007,
+      "value": 431204.6,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "regional_output",
+      "year": 2008,
+      "value": 705440.7,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "regional_output",
+      "year": 2009,
+      "value": 589121,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "regional_output",
+      "year": 2010,
+      "value": 771906.8,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "regional_output",
+      "year": 2011,
+      "value": 1014075.2,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "regional_output",
+      "year": 2012,
+      "value": 1152156.6,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "regional_output",
+      "year": 2013,
+      "value": 1294687.6,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "regional_output",
+      "year": 2014,
+      "value": 1351827,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "regional_output",
+      "year": 2015,
+      "value": 1409111,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "regional_output",
+      "year": 2016,
+      "value": 1557148.5,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "regional_output",
+      "year": 2017,
+      "value": 1904017.2,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "regional_output",
+      "year": 2018,
+      "value": 1856631.7,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "regional_output",
+      "year": 2019,
+      "value": 1864588.4,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "regional_output",
+      "year": 2020,
+      "value": 2089852.7,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "regional_output",
+      "year": 2021,
+      "value": 2198725.3,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "regional_output",
+      "year": 2022,
+      "value": 2540346.8,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "regional_output",
+      "year": 2023,
+      "value": 2768829.1,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "regional_output",
+      "year": 2024,
+      "value": 2660088.4,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "regional_output",
+      "year": 2025,
+      "value": 2965451.8,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "regional_output",
+      "year": 2003,
+      "value": 195182.7,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "regional_output",
+      "year": 2004,
+      "value": 214219.2,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "regional_output",
+      "year": 2005,
+      "value": 269800.1,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "regional_output",
+      "year": 2006,
+      "value": 321196,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "regional_output",
+      "year": 2007,
+      "value": 457567.7,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "regional_output",
+      "year": 2008,
+      "value": 576184.9,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "regional_output",
+      "year": 2009,
+      "value": 502866.6,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "regional_output",
+      "year": 2010,
+      "value": 577764.5,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "regional_output",
+      "year": 2011,
+      "value": 725448.3,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "regional_output",
+      "year": 2012,
+      "value": 792954.3,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "regional_output",
+      "year": 2013,
+      "value": 906147.6,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "regional_output",
+      "year": 2014,
+      "value": 917931.3,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "regional_output",
+      "year": 2015,
+      "value": 911677.2,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "regional_output",
+      "year": 2016,
+      "value": 1074701.6,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "regional_output",
+      "year": 2017,
+      "value": 1464603.2,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "regional_output",
+      "year": 2018,
+      "value": 1526510.2,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "regional_output",
+      "year": 2019,
+      "value": 1568892.5,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "regional_output",
+      "year": 2020,
+      "value": 1548949.3,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "regional_output",
+      "year": 2021,
+      "value": 2810347.3,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "regional_output",
+      "year": 2022,
+      "value": 3594926.7,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "regional_output",
+      "year": 2023,
+      "value": 4243453.2,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "regional_output",
+      "year": 2024,
+      "value": 4820270.2,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "regional_output",
+      "year": 2025,
+      "value": 4948664.7,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "regional_output",
+      "year": 2003,
+      "value": 310837.7,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "regional_output",
+      "year": 2004,
+      "value": 348189.2,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "regional_output",
+      "year": 2005,
+      "value": 442155.1,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "regional_output",
+      "year": 2006,
+      "value": 548632.3,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "regional_output",
+      "year": 2007,
+      "value": 752288.5,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "regional_output",
+      "year": 2008,
+      "value": 899247,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "regional_output",
+      "year": 2009,
+      "value": 965633.9,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "regional_output",
+      "year": 2010,
+      "value": 1063622.8,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "regional_output",
+      "year": 2011,
+      "value": 1216476.9,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "regional_output",
+      "year": 2012,
+      "value": 1409571.0,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "regional_output",
+      "year": 2013,
+      "value": 1439675.1,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "regional_output",
+      "year": 2014,
+      "value": 1337336.4,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "regional_output",
+      "year": 2015,
+      "value": 1348273.7,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "regional_output",
+      "year": 2016,
+      "value": 1447929,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "regional_output",
+      "year": 2017,
+      "value": 1795736.6,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "regional_output",
+      "year": 2018,
+      "value": 1867578.6,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "regional_output",
+      "year": 2019,
+      "value": 2286132.1,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "regional_output",
+      "year": 2020,
+      "value": 2425619.1,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "regional_output",
+      "year": 2021,
+      "value": 2402520.3,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "regional_output",
+      "year": 2022,
+      "value": 2826386,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "regional_output",
+      "year": 2023,
+      "value": 3007718.3,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "regional_output",
+      "year": 2024,
+      "value": 2969747.6,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "regional_output",
+      "year": 2025,
+      "value": 3431739.8,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "regional_output",
+      "year": 2003,
+      "value": 231913.1,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "regional_output",
+      "year": 2004,
+      "value": 255775.5,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "regional_output",
+      "year": 2005,
+      "value": 328376.8,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "regional_output",
+      "year": 2006,
+      "value": 426409.9,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "regional_output",
+      "year": 2007,
+      "value": 613440.6,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "regional_output",
+      "year": 2008,
+      "value": 1116007.6,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "regional_output",
+      "year": 2009,
+      "value": 851484.4,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "regional_output",
+      "year": 2010,
+      "value": 1104363.4,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "regional_output",
+      "year": 2011,
+      "value": 1310364.5,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "regional_output",
+      "year": 2012,
+      "value": 1319045.8,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "regional_output",
+      "year": 2013,
+      "value": 1314472.1,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "regional_output",
+      "year": 2014,
+      "value": 1246662.5,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "regional_output",
+      "year": 2015,
+      "value": 1214382.9,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "regional_output",
+      "year": 2016,
+      "value": 1352893.8,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "regional_output",
+      "year": 2017,
+      "value": 1611383.7,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "regional_output",
+      "year": 2018,
+      "value": 1723679.5,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "regional_output",
+      "year": 2019,
+      "value": 2132731.7,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "regional_output",
+      "year": 2020,
+      "value": 1969931.7,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "regional_output",
+      "year": 2021,
+      "value": 2146031.7,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "regional_output",
+      "year": 2022,
+      "value": 2455206.1,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "regional_output",
+      "year": 2023,
+      "value": 2463108.2,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "regional_output",
+      "year": 2024,
+      "value": 2647351,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "regional_output",
+      "year": 2025,
+      "value": 2795201.5,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "regional_output",
+      "year": 2003,
+      "value": 251482.5,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "regional_output",
+      "year": 2004,
+      "value": 288443.8,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "regional_output",
+      "year": 2005,
+      "value": 361718.0,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "regional_output",
+      "year": 2006,
+      "value": 462355.8,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "regional_output",
+      "year": 2007,
+      "value": 605918.6,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "regional_output",
+      "year": 2008,
+      "value": 756258.2,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "regional_output",
+      "year": 2009,
+      "value": 732664.6,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "regional_output",
+      "year": 2010,
+      "value": 836757.1,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "regional_output",
+      "year": 2011,
+      "value": 1009422,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "regional_output",
+      "year": 2012,
+      "value": 1123032.2,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "regional_output",
+      "year": 2013,
+      "value": 1263064.4,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "regional_output",
+      "year": 2014,
+      "value": 1343654.4,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "regional_output",
+      "year": 2015,
+      "value": 1456909.7,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "regional_output",
+      "year": 2016,
+      "value": 1646042.2,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "regional_output",
+      "year": 2017,
+      "value": 1872584,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "regional_output",
+      "year": 2018,
+      "value": 1887207.7,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "regional_output",
+      "year": 2019,
+      "value": 1822878.9,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "regional_output",
+      "year": 2020,
+      "value": 1752331.9,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "regional_output",
+      "year": 2021,
+      "value": 1982695,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "regional_output",
+      "year": 2022,
+      "value": 2451654,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "regional_output",
+      "year": 2023,
+      "value": 2512608.2,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "regional_output",
+      "year": 2024,
+      "value": 2573546.7,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "regional_output",
+      "year": 2025,
+      "value": 2773148.9,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "regional_output",
+      "year": 2003,
+      "value": 385462.5,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "regional_output",
+      "year": 2004,
+      "value": 411875.3,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "regional_output",
+      "year": 2005,
+      "value": 485380.6,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "regional_output",
+      "year": 2006,
+      "value": 594625.4,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "regional_output",
+      "year": 2007,
+      "value": 804572.8,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "regional_output",
+      "year": 2008,
+      "value": 1050323.6,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "regional_output",
+      "year": 2009,
+      "value": 1076617.9,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "regional_output",
+      "year": 2010,
+      "value": 1127068.5,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "regional_output",
+      "year": 2011,
+      "value": 1397808.8,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "regional_output",
+      "year": 2012,
+      "value": 1580009.5,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "regional_output",
+      "year": 2013,
+      "value": 1815445.4,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "regional_output",
+      "year": 2014,
+      "value": 1928325.3,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "regional_output",
+      "year": 2015,
+      "value": 1918489.8,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "regional_output",
+      "year": 2016,
+      "value": 1700369.8,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "regional_output",
+      "year": 2017,
+      "value": 2151891.9,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "regional_output",
+      "year": 2018,
+      "value": 2173168.4,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "regional_output",
+      "year": 2019,
+      "value": 2461707.3,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "regional_output",
+      "year": 2020,
+      "value": 2392112.2,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "regional_output",
+      "year": 2021,
+      "value": 2442128.6,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "regional_output",
+      "year": 2022,
+      "value": 2746713.1,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "regional_output",
+      "year": 2023,
+      "value": 2955844.3,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "regional_output",
+      "year": 2024,
+      "value": 3171976.8,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "regional_output",
+      "year": 2025,
+      "value": 3503514.5,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "regional_output",
+      "year": 2003,
+      "value": 200011.5,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "regional_output",
+      "year": 2004,
+      "value": 235423.7,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "regional_output",
+      "year": 2005,
+      "value": 272842.0,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "regional_output",
+      "year": 2006,
+      "value": 366960.7,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "regional_output",
+      "year": 2007,
+      "value": 452988.2,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "regional_output",
+      "year": 2008,
+      "value": 656291.1,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "regional_output",
+      "year": 2009,
+      "value": 638647.2,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "regional_output",
+      "year": 2010,
+      "value": 724457,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "regional_output",
+      "year": 2011,
+      "value": 909855,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "regional_output",
+      "year": 2012,
+      "value": 1084549.3,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "regional_output",
+      "year": 2013,
+      "value": 1091659.6,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "regional_output",
+      "year": 2014,
+      "value": 1094769.3,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "regional_output",
+      "year": 2015,
+      "value": 1156207.8,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "regional_output",
+      "year": 2016,
+      "value": 1380843.6,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "regional_output",
+      "year": 2017,
+      "value": 1487798.4,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "regional_output",
+      "year": 2018,
+      "value": 1551052.1,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "regional_output",
+      "year": 2019,
+      "value": 1793635.8,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "regional_output",
+      "year": 2020,
+      "value": 1698249.3,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "regional_output",
+      "year": 2021,
+      "value": 1947710.8,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "regional_output",
+      "year": 2022,
+      "value": 2272498.2,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "regional_output",
+      "year": 2023,
+      "value": 2361530.9,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "regional_output",
+      "year": 2024,
+      "value": 2485177.5,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "regional_output",
+      "year": 2025,
+      "value": 2772723.9,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "regional_output",
+      "year": 2003,
+      "value": 189566.4,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "regional_output",
+      "year": 2004,
+      "value": 216467.5,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "regional_output",
+      "year": 2005,
+      "value": 279372.8,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "regional_output",
+      "year": 2006,
+      "value": 348860.7,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "regional_output",
+      "year": 2007,
+      "value": 529382.9,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "regional_output",
+      "year": 2008,
+      "value": 711522,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "regional_output",
+      "year": 2009,
+      "value": 674262.4,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "regional_output",
+      "year": 2010,
+      "value": 786160.7,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "regional_output",
+      "year": 2011,
+      "value": 1080825.2,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "regional_output",
+      "year": 2012,
+      "value": 1480785.3,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "regional_output",
+      "year": 2013,
+      "value": 1393094.0,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "regional_output",
+      "year": 2014,
+      "value": 1025418.4,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "regional_output",
+      "year": 2015,
+      "value": 1131378.2,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "regional_output",
+      "year": 2016,
+      "value": 1229896.4,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "regional_output",
+      "year": 2017,
+      "value": 1541089.5,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "regional_output",
+      "year": 2018,
+      "value": 1639436.7,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "regional_output",
+      "year": 2019,
+      "value": 1879769.6,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "regional_output",
+      "year": 2020,
+      "value": 1981891.4,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "regional_output",
+      "year": 2021,
+      "value": 1796413.3,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "regional_output",
+      "year": 2022,
+      "value": 2024624.3,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "regional_output",
+      "year": 2023,
+      "value": 2174738.3,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "regional_output",
+      "year": 2024,
+      "value": 2255048.2,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "regional_output",
+      "year": 2025,
+      "value": 2409613.3,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "east-zangezur",
+      "indicator_id": "regional_output",
+      "year": 2003,
+      "value": 8712.4,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "east-zangezur",
+      "indicator_id": "regional_output",
+      "year": 2004,
+      "value": 10406.7,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "east-zangezur",
+      "indicator_id": "regional_output",
+      "year": 2005,
+      "value": 13092.6,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "east-zangezur",
+      "indicator_id": "regional_output",
+      "year": 2006,
+      "value": 19461.6,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "east-zangezur",
+      "indicator_id": "regional_output",
+      "year": 2007,
+      "value": 20433,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "east-zangezur",
+      "indicator_id": "regional_output",
+      "year": 2008,
+      "value": 25435.1,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "east-zangezur",
+      "indicator_id": "regional_output",
+      "year": 2009,
+      "value": 30481.4,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "east-zangezur",
+      "indicator_id": "regional_output",
+      "year": 2010,
+      "value": 33839.5,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "east-zangezur",
+      "indicator_id": "regional_output",
+      "year": 2011,
+      "value": 43013.8,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "east-zangezur",
+      "indicator_id": "regional_output",
+      "year": 2012,
+      "value": 108416.7,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "east-zangezur",
+      "indicator_id": "regional_output",
+      "year": 2013,
+      "value": 131700,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "east-zangezur",
+      "indicator_id": "regional_output",
+      "year": 2014,
+      "value": 94620.1,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "east-zangezur",
+      "indicator_id": "regional_output",
+      "year": 2015,
+      "value": 90161,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "east-zangezur",
+      "indicator_id": "regional_output",
+      "year": 2016,
+      "value": 83720.3,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "east-zangezur",
+      "indicator_id": "regional_output",
+      "year": 2017,
+      "value": 112186.8,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "east-zangezur",
+      "indicator_id": "regional_output",
+      "year": 2018,
+      "value": 105017.7,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "east-zangezur",
+      "indicator_id": "regional_output",
+      "year": 2019,
+      "value": 124122.1,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "east-zangezur",
+      "indicator_id": "regional_output",
+      "year": 2020,
+      "value": 133198.5,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "east-zangezur",
+      "indicator_id": "regional_output",
+      "year": 2021,
+      "value": 966264.4,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "east-zangezur",
+      "indicator_id": "regional_output",
+      "year": 2022,
+      "value": 2297703.3,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "east-zangezur",
+      "indicator_id": "regional_output",
+      "year": 2023,
+      "value": 4187167.8,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "east-zangezur",
+      "indicator_id": "regional_output",
+      "year": 2024,
+      "value": 3924934.1,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "east-zangezur",
+      "indicator_id": "regional_output",
+      "year": 2025,
+      "value": 3139856.2,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "regional_output",
+      "year": 2003,
+      "value": 285899.1,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "regional_output",
+      "year": 2004,
+      "value": 310335.7,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "regional_output",
+      "year": 2005,
+      "value": 353353.2,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "regional_output",
+      "year": 2006,
+      "value": 501048.7,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "regional_output",
+      "year": 2007,
+      "value": 661759.8,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "regional_output",
+      "year": 2008,
+      "value": 813001.7,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "regional_output",
+      "year": 2009,
+      "value": 671705.1,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "regional_output",
+      "year": 2010,
+      "value": 810760.3,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "regional_output",
+      "year": 2011,
+      "value": 1111996.6,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "regional_output",
+      "year": 2012,
+      "value": 1231339.1,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "regional_output",
+      "year": 2013,
+      "value": 1368039.1,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "regional_output",
+      "year": 2014,
+      "value": 1298240,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "regional_output",
+      "year": 2015,
+      "value": 1261251.9,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "regional_output",
+      "year": 2016,
+      "value": 1397345.6,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "regional_output",
+      "year": 2017,
+      "value": 1915470.0,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "regional_output",
+      "year": 2018,
+      "value": 2190359.3,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "regional_output",
+      "year": 2019,
+      "value": 2307708.2,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "regional_output",
+      "year": 2020,
+      "value": 2039873.6,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "regional_output",
+      "year": 2021,
+      "value": 2158999.3,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "regional_output",
+      "year": 2022,
+      "value": 2592237.6,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "regional_output",
+      "year": 2023,
+      "value": 2683327.8,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "regional_output",
+      "year": 2024,
+      "value": 2657541.4,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "regional_output",
+      "year": 2025,
+      "value": 2816601.2,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "regional_output",
+      "year": 2003,
+      "value": 9480335.1,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "regional_output",
+      "year": 2004,
+      "value": 11792880.3,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "regional_output",
+      "year": 2005,
+      "value": 16544150.2,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "regional_output",
+      "year": 2006,
+      "value": 23654655.2,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "regional_output",
+      "year": 2007,
+      "value": 33772357.9,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "regional_output",
+      "year": 2008,
+      "value": 45195464.9,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "regional_output",
+      "year": 2009,
+      "value": 37253059.5,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "regional_output",
+      "year": 2010,
+      "value": 45721264.0,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "regional_output",
+      "year": 2011,
+      "value": 56273761.5,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "regional_output",
+      "year": 2012,
+      "value": 60014959.4,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "regional_output",
+      "year": 2013,
+      "value": 61823252.7,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "regional_output",
+      "year": 2014,
+      "value": 61259539.3,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "regional_output",
+      "year": 2015,
+      "value": 57445751.3,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "regional_output",
+      "year": 2016,
+      "value": 66208967.2,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "regional_output",
+      "year": 2017,
+      "value": 78185564.2,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "regional_output",
+      "year": 2018,
+      "value": 86493775.9,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "regional_output",
+      "year": 2019,
+      "value": 89106357.3,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "regional_output",
+      "year": 2020,
+      "value": 79783756.8,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "regional_output",
+      "year": 2021,
+      "value": 102154961.1,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "regional_output",
+      "year": 2022,
+      "value": 143264253.1,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "regional_output",
+      "year": 2023,
+      "value": 132560388.4,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "regional_output",
+      "year": 2024,
+      "value": 136377523.7,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "regional_output",
+      "year": 2025,
+      "value": 138848147.2,
+      "scope": "national",
+      "source": "stat.gov.az"
+    }
+  ]
+}

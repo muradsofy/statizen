@@ -1,9 +1,12 @@
 "use client";
 
 import { motion } from "framer-motion";
-import type { RegionGeo } from "@/types/data";
+import type { Locale, RegionGeo } from "@/types/data";
 import { color } from "@/lib/ui/tokens";
 import { haptic } from "@/lib/haptics";
+import { regionsData } from "@/lib/data/loadData";
+import { regionName as pickRegionName } from "@/lib/i18n/localize";
+import { analytics } from "@/lib/analytics";
 
 export interface RegionFillProps {
   geo: RegionGeo;
@@ -14,7 +17,7 @@ export interface RegionFillProps {
    * `geo.d` (the original Figma path with curves preserved).
    */
   d?: string;
-  locale: "en" | "az";
+  locale: Locale;
   active: boolean;
   hovered: boolean;
   /** True when another region is selected — this one fades to focus the active one. */
@@ -62,7 +65,12 @@ export function RegionFill({
       shapeRendering="geometricPrecision"
       tabIndex={0}
       role="button"
-      aria-label={locale === "az" ? geo.name_az : geo.name_en}
+      aria-label={(() => {
+        // Geo carries EN/AZ baked in; for RU (or any new locale) we
+        // pull from regions.json by id, falling back to the geo name.
+        const r = regionsData.regions.find((rr) => rr.id === geo.id);
+        return r ? pickRegionName(r, locale) : geo.name_en;
+      })()}
       // Sync `stroke` with `fill` so the same-colour anchoring stroke
       // doesn't briefly outpace the fill mid-transition (otherwise the
       // accent stroke pops to full purple while the fill is still
@@ -94,14 +102,20 @@ export function RegionFill({
       onBlur={onLeave}
       onClick={(e) => {
         e.stopPropagation();
-        if (!active) haptic("medium");
+        if (!active) {
+          haptic("medium");
+          analytics.regionSelected(geo.id, "map");
+        }
         onSelect(geo.id);
       }}
       onKeyDown={(e) => {
         if (e.key === "Enter" || e.key === " ") {
           e.preventDefault();
           e.stopPropagation();
-          if (!active) haptic("medium");
+          if (!active) {
+            haptic("medium");
+            analytics.regionSelected(geo.id, "map");
+          }
           onSelect(geo.id);
         }
       }}

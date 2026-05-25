@@ -15,31 +15,35 @@ from typing import Optional
 # region names with the "economic region - total" / "iqtisadi rayonu - cəmi"
 # suffix removed.
 CANONICAL = [
-    {"id": "baki", "name_en": "Baku", "name_az": "Bakı"},
+    {"id": "baki", "name_en": "Baku", "name_az": "Bakı",
+     "name_ru": "Баку"},
     {"id": "nakhchivan", "name_en": "Nakhchivan Autonomous Republic",
-     "name_az": "Naxçıvan Muxtar Respublikası"},
+     "name_az": "Naxçıvan Muxtar Respublikası",
+     "name_ru": "Нахчыванская Автономная Республика"},
     {"id": "absheron-xizi", "name_en": "Absheron-Khizi",
-     "name_az": "Abşeron-Xızı"},
+     "name_az": "Abşeron-Xızı", "name_ru": "Абшерон-Хызы"},
     {"id": "mountain-shirvan", "name_en": "Daghlig Shirvan",
-     "name_az": "Dağlıq Şirvan"},
+     "name_az": "Dağlıq Şirvan", "name_ru": "Горный Ширван"},
     {"id": "ganja-dashkesen", "name_en": "Ganja-Dashkasan",
-     "name_az": "Gəncə-Daşkəsən"},
-    {"id": "karabakh", "name_en": "Karabakh", "name_az": "Qarabağ"},
+     "name_az": "Gəncə-Daşkəsən", "name_ru": "Гянджа-Дашкесан"},
+    {"id": "karabakh", "name_en": "Karabakh", "name_az": "Qarabağ",
+     "name_ru": "Карабах"},
     {"id": "gazakh-tovuz", "name_en": "Gazakh-Tovuz",
-     "name_az": "Qazax-Tovuz"},
+     "name_az": "Qazax-Tovuz", "name_ru": "Газах-Товуз"},
     {"id": "guba-khachmaz", "name_en": "Guba-Khachmaz",
-     "name_az": "Quba-Xaçmaz"},
+     "name_az": "Quba-Xaçmaz", "name_ru": "Губа-Хачмаз"},
     {"id": "lankaran-astara", "name_en": "Lankaran-Astara",
-     "name_az": "Lənkəran-Astara"},
+     "name_az": "Lənkəran-Astara", "name_ru": "Лянкяран-Астара"},
     {"id": "central-aran", "name_en": "Central Aran",
-     "name_az": "Mərkəzi Aran"},
-    {"id": "mil-mughan", "name_en": "Mil-Mughan", "name_az": "Mil-Muğan"},
+     "name_az": "Mərkəzi Aran", "name_ru": "Центральный Аран"},
+    {"id": "mil-mughan", "name_en": "Mil-Mughan", "name_az": "Mil-Muğan",
+     "name_ru": "Миль-Муган"},
     {"id": "shaki-zaqatala", "name_en": "Shaki-Zagatala",
-     "name_az": "Şəki-Zaqatala"},
+     "name_az": "Şəki-Zaqatala", "name_ru": "Шеки-Загатала"},
     {"id": "east-zangezur", "name_en": "Eastern Zangazur",
-     "name_az": "Şərqi Zəngəzur"},
+     "name_az": "Şərqi Zəngəzur", "name_ru": "Восточный Зангезур"},
     {"id": "shirvan-salyan", "name_en": "Shirvan-Salyan",
-     "name_az": "Şirvan-Salyan"},
+     "name_az": "Şirvan-Salyan", "name_ru": "Ширван-Сальян"},
 ]
 
 REGION_IDS = [r["id"] for r in CANONICAL]
@@ -58,8 +62,11 @@ _CORE_TO_ID = {
     "baku": "baki", "bakı": "baki",
     "nakhchivan": "nakhchivan", "naxçıvan": "nakhchivan",
     "absheron-khizi": "absheron-xizi", "abşeron-xızı": "absheron-xizi",
+    # Tourism files drop the "-Khizi" half — fold the short form back.
+    "absheron": "absheron-xizi", "abşeron": "absheron-xizi",
     "daghlig shirvan": "mountain-shirvan", "dağlıq şirvan": "mountain-shirvan",
     "daglig shirvan": "mountain-shirvan",  # source typo (no 'h')
+    "daghligh shirvan": "mountain-shirvan",  # tourism file variant
     "ganja-dashkasan": "ganja-dashkesen",
     "gəncə-daşkəsən": "ganja-dashkesen",
     "karabakh": "karabakh", "qarabağ": "karabakh",
@@ -105,7 +112,12 @@ def _core(name: str) -> str:
     s = _match(name)
     # Drop trailing footnote markers like " 1)", " 2)" used in crime tables.
     s = re.sub(r"\s+\d+\)\s*$", "", s)
-    for cut in (" - total", " - cəmi"):
+    # Cover spaced variants — "- total" with spaces around the dash is
+    # the canonical form, but some files (e.g. system_nat_accounts/034)
+    # ship "-total" without the inner space. All variants land us on the
+    # bare region name.
+    for cut in (" - total", " -total", "- total", "-total",
+                " - cəmi", " -cəmi", "- cəmi", "-cəmi"):
         i = s.find(cut)
         if i != -1:
             s = s[:i]
@@ -118,7 +130,16 @@ def _core(name: str) -> str:
 
 def is_national(name: str) -> bool:
     s = _match(name)
-    for cut in (" - total", " - cəmi"):
+    # Test the raw form FIRST — `_NATIONAL` contains compound tags like
+    # "republic-total" that the suffix cuts below would otherwise strip
+    # down to "republic" and miss.
+    if s.strip() in _NATIONAL:
+        return True
+    # Cover spaced variants — "- total" with spaces around the dash is
+    # the canonical form, but some files (e.g. system_nat_accounts/034)
+    # ship "-total" without the inner space.
+    for cut in (" - total", " -total", "- total", "-total",
+                " - cəmi", " -cəmi", "- cəmi", "-cəmi"):
         i = s.find(cut)
         if i != -1:
             s = s[:i]

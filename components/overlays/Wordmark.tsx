@@ -1,18 +1,37 @@
+/**
+ * Brand wordmark in the top-left. Clicking it returns the user to the
+ * default home state — a regular `<a href="/">` triggers a full nav
+ * so the URL params (selected region, indicator, year, theme) clear
+ * out and `useUrlSync` re-hydrates the store from a clean URL.
+ */
 export function Wordmark() {
   return (
-    <span
+    <a
+      href="/"
+      aria-label="statizen — back to home"
+      // Bigger on mobile (28px) → tighter on desktop (22px). Mobile
+      // headers have less competing chrome so the wordmark can carry
+      // more visual weight; desktop already has dropdowns + pills
+      // demanding attention beside it.
+      className="text-[28px] md:text-[22px]"
       style={{
-        fontSize: 16,
         fontWeight: 500,
         // Pure black/white (--c-wordmark), not the generic --c-text
         // which is #0a0a0a in light — wordmark should read as a hard
         // brand mark, not just a body-text colour.
         color: "var(--c-wordmark)",
-        letterSpacing: "-0.2px",
+        letterSpacing: "-0.4px",
         userSelect: "none",
+        textDecoration: "none",
+        cursor: "pointer",
+        // Grayscale anti-aliasing keeps strokes from looking washed
+        // out on light bgs (default sub-pixel AA reads as medium gray
+        // for thin/regular weights against near-white).
+        WebkitFontSmoothing: "antialiased",
+        MozOsxFontSmoothing: "grayscale",
       }}
     >
       statizen
-    </span>
+    </a>
   );
 }

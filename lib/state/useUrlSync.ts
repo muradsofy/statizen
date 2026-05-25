@@ -3,6 +3,7 @@
 import { useEffect } from "react";
 import { indicatorsData, regionsData } from "@/lib/data/loadData";
 import { useAppStore } from "./store";
+import { analytics } from "@/lib/analytics";
 import type { Locale, Theme } from "@/types/data";
 
 /**
@@ -22,6 +23,7 @@ export function useUrlSync() {
     const st = useAppStore.getState();
     if (region && regionsData.regions.some((r) => r.id === region)) {
       st.setSelectedRegion(region);
+      analytics.regionSelected(region, "url");
     }
     if (
       indicator &&
@@ -32,7 +34,7 @@ export function useUrlSync() {
     if (year && /^\d{4}$/.test(year)) {
       st.setSelectedYear(parseInt(year, 10));
     }
-    if (lang === "az" || lang === "en") {
+    if (lang === "az" || lang === "en" || lang === "ru") {
       st.setLocale(lang as Locale);
     }
     if (theme === "light" || theme === "dark" || theme === "system") {

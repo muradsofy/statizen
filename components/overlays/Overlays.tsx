@@ -25,18 +25,25 @@ export function Overlays() {
   const hasRegion = useAppStore((s) => !!s.selectedRegionId);
   return (
     <>
-      {/* Header — narrow padding on mobile, 88px gutter on desktop.
-          The bar gets its own blurred surface so the wordmark +
-          @sofyzen / menu read as a distinct strip from the
-          dropdown pickers and map below. */}
+      {/* Whisper-soft top scrim — barely perceptible fade behind the
+          header + dropdowns so the map doesn't slam into the header
+          edge. Header pills carry their own surface bg, so they read
+          fine on top of this. */}
+      <div
+        aria-hidden
+        className="fixed top-0 left-0 right-0 z-[5]"
+        style={{
+          height: 220,
+          background:
+            "linear-gradient(to bottom, color-mix(in srgb, var(--c-bg) 45%, transparent) 0%, color-mix(in srgb, var(--c-bg) 20%, transparent) 50%, transparent 100%)",
+          pointerEvents: "none",
+        }}
+      />
+
+      {/* Header — narrow padding on mobile, 88px gutter on desktop. */}
       <div
         className="fixed top-0 left-0 right-0 flex items-center justify-between z-10 py-[23px] px-5 md:px-[88px]"
-        style={{
-          background: "var(--c-surface-bg)",
-          backdropFilter: "blur(6.55px)",
-          WebkitBackdropFilter: "blur(6.55px)",
-          pointerEvents: "auto",
-        }}
+        style={{ pointerEvents: "auto" }}
       >
         <Wordmark />
         <div className="flex items-center gap-2">

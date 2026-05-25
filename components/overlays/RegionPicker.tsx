@@ -4,6 +4,7 @@ import { regionsData } from "@/lib/data/loadData";
 import { useAppStore } from "@/lib/state/store";
 import { Dropdown } from "./Dropdown";
 import { t } from "@/lib/i18n/strings";
+import { regionName } from "@/lib/i18n/localize";
 
 export interface RegionPickerProps {
   width?: number | string;
@@ -16,7 +17,7 @@ export function RegionPicker({ width = "100%" }: RegionPickerProps) {
 
   const options = regionsData.regions.map((r) => ({
     value: r.id,
-    label: locale === "az" ? r.name_az : r.name_en,
+    label: regionName(r, locale),
   }));
 
   return (
@@ -46,7 +47,7 @@ export function RegionPill({ width = "100%" }: { width?: number | string }) {
 
   const options = regionsData.regions.map((r) => ({
     value: r.id,
-    label: locale === "az" ? r.name_az : r.name_en,
+    label: regionName(r, locale),
   }));
 
   // Mobile-only: the IndicatorPicker row sits at top:77 and is ~44px

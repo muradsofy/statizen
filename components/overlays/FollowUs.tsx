@@ -17,8 +17,10 @@ export function FollowUs() {
       aria-label={`${t("followUs", locale)} — ${HANDLE} on LinkedIn`}
       style={{
         ...surface,
-        padding: "8px 12px",
+        height: 32,
+        padding: "0 12px",
         fontSize: 14,
+        fontWeight: 500,
         color: color.text,
         letterSpacing: "-0.28px",
         cursor: "pointer",

@@ -35,11 +35,11 @@ export const color = {
 
 export const glow = "var(--c-glow)";
 
-/** Shared panel / button surface (frosted, 6.55px blur). */
+/** Shared panel / button surface (frosted, 22px blur). */
 export const surface: CSSProperties = {
   background: "var(--c-surface-bg)",
-  backdropFilter: "blur(6.55px)",
-  WebkitBackdropFilter: "blur(6.55px)",
+  backdropFilter: "blur(22px)",
+  WebkitBackdropFilter: "blur(22px)",
   border: "0.5px solid var(--c-surface-border)",
   borderRadius: 24,
 };

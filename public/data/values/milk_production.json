@@ -1,0 +1,3004 @@
+{
+  "values": [
+    {
+      "region_id": "AZ",
+      "indicator_id": "milk_production",
+      "year": 2000,
+      "value": 1031114,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "milk_production",
+      "year": 2001,
+      "value": 1073664,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "milk_production",
+      "year": 2002,
+      "value": 1119832,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "milk_production",
+      "year": 2003,
+      "value": 1167785,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "milk_production",
+      "year": 2004,
+      "value": 1213703,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "milk_production",
+      "year": 2005,
+      "value": 1251774,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "milk_production",
+      "year": 2006,
+      "value": 1299293,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "milk_production",
+      "year": 2007,
+      "value": 1341006,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "milk_production",
+      "year": 2008,
+      "value": 1381349,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "milk_production",
+      "year": 2009,
+      "value": 1432808,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "milk_production",
+      "year": 2010,
+      "value": 1535753,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "milk_production",
+      "year": 2011,
+      "value": 1597452,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "milk_production",
+      "year": 2012,
+      "value": 1695588,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "milk_production",
+      "year": 2013,
+      "value": 1796706,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "milk_production",
+      "year": 2014,
+      "value": 1855840,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "milk_production",
+      "year": 2015,
+      "value": 1924542,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "milk_production",
+      "year": 2016,
+      "value": 2009913,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "milk_production",
+      "year": 2017,
+      "value": 2024143,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "milk_production",
+      "year": 2018,
+      "value": 2080437,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "milk_production",
+      "year": 2019,
+      "value": 2150817,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "milk_production",
+      "year": 2020,
+      "value": 2192497,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "milk_production",
+      "year": 2021,
+      "value": 2223427,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "milk_production",
+      "year": 2022,
+      "value": 2264678,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "milk_production",
+      "year": 2023,
+      "value": 2283991,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "milk_production",
+      "year": 2024,
+      "value": 2298511,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "milk_production",
+      "year": 2000,
+      "value": 2941,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "milk_production",
+      "year": 2001,
+      "value": 3060,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "milk_production",
+      "year": 2002,
+      "value": 3199,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "milk_production",
+      "year": 2003,
+      "value": 3538,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "milk_production",
+      "year": 2004,
+      "value": 3755,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "milk_production",
+      "year": 2005,
+      "value": 3722,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "milk_production",
+      "year": 2006,
+      "value": 3833,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "milk_production",
+      "year": 2007,
+      "value": 3833,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "milk_production",
+      "year": 2008,
+      "value": 2980,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "milk_production",
+      "year": 2009,
+      "value": 3110,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "milk_production",
+      "year": 2010,
+      "value": 3799,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "milk_production",
+      "year": 2011,
+      "value": 3450,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "milk_production",
+      "year": 2012,
+      "value": 4061,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "milk_production",
+      "year": 2013,
+      "value": 5082,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "milk_production",
+      "year": 2014,
+      "value": 3910,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "milk_production",
+      "year": 2015,
+      "value": 4058,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "milk_production",
+      "year": 2016,
+      "value": 4245,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "milk_production",
+      "year": 2017,
+      "value": 4669,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "milk_production",
+      "year": 2018,
+      "value": 5293,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "milk_production",
+      "year": 2019,
+      "value": 4969,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "milk_production",
+      "year": 2020,
+      "value": 5144,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "milk_production",
+      "year": 2021,
+      "value": 5143,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "milk_production",
+      "year": 2022,
+      "value": 5081,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "milk_production",
+      "year": 2023,
+      "value": 6126,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "milk_production",
+      "year": 2024,
+      "value": 5882,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "milk_production",
+      "year": 2000,
+      "value": 54248,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "milk_production",
+      "year": 2001,
+      "value": 55268,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "milk_production",
+      "year": 2002,
+      "value": 58863,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "milk_production",
+      "year": 2003,
+      "value": 58527,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "milk_production",
+      "year": 2004,
+      "value": 62691,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "milk_production",
+      "year": 2005,
+      "value": 64818,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "milk_production",
+      "year": 2006,
+      "value": 67865,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "milk_production",
+      "year": 2007,
+      "value": 70254,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "milk_production",
+      "year": 2008,
+      "value": 72042,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "milk_production",
+      "year": 2009,
+      "value": 73929,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "milk_production",
+      "year": 2010,
+      "value": 75965,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "milk_production",
+      "year": 2011,
+      "value": 77120,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "milk_production",
+      "year": 2012,
+      "value": 78417,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "milk_production",
+      "year": 2013,
+      "value": 78613,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "milk_production",
+      "year": 2014,
+      "value": 78929,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "milk_production",
+      "year": 2015,
+      "value": 80244,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "milk_production",
+      "year": 2016,
+      "value": 81372,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "milk_production",
+      "year": 2017,
+      "value": 82857,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "milk_production",
+      "year": 2018,
+      "value": 83967,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "milk_production",
+      "year": 2019,
+      "value": 85638,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "milk_production",
+      "year": 2020,
+      "value": 87334,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "milk_production",
+      "year": 2021,
+      "value": 88565,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "milk_production",
+      "year": 2022,
+      "value": 89853,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "milk_production",
+      "year": 2023,
+      "value": 62234,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "milk_production",
+      "year": 2024,
+      "value": 63246,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "milk_production",
+      "year": 2000,
+      "value": 15419,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "milk_production",
+      "year": 2001,
+      "value": 16748,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "milk_production",
+      "year": 2002,
+      "value": 18965,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "milk_production",
+      "year": 2003,
+      "value": 23986,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "milk_production",
+      "year": 2004,
+      "value": 25351,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "milk_production",
+      "year": 2005,
+      "value": 29945,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "milk_production",
+      "year": 2006,
+      "value": 35037,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "milk_production",
+      "year": 2007,
+      "value": 35085,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "milk_production",
+      "year": 2008,
+      "value": 36444,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "milk_production",
+      "year": 2009,
+      "value": 38457,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "milk_production",
+      "year": 2010,
+      "value": 42678,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "milk_production",
+      "year": 2011,
+      "value": 51641,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "milk_production",
+      "year": 2012,
+      "value": 53580,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "milk_production",
+      "year": 2013,
+      "value": 53918,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "milk_production",
+      "year": 2014,
+      "value": 52802,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "milk_production",
+      "year": 2015,
+      "value": 56062,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "milk_production",
+      "year": 2016,
+      "value": 61280,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "milk_production",
+      "year": 2017,
+      "value": 59924,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "milk_production",
+      "year": 2018,
+      "value": 60813,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "milk_production",
+      "year": 2019,
+      "value": 58225,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "milk_production",
+      "year": 2020,
+      "value": 58775,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "milk_production",
+      "year": 2021,
+      "value": 60773,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "milk_production",
+      "year": 2022,
+      "value": 61407,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "milk_production",
+      "year": 2023,
+      "value": 64628,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "milk_production",
+      "year": 2024,
+      "value": 52044,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "milk_production",
+      "year": 2000,
+      "value": 61169,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "milk_production",
+      "year": 2001,
+      "value": 64550,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "milk_production",
+      "year": 2002,
+      "value": 67268,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "milk_production",
+      "year": 2003,
+      "value": 74520,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "milk_production",
+      "year": 2004,
+      "value": 77682,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "milk_production",
+      "year": 2005,
+      "value": 78841,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "milk_production",
+      "year": 2006,
+      "value": 79692,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "milk_production",
+      "year": 2007,
+      "value": 80584,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "milk_production",
+      "year": 2008,
+      "value": 81532,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "milk_production",
+      "year": 2009,
+      "value": 82310,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "milk_production",
+      "year": 2010,
+      "value": 93574,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "milk_production",
+      "year": 2011,
+      "value": 94854,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "milk_production",
+      "year": 2012,
+      "value": 98803,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "milk_production",
+      "year": 2013,
+      "value": 101012,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "milk_production",
+      "year": 2014,
+      "value": 102622,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "milk_production",
+      "year": 2015,
+      "value": 105475,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "milk_production",
+      "year": 2016,
+      "value": 107562,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "milk_production",
+      "year": 2017,
+      "value": 105367,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "milk_production",
+      "year": 2018,
+      "value": 107786,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "milk_production",
+      "year": 2019,
+      "value": 116986,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "milk_production",
+      "year": 2020,
+      "value": 122024,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "milk_production",
+      "year": 2021,
+      "value": 128002,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "milk_production",
+      "year": 2022,
+      "value": 134455,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "milk_production",
+      "year": 2023,
+      "value": 136169,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "milk_production",
+      "year": 2024,
+      "value": 137065,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "milk_production",
+      "year": 2000,
+      "value": 42984,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "milk_production",
+      "year": 2001,
+      "value": 46160,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "milk_production",
+      "year": 2002,
+      "value": 47750,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "milk_production",
+      "year": 2003,
+      "value": 48113,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "milk_production",
+      "year": 2004,
+      "value": 53761,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "milk_production",
+      "year": 2005,
+      "value": 60319,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "milk_production",
+      "year": 2006,
+      "value": 62021,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "milk_production",
+      "year": 2007,
+      "value": 68295,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "milk_production",
+      "year": 2008,
+      "value": 70583,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "milk_production",
+      "year": 2009,
+      "value": 73901,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "milk_production",
+      "year": 2010,
+      "value": 79728,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "milk_production",
+      "year": 2011,
+      "value": 84529,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "milk_production",
+      "year": 2012,
+      "value": 90057,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "milk_production",
+      "year": 2013,
+      "value": 94737,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "milk_production",
+      "year": 2014,
+      "value": 95803,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "milk_production",
+      "year": 2015,
+      "value": 99997,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "milk_production",
+      "year": 2016,
+      "value": 112390,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "milk_production",
+      "year": 2017,
+      "value": 115440,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "milk_production",
+      "year": 2018,
+      "value": 113205,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "milk_production",
+      "year": 2019,
+      "value": 120384,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "milk_production",
+      "year": 2020,
+      "value": 120461,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "milk_production",
+      "year": 2021,
+      "value": 125756,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "milk_production",
+      "year": 2022,
+      "value": 126165,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "milk_production",
+      "year": 2023,
+      "value": 126972,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "milk_production",
+      "year": 2024,
+      "value": 129289,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "milk_production",
+      "year": 2000,
+      "value": 97768,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "milk_production",
+      "year": 2001,
+      "value": 103756,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "milk_production",
+      "year": 2002,
+      "value": 106035,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "milk_production",
+      "year": 2003,
+      "value": 112229,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "milk_production",
+      "year": 2004,
+      "value": 123799,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "milk_production",
+      "year": 2005,
+      "value": 129705,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "milk_production",
+      "year": 2006,
+      "value": 133539,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "milk_production",
+      "year": 2007,
+      "value": 137699,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "milk_production",
+      "year": 2008,
+      "value": 140767,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "milk_production",
+      "year": 2009,
+      "value": 145051,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "milk_production",
+      "year": 2010,
+      "value": 149211,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "milk_production",
+      "year": 2011,
+      "value": 154443,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "milk_production",
+      "year": 2012,
+      "value": 160988,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "milk_production",
+      "year": 2013,
+      "value": 186251,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "milk_production",
+      "year": 2014,
+      "value": 205493,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "milk_production",
+      "year": 2015,
+      "value": 238585,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "milk_production",
+      "year": 2016,
+      "value": 268167,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "milk_production",
+      "year": 2017,
+      "value": 271650,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "milk_production",
+      "year": 2018,
+      "value": 277061,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "milk_production",
+      "year": 2019,
+      "value": 300960,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "milk_production",
+      "year": 2020,
+      "value": 311817,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "milk_production",
+      "year": 2021,
+      "value": 311007,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "milk_production",
+      "year": 2022,
+      "value": 332638,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "milk_production",
+      "year": 2023,
+      "value": 355906,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "milk_production",
+      "year": 2024,
+      "value": 372166,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "milk_production",
+      "year": 2000,
+      "value": 77585,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "milk_production",
+      "year": 2001,
+      "value": 83930,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "milk_production",
+      "year": 2002,
+      "value": 89443,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "milk_production",
+      "year": 2003,
+      "value": 92510,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "milk_production",
+      "year": 2004,
+      "value": 100753,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "milk_production",
+      "year": 2005,
+      "value": 103286,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "milk_production",
+      "year": 2006,
+      "value": 109835,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "milk_production",
+      "year": 2007,
+      "value": 113502,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "milk_production",
+      "year": 2008,
+      "value": 115477,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "milk_production",
+      "year": 2009,
+      "value": 119082,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "milk_production",
+      "year": 2010,
+      "value": 142974,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "milk_production",
+      "year": 2011,
+      "value": 153171,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "milk_production",
+      "year": 2012,
+      "value": 158140,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "milk_production",
+      "year": 2013,
+      "value": 165245,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "milk_production",
+      "year": 2014,
+      "value": 171059,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "milk_production",
+      "year": 2015,
+      "value": 176851,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "milk_production",
+      "year": 2016,
+      "value": 181598,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "milk_production",
+      "year": 2017,
+      "value": 182632,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "milk_production",
+      "year": 2018,
+      "value": 191808,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "milk_production",
+      "year": 2019,
+      "value": 185124,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "milk_production",
+      "year": 2020,
+      "value": 187114,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "milk_production",
+      "year": 2021,
+      "value": 188939,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "milk_production",
+      "year": 2022,
+      "value": 190565,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "milk_production",
+      "year": 2023,
+      "value": 192996,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "milk_production",
+      "year": 2024,
+      "value": 192749,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "milk_production",
+      "year": 2000,
+      "value": 93046,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "milk_production",
+      "year": 2001,
+      "value": 101911,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "milk_production",
+      "year": 2002,
+      "value": 98130,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "milk_production",
+      "year": 2003,
+      "value": 104463,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "milk_production",
+      "year": 2004,
+      "value": 108020,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "milk_production",
+      "year": 2005,
+      "value": 109511,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "milk_production",
+      "year": 2006,
+      "value": 110622,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "milk_production",
+      "year": 2007,
+      "value": 111730,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "milk_production",
+      "year": 2008,
+      "value": 112012,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "milk_production",
+      "year": 2009,
+      "value": 114200,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "milk_production",
+      "year": 2010,
+      "value": 118675,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "milk_production",
+      "year": 2011,
+      "value": 123095,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "milk_production",
+      "year": 2012,
+      "value": 126398,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "milk_production",
+      "year": 2013,
+      "value": 130782,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "milk_production",
+      "year": 2014,
+      "value": 137712,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "milk_production",
+      "year": 2015,
+      "value": 142356,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "milk_production",
+      "year": 2016,
+      "value": 146404,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "milk_production",
+      "year": 2017,
+      "value": 154157,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "milk_production",
+      "year": 2018,
+      "value": 161331,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "milk_production",
+      "year": 2019,
+      "value": 168274,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "milk_production",
+      "year": 2020,
+      "value": 173840,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "milk_production",
+      "year": 2021,
+      "value": 177757,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "milk_production",
+      "year": 2022,
+      "value": 183039,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "milk_production",
+      "year": 2023,
+      "value": 186342,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "milk_production",
+      "year": 2024,
+      "value": 187544,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "milk_production",
+      "year": 2000,
+      "value": 130900,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "milk_production",
+      "year": 2001,
+      "value": 135892,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "milk_production",
+      "year": 2002,
+      "value": 136563,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "milk_production",
+      "year": 2003,
+      "value": 147940,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "milk_production",
+      "year": 2004,
+      "value": 149392,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "milk_production",
+      "year": 2005,
+      "value": 156945,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "milk_production",
+      "year": 2006,
+      "value": 159156,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "milk_production",
+      "year": 2007,
+      "value": 161676,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "milk_production",
+      "year": 2008,
+      "value": 163766,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "milk_production",
+      "year": 2009,
+      "value": 167571,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "milk_production",
+      "year": 2010,
+      "value": 169280,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "milk_production",
+      "year": 2011,
+      "value": 175913,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "milk_production",
+      "year": 2012,
+      "value": 204232,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "milk_production",
+      "year": 2013,
+      "value": 217764,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "milk_production",
+      "year": 2014,
+      "value": 221341,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "milk_production",
+      "year": 2015,
+      "value": 227945,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "milk_production",
+      "year": 2016,
+      "value": 229027,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "milk_production",
+      "year": 2017,
+      "value": 229580,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "milk_production",
+      "year": 2018,
+      "value": 223784,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "milk_production",
+      "year": 2019,
+      "value": 235410,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "milk_production",
+      "year": 2020,
+      "value": 233786,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "milk_production",
+      "year": 2021,
+      "value": 234603,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "milk_production",
+      "year": 2022,
+      "value": 235662,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "milk_production",
+      "year": 2023,
+      "value": 240514,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "milk_production",
+      "year": 2024,
+      "value": 243723,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "milk_production",
+      "year": 2000,
+      "value": 132409,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "milk_production",
+      "year": 2001,
+      "value": 137249,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "milk_production",
+      "year": 2002,
+      "value": 143254,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "milk_production",
+      "year": 2003,
+      "value": 147353,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "milk_production",
+      "year": 2004,
+      "value": 139522,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "milk_production",
+      "year": 2005,
+      "value": 143723,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "milk_production",
+      "year": 2006,
+      "value": 148154,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "milk_production",
+      "year": 2007,
+      "value": 152078,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "milk_production",
+      "year": 2008,
+      "value": 158858,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "milk_production",
+      "year": 2009,
+      "value": 162161,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "milk_production",
+      "year": 2010,
+      "value": 179060,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "milk_production",
+      "year": 2011,
+      "value": 184501,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "milk_production",
+      "year": 2012,
+      "value": 199101,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "milk_production",
+      "year": 2013,
+      "value": 213453,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "milk_production",
+      "year": 2014,
+      "value": 216967,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "milk_production",
+      "year": 2015,
+      "value": 218835,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "milk_production",
+      "year": 2016,
+      "value": 232229,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "milk_production",
+      "year": 2017,
+      "value": 224910,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "milk_production",
+      "year": 2018,
+      "value": 248453,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "milk_production",
+      "year": 2019,
+      "value": 257379,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "milk_production",
+      "year": 2020,
+      "value": 263376,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "milk_production",
+      "year": 2021,
+      "value": 267249,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "milk_production",
+      "year": 2022,
+      "value": 268814,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "milk_production",
+      "year": 2023,
+      "value": 268912,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "milk_production",
+      "year": 2024,
+      "value": 261803,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "milk_production",
+      "year": 2000,
+      "value": 113467,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "milk_production",
+      "year": 2001,
+      "value": 115344,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "milk_production",
+      "year": 2002,
+      "value": 120688,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "milk_production",
+      "year": 2003,
+      "value": 124260,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "milk_production",
+      "year": 2004,
+      "value": 135226,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "milk_production",
+      "year": 2005,
+      "value": 141401,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "milk_production",
+      "year": 2006,
+      "value": 148519,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "milk_production",
+      "year": 2007,
+      "value": 156023,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "milk_production",
+      "year": 2008,
+      "value": 164246,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "milk_production",
+      "year": 2009,
+      "value": 179085,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "milk_production",
+      "year": 2010,
+      "value": 191130,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "milk_production",
+      "year": 2011,
+      "value": 197998,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "milk_production",
+      "year": 2012,
+      "value": 205419,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "milk_production",
+      "year": 2013,
+      "value": 213274,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "milk_production",
+      "year": 2014,
+      "value": 218273,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "milk_production",
+      "year": 2015,
+      "value": 224501,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "milk_production",
+      "year": 2016,
+      "value": 231490,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "milk_production",
+      "year": 2017,
+      "value": 234808,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "milk_production",
+      "year": 2018,
+      "value": 245100,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "milk_production",
+      "year": 2019,
+      "value": 250430,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "milk_production",
+      "year": 2020,
+      "value": 250751,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "milk_production",
+      "year": 2021,
+      "value": 253922,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "milk_production",
+      "year": 2022,
+      "value": 255719,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "milk_production",
+      "year": 2023,
+      "value": 256650,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "milk_production",
+      "year": 2024,
+      "value": 262035,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "milk_production",
+      "year": 2000,
+      "value": 121143,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "milk_production",
+      "year": 2001,
+      "value": 122360,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "milk_production",
+      "year": 2002,
+      "value": 133090,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "milk_production",
+      "year": 2003,
+      "value": 133755,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "milk_production",
+      "year": 2004,
+      "value": 135010,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "milk_production",
+      "year": 2005,
+      "value": 135753,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "milk_production",
+      "year": 2006,
+      "value": 139956,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "milk_production",
+      "year": 2007,
+      "value": 142364,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "milk_production",
+      "year": 2008,
+      "value": 150496,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "milk_production",
+      "year": 2009,
+      "value": 152121,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "milk_production",
+      "year": 2010,
+      "value": 158500,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "milk_production",
+      "year": 2011,
+      "value": 160071,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "milk_production",
+      "year": 2012,
+      "value": 170646,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "milk_production",
+      "year": 2013,
+      "value": 184212,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "milk_production",
+      "year": 2014,
+      "value": 189649,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "milk_production",
+      "year": 2015,
+      "value": 187959,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "milk_production",
+      "year": 2016,
+      "value": 191746,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "milk_production",
+      "year": 2017,
+      "value": 194924,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "milk_production",
+      "year": 2018,
+      "value": 195570,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "milk_production",
+      "year": 2019,
+      "value": 194928,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "milk_production",
+      "year": 2020,
+      "value": 197818,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "milk_production",
+      "year": 2021,
+      "value": 198762,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "milk_production",
+      "year": 2022,
+      "value": 191389,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "milk_production",
+      "year": 2023,
+      "value": 191191,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "milk_production",
+      "year": 2024,
+      "value": 191613,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "east-zangezur",
+      "indicator_id": "milk_production",
+      "year": 2000,
+      "value": 14110,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "east-zangezur",
+      "indicator_id": "milk_production",
+      "year": 2001,
+      "value": 16483,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "east-zangezur",
+      "indicator_id": "milk_production",
+      "year": 2002,
+      "value": 19543,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "east-zangezur",
+      "indicator_id": "milk_production",
+      "year": 2003,
+      "value": 20033,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "east-zangezur",
+      "indicator_id": "milk_production",
+      "year": 2004,
+      "value": 20311,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "east-zangezur",
+      "indicator_id": "milk_production",
+      "year": 2005,
+      "value": 14215,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "east-zangezur",
+      "indicator_id": "milk_production",
+      "year": 2006,
+      "value": 18743,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "east-zangezur",
+      "indicator_id": "milk_production",
+      "year": 2007,
+      "value": 20737,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "east-zangezur",
+      "indicator_id": "milk_production",
+      "year": 2008,
+      "value": 23309,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "east-zangezur",
+      "indicator_id": "milk_production",
+      "year": 2009,
+      "value": 25227,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "east-zangezur",
+      "indicator_id": "milk_production",
+      "year": 2010,
+      "value": 32321,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "east-zangezur",
+      "indicator_id": "milk_production",
+      "year": 2011,
+      "value": 33683,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "east-zangezur",
+      "indicator_id": "milk_production",
+      "year": 2012,
+      "value": 35914,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "east-zangezur",
+      "indicator_id": "milk_production",
+      "year": 2013,
+      "value": 37668,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "east-zangezur",
+      "indicator_id": "milk_production",
+      "year": 2014,
+      "value": 46296,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "east-zangezur",
+      "indicator_id": "milk_production",
+      "year": 2015,
+      "value": 45547,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "east-zangezur",
+      "indicator_id": "milk_production",
+      "year": 2016,
+      "value": 46386,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "east-zangezur",
+      "indicator_id": "milk_production",
+      "year": 2017,
+      "value": 46242,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "east-zangezur",
+      "indicator_id": "milk_production",
+      "year": 2018,
+      "value": 42063,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "east-zangezur",
+      "indicator_id": "milk_production",
+      "year": 2019,
+      "value": 42044,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "east-zangezur",
+      "indicator_id": "milk_production",
+      "year": 2020,
+      "value": 42210,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "east-zangezur",
+      "indicator_id": "milk_production",
+      "year": 2021,
+      "value": 43943,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "east-zangezur",
+      "indicator_id": "milk_production",
+      "year": 2022,
+      "value": 50749,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "east-zangezur",
+      "indicator_id": "milk_production",
+      "year": 2023,
+      "value": 57374,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "east-zangezur",
+      "indicator_id": "milk_production",
+      "year": 2024,
+      "value": 57391,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "milk_production",
+      "year": 2000,
+      "value": 73925,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "milk_production",
+      "year": 2001,
+      "value": 70953,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "milk_production",
+      "year": 2002,
+      "value": 77041,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "milk_production",
+      "year": 2003,
+      "value": 76558,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "milk_production",
+      "year": 2004,
+      "value": 78430,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "milk_production",
+      "year": 2005,
+      "value": 79590,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "milk_production",
+      "year": 2006,
+      "value": 82321,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "milk_production",
+      "year": 2007,
+      "value": 87146,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "milk_production",
+      "year": 2008,
+      "value": 88837,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "milk_production",
+      "year": 2009,
+      "value": 96603,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "milk_production",
+      "year": 2010,
+      "value": 98858,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "milk_production",
+      "year": 2011,
+      "value": 102983,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "milk_production",
+      "year": 2012,
+      "value": 109832,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "milk_production",
+      "year": 2013,
+      "value": 114695,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "milk_production",
+      "year": 2014,
+      "value": 114984,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "milk_production",
+      "year": 2015,
+      "value": 116127,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "milk_production",
+      "year": 2016,
+      "value": 116017,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "milk_production",
+      "year": 2017,
+      "value": 116983,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "milk_production",
+      "year": 2018,
+      "value": 124203,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "milk_production",
+      "year": 2019,
+      "value": 130066,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "milk_production",
+      "year": 2020,
+      "value": 138047,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "milk_production",
+      "year": 2021,
+      "value": 139006,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "milk_production",
+      "year": 2022,
+      "value": 139142,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "milk_production",
+      "year": 2023,
+      "value": 137977,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "milk_production",
+      "year": 2024,
+      "value": 141961,
+      "scope": "region",
+      "source": "stat.gov.az"
+    }
+  ]
+}

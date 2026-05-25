@@ -3,7 +3,7 @@
 import { AnimatePresence, motion, useReducedMotion } from "framer-motion";
 import NumberFlow from "@number-flow/react";
 import { useFitText } from "@/lib/ui/useFitText";
-import { UnitIcon, kindForUnit } from "@/components/icons/UnitIcon";
+import { UnitIcon, kindForIndicator } from "@/components/icons/UnitIcon";
 import { indicatorsData, regionsData } from "@/lib/data/loadData";
 import { useIndicatorValues } from "@/lib/data/useIndicatorValues";
 import {
@@ -12,7 +12,8 @@ import {
   selectRegionById,
   selectValueAt,
 } from "@/lib/data/selectors";
-import { formatValueParts } from "@/lib/data/format";
+import { formatValueParts, numericLocale } from "@/lib/data/format";
+import { indicatorLabel as pickIndicatorLabel, regionName as pickRegionName } from "@/lib/i18n/localize";
 import { useAppStore } from "@/lib/state/store";
 import { surface, color, glow } from "@/lib/ui/tokens";
 import { t } from "@/lib/i18n/strings";
@@ -65,16 +66,8 @@ export function DataCard({ compact = false, width }: DataCardProps = {}) {
         selectLatestValue(values, region.id, indicator.id)
       : undefined;
 
-  const indicatorLabel = indicator
-    ? locale === "az"
-      ? indicator.label_az
-      : indicator.label_en
-    : "";
-  const regionName = region
-    ? locale === "az"
-      ? region.name_az
-      : region.name_en
-    : "";
+  const indicatorLabel = indicator ? pickIndicatorLabel(indicator, locale) : "";
+  const regionName = region ? pickRegionName(region, locale) : "";
 
   const reduced = useReducedMotion();
 
@@ -181,7 +174,7 @@ export function DataCard({ compact = false, width }: DataCardProps = {}) {
                   color: color.muted,
                   letterSpacing: "-0.32px",
                   lineHeight: "16px",
-                  marginTop: 4,
+                  marginTop: 6,
                   // Reserve the line so the swap doesn't shift layout
                   // while the old label is exiting.
                   position: "relative",
@@ -238,7 +231,7 @@ export function DataCard({ compact = false, width }: DataCardProps = {}) {
                       return (
                         <NumberFlow
                           value={parts.display}
-                          locales={locale === "az" ? "az" : "en-US"}
+                          locales={numericLocale(locale)}
                           format={{
                             minimumFractionDigits: parts.decimals,
                             maximumFractionDigits: parts.decimals,
@@ -273,7 +266,7 @@ export function DataCard({ compact = false, width }: DataCardProps = {}) {
                     width: 24,
                     height: 24,
                     borderRadius: 18,
-                    padding: 3,
+                    padding: 0,
                     display: "flex",
                     alignItems: "center",
                     justifyContent: "center",
@@ -282,8 +275,8 @@ export function DataCard({ compact = false, width }: DataCardProps = {}) {
                   aria-hidden
                 >
                   <UnitIcon
-                    kind={kindForUnit(indicator.unit)}
-                    size={18}
+                    kind={kindForIndicator(indicator.unit, indicator.id)}
+                    size={24}
                     tone="var(--c-bg)"
                   />
                 </div>

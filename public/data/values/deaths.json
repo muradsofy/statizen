@@ -1,0 +1,3244 @@
+{
+  "values": [
+    {
+      "region_id": "AZ",
+      "indicator_id": "deaths",
+      "year": 1990,
+      "value": 42819,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "deaths",
+      "year": 1995,
+      "value": 50828,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "deaths",
+      "year": 2000,
+      "value": 46701,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "deaths",
+      "year": 2001,
+      "value": 45284,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "deaths",
+      "year": 2002,
+      "value": 46522,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "deaths",
+      "year": 2003,
+      "value": 49001,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "deaths",
+      "year": 2004,
+      "value": 49568,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "deaths",
+      "year": 2005,
+      "value": 51962,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "deaths",
+      "year": 2006,
+      "value": 52248,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "deaths",
+      "year": 2007,
+      "value": 53655,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "deaths",
+      "year": 2008,
+      "value": 52710,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "deaths",
+      "year": 2009,
+      "value": 52514,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "deaths",
+      "year": 2010,
+      "value": 53580,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "deaths",
+      "year": 2011,
+      "value": 53762,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "deaths",
+      "year": 2012,
+      "value": 55017,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "deaths",
+      "year": 2013,
+      "value": 54383,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "deaths",
+      "year": 2014,
+      "value": 55648,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "deaths",
+      "year": 2015,
+      "value": 54697,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "deaths",
+      "year": 2016,
+      "value": 56648,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "deaths",
+      "year": 2017,
+      "value": 57109,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "deaths",
+      "year": 2018,
+      "value": 57250,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "deaths",
+      "year": 2019,
+      "value": 55916,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "deaths",
+      "year": 2020,
+      "value": 75647,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "deaths",
+      "year": 2021,
+      "value": 76878,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "deaths",
+      "year": 2022,
+      "value": 60810,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "deaths",
+      "year": 2023,
+      "value": 60150,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "deaths",
+      "year": 2024,
+      "value": 58909,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "deaths",
+      "year": 1990,
+      "value": 11646,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "deaths",
+      "year": 1995,
+      "value": 12809,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "deaths",
+      "year": 2000,
+      "value": 10428,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "deaths",
+      "year": 2001,
+      "value": 10204,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "deaths",
+      "year": 2002,
+      "value": 10128,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "deaths",
+      "year": 2003,
+      "value": 10694,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "deaths",
+      "year": 2004,
+      "value": 11024,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "deaths",
+      "year": 2005,
+      "value": 12046,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "deaths",
+      "year": 2006,
+      "value": 11953,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "deaths",
+      "year": 2007,
+      "value": 12109,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "deaths",
+      "year": 2008,
+      "value": 11843,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "deaths",
+      "year": 2009,
+      "value": 11660,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "deaths",
+      "year": 2010,
+      "value": 11896,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "deaths",
+      "year": 2011,
+      "value": 12133,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "deaths",
+      "year": 2012,
+      "value": 12395,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "deaths",
+      "year": 2013,
+      "value": 12241,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "deaths",
+      "year": 2014,
+      "value": 12428,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "deaths",
+      "year": 2015,
+      "value": 12485,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "deaths",
+      "year": 2016,
+      "value": 13040,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "deaths",
+      "year": 2017,
+      "value": 12938,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "deaths",
+      "year": 2018,
+      "value": 13117,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "deaths",
+      "year": 2019,
+      "value": 12742,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "deaths",
+      "year": 2020,
+      "value": 17329,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "deaths",
+      "year": 2021,
+      "value": 20521,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "deaths",
+      "year": 2022,
+      "value": 14532,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "deaths",
+      "year": 2023,
+      "value": 14261,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "deaths",
+      "year": 2024,
+      "value": 14171,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "deaths",
+      "year": 1990,
+      "value": 1518,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "deaths",
+      "year": 1995,
+      "value": 2010,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "deaths",
+      "year": 2000,
+      "value": 1936,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "deaths",
+      "year": 2001,
+      "value": 1967,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "deaths",
+      "year": 2002,
+      "value": 2045,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "deaths",
+      "year": 2003,
+      "value": 2128,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "deaths",
+      "year": 2004,
+      "value": 2018,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "deaths",
+      "year": 2005,
+      "value": 2111,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "deaths",
+      "year": 2006,
+      "value": 2050,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "deaths",
+      "year": 2007,
+      "value": 2033,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "deaths",
+      "year": 2008,
+      "value": 2147,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "deaths",
+      "year": 2009,
+      "value": 2109,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "deaths",
+      "year": 2010,
+      "value": 2044,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "deaths",
+      "year": 2011,
+      "value": 2025,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "deaths",
+      "year": 2012,
+      "value": 2006,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "deaths",
+      "year": 2013,
+      "value": 2001,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "deaths",
+      "year": 2014,
+      "value": 1858,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "deaths",
+      "year": 2015,
+      "value": 1859,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "deaths",
+      "year": 2016,
+      "value": 1850,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "deaths",
+      "year": 2017,
+      "value": 1970,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "deaths",
+      "year": 2018,
+      "value": 2055,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "deaths",
+      "year": 2019,
+      "value": 2080,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "deaths",
+      "year": 2020,
+      "value": 2871,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "deaths",
+      "year": 2021,
+      "value": 2927,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "deaths",
+      "year": 2022,
+      "value": 2340,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "deaths",
+      "year": 2023,
+      "value": 2194,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "deaths",
+      "year": 2024,
+      "value": 2137,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "deaths",
+      "year": 1990,
+      "value": 1398,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "deaths",
+      "year": 1995,
+      "value": 2006,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "deaths",
+      "year": 2000,
+      "value": 1742,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "deaths",
+      "year": 2001,
+      "value": 1771,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "deaths",
+      "year": 2002,
+      "value": 1801,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "deaths",
+      "year": 2003,
+      "value": 2019,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "deaths",
+      "year": 2004,
+      "value": 2123,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "deaths",
+      "year": 2005,
+      "value": 2313,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "deaths",
+      "year": 2006,
+      "value": 2249,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "deaths",
+      "year": 2007,
+      "value": 2411,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "deaths",
+      "year": 2008,
+      "value": 2368,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "deaths",
+      "year": 2009,
+      "value": 2358,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "deaths",
+      "year": 2010,
+      "value": 2574,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "deaths",
+      "year": 2011,
+      "value": 2475,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "deaths",
+      "year": 2012,
+      "value": 2635,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "deaths",
+      "year": 2013,
+      "value": 2484,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "deaths",
+      "year": 2014,
+      "value": 2661,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "deaths",
+      "year": 2015,
+      "value": 2690,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "deaths",
+      "year": 2016,
+      "value": 2819,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "deaths",
+      "year": 2017,
+      "value": 2862,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "deaths",
+      "year": 2018,
+      "value": 2955,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "deaths",
+      "year": 2019,
+      "value": 2948,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "deaths",
+      "year": 2020,
+      "value": 4073,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "deaths",
+      "year": 2021,
+      "value": 4330,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "deaths",
+      "year": 2022,
+      "value": 3314,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "deaths",
+      "year": 2023,
+      "value": 3341,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "deaths",
+      "year": 2024,
+      "value": 3344,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "deaths",
+      "year": 1990,
+      "value": 1638,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "deaths",
+      "year": 1995,
+      "value": 1801,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "deaths",
+      "year": 2000,
+      "value": 1759,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "deaths",
+      "year": 2001,
+      "value": 1606,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "deaths",
+      "year": 2002,
+      "value": 1654,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "deaths",
+      "year": 2003,
+      "value": 1759,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "deaths",
+      "year": 2004,
+      "value": 1757,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "deaths",
+      "year": 2005,
+      "value": 1837,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "deaths",
+      "year": 2006,
+      "value": 1862,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "deaths",
+      "year": 2007,
+      "value": 1896,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "deaths",
+      "year": 2008,
+      "value": 1830,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "deaths",
+      "year": 2009,
+      "value": 1918,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "deaths",
+      "year": 2010,
+      "value": 1874,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "deaths",
+      "year": 2011,
+      "value": 1851,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "deaths",
+      "year": 2012,
+      "value": 1924,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "deaths",
+      "year": 2013,
+      "value": 1929,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "deaths",
+      "year": 2014,
+      "value": 1973,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "deaths",
+      "year": 2015,
+      "value": 1827,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "deaths",
+      "year": 2016,
+      "value": 1972,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "deaths",
+      "year": 2017,
+      "value": 1878,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "deaths",
+      "year": 2018,
+      "value": 1898,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "deaths",
+      "year": 2019,
+      "value": 1834,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "deaths",
+      "year": 2020,
+      "value": 2478,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "deaths",
+      "year": 2021,
+      "value": 2358,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "deaths",
+      "year": 2022,
+      "value": 2055,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "deaths",
+      "year": 2023,
+      "value": 1938,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "deaths",
+      "year": 2024,
+      "value": 1954,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "deaths",
+      "year": 1990,
+      "value": 2741,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "deaths",
+      "year": 1995,
+      "value": 3430,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "deaths",
+      "year": 2000,
+      "value": 3193,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "deaths",
+      "year": 2001,
+      "value": 2982,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "deaths",
+      "year": 2002,
+      "value": 3245,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "deaths",
+      "year": 2003,
+      "value": 3299,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "deaths",
+      "year": 2004,
+      "value": 3444,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "deaths",
+      "year": 2005,
+      "value": 3536,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "deaths",
+      "year": 2006,
+      "value": 3657,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "deaths",
+      "year": 2007,
+      "value": 3524,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "deaths",
+      "year": 2008,
+      "value": 3596,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "deaths",
+      "year": 2009,
+      "value": 3707,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "deaths",
+      "year": 2010,
+      "value": 3648,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "deaths",
+      "year": 2011,
+      "value": 3661,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "deaths",
+      "year": 2012,
+      "value": 3653,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "deaths",
+      "year": 2013,
+      "value": 3803,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "deaths",
+      "year": 2014,
+      "value": 3808,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "deaths",
+      "year": 2015,
+      "value": 3697,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "deaths",
+      "year": 2016,
+      "value": 3951,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "deaths",
+      "year": 2017,
+      "value": 3888,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "deaths",
+      "year": 2018,
+      "value": 4078,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "deaths",
+      "year": 2019,
+      "value": 3792,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "deaths",
+      "year": 2020,
+      "value": 5378,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "deaths",
+      "year": 2021,
+      "value": 5091,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "deaths",
+      "year": 2022,
+      "value": 4121,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "deaths",
+      "year": 2023,
+      "value": 4043,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "deaths",
+      "year": 2024,
+      "value": 3977,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "deaths",
+      "year": 1990,
+      "value": 2853,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "deaths",
+      "year": 1995,
+      "value": 2820,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "deaths",
+      "year": 2000,
+      "value": 3302,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "deaths",
+      "year": 2001,
+      "value": 3077,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "deaths",
+      "year": 2002,
+      "value": 3315,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "deaths",
+      "year": 2003,
+      "value": 3417,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "deaths",
+      "year": 2004,
+      "value": 3637,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "deaths",
+      "year": 2005,
+      "value": 3761,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "deaths",
+      "year": 2006,
+      "value": 3780,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "deaths",
+      "year": 2007,
+      "value": 3960,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "deaths",
+      "year": 2008,
+      "value": 3963,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "deaths",
+      "year": 2009,
+      "value": 3890,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "deaths",
+      "year": 2010,
+      "value": 3973,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "deaths",
+      "year": 2011,
+      "value": 4084,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "deaths",
+      "year": 2012,
+      "value": 4238,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "deaths",
+      "year": 2013,
+      "value": 4281,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "deaths",
+      "year": 2014,
+      "value": 4339,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "deaths",
+      "year": 2015,
+      "value": 4173,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "deaths",
+      "year": 2016,
+      "value": 4415,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "deaths",
+      "year": 2017,
+      "value": 4471,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "deaths",
+      "year": 2018,
+      "value": 4504,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "deaths",
+      "year": 2019,
+      "value": 4407,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "deaths",
+      "year": 2020,
+      "value": 6270,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "deaths",
+      "year": 2021,
+      "value": 5997,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "deaths",
+      "year": 2022,
+      "value": 4842,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "deaths",
+      "year": 2023,
+      "value": 4724,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "deaths",
+      "year": 2024,
+      "value": 4637,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "deaths",
+      "year": 1990,
+      "value": 3334,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "deaths",
+      "year": 1995,
+      "value": 4327,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "deaths",
+      "year": 2000,
+      "value": 3961,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "deaths",
+      "year": 2001,
+      "value": 3817,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "deaths",
+      "year": 2002,
+      "value": 4083,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "deaths",
+      "year": 2003,
+      "value": 4279,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "deaths",
+      "year": 2004,
+      "value": 4205,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "deaths",
+      "year": 2005,
+      "value": 4277,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "deaths",
+      "year": 2006,
+      "value": 4430,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "deaths",
+      "year": 2007,
+      "value": 4451,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "deaths",
+      "year": 2008,
+      "value": 4268,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "deaths",
+      "year": 2009,
+      "value": 4413,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "deaths",
+      "year": 2010,
+      "value": 4527,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "deaths",
+      "year": 2011,
+      "value": 4458,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "deaths",
+      "year": 2012,
+      "value": 4620,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "deaths",
+      "year": 2013,
+      "value": 4548,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "deaths",
+      "year": 2014,
+      "value": 4610,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "deaths",
+      "year": 2015,
+      "value": 4644,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "deaths",
+      "year": 2016,
+      "value": 4704,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "deaths",
+      "year": 2017,
+      "value": 4864,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "deaths",
+      "year": 2018,
+      "value": 4775,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "deaths",
+      "year": 2019,
+      "value": 4575,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "deaths",
+      "year": 2020,
+      "value": 6142,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "deaths",
+      "year": 2021,
+      "value": 5613,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "deaths",
+      "year": 2022,
+      "value": 4826,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "deaths",
+      "year": 2023,
+      "value": 4844,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "deaths",
+      "year": 2024,
+      "value": 4601,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "deaths",
+      "year": 1990,
+      "value": 2659,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "deaths",
+      "year": 1995,
+      "value": 3437,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "deaths",
+      "year": 2000,
+      "value": 3214,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "deaths",
+      "year": 2001,
+      "value": 3095,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "deaths",
+      "year": 2002,
+      "value": 3015,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "deaths",
+      "year": 2003,
+      "value": 3260,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "deaths",
+      "year": 2004,
+      "value": 3360,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "deaths",
+      "year": 2005,
+      "value": 3341,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "deaths",
+      "year": 2006,
+      "value": 3483,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "deaths",
+      "year": 2007,
+      "value": 3420,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "deaths",
+      "year": 2008,
+      "value": 3426,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "deaths",
+      "year": 2009,
+      "value": 3366,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "deaths",
+      "year": 2010,
+      "value": 3411,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "deaths",
+      "year": 2011,
+      "value": 3381,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "deaths",
+      "year": 2012,
+      "value": 3563,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "deaths",
+      "year": 2013,
+      "value": 3408,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "deaths",
+      "year": 2014,
+      "value": 3355,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "deaths",
+      "year": 2015,
+      "value": 3322,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "deaths",
+      "year": 2016,
+      "value": 3419,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "deaths",
+      "year": 2017,
+      "value": 3431,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "deaths",
+      "year": 2018,
+      "value": 3369,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "deaths",
+      "year": 2019,
+      "value": 3263,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "deaths",
+      "year": 2020,
+      "value": 4122,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "deaths",
+      "year": 2021,
+      "value": 4064,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "deaths",
+      "year": 2022,
+      "value": 3323,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "deaths",
+      "year": 2023,
+      "value": 3477,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "deaths",
+      "year": 2024,
+      "value": 3257,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "deaths",
+      "year": 1990,
+      "value": 3585,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "deaths",
+      "year": 1995,
+      "value": 4311,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "deaths",
+      "year": 2000,
+      "value": 4070,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "deaths",
+      "year": 2001,
+      "value": 3919,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "deaths",
+      "year": 2002,
+      "value": 4110,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "deaths",
+      "year": 2003,
+      "value": 4265,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "deaths",
+      "year": 2004,
+      "value": 4097,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "deaths",
+      "year": 2005,
+      "value": 4324,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "deaths",
+      "year": 2006,
+      "value": 4233,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "deaths",
+      "year": 2007,
+      "value": 4418,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "deaths",
+      "year": 2008,
+      "value": 4422,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "deaths",
+      "year": 2009,
+      "value": 4312,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "deaths",
+      "year": 2010,
+      "value": 4589,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "deaths",
+      "year": 2011,
+      "value": 4595,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "deaths",
+      "year": 2012,
+      "value": 4732,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "deaths",
+      "year": 2013,
+      "value": 4605,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "deaths",
+      "year": 2014,
+      "value": 4881,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "deaths",
+      "year": 2015,
+      "value": 4738,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "deaths",
+      "year": 2016,
+      "value": 4771,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "deaths",
+      "year": 2017,
+      "value": 5004,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "deaths",
+      "year": 2018,
+      "value": 4746,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "deaths",
+      "year": 2019,
+      "value": 4736,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "deaths",
+      "year": 2020,
+      "value": 6501,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "deaths",
+      "year": 2021,
+      "value": 5995,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "deaths",
+      "year": 2022,
+      "value": 5050,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "deaths",
+      "year": 2023,
+      "value": 5163,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "deaths",
+      "year": 2024,
+      "value": 5009,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "deaths",
+      "year": 1990,
+      "value": 2825,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "deaths",
+      "year": 1995,
+      "value": 3692,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "deaths",
+      "year": 2000,
+      "value": 3258,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "deaths",
+      "year": 2001,
+      "value": 3221,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "deaths",
+      "year": 2002,
+      "value": 3150,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "deaths",
+      "year": 2003,
+      "value": 3353,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "deaths",
+      "year": 2004,
+      "value": 3484,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "deaths",
+      "year": 2005,
+      "value": 3542,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "deaths",
+      "year": 2006,
+      "value": 3620,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "deaths",
+      "year": 2007,
+      "value": 3864,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "deaths",
+      "year": 2008,
+      "value": 3647,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "deaths",
+      "year": 2009,
+      "value": 3606,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "deaths",
+      "year": 2010,
+      "value": 3625,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "deaths",
+      "year": 2011,
+      "value": 3648,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "deaths",
+      "year": 2012,
+      "value": 3730,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "deaths",
+      "year": 2013,
+      "value": 3631,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "deaths",
+      "year": 2014,
+      "value": 3770,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "deaths",
+      "year": 2015,
+      "value": 3703,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "deaths",
+      "year": 2016,
+      "value": 3883,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "deaths",
+      "year": 2017,
+      "value": 3866,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "deaths",
+      "year": 2018,
+      "value": 3800,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "deaths",
+      "year": 2019,
+      "value": 3763,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "deaths",
+      "year": 2020,
+      "value": 5038,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "deaths",
+      "year": 2021,
+      "value": 4920,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "deaths",
+      "year": 2022,
+      "value": 3905,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "deaths",
+      "year": 2023,
+      "value": 3863,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "deaths",
+      "year": 2024,
+      "value": 3823,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "deaths",
+      "year": 1990,
+      "value": 1797,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "deaths",
+      "year": 1995,
+      "value": 2375,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "deaths",
+      "year": 2000,
+      "value": 2205,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "deaths",
+      "year": 2001,
+      "value": 2055,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "deaths",
+      "year": 2002,
+      "value": 2132,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "deaths",
+      "year": 2003,
+      "value": 2287,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "deaths",
+      "year": 2004,
+      "value": 2329,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "deaths",
+      "year": 2005,
+      "value": 2516,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "deaths",
+      "year": 2006,
+      "value": 2353,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "deaths",
+      "year": 2007,
+      "value": 2505,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "deaths",
+      "year": 2008,
+      "value": 2421,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "deaths",
+      "year": 2009,
+      "value": 2550,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "deaths",
+      "year": 2010,
+      "value": 2546,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "deaths",
+      "year": 2011,
+      "value": 2580,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "deaths",
+      "year": 2012,
+      "value": 2680,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "deaths",
+      "year": 2013,
+      "value": 2560,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "deaths",
+      "year": 2014,
+      "value": 2743,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "deaths",
+      "year": 2015,
+      "value": 2624,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "deaths",
+      "year": 2016,
+      "value": 2763,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "deaths",
+      "year": 2017,
+      "value": 2656,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "deaths",
+      "year": 2018,
+      "value": 2761,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "deaths",
+      "year": 2019,
+      "value": 2691,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "deaths",
+      "year": 2020,
+      "value": 3726,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "deaths",
+      "year": 2021,
+      "value": 3353,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "deaths",
+      "year": 2022,
+      "value": 2906,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "deaths",
+      "year": 2023,
+      "value": 2942,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "deaths",
+      "year": 2024,
+      "value": 2874,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "deaths",
+      "year": 1990,
+      "value": 3264,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "deaths",
+      "year": 1995,
+      "value": 4054,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "deaths",
+      "year": 2000,
+      "value": 3493,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "deaths",
+      "year": 2001,
+      "value": 3498,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "deaths",
+      "year": 2002,
+      "value": 3622,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "deaths",
+      "year": 2003,
+      "value": 3800,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "deaths",
+      "year": 2004,
+      "value": 3770,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "deaths",
+      "year": 2005,
+      "value": 3781,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "deaths",
+      "year": 2006,
+      "value": 3860,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "deaths",
+      "year": 2007,
+      "value": 4085,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "deaths",
+      "year": 2008,
+      "value": 3934,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "deaths",
+      "year": 2009,
+      "value": 3965,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "deaths",
+      "year": 2010,
+      "value": 4016,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "deaths",
+      "year": 2011,
+      "value": 3958,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "deaths",
+      "year": 2012,
+      "value": 3854,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "deaths",
+      "year": 2013,
+      "value": 3968,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "deaths",
+      "year": 2014,
+      "value": 4010,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "deaths",
+      "year": 2015,
+      "value": 3808,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "deaths",
+      "year": 2016,
+      "value": 3880,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "deaths",
+      "year": 2017,
+      "value": 3975,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "deaths",
+      "year": 2018,
+      "value": 3918,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "deaths",
+      "year": 2019,
+      "value": 3822,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "deaths",
+      "year": 2020,
+      "value": 4602,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "deaths",
+      "year": 2021,
+      "value": 4855,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "deaths",
+      "year": 2022,
+      "value": 3992,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "deaths",
+      "year": 2023,
+      "value": 3887,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "deaths",
+      "year": 2024,
+      "value": 3793,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "east-zangezur",
+      "indicator_id": "deaths",
+      "year": 1990,
+      "value": 1396,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "east-zangezur",
+      "indicator_id": "deaths",
+      "year": 1995,
+      "value": 697,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "east-zangezur",
+      "indicator_id": "deaths",
+      "year": 2000,
+      "value": 1303,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "east-zangezur",
+      "indicator_id": "deaths",
+      "year": 2001,
+      "value": 1305,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "east-zangezur",
+      "indicator_id": "deaths",
+      "year": 2002,
+      "value": 1444,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "east-zangezur",
+      "indicator_id": "deaths",
+      "year": 2003,
+      "value": 1497,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "east-zangezur",
+      "indicator_id": "deaths",
+      "year": 2004,
+      "value": 1413,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "east-zangezur",
+      "indicator_id": "deaths",
+      "year": 2005,
+      "value": 1516,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "east-zangezur",
+      "indicator_id": "deaths",
+      "year": 2006,
+      "value": 1576,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "east-zangezur",
+      "indicator_id": "deaths",
+      "year": 2007,
+      "value": 1750,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "east-zangezur",
+      "indicator_id": "deaths",
+      "year": 2008,
+      "value": 1662,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "east-zangezur",
+      "indicator_id": "deaths",
+      "year": 2009,
+      "value": 1581,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "east-zangezur",
+      "indicator_id": "deaths",
+      "year": 2010,
+      "value": 1645,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "east-zangezur",
+      "indicator_id": "deaths",
+      "year": 2011,
+      "value": 1557,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "east-zangezur",
+      "indicator_id": "deaths",
+      "year": 2012,
+      "value": 1766,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "east-zangezur",
+      "indicator_id": "deaths",
+      "year": 2013,
+      "value": 1692,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "east-zangezur",
+      "indicator_id": "deaths",
+      "year": 2014,
+      "value": 1788,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "east-zangezur",
+      "indicator_id": "deaths",
+      "year": 2015,
+      "value": 1781,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "east-zangezur",
+      "indicator_id": "deaths",
+      "year": 2016,
+      "value": 1739,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "east-zangezur",
+      "indicator_id": "deaths",
+      "year": 2017,
+      "value": 1946,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "east-zangezur",
+      "indicator_id": "deaths",
+      "year": 2018,
+      "value": 1844,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "east-zangezur",
+      "indicator_id": "deaths",
+      "year": 2019,
+      "value": 1828,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "east-zangezur",
+      "indicator_id": "deaths",
+      "year": 2020,
+      "value": 2465,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "east-zangezur",
+      "indicator_id": "deaths",
+      "year": 2021,
+      "value": 2632,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "east-zangezur",
+      "indicator_id": "deaths",
+      "year": 2022,
+      "value": 1915,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "east-zangezur",
+      "indicator_id": "deaths",
+      "year": 2023,
+      "value": 1877,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "east-zangezur",
+      "indicator_id": "deaths",
+      "year": 2024,
+      "value": 1814,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "deaths",
+      "year": 1990,
+      "value": 1608,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "deaths",
+      "year": 1995,
+      "value": 2315,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "deaths",
+      "year": 2000,
+      "value": 2173,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "deaths",
+      "year": 2001,
+      "value": 2162,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "deaths",
+      "year": 2002,
+      "value": 2155,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "deaths",
+      "year": 2003,
+      "value": 2254,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "deaths",
+      "year": 2004,
+      "value": 2300,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "deaths",
+      "year": 2005,
+      "value": 2365,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "deaths",
+      "year": 2006,
+      "value": 2470,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "deaths",
+      "year": 2007,
+      "value": 2495,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "deaths",
+      "year": 2008,
+      "value": 2522,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "deaths",
+      "year": 2009,
+      "value": 2439,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "deaths",
+      "year": 2010,
+      "value": 2548,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "deaths",
+      "year": 2011,
+      "value": 2697,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "deaths",
+      "year": 2012,
+      "value": 2527,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "deaths",
+      "year": 2013,
+      "value": 2542,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "deaths",
+      "year": 2014,
+      "value": 2710,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "deaths",
+      "year": 2015,
+      "value": 2675,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "deaths",
+      "year": 2016,
+      "value": 2758,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "deaths",
+      "year": 2017,
+      "value": 2695,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "deaths",
+      "year": 2018,
+      "value": 2771,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "deaths",
+      "year": 2019,
+      "value": 2772,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "deaths",
+      "year": 2020,
+      "value": 3823,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "deaths",
+      "year": 2021,
+      "value": 3447,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "deaths",
+      "year": 2022,
+      "value": 3060,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "deaths",
+      "year": 2023,
+      "value": 2926,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "deaths",
+      "year": 2024,
+      "value": 2872,
+      "scope": "region",
+      "source": "stat.gov.az"
+    }
+  ]
+}

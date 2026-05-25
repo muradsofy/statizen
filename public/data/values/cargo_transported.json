@@ -1,0 +1,2892 @@
+{
+  "values": [
+    {
+      "region_id": "AZ",
+      "indicator_id": "cargo_transported",
+      "year": 2000,
+      "value": 40434,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "cargo_transported",
+      "year": 2001,
+      "value": 50463,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "cargo_transported",
+      "year": 2002,
+      "value": 53738,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "cargo_transported",
+      "year": 2003,
+      "value": 59070,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "cargo_transported",
+      "year": 2004,
+      "value": 65214,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "cargo_transported",
+      "year": 2005,
+      "value": 69518,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "cargo_transported",
+      "year": 2006,
+      "value": 74384,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "cargo_transported",
+      "year": 2007,
+      "value": 81623,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "cargo_transported",
+      "year": 2008,
+      "value": 87989,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "cargo_transported",
+      "year": 2009,
+      "value": 94237,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "cargo_transported",
+      "year": 2010,
+      "value": 99891,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "cargo_transported",
+      "year": 2011,
+      "value": 109780,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "cargo_transported",
+      "year": 2012,
+      "value": 118123,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "cargo_transported",
+      "year": 2013,
+      "value": 125222,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "cargo_transported",
+      "year": 2014,
+      "value": 128603,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "cargo_transported",
+      "year": 2015,
+      "value": 137605,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "cargo_transported",
+      "year": 2016,
+      "value": 141459,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "cargo_transported",
+      "year": 2017,
+      "value": 144854,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "cargo_transported",
+      "year": 2018,
+      "value": 149344,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "cargo_transported",
+      "year": 2019,
+      "value": 155318,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "cargo_transported",
+      "year": 2020,
+      "value": 111518,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "cargo_transported",
+      "year": 2021,
+      "value": 112522,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "cargo_transported",
+      "year": 2022,
+      "value": 126025,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "cargo_transported",
+      "year": 2023,
+      "value": 134216,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "cargo_transported",
+      "year": 2024,
+      "value": 143477,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "cargo_transported",
+      "year": 2000,
+      "value": 11047,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "cargo_transported",
+      "year": 2001,
+      "value": 13162.75,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "cargo_transported",
+      "year": 2002,
+      "value": 16755,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "cargo_transported",
+      "year": 2003,
+      "value": 21165,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "cargo_transported",
+      "year": 2004,
+      "value": 25218,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "cargo_transported",
+      "year": 2005,
+      "value": 26472,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "cargo_transported",
+      "year": 2006,
+      "value": 29119,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "cargo_transported",
+      "year": 2007,
+      "value": 34069,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "cargo_transported",
+      "year": 2008,
+      "value": 37426,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "cargo_transported",
+      "year": 2009,
+      "value": 39682,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "cargo_transported",
+      "year": 2010,
+      "value": 40550,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "cargo_transported",
+      "year": 2011,
+      "value": 45139,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "cargo_transported",
+      "year": 2012,
+      "value": 48319,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "cargo_transported",
+      "year": 2013,
+      "value": 50761,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "cargo_transported",
+      "year": 2014,
+      "value": 52055,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "cargo_transported",
+      "year": 2015,
+      "value": 57651,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "cargo_transported",
+      "year": 2016,
+      "value": 58902,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "cargo_transported",
+      "year": 2017,
+      "value": 60124,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "cargo_transported",
+      "year": 2018,
+      "value": 62441,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "cargo_transported",
+      "year": 2019,
+      "value": 67194,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "cargo_transported",
+      "year": 2020,
+      "value": 49227,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "cargo_transported",
+      "year": 2021,
+      "value": 49704,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "cargo_transported",
+      "year": 2022,
+      "value": 57107,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "cargo_transported",
+      "year": 2023,
+      "value": 69030,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "cargo_transported",
+      "year": 2024,
+      "value": 74734,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "cargo_transported",
+      "year": 2000,
+      "value": 3721,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "cargo_transported",
+      "year": 2001,
+      "value": 4586.4,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "cargo_transported",
+      "year": 2002,
+      "value": 4837,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "cargo_transported",
+      "year": 2003,
+      "value": 5937,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "cargo_transported",
+      "year": 2004,
+      "value": 6185,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "cargo_transported",
+      "year": 2005,
+      "value": 7033,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "cargo_transported",
+      "year": 2006,
+      "value": 7472,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "cargo_transported",
+      "year": 2007,
+      "value": 8042,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "cargo_transported",
+      "year": 2008,
+      "value": 8703,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "cargo_transported",
+      "year": 2009,
+      "value": 9721,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "cargo_transported",
+      "year": 2010,
+      "value": 11153,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "cargo_transported",
+      "year": 2011,
+      "value": 12717,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "cargo_transported",
+      "year": 2012,
+      "value": 13952,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "cargo_transported",
+      "year": 2013,
+      "value": 15280,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "cargo_transported",
+      "year": 2014,
+      "value": 15564,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "cargo_transported",
+      "year": 2015,
+      "value": 15898,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "cargo_transported",
+      "year": 2016,
+      "value": 16083,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "cargo_transported",
+      "year": 2017,
+      "value": 16323,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "cargo_transported",
+      "year": 2018,
+      "value": 16628,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "cargo_transported",
+      "year": 2019,
+      "value": 16961,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "cargo_transported",
+      "year": 2020,
+      "value": 16758,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "cargo_transported",
+      "year": 2021,
+      "value": 16901,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "cargo_transported",
+      "year": 2022,
+      "value": 16927,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "cargo_transported",
+      "year": 2023,
+      "value": 7059,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "cargo_transported",
+      "year": 2024,
+      "value": 7140,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "cargo_transported",
+      "year": 2000,
+      "value": 1666,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "cargo_transported",
+      "year": 2001,
+      "value": 2239.18,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "cargo_transported",
+      "year": 2002,
+      "value": 2108,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "cargo_transported",
+      "year": 2003,
+      "value": 2179.83,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "cargo_transported",
+      "year": 2004,
+      "value": 2398.1,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "cargo_transported",
+      "year": 2005,
+      "value": 2567,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "cargo_transported",
+      "year": 2006,
+      "value": 2775,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "cargo_transported",
+      "year": 2007,
+      "value": 3038,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "cargo_transported",
+      "year": 2008,
+      "value": 3243,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "cargo_transported",
+      "year": 2009,
+      "value": 3487,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "cargo_transported",
+      "year": 2010,
+      "value": 3818,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "cargo_transported",
+      "year": 2011,
+      "value": 4119,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "cargo_transported",
+      "year": 2012,
+      "value": 4431,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "cargo_transported",
+      "year": 2013,
+      "value": 4695,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "cargo_transported",
+      "year": 2014,
+      "value": 4822,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "cargo_transported",
+      "year": 2015,
+      "value": 5058,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "cargo_transported",
+      "year": 2016,
+      "value": 5240,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "cargo_transported",
+      "year": 2017,
+      "value": 5407,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "cargo_transported",
+      "year": 2018,
+      "value": 5582,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "cargo_transported",
+      "year": 2019,
+      "value": 5601,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "cargo_transported",
+      "year": 2020,
+      "value": 3859,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "cargo_transported",
+      "year": 2021,
+      "value": 3904,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "cargo_transported",
+      "year": 2022,
+      "value": 4574,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "cargo_transported",
+      "year": 2023,
+      "value": 5275,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "cargo_transported",
+      "year": 2024,
+      "value": 5657,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "cargo_transported",
+      "year": 2000,
+      "value": 1411,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "cargo_transported",
+      "year": 2001,
+      "value": 1781.71,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "cargo_transported",
+      "year": 2002,
+      "value": 1915,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "cargo_transported",
+      "year": 2003,
+      "value": 2137.1,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "cargo_transported",
+      "year": 2004,
+      "value": 2392.1,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "cargo_transported",
+      "year": 2005,
+      "value": 2536,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "cargo_transported",
+      "year": 2006,
+      "value": 2701,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "cargo_transported",
+      "year": 2007,
+      "value": 2898,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "cargo_transported",
+      "year": 2008,
+      "value": 3042,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "cargo_transported",
+      "year": 2009,
+      "value": 3194,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "cargo_transported",
+      "year": 2010,
+      "value": 3365,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "cargo_transported",
+      "year": 2011,
+      "value": 3568,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "cargo_transported",
+      "year": 2012,
+      "value": 3781,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "cargo_transported",
+      "year": 2013,
+      "value": 3945,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "cargo_transported",
+      "year": 2014,
+      "value": 4037,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "cargo_transported",
+      "year": 2015,
+      "value": 4286,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "cargo_transported",
+      "year": 2016,
+      "value": 4437,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "cargo_transported",
+      "year": 2017,
+      "value": 4565,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "cargo_transported",
+      "year": 2018,
+      "value": 4697,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "cargo_transported",
+      "year": 2019,
+      "value": 4735,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "cargo_transported",
+      "year": 2020,
+      "value": 2799,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "cargo_transported",
+      "year": 2021,
+      "value": 2809,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "cargo_transported",
+      "year": 2022,
+      "value": 3189,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "cargo_transported",
+      "year": 2023,
+      "value": 3582,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "cargo_transported",
+      "year": 2024,
+      "value": 3803,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "cargo_transported",
+      "year": 2000,
+      "value": 2115,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "cargo_transported",
+      "year": 2001,
+      "value": 2684.61,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "cargo_transported",
+      "year": 2002,
+      "value": 2590,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "cargo_transported",
+      "year": 2003,
+      "value": 2771.89,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "cargo_transported",
+      "year": 2004,
+      "value": 3013.1,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "cargo_transported",
+      "year": 2005,
+      "value": 3268,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "cargo_transported",
+      "year": 2006,
+      "value": 3514,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "cargo_transported",
+      "year": 2007,
+      "value": 3832,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "cargo_transported",
+      "year": 2008,
+      "value": 4101,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "cargo_transported",
+      "year": 2009,
+      "value": 4478,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "cargo_transported",
+      "year": 2010,
+      "value": 4883,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "cargo_transported",
+      "year": 2011,
+      "value": 5338,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "cargo_transported",
+      "year": 2012,
+      "value": 5775,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "cargo_transported",
+      "year": 2013,
+      "value": 6154,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "cargo_transported",
+      "year": 2014,
+      "value": 6339,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "cargo_transported",
+      "year": 2015,
+      "value": 6675,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "cargo_transported",
+      "year": 2016,
+      "value": 6941,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "cargo_transported",
+      "year": 2017,
+      "value": 7156,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "cargo_transported",
+      "year": 2018,
+      "value": 7362,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "cargo_transported",
+      "year": 2019,
+      "value": 7451,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "cargo_transported",
+      "year": 2020,
+      "value": 5119,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "cargo_transported",
+      "year": 2021,
+      "value": 5175,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "cargo_transported",
+      "year": 2022,
+      "value": 6012,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "cargo_transported",
+      "year": 2023,
+      "value": 6847,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "cargo_transported",
+      "year": 2024,
+      "value": 7312,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "cargo_transported",
+      "year": 2000,
+      "value": 1495,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "cargo_transported",
+      "year": 2001,
+      "value": 1890.55,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "cargo_transported",
+      "year": 2002,
+      "value": 1984,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "cargo_transported",
+      "year": 2003,
+      "value": 2433.71,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "cargo_transported",
+      "year": 2004,
+      "value": 2560.7,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "cargo_transported",
+      "year": 2005,
+      "value": 2733,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "cargo_transported",
+      "year": 2006,
+      "value": 2935,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "cargo_transported",
+      "year": 2007,
+      "value": 3175,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "cargo_transported",
+      "year": 2008,
+      "value": 3385,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "cargo_transported",
+      "year": 2009,
+      "value": 3538,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "cargo_transported",
+      "year": 2010,
+      "value": 3707,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "cargo_transported",
+      "year": 2011,
+      "value": 3889,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "cargo_transported",
+      "year": 2012,
+      "value": 4088,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "cargo_transported",
+      "year": 2013,
+      "value": 4232,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "cargo_transported",
+      "year": 2014,
+      "value": 5240,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "cargo_transported",
+      "year": 2015,
+      "value": 5465,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "cargo_transported",
+      "year": 2016,
+      "value": 5649,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "cargo_transported",
+      "year": 2017,
+      "value": 5771,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "cargo_transported",
+      "year": 2018,
+      "value": 5897,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "cargo_transported",
+      "year": 2019,
+      "value": 5988,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "cargo_transported",
+      "year": 2020,
+      "value": 3539,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "cargo_transported",
+      "year": 2021,
+      "value": 3565,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "cargo_transported",
+      "year": 2022,
+      "value": 4006,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "cargo_transported",
+      "year": 2023,
+      "value": 4368,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "cargo_transported",
+      "year": 2024,
+      "value": 4598,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "cargo_transported",
+      "year": 2000,
+      "value": 2447,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "cargo_transported",
+      "year": 2001,
+      "value": 3054.28,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "cargo_transported",
+      "year": 2002,
+      "value": 3048,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "cargo_transported",
+      "year": 2003,
+      "value": 2983.87,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "cargo_transported",
+      "year": 2004,
+      "value": 3101.7,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "cargo_transported",
+      "year": 2005,
+      "value": 3346,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "cargo_transported",
+      "year": 2006,
+      "value": 3556,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "cargo_transported",
+      "year": 2007,
+      "value": 3827,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "cargo_transported",
+      "year": 2008,
+      "value": 4072,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "cargo_transported",
+      "year": 2009,
+      "value": 4371,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "cargo_transported",
+      "year": 2010,
+      "value": 4699,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "cargo_transported",
+      "year": 2011,
+      "value": 5073,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "cargo_transported",
+      "year": 2012,
+      "value": 5451,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "cargo_transported",
+      "year": 2013,
+      "value": 5769,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "cargo_transported",
+      "year": 2014,
+      "value": 5924,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "cargo_transported",
+      "year": 2015,
+      "value": 6196,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "cargo_transported",
+      "year": 2016,
+      "value": 6432,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "cargo_transported",
+      "year": 2017,
+      "value": 6622,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "cargo_transported",
+      "year": 2018,
+      "value": 6802,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "cargo_transported",
+      "year": 2019,
+      "value": 6907,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "cargo_transported",
+      "year": 2020,
+      "value": 4650,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "cargo_transported",
+      "year": 2021,
+      "value": 4687,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "cargo_transported",
+      "year": 2022,
+      "value": 5324,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "cargo_transported",
+      "year": 2023,
+      "value": 5884,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "cargo_transported",
+      "year": 2024,
+      "value": 6226,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "cargo_transported",
+      "year": 2000,
+      "value": 1532,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "cargo_transported",
+      "year": 2001,
+      "value": 2081.99,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "cargo_transported",
+      "year": 2002,
+      "value": 2135,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "cargo_transported",
+      "year": 2003,
+      "value": 2151.22,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "cargo_transported",
+      "year": 2004,
+      "value": 2265.6,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "cargo_transported",
+      "year": 2005,
+      "value": 2355,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "cargo_transported",
+      "year": 2006,
+      "value": 2492,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "cargo_transported",
+      "year": 2007,
+      "value": 2653,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "cargo_transported",
+      "year": 2008,
+      "value": 2802,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "cargo_transported",
+      "year": 2009,
+      "value": 3010,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "cargo_transported",
+      "year": 2010,
+      "value": 3255,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "cargo_transported",
+      "year": 2011,
+      "value": 3518,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "cargo_transported",
+      "year": 2012,
+      "value": 3808,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "cargo_transported",
+      "year": 2013,
+      "value": 4060,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "cargo_transported",
+      "year": 2014,
+      "value": 4188,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "cargo_transported",
+      "year": 2015,
+      "value": 4396,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "cargo_transported",
+      "year": 2016,
+      "value": 4551,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "cargo_transported",
+      "year": 2017,
+      "value": 4665,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "cargo_transported",
+      "year": 2018,
+      "value": 4774,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "cargo_transported",
+      "year": 2019,
+      "value": 4831,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "cargo_transported",
+      "year": 2020,
+      "value": 3061,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "cargo_transported",
+      "year": 2021,
+      "value": 3084,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "cargo_transported",
+      "year": 2022,
+      "value": 3461,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "cargo_transported",
+      "year": 2023,
+      "value": 3833,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "cargo_transported",
+      "year": 2024,
+      "value": 4042,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "cargo_transported",
+      "year": 2000,
+      "value": 2709,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "cargo_transported",
+      "year": 2001,
+      "value": 3940.81,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "cargo_transported",
+      "year": 2002,
+      "value": 3766,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "cargo_transported",
+      "year": 2003,
+      "value": 3894.91,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "cargo_transported",
+      "year": 2004,
+      "value": 4069.2,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "cargo_transported",
+      "year": 2005,
+      "value": 4231,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "cargo_transported",
+      "year": 2006,
+      "value": 4472,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "cargo_transported",
+      "year": 2007,
+      "value": 4741,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "cargo_transported",
+      "year": 2008,
+      "value": 4965,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "cargo_transported",
+      "year": 2009,
+      "value": 5314,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "cargo_transported",
+      "year": 2010,
+      "value": 5694,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "cargo_transported",
+      "year": 2011,
+      "value": 6126,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "cargo_transported",
+      "year": 2012,
+      "value": 6594,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "cargo_transported",
+      "year": 2013,
+      "value": 6992,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "cargo_transported",
+      "year": 2014,
+      "value": 7187,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "cargo_transported",
+      "year": 2015,
+      "value": 7580,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "cargo_transported",
+      "year": 2016,
+      "value": 7879,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "cargo_transported",
+      "year": 2017,
+      "value": 8117,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "cargo_transported",
+      "year": 2018,
+      "value": 8348,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "cargo_transported",
+      "year": 2019,
+      "value": 8505,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "cargo_transported",
+      "year": 2020,
+      "value": 5663,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "cargo_transported",
+      "year": 2021,
+      "value": 5719,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "cargo_transported",
+      "year": 2022,
+      "value": 6433,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "cargo_transported",
+      "year": 2023,
+      "value": 7220,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "cargo_transported",
+      "year": 2024,
+      "value": 7651,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "cargo_transported",
+      "year": 2000,
+      "value": 2656,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "cargo_transported",
+      "year": 2001,
+      "value": 3596.36,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "cargo_transported",
+      "year": 2002,
+      "value": 3823,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "cargo_transported",
+      "year": 2003,
+      "value": 3946.68,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "cargo_transported",
+      "year": 2004,
+      "value": 4125.8,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "cargo_transported",
+      "year": 2005,
+      "value": 4396,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "cargo_transported",
+      "year": 2006,
+      "value": 4728,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "cargo_transported",
+      "year": 2007,
+      "value": 5143,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "cargo_transported",
+      "year": 2008,
+      "value": 5450,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "cargo_transported",
+      "year": 2009,
+      "value": 5798,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "cargo_transported",
+      "year": 2010,
+      "value": 6184,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "cargo_transported",
+      "year": 2011,
+      "value": 6615,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "cargo_transported",
+      "year": 2012,
+      "value": 7072,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "cargo_transported",
+      "year": 2013,
+      "value": 7448,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "cargo_transported",
+      "year": 2014,
+      "value": 7668,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "cargo_transported",
+      "year": 2015,
+      "value": 8012,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "cargo_transported",
+      "year": 2016,
+      "value": 8302,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "cargo_transported",
+      "year": 2017,
+      "value": 8528,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "cargo_transported",
+      "year": 2018,
+      "value": 8759,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "cargo_transported",
+      "year": 2019,
+      "value": 8811,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "cargo_transported",
+      "year": 2020,
+      "value": 5304,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "cargo_transported",
+      "year": 2021,
+      "value": 5345,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "cargo_transported",
+      "year": 2022,
+      "value": 5977,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "cargo_transported",
+      "year": 2023,
+      "value": 6605,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "cargo_transported",
+      "year": 2024,
+      "value": 7000,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "cargo_transported",
+      "year": 2000,
+      "value": 1342,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "cargo_transported",
+      "year": 2001,
+      "value": 1797.07,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "cargo_transported",
+      "year": 2002,
+      "value": 1719,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "cargo_transported",
+      "year": 2003,
+      "value": 1768,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "cargo_transported",
+      "year": 2004,
+      "value": 1853.4,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "cargo_transported",
+      "year": 2005,
+      "value": 1983,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "cargo_transported",
+      "year": 2006,
+      "value": 2130,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "cargo_transported",
+      "year": 2007,
+      "value": 2310,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "cargo_transported",
+      "year": 2008,
+      "value": 2467,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "cargo_transported",
+      "year": 2009,
+      "value": 2688,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "cargo_transported",
+      "year": 2010,
+      "value": 2930,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "cargo_transported",
+      "year": 2011,
+      "value": 3190,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "cargo_transported",
+      "year": 2012,
+      "value": 3473,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "cargo_transported",
+      "year": 2013,
+      "value": 3726,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "cargo_transported",
+      "year": 2014,
+      "value": 3857,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "cargo_transported",
+      "year": 2015,
+      "value": 4043,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "cargo_transported",
+      "year": 2016,
+      "value": 4190,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "cargo_transported",
+      "year": 2017,
+      "value": 4316,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "cargo_transported",
+      "year": 2018,
+      "value": 4442,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "cargo_transported",
+      "year": 2019,
+      "value": 4482,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "cargo_transported",
+      "year": 2020,
+      "value": 2698,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "cargo_transported",
+      "year": 2021,
+      "value": 2714,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "cargo_transported",
+      "year": 2022,
+      "value": 3034,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "cargo_transported",
+      "year": 2023,
+      "value": 3349,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "cargo_transported",
+      "year": 2024,
+      "value": 3527,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "cargo_transported",
+      "year": 2000,
+      "value": 2513,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "cargo_transported",
+      "year": 2001,
+      "value": 3360.47,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "cargo_transported",
+      "year": 2002,
+      "value": 3419,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "cargo_transported",
+      "year": 2003,
+      "value": 3763.38,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "cargo_transported",
+      "year": 2004,
+      "value": 3855.6,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "cargo_transported",
+      "year": 2005,
+      "value": 4022,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "cargo_transported",
+      "year": 2006,
+      "value": 4243,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "cargo_transported",
+      "year": 2007,
+      "value": 4522,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "cargo_transported",
+      "year": 2008,
+      "value": 4758,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "cargo_transported",
+      "year": 2009,
+      "value": 5160,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "cargo_transported",
+      "year": 2010,
+      "value": 5610,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "cargo_transported",
+      "year": 2011,
+      "value": 6111,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "cargo_transported",
+      "year": 2012,
+      "value": 6646,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "cargo_transported",
+      "year": 2013,
+      "value": 7120,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "cargo_transported",
+      "year": 2014,
+      "value": 7352,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "cargo_transported",
+      "year": 2015,
+      "value": 7768,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "cargo_transported",
+      "year": 2016,
+      "value": 8119,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "cargo_transported",
+      "year": 2017,
+      "value": 8396,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "cargo_transported",
+      "year": 2018,
+      "value": 8634,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "cargo_transported",
+      "year": 2019,
+      "value": 8818,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "cargo_transported",
+      "year": 2020,
+      "value": 5834,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "cargo_transported",
+      "year": 2021,
+      "value": 5885,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "cargo_transported",
+      "year": 2022,
+      "value": 6609,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "cargo_transported",
+      "year": 2023,
+      "value": 7413,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "cargo_transported",
+      "year": 2024,
+      "value": 7841,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "east-zangezur",
+      "indicator_id": "cargo_transported",
+      "year": 2014,
+      "value": 1184,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "east-zangezur",
+      "indicator_id": "cargo_transported",
+      "year": 2015,
+      "value": 1235,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "east-zangezur",
+      "indicator_id": "cargo_transported",
+      "year": 2016,
+      "value": 1273,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "east-zangezur",
+      "indicator_id": "cargo_transported",
+      "year": 2017,
+      "value": 1299,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "east-zangezur",
+      "indicator_id": "cargo_transported",
+      "year": 2018,
+      "value": 1317,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "east-zangezur",
+      "indicator_id": "cargo_transported",
+      "year": 2019,
+      "value": 1330,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "east-zangezur",
+      "indicator_id": "cargo_transported",
+      "year": 2020,
+      "value": 762,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "east-zangezur",
+      "indicator_id": "cargo_transported",
+      "year": 2021,
+      "value": 768,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "east-zangezur",
+      "indicator_id": "cargo_transported",
+      "year": 2022,
+      "value": 820,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "east-zangezur",
+      "indicator_id": "cargo_transported",
+      "year": 2023,
+      "value": 869,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "east-zangezur",
+      "indicator_id": "cargo_transported",
+      "year": 2024,
+      "value": 900,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "cargo_transported",
+      "year": 2000,
+      "value": 1188,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "cargo_transported",
+      "year": 2001,
+      "value": 1535.78,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "cargo_transported",
+      "year": 2002,
+      "value": 1439,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "cargo_transported",
+      "year": 2003,
+      "value": 1509.16,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "cargo_transported",
+      "year": 2004,
+      "value": 1609,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "cargo_transported",
+      "year": 2005,
+      "value": 1715,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "cargo_transported",
+      "year": 2006,
+      "value": 1838,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "cargo_transported",
+      "year": 2007,
+      "value": 1985,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "cargo_transported",
+      "year": 2008,
+      "value": 2111,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "cargo_transported",
+      "year": 2009,
+      "value": 2278,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "cargo_transported",
+      "year": 2010,
+      "value": 2461,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "cargo_transported",
+      "year": 2011,
+      "value": 2662,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "cargo_transported",
+      "year": 2012,
+      "value": 2883,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "cargo_transported",
+      "year": 2013,
+      "value": 3076,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "cargo_transported",
+      "year": 2014,
+      "value": 3186,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "cargo_transported",
+      "year": 2015,
+      "value": 3342,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "cargo_transported",
+      "year": 2016,
+      "value": 3461,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "cargo_transported",
+      "year": 2017,
+      "value": 3565,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "cargo_transported",
+      "year": 2018,
+      "value": 3661,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "cargo_transported",
+      "year": 2019,
+      "value": 3704,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "cargo_transported",
+      "year": 2020,
+      "value": 2245,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "cargo_transported",
+      "year": 2021,
+      "value": 2262,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "cargo_transported",
+      "year": 2022,
+      "value": 2552,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "cargo_transported",
+      "year": 2023,
+      "value": 2882,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "cargo_transported",
+      "year": 2024,
+      "value": 3046,
+      "scope": "region",
+      "source": "stat.gov.az"
+    }
+  ]
+}

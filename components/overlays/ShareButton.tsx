@@ -14,6 +14,7 @@ import {
 import { useAppStore } from "@/lib/state/store";
 import { color } from "@/lib/ui/tokens";
 import { haptic } from "@/lib/haptics";
+import { analytics } from "@/lib/analytics";
 import { t } from "@/lib/i18n/strings";
 
 export interface ShareButtonProps {
@@ -68,6 +69,7 @@ export function ShareButton({ width = "100%", height = 44 }: ShareButtonProps) {
         onClick={() => {
           haptic("light");
           setOpen(true);
+          analytics.shareOpened(region.id, indicator.id);
         }}
         whileTap={{ scale: 0.96 }}
         whileHover={{ filter: "brightness(1.08)" }}

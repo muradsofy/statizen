@@ -1,0 +1,3244 @@
+{
+  "values": [
+    {
+      "region_id": "AZ",
+      "indicator_id": "natural_increase",
+      "year": 1990,
+      "value": 140170,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "natural_increase",
+      "year": 1995,
+      "value": 92487,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "natural_increase",
+      "year": 2000,
+      "value": 70293,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "natural_increase",
+      "year": 2001,
+      "value": 65072,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "natural_increase",
+      "year": 2002,
+      "value": 64193,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "natural_increase",
+      "year": 2003,
+      "value": 64466,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "natural_increase",
+      "year": 2004,
+      "value": 82041,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "natural_increase",
+      "year": 2005,
+      "value": 89939,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "natural_increase",
+      "year": 2006,
+      "value": 96698,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "natural_increase",
+      "year": 2007,
+      "value": 98308,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "natural_increase",
+      "year": 2008,
+      "value": 99376,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "natural_increase",
+      "year": 2009,
+      "value": 99625,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "natural_increase",
+      "year": 2010,
+      "value": 112063,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "natural_increase",
+      "year": 2011,
+      "value": 122310,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "natural_increase",
+      "year": 2012,
+      "value": 119452,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "natural_increase",
+      "year": 2013,
+      "value": 118288,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "natural_increase",
+      "year": 2014,
+      "value": 114855,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "natural_increase",
+      "year": 2015,
+      "value": 111513,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "natural_increase",
+      "year": 2016,
+      "value": 102816,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "natural_increase",
+      "year": 2017,
+      "value": 86932,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "natural_increase",
+      "year": 2018,
+      "value": 81732,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "natural_increase",
+      "year": 2019,
+      "value": 85263,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "natural_increase",
+      "year": 2020,
+      "value": 50924,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "natural_increase",
+      "year": 2021,
+      "value": 35406,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "natural_increase",
+      "year": 2022,
+      "value": 62036,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "natural_increase",
+      "year": 2023,
+      "value": 52470,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "natural_increase",
+      "year": 2024,
+      "value": 43401,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "natural_increase",
+      "year": 1990,
+      "value": 22953,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "natural_increase",
+      "year": 1995,
+      "value": 13101,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "natural_increase",
+      "year": 2000,
+      "value": 10418,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "natural_increase",
+      "year": 2001,
+      "value": 10276,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "natural_increase",
+      "year": 2002,
+      "value": 10336,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "natural_increase",
+      "year": 2003,
+      "value": 10525,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "natural_increase",
+      "year": 2004,
+      "value": 14119,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "natural_increase",
+      "year": 2005,
+      "value": 15809,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "natural_increase",
+      "year": 2006,
+      "value": 19183,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "natural_increase",
+      "year": 2007,
+      "value": 20069,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "natural_increase",
+      "year": 2008,
+      "value": 20002,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "natural_increase",
+      "year": 2009,
+      "value": 21249,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "natural_increase",
+      "year": 2010,
+      "value": 23995,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "natural_increase",
+      "year": 2011,
+      "value": 24997,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "natural_increase",
+      "year": 2012,
+      "value": 25064,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "natural_increase",
+      "year": 2013,
+      "value": 27809,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "natural_increase",
+      "year": 2014,
+      "value": 22298,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "natural_increase",
+      "year": 2015,
+      "value": 21707,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "natural_increase",
+      "year": 2016,
+      "value": 20218,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "natural_increase",
+      "year": 2017,
+      "value": 17435,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "natural_increase",
+      "year": 2018,
+      "value": 16605,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "natural_increase",
+      "year": 2019,
+      "value": 16912,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "natural_increase",
+      "year": 2020,
+      "value": 7746,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "natural_increase",
+      "year": 2021,
+      "value": 2323,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "natural_increase",
+      "year": 2022,
+      "value": 10316,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "natural_increase",
+      "year": 2023,
+      "value": 8341,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "natural_increase",
+      "year": 2024,
+      "value": 6277,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "natural_increase",
+      "year": 1990,
+      "value": 7241,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "natural_increase",
+      "year": 1995,
+      "value": 6190,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "natural_increase",
+      "year": 2000,
+      "value": 3869,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "natural_increase",
+      "year": 2001,
+      "value": 3486,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "natural_increase",
+      "year": 2002,
+      "value": 3255,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "natural_increase",
+      "year": 2003,
+      "value": 3276,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "natural_increase",
+      "year": 2004,
+      "value": 3797,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "natural_increase",
+      "year": 2005,
+      "value": 4239,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "natural_increase",
+      "year": 2006,
+      "value": 3761,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "natural_increase",
+      "year": 2007,
+      "value": 5553,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "natural_increase",
+      "year": 2008,
+      "value": 5555,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "natural_increase",
+      "year": 2009,
+      "value": 5743,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "natural_increase",
+      "year": 2010,
+      "value": 8072,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "natural_increase",
+      "year": 2011,
+      "value": 8379,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "natural_increase",
+      "year": 2012,
+      "value": 8519,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "natural_increase",
+      "year": 2013,
+      "value": 7762,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "natural_increase",
+      "year": 2014,
+      "value": 4765,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "natural_increase",
+      "year": 2015,
+      "value": 4772,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "natural_increase",
+      "year": 2016,
+      "value": 4660,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "natural_increase",
+      "year": 2017,
+      "value": 3711,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "natural_increase",
+      "year": 2018,
+      "value": 3250,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "natural_increase",
+      "year": 2019,
+      "value": 3335,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "natural_increase",
+      "year": 2020,
+      "value": 1753,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "natural_increase",
+      "year": 2021,
+      "value": 1141,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "natural_increase",
+      "year": 2022,
+      "value": 2194,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "natural_increase",
+      "year": 2023,
+      "value": 2124,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "natural_increase",
+      "year": 2024,
+      "value": 1661,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "natural_increase",
+      "year": 1990,
+      "value": 7400,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "natural_increase",
+      "year": 1995,
+      "value": 4365,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "natural_increase",
+      "year": 2000,
+      "value": 3235,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "natural_increase",
+      "year": 2001,
+      "value": 2861,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "natural_increase",
+      "year": 2002,
+      "value": 2571,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "natural_increase",
+      "year": 2003,
+      "value": 2389,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "natural_increase",
+      "year": 2004,
+      "value": 3203,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "natural_increase",
+      "year": 2005,
+      "value": 3433,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "natural_increase",
+      "year": 2006,
+      "value": 4205,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "natural_increase",
+      "year": 2007,
+      "value": 4159,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "natural_increase",
+      "year": 2008,
+      "value": 5090,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "natural_increase",
+      "year": 2009,
+      "value": 4629,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "natural_increase",
+      "year": 2010,
+      "value": 4654,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "natural_increase",
+      "year": 2011,
+      "value": 5145,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "natural_increase",
+      "year": 2012,
+      "value": 7706,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "natural_increase",
+      "year": 2013,
+      "value": 5630,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "natural_increase",
+      "year": 2014,
+      "value": 5949,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "natural_increase",
+      "year": 2015,
+      "value": 5903,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "natural_increase",
+      "year": 2016,
+      "value": 5403,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "natural_increase",
+      "year": 2017,
+      "value": 4626,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "natural_increase",
+      "year": 2018,
+      "value": 4260,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "natural_increase",
+      "year": 2019,
+      "value": 4225,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "natural_increase",
+      "year": 2020,
+      "value": 2389,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "natural_increase",
+      "year": 2021,
+      "value": 1010,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "natural_increase",
+      "year": 2022,
+      "value": 2787,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "natural_increase",
+      "year": 2023,
+      "value": 2399,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "natural_increase",
+      "year": 2024,
+      "value": 1894,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "natural_increase",
+      "year": 1990,
+      "value": 5204,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "natural_increase",
+      "year": 1995,
+      "value": 3650,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "natural_increase",
+      "year": 2000,
+      "value": 3127,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "natural_increase",
+      "year": 2001,
+      "value": 2940,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "natural_increase",
+      "year": 2002,
+      "value": 3035,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "natural_increase",
+      "year": 2003,
+      "value": 2909,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "natural_increase",
+      "year": 2004,
+      "value": 3644,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "natural_increase",
+      "year": 2005,
+      "value": 3954,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "natural_increase",
+      "year": 2006,
+      "value": 3827,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "natural_increase",
+      "year": 2007,
+      "value": 4032,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "natural_increase",
+      "year": 2008,
+      "value": 3731,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "natural_increase",
+      "year": 2009,
+      "value": 3273,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "natural_increase",
+      "year": 2010,
+      "value": 4131,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "natural_increase",
+      "year": 2011,
+      "value": 4659,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "natural_increase",
+      "year": 2012,
+      "value": 4193,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "natural_increase",
+      "year": 2013,
+      "value": 4182,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "natural_increase",
+      "year": 2014,
+      "value": 4420,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "natural_increase",
+      "year": 2015,
+      "value": 4298,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "natural_increase",
+      "year": 2016,
+      "value": 3763,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "natural_increase",
+      "year": 2017,
+      "value": 3399,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "natural_increase",
+      "year": 2018,
+      "value": 3276,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "natural_increase",
+      "year": 2019,
+      "value": 3512,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "natural_increase",
+      "year": 2020,
+      "value": 2517,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "natural_increase",
+      "year": 2021,
+      "value": 2011,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "natural_increase",
+      "year": 2022,
+      "value": 2799,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "natural_increase",
+      "year": 2023,
+      "value": 2540,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "natural_increase",
+      "year": 2024,
+      "value": 2085,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "natural_increase",
+      "year": 1990,
+      "value": 8365,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "natural_increase",
+      "year": 1995,
+      "value": 5405,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "natural_increase",
+      "year": 2000,
+      "value": 2929,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "natural_increase",
+      "year": 2001,
+      "value": 2843,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "natural_increase",
+      "year": 2002,
+      "value": 2672,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "natural_increase",
+      "year": 2003,
+      "value": 2855,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "natural_increase",
+      "year": 2004,
+      "value": 3694,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "natural_increase",
+      "year": 2005,
+      "value": 4089,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "natural_increase",
+      "year": 2006,
+      "value": 4528,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "natural_increase",
+      "year": 2007,
+      "value": 4400,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "natural_increase",
+      "year": 2008,
+      "value": 4409,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "natural_increase",
+      "year": 2009,
+      "value": 4455,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "natural_increase",
+      "year": 2010,
+      "value": 4813,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "natural_increase",
+      "year": 2011,
+      "value": 7024,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "natural_increase",
+      "year": 2012,
+      "value": 5069,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "natural_increase",
+      "year": 2013,
+      "value": 4852,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "natural_increase",
+      "year": 2014,
+      "value": 5544,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "natural_increase",
+      "year": 2015,
+      "value": 4977,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "natural_increase",
+      "year": 2016,
+      "value": 4386,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "natural_increase",
+      "year": 2017,
+      "value": 3507,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "natural_increase",
+      "year": 2018,
+      "value": 3078,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "natural_increase",
+      "year": 2019,
+      "value": 3358,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "natural_increase",
+      "year": 2020,
+      "value": 1224,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "natural_increase",
+      "year": 2021,
+      "value": 633,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "natural_increase",
+      "year": 2022,
+      "value": 2301,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "natural_increase",
+      "year": 2023,
+      "value": 1977,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "natural_increase",
+      "year": 2024,
+      "value": 1476,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "natural_increase",
+      "year": 1990,
+      "value": 10641,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "natural_increase",
+      "year": 1995,
+      "value": 6929,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "natural_increase",
+      "year": 2000,
+      "value": 6820,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "natural_increase",
+      "year": 2001,
+      "value": 6627,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "natural_increase",
+      "year": 2002,
+      "value": 6448,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "natural_increase",
+      "year": 2003,
+      "value": 6717,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "natural_increase",
+      "year": 2004,
+      "value": 7772,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "natural_increase",
+      "year": 2005,
+      "value": 8095,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "natural_increase",
+      "year": 2006,
+      "value": 8648,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "natural_increase",
+      "year": 2007,
+      "value": 8775,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "natural_increase",
+      "year": 2008,
+      "value": 9490,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "natural_increase",
+      "year": 2009,
+      "value": 8901,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "natural_increase",
+      "year": 2010,
+      "value": 9277,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "natural_increase",
+      "year": 2011,
+      "value": 8672,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "natural_increase",
+      "year": 2012,
+      "value": 9804,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "natural_increase",
+      "year": 2013,
+      "value": 9460,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "natural_increase",
+      "year": 2014,
+      "value": 9782,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "natural_increase",
+      "year": 2015,
+      "value": 9709,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "natural_increase",
+      "year": 2016,
+      "value": 8872,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "natural_increase",
+      "year": 2017,
+      "value": 7201,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "natural_increase",
+      "year": 2018,
+      "value": 6777,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "natural_increase",
+      "year": 2019,
+      "value": 7188,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "natural_increase",
+      "year": 2020,
+      "value": 4130,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "natural_increase",
+      "year": 2021,
+      "value": 3371,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "natural_increase",
+      "year": 2022,
+      "value": 5456,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "natural_increase",
+      "year": 2023,
+      "value": 4884,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "natural_increase",
+      "year": 2024,
+      "value": 4154,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "natural_increase",
+      "year": 1990,
+      "value": 10097,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "natural_increase",
+      "year": 1995,
+      "value": 6600,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "natural_increase",
+      "year": 2000,
+      "value": 4829,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "natural_increase",
+      "year": 2001,
+      "value": 4096,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "natural_increase",
+      "year": 2002,
+      "value": 3804,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "natural_increase",
+      "year": 2003,
+      "value": 4231,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "natural_increase",
+      "year": 2004,
+      "value": 5723,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "natural_increase",
+      "year": 2005,
+      "value": 6465,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "natural_increase",
+      "year": 2006,
+      "value": 7546,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "natural_increase",
+      "year": 2007,
+      "value": 6310,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "natural_increase",
+      "year": 2008,
+      "value": 7314,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "natural_increase",
+      "year": 2009,
+      "value": 5986,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "natural_increase",
+      "year": 2010,
+      "value": 7661,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "natural_increase",
+      "year": 2011,
+      "value": 7120,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "natural_increase",
+      "year": 2012,
+      "value": 6863,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "natural_increase",
+      "year": 2013,
+      "value": 7163,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "natural_increase",
+      "year": 2014,
+      "value": 7972,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "natural_increase",
+      "year": 2015,
+      "value": 7653,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "natural_increase",
+      "year": 2016,
+      "value": 7135,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "natural_increase",
+      "year": 2017,
+      "value": 5830,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "natural_increase",
+      "year": 2018,
+      "value": 5278,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "natural_increase",
+      "year": 2019,
+      "value": 5666,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "natural_increase",
+      "year": 2020,
+      "value": 3055,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "natural_increase",
+      "year": 2021,
+      "value": 2765,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "natural_increase",
+      "year": 2022,
+      "value": 4128,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "natural_increase",
+      "year": 2023,
+      "value": 3238,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "natural_increase",
+      "year": 2024,
+      "value": 2866,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "natural_increase",
+      "year": 1990,
+      "value": 9024,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "natural_increase",
+      "year": 1995,
+      "value": 5357,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "natural_increase",
+      "year": 2000,
+      "value": 4442,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "natural_increase",
+      "year": 2001,
+      "value": 3928,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "natural_increase",
+      "year": 2002,
+      "value": 4071,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "natural_increase",
+      "year": 2003,
+      "value": 3716,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "natural_increase",
+      "year": 2004,
+      "value": 5266,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "natural_increase",
+      "year": 2005,
+      "value": 5829,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "natural_increase",
+      "year": 2006,
+      "value": 5472,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "natural_increase",
+      "year": 2007,
+      "value": 5798,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "natural_increase",
+      "year": 2008,
+      "value": 4658,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "natural_increase",
+      "year": 2009,
+      "value": 5036,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "natural_increase",
+      "year": 2010,
+      "value": 6430,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "natural_increase",
+      "year": 2011,
+      "value": 7668,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "natural_increase",
+      "year": 2012,
+      "value": 6808,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "natural_increase",
+      "year": 2013,
+      "value": 7047,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "natural_increase",
+      "year": 2014,
+      "value": 7305,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "natural_increase",
+      "year": 2015,
+      "value": 6789,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "natural_increase",
+      "year": 2016,
+      "value": 5962,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "natural_increase",
+      "year": 2017,
+      "value": 5189,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "natural_increase",
+      "year": 2018,
+      "value": 5073,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "natural_increase",
+      "year": 2019,
+      "value": 5314,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "natural_increase",
+      "year": 2020,
+      "value": 3930,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "natural_increase",
+      "year": 2021,
+      "value": 2974,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "natural_increase",
+      "year": 2022,
+      "value": 4311,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "natural_increase",
+      "year": 2023,
+      "value": 3242,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "natural_increase",
+      "year": 2024,
+      "value": 3049,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "natural_increase",
+      "year": 1990,
+      "value": 15561,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "natural_increase",
+      "year": 1995,
+      "value": 10794,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "natural_increase",
+      "year": 2000,
+      "value": 9172,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "natural_increase",
+      "year": 2001,
+      "value": 8141,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "natural_increase",
+      "year": 2002,
+      "value": 8449,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "natural_increase",
+      "year": 2003,
+      "value": 8531,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "natural_increase",
+      "year": 2004,
+      "value": 10800,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "natural_increase",
+      "year": 2005,
+      "value": 11867,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "natural_increase",
+      "year": 2006,
+      "value": 11495,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "natural_increase",
+      "year": 2007,
+      "value": 11512,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "natural_increase",
+      "year": 2008,
+      "value": 12398,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "natural_increase",
+      "year": 2009,
+      "value": 12214,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "natural_increase",
+      "year": 2010,
+      "value": 11913,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "natural_increase",
+      "year": 2011,
+      "value": 13807,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "natural_increase",
+      "year": 2012,
+      "value": 13518,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "natural_increase",
+      "year": 2013,
+      "value": 13262,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "natural_increase",
+      "year": 2014,
+      "value": 13438,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "natural_increase",
+      "year": 2015,
+      "value": 13031,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "natural_increase",
+      "year": 2016,
+      "value": 12197,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "natural_increase",
+      "year": 2017,
+      "value": 10092,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "natural_increase",
+      "year": 2018,
+      "value": 9656,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "natural_increase",
+      "year": 2019,
+      "value": 9767,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "natural_increase",
+      "year": 2020,
+      "value": 6912,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "natural_increase",
+      "year": 2021,
+      "value": 5949,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "natural_increase",
+      "year": 2022,
+      "value": 8108,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "natural_increase",
+      "year": 2023,
+      "value": 7062,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "natural_increase",
+      "year": 2024,
+      "value": 6179,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "natural_increase",
+      "year": 1990,
+      "value": 10475,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "natural_increase",
+      "year": 1995,
+      "value": 7338,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "natural_increase",
+      "year": 2000,
+      "value": 4411,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "natural_increase",
+      "year": 2001,
+      "value": 4293,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "natural_increase",
+      "year": 2002,
+      "value": 4753,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "natural_increase",
+      "year": 2003,
+      "value": 4477,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "natural_increase",
+      "year": 2004,
+      "value": 5389,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "natural_increase",
+      "year": 2005,
+      "value": 5893,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "natural_increase",
+      "year": 2006,
+      "value": 5990,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "natural_increase",
+      "year": 2007,
+      "value": 5713,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "natural_increase",
+      "year": 2008,
+      "value": 5952,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "natural_increase",
+      "year": 2009,
+      "value": 5832,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "natural_increase",
+      "year": 2010,
+      "value": 6921,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "natural_increase",
+      "year": 2011,
+      "value": 8179,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "natural_increase",
+      "year": 2012,
+      "value": 6751,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "natural_increase",
+      "year": 2013,
+      "value": 6354,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "natural_increase",
+      "year": 2014,
+      "value": 7003,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "natural_increase",
+      "year": 2015,
+      "value": 6755,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "natural_increase",
+      "year": 2016,
+      "value": 6007,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "natural_increase",
+      "year": 2017,
+      "value": 5553,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "natural_increase",
+      "year": 2018,
+      "value": 5545,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "natural_increase",
+      "year": 2019,
+      "value": 5547,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "natural_increase",
+      "year": 2020,
+      "value": 3746,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "natural_increase",
+      "year": 2021,
+      "value": 2419,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "natural_increase",
+      "year": 2022,
+      "value": 4462,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "natural_increase",
+      "year": 2023,
+      "value": 3647,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "natural_increase",
+      "year": 2024,
+      "value": 3278,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "natural_increase",
+      "year": 1990,
+      "value": 8864,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "natural_increase",
+      "year": 1995,
+      "value": 6309,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "natural_increase",
+      "year": 2000,
+      "value": 4166,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "natural_increase",
+      "year": 2001,
+      "value": 3196,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "natural_increase",
+      "year": 2002,
+      "value": 3002,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "natural_increase",
+      "year": 2003,
+      "value": 3382,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "natural_increase",
+      "year": 2004,
+      "value": 4738,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "natural_increase",
+      "year": 2005,
+      "value": 5436,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "natural_increase",
+      "year": 2006,
+      "value": 6224,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "natural_increase",
+      "year": 2007,
+      "value": 6046,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "natural_increase",
+      "year": 2008,
+      "value": 5727,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "natural_increase",
+      "year": 2009,
+      "value": 6081,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "natural_increase",
+      "year": 2010,
+      "value": 6553,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "natural_increase",
+      "year": 2011,
+      "value": 9414,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "natural_increase",
+      "year": 2012,
+      "value": 7863,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "natural_increase",
+      "year": 2013,
+      "value": 7643,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "natural_increase",
+      "year": 2014,
+      "value": 7728,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "natural_increase",
+      "year": 2015,
+      "value": 7586,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "natural_increase",
+      "year": 2016,
+      "value": 7317,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "natural_increase",
+      "year": 2017,
+      "value": 6096,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "natural_increase",
+      "year": 2018,
+      "value": 5568,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "natural_increase",
+      "year": 2019,
+      "value": 6274,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "natural_increase",
+      "year": 2020,
+      "value": 3777,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "natural_increase",
+      "year": 2021,
+      "value": 3773,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "natural_increase",
+      "year": 2022,
+      "value": 4688,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "natural_increase",
+      "year": 2023,
+      "value": 3958,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "natural_increase",
+      "year": 2024,
+      "value": 3196,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "natural_increase",
+      "year": 1990,
+      "value": 10109,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "natural_increase",
+      "year": 1995,
+      "value": 7717,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "natural_increase",
+      "year": 2000,
+      "value": 4887,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "natural_increase",
+      "year": 2001,
+      "value": 4533,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "natural_increase",
+      "year": 2002,
+      "value": 4342,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "natural_increase",
+      "year": 2003,
+      "value": 3965,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "natural_increase",
+      "year": 2004,
+      "value": 4725,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "natural_increase",
+      "year": 2005,
+      "value": 4864,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "natural_increase",
+      "year": 2006,
+      "value": 5280,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "natural_increase",
+      "year": 2007,
+      "value": 5438,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "natural_increase",
+      "year": 2008,
+      "value": 4886,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "natural_increase",
+      "year": 2009,
+      "value": 5158,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "natural_increase",
+      "year": 2010,
+      "value": 5914,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "natural_increase",
+      "year": 2011,
+      "value": 6953,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "natural_increase",
+      "year": 2012,
+      "value": 6320,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "natural_increase",
+      "year": 2013,
+      "value": 6040,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "natural_increase",
+      "year": 2014,
+      "value": 6758,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "natural_increase",
+      "year": 2015,
+      "value": 6390,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "natural_increase",
+      "year": 2016,
+      "value": 5949,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "natural_increase",
+      "year": 2017,
+      "value": 5081,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "natural_increase",
+      "year": 2018,
+      "value": 4755,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "natural_increase",
+      "year": 2019,
+      "value": 5116,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "natural_increase",
+      "year": 2020,
+      "value": 3572,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "natural_increase",
+      "year": 2021,
+      "value": 2372,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "natural_increase",
+      "year": 2022,
+      "value": 3583,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "natural_increase",
+      "year": 2023,
+      "value": 3072,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "natural_increase",
+      "year": 2024,
+      "value": 2403,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "east-zangezur",
+      "indicator_id": "natural_increase",
+      "year": 1990,
+      "value": 4521,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "east-zangezur",
+      "indicator_id": "natural_increase",
+      "year": 1995,
+      "value": 1804,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "east-zangezur",
+      "indicator_id": "natural_increase",
+      "year": 2000,
+      "value": 3155,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "east-zangezur",
+      "indicator_id": "natural_increase",
+      "year": 2001,
+      "value": 3331,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "east-zangezur",
+      "indicator_id": "natural_increase",
+      "year": 2002,
+      "value": 3262,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "east-zangezur",
+      "indicator_id": "natural_increase",
+      "year": 2003,
+      "value": 3041,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "east-zangezur",
+      "indicator_id": "natural_increase",
+      "year": 2004,
+      "value": 3462,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "east-zangezur",
+      "indicator_id": "natural_increase",
+      "year": 2005,
+      "value": 3717,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "east-zangezur",
+      "indicator_id": "natural_increase",
+      "year": 2006,
+      "value": 4038,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "east-zangezur",
+      "indicator_id": "natural_increase",
+      "year": 2007,
+      "value": 4013,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "east-zangezur",
+      "indicator_id": "natural_increase",
+      "year": 2008,
+      "value": 4202,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "east-zangezur",
+      "indicator_id": "natural_increase",
+      "year": 2009,
+      "value": 4310,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "east-zangezur",
+      "indicator_id": "natural_increase",
+      "year": 2010,
+      "value": 4162,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "east-zangezur",
+      "indicator_id": "natural_increase",
+      "year": 2011,
+      "value": 1488,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "east-zangezur",
+      "indicator_id": "natural_increase",
+      "year": 2012,
+      "value": 3639,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "east-zangezur",
+      "indicator_id": "natural_increase",
+      "year": 2013,
+      "value": 3967,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "east-zangezur",
+      "indicator_id": "natural_increase",
+      "year": 2014,
+      "value": 4101,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "east-zangezur",
+      "indicator_id": "natural_increase",
+      "year": 2015,
+      "value": 4225,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "east-zangezur",
+      "indicator_id": "natural_increase",
+      "year": 2016,
+      "value": 3858,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "east-zangezur",
+      "indicator_id": "natural_increase",
+      "year": 2017,
+      "value": 3059,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "east-zangezur",
+      "indicator_id": "natural_increase",
+      "year": 2018,
+      "value": 2859,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "east-zangezur",
+      "indicator_id": "natural_increase",
+      "year": 2019,
+      "value": 3248,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "east-zangezur",
+      "indicator_id": "natural_increase",
+      "year": 2020,
+      "value": 2179,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "east-zangezur",
+      "indicator_id": "natural_increase",
+      "year": 2021,
+      "value": 1484,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "east-zangezur",
+      "indicator_id": "natural_increase",
+      "year": 2022,
+      "value": 2424,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "east-zangezur",
+      "indicator_id": "natural_increase",
+      "year": 2023,
+      "value": 2099,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "east-zangezur",
+      "indicator_id": "natural_increase",
+      "year": 2024,
+      "value": 1731,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "natural_increase",
+      "year": 1990,
+      "value": 7751,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "natural_increase",
+      "year": 1995,
+      "value": 5601,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "natural_increase",
+      "year": 2000,
+      "value": 3898,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "natural_increase",
+      "year": 2001,
+      "value": 3644,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "natural_increase",
+      "year": 2002,
+      "value": 3386,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "natural_increase",
+      "year": 2003,
+      "value": 3582,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "natural_increase",
+      "year": 2004,
+      "value": 4689,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "natural_increase",
+      "year": 2005,
+      "value": 5148,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "natural_increase",
+      "year": 2006,
+      "value": 5348,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "natural_increase",
+      "year": 2007,
+      "value": 5529,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "natural_increase",
+      "year": 2008,
+      "value": 5237,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "natural_increase",
+      "year": 2009,
+      "value": 5838,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "natural_increase",
+      "year": 2010,
+      "value": 6072,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "natural_increase",
+      "year": 2011,
+      "value": 6967,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "natural_increase",
+      "year": 2012,
+      "value": 6138,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "natural_increase",
+      "year": 2013,
+      "value": 5950,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "natural_increase",
+      "year": 2014,
+      "value": 6760,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "natural_increase",
+      "year": 2015,
+      "value": 6501,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "natural_increase",
+      "year": 2016,
+      "value": 5917,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "natural_increase",
+      "year": 2017,
+      "value": 5298,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "natural_increase",
+      "year": 2018,
+      "value": 4745,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "natural_increase",
+      "year": 2019,
+      "value": 4815,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "natural_increase",
+      "year": 2020,
+      "value": 3167,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "natural_increase",
+      "year": 2021,
+      "value": 2686,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "natural_increase",
+      "year": 2022,
+      "value": 3689,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "natural_increase",
+      "year": 2023,
+      "value": 3241,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "natural_increase",
+      "year": 2024,
+      "value": 2661,
+      "scope": "region",
+      "source": "stat.gov.az"
+    }
+  ]
+}

@@ -1,0 +1,2628 @@
+{
+  "values": [
+    {
+      "region_id": "baki",
+      "indicator_id": "industrial_output",
+      "year": 2003,
+      "value": 3677515.6,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "industrial_output",
+      "year": 2004,
+      "value": 4582453.2,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "industrial_output",
+      "year": 2005,
+      "value": 7725065.6,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "industrial_output",
+      "year": 2006,
+      "value": 13585789.1,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "industrial_output",
+      "year": 2007,
+      "value": 20326595.8,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "industrial_output",
+      "year": 2008,
+      "value": 27368317.6,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "industrial_output",
+      "year": 2009,
+      "value": 20402334.3,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "industrial_output",
+      "year": 2010,
+      "value": 25251108.9,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "industrial_output",
+      "year": 2011,
+      "value": 31782850.2,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "industrial_output",
+      "year": 2012,
+      "value": 30876683.4,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "industrial_output",
+      "year": 2013,
+      "value": 30303813.2,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "industrial_output",
+      "year": 2014,
+      "value": 28167318.4,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "industrial_output",
+      "year": 2015,
+      "value": 22448221.1,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "industrial_output",
+      "year": 2016,
+      "value": 27468729.3,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "industrial_output",
+      "year": 2017,
+      "value": 34100100.7,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "industrial_output",
+      "year": 2018,
+      "value": 41373941.5,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "industrial_output",
+      "year": 2019,
+      "value": 39745029.2,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "industrial_output",
+      "year": 2020,
+      "value": 29662101.6,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "industrial_output",
+      "year": 2021,
+      "value": 45309744.1,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "industrial_output",
+      "year": 2022,
+      "value": 75384524,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "industrial_output",
+      "year": 2023,
+      "value": 56526928.3,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "industrial_output",
+      "year": 2024,
+      "value": 53661682.3,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "industrial_output",
+      "year": 2003,
+      "value": 17600.3,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "industrial_output",
+      "year": 2004,
+      "value": 25555,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "industrial_output",
+      "year": 2005,
+      "value": 41207.3,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "industrial_output",
+      "year": 2006,
+      "value": 70443.6,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "industrial_output",
+      "year": 2007,
+      "value": 122679.5,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "industrial_output",
+      "year": 2008,
+      "value": 164451.9,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "industrial_output",
+      "year": 2009,
+      "value": 212469.1,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "industrial_output",
+      "year": 2010,
+      "value": 318564.8,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "industrial_output",
+      "year": 2011,
+      "value": 680921.2,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "industrial_output",
+      "year": 2012,
+      "value": 799492.4,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "industrial_output",
+      "year": 2013,
+      "value": 862870.5,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "industrial_output",
+      "year": 2014,
+      "value": 891486.4,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "industrial_output",
+      "year": 2015,
+      "value": 916817.9,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "industrial_output",
+      "year": 2016,
+      "value": 942944.7,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "industrial_output",
+      "year": 2017,
+      "value": 967060,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "industrial_output",
+      "year": 2018,
+      "value": 990067,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "industrial_output",
+      "year": 2019,
+      "value": 1014971.5,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "industrial_output",
+      "year": 2020,
+      "value": 1040475.9,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "industrial_output",
+      "year": 2021,
+      "value": 1069655.7,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "industrial_output",
+      "year": 2022,
+      "value": 1048584.9,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "industrial_output",
+      "year": 2023,
+      "value": 595295.5,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "industrial_output",
+      "year": 2024,
+      "value": 519827.8,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "industrial_output",
+      "year": 2003,
+      "value": 127109.3,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "industrial_output",
+      "year": 2004,
+      "value": 207457.2,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "industrial_output",
+      "year": 2005,
+      "value": 224677.9,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "industrial_output",
+      "year": 2006,
+      "value": 303834.5,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "industrial_output",
+      "year": 2007,
+      "value": 344748.6,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "industrial_output",
+      "year": 2008,
+      "value": 424362.6,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "industrial_output",
+      "year": 2009,
+      "value": 251595.7,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "industrial_output",
+      "year": 2010,
+      "value": 298551.9,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "industrial_output",
+      "year": 2011,
+      "value": 475918.5,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "industrial_output",
+      "year": 2012,
+      "value": 512819.1,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "industrial_output",
+      "year": 2013,
+      "value": 512809.3,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "industrial_output",
+      "year": 2014,
+      "value": 545428.7,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "industrial_output",
+      "year": 2015,
+      "value": 626993.6,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "industrial_output",
+      "year": 2016,
+      "value": 980996,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "industrial_output",
+      "year": 2017,
+      "value": 1265139.6,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "industrial_output",
+      "year": 2018,
+      "value": 1499731.5,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "industrial_output",
+      "year": 2019,
+      "value": 2367810.6,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "industrial_output",
+      "year": 2020,
+      "value": 2731653.7,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "industrial_output",
+      "year": 2021,
+      "value": 4125777.1,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "industrial_output",
+      "year": 2022,
+      "value": 4762166.3,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "industrial_output",
+      "year": 2023,
+      "value": 4877091.6,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "industrial_output",
+      "year": 2024,
+      "value": 4902081.7,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "industrial_output",
+      "year": 2003,
+      "value": 2384.6,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "industrial_output",
+      "year": 2004,
+      "value": 2173.8,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "industrial_output",
+      "year": 2005,
+      "value": 5972.3,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "industrial_output",
+      "year": 2006,
+      "value": 12141.8,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "industrial_output",
+      "year": 2007,
+      "value": 14119.8,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "industrial_output",
+      "year": 2008,
+      "value": 11952,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "industrial_output",
+      "year": 2009,
+      "value": 10840.1,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "industrial_output",
+      "year": 2010,
+      "value": 10265.1,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "industrial_output",
+      "year": 2011,
+      "value": 9732.6,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "industrial_output",
+      "year": 2012,
+      "value": 13233.7,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "industrial_output",
+      "year": 2013,
+      "value": 15038.3,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "industrial_output",
+      "year": 2014,
+      "value": 18672.2,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "industrial_output",
+      "year": 2015,
+      "value": 17140.4,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "industrial_output",
+      "year": 2016,
+      "value": 19631.8,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "industrial_output",
+      "year": 2017,
+      "value": 23013.8,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "industrial_output",
+      "year": 2018,
+      "value": 27800.4,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "industrial_output",
+      "year": 2019,
+      "value": 72111.3,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "industrial_output",
+      "year": 2020,
+      "value": 80989.7,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "industrial_output",
+      "year": 2021,
+      "value": 88589.5,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "industrial_output",
+      "year": 2022,
+      "value": 91215.1,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "industrial_output",
+      "year": 2023,
+      "value": 112485,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "industrial_output",
+      "year": 2024,
+      "value": 105704.1,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "industrial_output",
+      "year": 2003,
+      "value": 59759.5,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "industrial_output",
+      "year": 2004,
+      "value": 87296.4,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "industrial_output",
+      "year": 2005,
+      "value": 137707.1,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "industrial_output",
+      "year": 2006,
+      "value": 194499.6,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "industrial_output",
+      "year": 2007,
+      "value": 131490.8,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "industrial_output",
+      "year": 2008,
+      "value": 159740.2,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "industrial_output",
+      "year": 2009,
+      "value": 88916.3,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "industrial_output",
+      "year": 2010,
+      "value": 143615.7,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "industrial_output",
+      "year": 2011,
+      "value": 148941.7,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "industrial_output",
+      "year": 2012,
+      "value": 224094.4,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "industrial_output",
+      "year": 2013,
+      "value": 215002.1,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "industrial_output",
+      "year": 2014,
+      "value": 230130.4,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "industrial_output",
+      "year": 2015,
+      "value": 287963.9,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "industrial_output",
+      "year": 2016,
+      "value": 419659.4,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "industrial_output",
+      "year": 2017,
+      "value": 535585.3,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "industrial_output",
+      "year": 2018,
+      "value": 563037,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "industrial_output",
+      "year": 2019,
+      "value": 654155.8,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "industrial_output",
+      "year": 2020,
+      "value": 666442.1,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "industrial_output",
+      "year": 2021,
+      "value": 860978.1,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "industrial_output",
+      "year": 2022,
+      "value": 933246.1,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "industrial_output",
+      "year": 2023,
+      "value": 948785.0,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "industrial_output",
+      "year": 2024,
+      "value": 1021362.2,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "industrial_output",
+      "year": 2003,
+      "value": 7842.2,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "industrial_output",
+      "year": 2004,
+      "value": 7030.9,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "industrial_output",
+      "year": 2005,
+      "value": 8224.2,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "industrial_output",
+      "year": 2006,
+      "value": 9862.7,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "industrial_output",
+      "year": 2007,
+      "value": 17984.6,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "industrial_output",
+      "year": 2008,
+      "value": 27694.1,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "industrial_output",
+      "year": 2009,
+      "value": 25355.7,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "industrial_output",
+      "year": 2010,
+      "value": 23000.5,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "industrial_output",
+      "year": 2011,
+      "value": 28737.9,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "industrial_output",
+      "year": 2012,
+      "value": 39421.2,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "industrial_output",
+      "year": 2013,
+      "value": 40829.5,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "industrial_output",
+      "year": 2014,
+      "value": 47307.0,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "industrial_output",
+      "year": 2015,
+      "value": 44700.1,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "industrial_output",
+      "year": 2016,
+      "value": 57147.9,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "industrial_output",
+      "year": 2017,
+      "value": 85859.7,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "industrial_output",
+      "year": 2018,
+      "value": 97485.4,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "industrial_output",
+      "year": 2019,
+      "value": 125602.5,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "industrial_output",
+      "year": 2020,
+      "value": 114680.1,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "industrial_output",
+      "year": 2021,
+      "value": 194776.3,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "industrial_output",
+      "year": 2022,
+      "value": 193829,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "industrial_output",
+      "year": 2023,
+      "value": 274771.6,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "industrial_output",
+      "year": 2024,
+      "value": 316593.1,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "industrial_output",
+      "year": 2003,
+      "value": 25143.7,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "industrial_output",
+      "year": 2004,
+      "value": 30178.1,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "industrial_output",
+      "year": 2005,
+      "value": 31806.8,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "industrial_output",
+      "year": 2006,
+      "value": 36624.6,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "industrial_output",
+      "year": 2007,
+      "value": 58315.0,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "industrial_output",
+      "year": 2008,
+      "value": 57462,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "industrial_output",
+      "year": 2009,
+      "value": 62469.6,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "industrial_output",
+      "year": 2010,
+      "value": 126141.8,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "industrial_output",
+      "year": 2011,
+      "value": 114627.4,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "industrial_output",
+      "year": 2012,
+      "value": 108723.7,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "industrial_output",
+      "year": 2013,
+      "value": 90536.4,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "industrial_output",
+      "year": 2014,
+      "value": 98131.5,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "industrial_output",
+      "year": 2015,
+      "value": 138658,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "industrial_output",
+      "year": 2016,
+      "value": 196316.1,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "industrial_output",
+      "year": 2017,
+      "value": 235169.4,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "industrial_output",
+      "year": 2018,
+      "value": 260527.6,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "industrial_output",
+      "year": 2019,
+      "value": 303783.3,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "industrial_output",
+      "year": 2020,
+      "value": 368502.7,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "industrial_output",
+      "year": 2021,
+      "value": 416258.7,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "industrial_output",
+      "year": 2022,
+      "value": 484442.9,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "industrial_output",
+      "year": 2023,
+      "value": 455723,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "industrial_output",
+      "year": 2024,
+      "value": 451108.6,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "industrial_output",
+      "year": 2003,
+      "value": 20886.7,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "industrial_output",
+      "year": 2004,
+      "value": 26767.1,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "industrial_output",
+      "year": 2005,
+      "value": 37705.7,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "industrial_output",
+      "year": 2006,
+      "value": 39371.1,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "industrial_output",
+      "year": 2007,
+      "value": 64871.5,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "industrial_output",
+      "year": 2008,
+      "value": 80084.6,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "industrial_output",
+      "year": 2009,
+      "value": 60743.6,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "industrial_output",
+      "year": 2010,
+      "value": 64006.1,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "industrial_output",
+      "year": 2011,
+      "value": 89283.8,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "industrial_output",
+      "year": 2012,
+      "value": 77136.1,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "industrial_output",
+      "year": 2013,
+      "value": 81720.8,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "industrial_output",
+      "year": 2014,
+      "value": 77682.6,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "industrial_output",
+      "year": 2015,
+      "value": 77688.7,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "industrial_output",
+      "year": 2016,
+      "value": 94265.1,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "industrial_output",
+      "year": 2017,
+      "value": 143761.3,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "industrial_output",
+      "year": 2018,
+      "value": 172027.5,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "industrial_output",
+      "year": 2019,
+      "value": 286713.9,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "industrial_output",
+      "year": 2020,
+      "value": 271416.1,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "industrial_output",
+      "year": 2021,
+      "value": 305979.6,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "industrial_output",
+      "year": 2022,
+      "value": 346209.5,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "industrial_output",
+      "year": 2023,
+      "value": 378025.5,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "industrial_output",
+      "year": 2024,
+      "value": 402232.8,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "industrial_output",
+      "year": 2003,
+      "value": 11059.4,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "industrial_output",
+      "year": 2004,
+      "value": 14299.3,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "industrial_output",
+      "year": 2005,
+      "value": 18169.8,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "industrial_output",
+      "year": 2006,
+      "value": 23512.5,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "industrial_output",
+      "year": 2007,
+      "value": 34762.8,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "industrial_output",
+      "year": 2008,
+      "value": 40983,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "industrial_output",
+      "year": 2009,
+      "value": 42616.6,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "industrial_output",
+      "year": 2010,
+      "value": 49510.2,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "industrial_output",
+      "year": 2011,
+      "value": 65920.2,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "industrial_output",
+      "year": 2012,
+      "value": 65844.2,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "industrial_output",
+      "year": 2013,
+      "value": 70770,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "industrial_output",
+      "year": 2014,
+      "value": 70994.8,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "industrial_output",
+      "year": 2015,
+      "value": 75307.8,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "industrial_output",
+      "year": 2016,
+      "value": 102196.2,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "industrial_output",
+      "year": 2017,
+      "value": 129254.9,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "industrial_output",
+      "year": 2018,
+      "value": 148095.7,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "industrial_output",
+      "year": 2019,
+      "value": 176201.8,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "industrial_output",
+      "year": 2020,
+      "value": 191980.3,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "industrial_output",
+      "year": 2021,
+      "value": 340950.5,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "industrial_output",
+      "year": 2022,
+      "value": 360977.4,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "industrial_output",
+      "year": 2023,
+      "value": 367775.3,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "industrial_output",
+      "year": 2024,
+      "value": 435035.4,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "industrial_output",
+      "year": 2003,
+      "value": 163981.5,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "industrial_output",
+      "year": 2004,
+      "value": 176361.2,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "industrial_output",
+      "year": 2005,
+      "value": 190544.3,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "industrial_output",
+      "year": 2006,
+      "value": 227186.1,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "industrial_output",
+      "year": 2007,
+      "value": 276355.5,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "industrial_output",
+      "year": 2008,
+      "value": 285309.9,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "industrial_output",
+      "year": 2009,
+      "value": 215424.5,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "industrial_output",
+      "year": 2010,
+      "value": 194847.2,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "industrial_output",
+      "year": 2011,
+      "value": 221630.3,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "industrial_output",
+      "year": 2012,
+      "value": 255651.8,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "industrial_output",
+      "year": 2013,
+      "value": 259800.0,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "industrial_output",
+      "year": 2014,
+      "value": 322271.5,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "industrial_output",
+      "year": 2015,
+      "value": 368790.9,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "industrial_output",
+      "year": 2016,
+      "value": 343748.2,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "industrial_output",
+      "year": 2017,
+      "value": 506425.9,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "industrial_output",
+      "year": 2018,
+      "value": 439732.8,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "industrial_output",
+      "year": 2019,
+      "value": 563854.6,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "industrial_output",
+      "year": 2020,
+      "value": 580306.1,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "industrial_output",
+      "year": 2021,
+      "value": 646114.9,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "industrial_output",
+      "year": 2022,
+      "value": 631380.9,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "industrial_output",
+      "year": 2023,
+      "value": 630698.1,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "industrial_output",
+      "year": 2024,
+      "value": 693078.4,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "industrial_output",
+      "year": 2003,
+      "value": 22274.3,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "industrial_output",
+      "year": 2004,
+      "value": 23194.2,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "industrial_output",
+      "year": 2005,
+      "value": 24910.9,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "industrial_output",
+      "year": 2006,
+      "value": 72074.6,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "industrial_output",
+      "year": 2007,
+      "value": 97639.9,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "industrial_output",
+      "year": 2008,
+      "value": 122574.1,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "industrial_output",
+      "year": 2009,
+      "value": 126858.2,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "industrial_output",
+      "year": 2010,
+      "value": 130526.4,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "industrial_output",
+      "year": 2011,
+      "value": 153490.6,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "industrial_output",
+      "year": 2012,
+      "value": 168766.7,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "industrial_output",
+      "year": 2013,
+      "value": 160190.4,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "industrial_output",
+      "year": 2014,
+      "value": 186818.9,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "industrial_output",
+      "year": 2015,
+      "value": 150347.8,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "industrial_output",
+      "year": 2016,
+      "value": 370652.4,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "industrial_output",
+      "year": 2017,
+      "value": 325283.9,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "industrial_output",
+      "year": 2018,
+      "value": 293452.4,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "industrial_output",
+      "year": 2019,
+      "value": 463932.9,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "industrial_output",
+      "year": 2020,
+      "value": 438286.1,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "industrial_output",
+      "year": 2021,
+      "value": 554466.4,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "industrial_output",
+      "year": 2022,
+      "value": 709314.8,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "industrial_output",
+      "year": 2023,
+      "value": 598507.9,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "industrial_output",
+      "year": 2024,
+      "value": 669268.1,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "industrial_output",
+      "year": 2003,
+      "value": 9619.6,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "industrial_output",
+      "year": 2004,
+      "value": 7689.1,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "industrial_output",
+      "year": 2005,
+      "value": 21006.1,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "industrial_output",
+      "year": 2006,
+      "value": 15913.3,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "industrial_output",
+      "year": 2007,
+      "value": 41570.9,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "industrial_output",
+      "year": 2008,
+      "value": 55522,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "industrial_output",
+      "year": 2009,
+      "value": 48117.4,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "industrial_output",
+      "year": 2010,
+      "value": 60166.1,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "industrial_output",
+      "year": 2011,
+      "value": 75686.2,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "industrial_output",
+      "year": 2012,
+      "value": 75734.7,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "industrial_output",
+      "year": 2013,
+      "value": 74834.6,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "industrial_output",
+      "year": 2014,
+      "value": 87242.5,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "industrial_output",
+      "year": 2015,
+      "value": 109026,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "industrial_output",
+      "year": 2016,
+      "value": 193191.2,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "industrial_output",
+      "year": 2017,
+      "value": 243749.1,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "industrial_output",
+      "year": 2018,
+      "value": 262284.1,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "industrial_output",
+      "year": 2019,
+      "value": 423370,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "industrial_output",
+      "year": 2020,
+      "value": 441011.3,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "industrial_output",
+      "year": 2021,
+      "value": 440578.4,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "industrial_output",
+      "year": 2022,
+      "value": 455004.1,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "industrial_output",
+      "year": 2023,
+      "value": 534654.3,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "industrial_output",
+      "year": 2024,
+      "value": 571977,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "east-zangezur",
+      "indicator_id": "industrial_output",
+      "year": 2005,
+      "value": 851.9,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "east-zangezur",
+      "indicator_id": "industrial_output",
+      "year": 2006,
+      "value": 1080.5,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "east-zangezur",
+      "indicator_id": "industrial_output",
+      "year": 2007,
+      "value": 1228,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "east-zangezur",
+      "indicator_id": "industrial_output",
+      "year": 2008,
+      "value": 999.7,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "east-zangezur",
+      "indicator_id": "industrial_output",
+      "year": 2009,
+      "value": 475,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "east-zangezur",
+      "indicator_id": "industrial_output",
+      "year": 2010,
+      "value": 464.5,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "east-zangezur",
+      "indicator_id": "industrial_output",
+      "year": 2011,
+      "value": 686.8,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "east-zangezur",
+      "indicator_id": "industrial_output",
+      "year": 2012,
+      "value": 652.7,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "east-zangezur",
+      "indicator_id": "industrial_output",
+      "year": 2013,
+      "value": 678.1,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "east-zangezur",
+      "indicator_id": "industrial_output",
+      "year": 2014,
+      "value": 661.2,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "east-zangezur",
+      "indicator_id": "industrial_output",
+      "year": 2015,
+      "value": 1205.2,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "east-zangezur",
+      "indicator_id": "industrial_output",
+      "year": 2016,
+      "value": 1122,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "east-zangezur",
+      "indicator_id": "industrial_output",
+      "year": 2017,
+      "value": 4442.1,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "east-zangezur",
+      "indicator_id": "industrial_output",
+      "year": 2018,
+      "value": 2822.5,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "east-zangezur",
+      "indicator_id": "industrial_output",
+      "year": 2019,
+      "value": 2990.8,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "east-zangezur",
+      "indicator_id": "industrial_output",
+      "year": 2020,
+      "value": 2543.0,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "east-zangezur",
+      "indicator_id": "industrial_output",
+      "year": 2021,
+      "value": 7888.2,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "east-zangezur",
+      "indicator_id": "industrial_output",
+      "year": 2022,
+      "value": 7134.8,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "east-zangezur",
+      "indicator_id": "industrial_output",
+      "year": 2023,
+      "value": 23907.5,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "east-zangezur",
+      "indicator_id": "industrial_output",
+      "year": 2024,
+      "value": 91196.8,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "industrial_output",
+      "year": 2003,
+      "value": 143761.3,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "industrial_output",
+      "year": 2004,
+      "value": 155499.4,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "industrial_output",
+      "year": 2005,
+      "value": 153597.7,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "industrial_output",
+      "year": 2006,
+      "value": 234865.4,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "industrial_output",
+      "year": 2007,
+      "value": 275352.9,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "industrial_output",
+      "year": 2008,
+      "value": 344863.3,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "industrial_output",
+      "year": 2009,
+      "value": 223079.0,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "industrial_output",
+      "year": 2010,
+      "value": 290789.4,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "industrial_output",
+      "year": 2011,
+      "value": 398312.8,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "industrial_output",
+      "year": 2012,
+      "value": 371625.3,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "industrial_output",
+      "year": 2013,
+      "value": 415645.5,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "industrial_output",
+      "year": 2014,
+      "value": 429964.4,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "industrial_output",
+      "year": 2015,
+      "value": 341666.4,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "industrial_output",
+      "year": 2016,
+      "value": 402894.7,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "industrial_output",
+      "year": 2017,
+      "value": 593887.7,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "industrial_output",
+      "year": 2018,
+      "value": 756751.6,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "industrial_output",
+      "year": 2019,
+      "value": 798697.4,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "industrial_output",
+      "year": 2020,
+      "value": 679475.8,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "industrial_output",
+      "year": 2021,
+      "value": 867323.3,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "industrial_output",
+      "year": 2022,
+      "value": 975408.8,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "industrial_output",
+      "year": 2023,
+      "value": 971381.2,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "industrial_output",
+      "year": 2024,
+      "value": 1026215.9,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "industrial_output",
+      "year": 2003,
+      "value": 4288938,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "industrial_output",
+      "year": 2004,
+      "value": 5345954.9,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "industrial_output",
+      "year": 2005,
+      "value": 8621447.6,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "industrial_output",
+      "year": 2006,
+      "value": 14827199.4,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "industrial_output",
+      "year": 2007,
+      "value": 21807715.6,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "industrial_output",
+      "year": 2008,
+      "value": 29144317.0,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "industrial_output",
+      "year": 2009,
+      "value": 21771295.1,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "industrial_output",
+      "year": 2010,
+      "value": 26961558.6,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "industrial_output",
+      "year": 2011,
+      "value": 34246740.2,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "industrial_output",
+      "year": 2012,
+      "value": 33589879.4,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "industrial_output",
+      "year": 2013,
+      "value": 33104538.7,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "industrial_output",
+      "year": 2014,
+      "value": 31174110.5,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "industrial_output",
+      "year": 2015,
+      "value": 25604527.8,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "industrial_output",
+      "year": 2016,
+      "value": 31593495.0,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "industrial_output",
+      "year": 2017,
+      "value": 39158733.4,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "industrial_output",
+      "year": 2018,
+      "value": 46887757,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "industrial_output",
+      "year": 2019,
+      "value": 46999225.6,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "industrial_output",
+      "year": 2020,
+      "value": 37269864.5,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "industrial_output",
+      "year": 2021,
+      "value": 55229080.8,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "industrial_output",
+      "year": 2022,
+      "value": 86383438.6,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "industrial_output",
+      "year": 2023,
+      "value": 67296029.8,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "industrial_output",
+      "year": 2024,
+      "value": 64867364.2,
+      "scope": "national",
+      "source": "stat.gov.az"
+    }
+  ]
+}

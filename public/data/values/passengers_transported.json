@@ -1,0 +1,2892 @@
+{
+  "values": [
+    {
+      "region_id": "AZ",
+      "indicator_id": "passengers_transported",
+      "year": 2000,
+      "value": 743301,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "passengers_transported",
+      "year": 2001,
+      "value": 764590,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "passengers_transported",
+      "year": 2002,
+      "value": 768158,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "passengers_transported",
+      "year": 2003,
+      "value": 785565,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "passengers_transported",
+      "year": 2004,
+      "value": 809725,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "passengers_transported",
+      "year": 2005,
+      "value": 845910.3,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "passengers_transported",
+      "year": 2006,
+      "value": 894973,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "passengers_transported",
+      "year": 2007,
+      "value": 964501,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "passengers_transported",
+      "year": 2008,
+      "value": 1033945,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "passengers_transported",
+      "year": 2009,
+      "value": 1114593,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "passengers_transported",
+      "year": 2010,
+      "value": 1200330,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "passengers_transported",
+      "year": 2011,
+      "value": 1304441,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "passengers_transported",
+      "year": 2012,
+      "value": 1417413,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "passengers_transported",
+      "year": 2013,
+      "value": 1535247,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "passengers_transported",
+      "year": 2014,
+      "value": 1608532,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "passengers_transported",
+      "year": 2015,
+      "value": 1666155,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "passengers_transported",
+      "year": 2016,
+      "value": 1708191,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "passengers_transported",
+      "year": 2017,
+      "value": 1739726,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "passengers_transported",
+      "year": 2018,
+      "value": 1766564,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "passengers_transported",
+      "year": 2019,
+      "value": 1813258,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "passengers_transported",
+      "year": 2020,
+      "value": 1100201,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "passengers_transported",
+      "year": 2021,
+      "value": 1119944,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "passengers_transported",
+      "year": 2022,
+      "value": 1405021,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "passengers_transported",
+      "year": 2023,
+      "value": 1694104,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "passengers_transported",
+      "year": 2024,
+      "value": 1846009,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "passengers_transported",
+      "year": 2000,
+      "value": 318905,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "passengers_transported",
+      "year": 2001,
+      "value": 334309,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "passengers_transported",
+      "year": 2002,
+      "value": 340337,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "passengers_transported",
+      "year": 2003,
+      "value": 344468,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "passengers_transported",
+      "year": 2004,
+      "value": 355760,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "passengers_transported",
+      "year": 2005,
+      "value": 375192,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "passengers_transported",
+      "year": 2006,
+      "value": 403707,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "passengers_transported",
+      "year": 2007,
+      "value": 444061,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "passengers_transported",
+      "year": 2008,
+      "value": 478330,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "passengers_transported",
+      "year": 2009,
+      "value": 511715,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "passengers_transported",
+      "year": 2010,
+      "value": 538786,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "passengers_transported",
+      "year": 2011,
+      "value": 575712,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "passengers_transported",
+      "year": 2012,
+      "value": 626192,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "passengers_transported",
+      "year": 2013,
+      "value": 677669,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "passengers_transported",
+      "year": 2014,
+      "value": 713099,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "passengers_transported",
+      "year": 2015,
+      "value": 720402,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "passengers_transported",
+      "year": 2016,
+      "value": 723813,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "passengers_transported",
+      "year": 2017,
+      "value": 727076,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "passengers_transported",
+      "year": 2018,
+      "value": 731162,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "passengers_transported",
+      "year": 2019,
+      "value": 754013,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "passengers_transported",
+      "year": 2020,
+      "value": 468898,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "passengers_transported",
+      "year": 2021,
+      "value": 478718,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "passengers_transported",
+      "year": 2022,
+      "value": 620472,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "passengers_transported",
+      "year": 2023,
+      "value": 823084,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "passengers_transported",
+      "year": 2024,
+      "value": 906297,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "passengers_transported",
+      "year": 2000,
+      "value": 31695,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "passengers_transported",
+      "year": 2001,
+      "value": 33540,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "passengers_transported",
+      "year": 2002,
+      "value": 32607,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "passengers_transported",
+      "year": 2003,
+      "value": 36954,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "passengers_transported",
+      "year": 2004,
+      "value": 37019,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "passengers_transported",
+      "year": 2005,
+      "value": 39185,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "passengers_transported",
+      "year": 2006,
+      "value": 41348,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "passengers_transported",
+      "year": 2007,
+      "value": 47395,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "passengers_transported",
+      "year": 2008,
+      "value": 52409,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "passengers_transported",
+      "year": 2009,
+      "value": 56766,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "passengers_transported",
+      "year": 2010,
+      "value": 66684,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "passengers_transported",
+      "year": 2011,
+      "value": 80587,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "passengers_transported",
+      "year": 2012,
+      "value": 87429,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "passengers_transported",
+      "year": 2013,
+      "value": 95224,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "passengers_transported",
+      "year": 2014,
+      "value": 96935,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "passengers_transported",
+      "year": 2015,
+      "value": 98151,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "passengers_transported",
+      "year": 2016,
+      "value": 100129,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "passengers_transported",
+      "year": 2017,
+      "value": 101961,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "passengers_transported",
+      "year": 2018,
+      "value": 103995,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "passengers_transported",
+      "year": 2019,
+      "value": 105252,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "passengers_transported",
+      "year": 2020,
+      "value": 103568,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "passengers_transported",
+      "year": 2021,
+      "value": 105951,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "passengers_transported",
+      "year": 2022,
+      "value": 108148,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "passengers_transported",
+      "year": 2023,
+      "value": 46310,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "passengers_transported",
+      "year": 2024,
+      "value": 46655,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "passengers_transported",
+      "year": 2000,
+      "value": 54873,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "passengers_transported",
+      "year": 2001,
+      "value": 62870,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "passengers_transported",
+      "year": 2002,
+      "value": 67481,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "passengers_transported",
+      "year": 2003,
+      "value": 68004,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "passengers_transported",
+      "year": 2004,
+      "value": 68571,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "passengers_transported",
+      "year": 2005,
+      "value": 71322,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "passengers_transported",
+      "year": 2006,
+      "value": 73533,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "passengers_transported",
+      "year": 2007,
+      "value": 77080,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "passengers_transported",
+      "year": 2008,
+      "value": 81604,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "passengers_transported",
+      "year": 2009,
+      "value": 87661,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "passengers_transported",
+      "year": 2010,
+      "value": 94694,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "passengers_transported",
+      "year": 2011,
+      "value": 102097,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "passengers_transported",
+      "year": 2012,
+      "value": 109777,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "passengers_transported",
+      "year": 2013,
+      "value": 117712,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "passengers_transported",
+      "year": 2014,
+      "value": 123777,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "passengers_transported",
+      "year": 2015,
+      "value": 131767,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "passengers_transported",
+      "year": 2016,
+      "value": 137273,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "passengers_transported",
+      "year": 2017,
+      "value": 142026,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "passengers_transported",
+      "year": 2018,
+      "value": 145229,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "passengers_transported",
+      "year": 2019,
+      "value": 149510,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "passengers_transported",
+      "year": 2020,
+      "value": 85219,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "passengers_transported",
+      "year": 2021,
+      "value": 87116,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "passengers_transported",
+      "year": 2022,
+      "value": 113017,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "passengers_transported",
+      "year": 2023,
+      "value": 140697,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "passengers_transported",
+      "year": 2024,
+      "value": 153564,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "passengers_transported",
+      "year": 2000,
+      "value": 14716,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "passengers_transported",
+      "year": 2001,
+      "value": 15594,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "passengers_transported",
+      "year": 2002,
+      "value": 16607,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "passengers_transported",
+      "year": 2003,
+      "value": 16214,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "passengers_transported",
+      "year": 2004,
+      "value": 16685,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "passengers_transported",
+      "year": 2005,
+      "value": 17186,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "passengers_transported",
+      "year": 2006,
+      "value": 17822,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "passengers_transported",
+      "year": 2007,
+      "value": 18508,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "passengers_transported",
+      "year": 2008,
+      "value": 19453,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "passengers_transported",
+      "year": 2009,
+      "value": 21205,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "passengers_transported",
+      "year": 2010,
+      "value": 23247,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "passengers_transported",
+      "year": 2011,
+      "value": 25476,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "passengers_transported",
+      "year": 2012,
+      "value": 27738,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "passengers_transported",
+      "year": 2013,
+      "value": 30122,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "passengers_transported",
+      "year": 2014,
+      "value": 31526,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "passengers_transported",
+      "year": 2015,
+      "value": 33633,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "passengers_transported",
+      "year": 2016,
+      "value": 35255,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "passengers_transported",
+      "year": 2017,
+      "value": 36462,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "passengers_transported",
+      "year": 2018,
+      "value": 37483,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "passengers_transported",
+      "year": 2019,
+      "value": 38343,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "passengers_transported",
+      "year": 2020,
+      "value": 21121,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "passengers_transported",
+      "year": 2021,
+      "value": 21450,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "passengers_transported",
+      "year": 2022,
+      "value": 27067,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "passengers_transported",
+      "year": 2023,
+      "value": 32798,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "passengers_transported",
+      "year": 2024,
+      "value": 35390,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "passengers_transported",
+      "year": 2000,
+      "value": 66107,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "passengers_transported",
+      "year": 2001,
+      "value": 62247,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "passengers_transported",
+      "year": 2002,
+      "value": 58461,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "passengers_transported",
+      "year": 2003,
+      "value": 60134,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "passengers_transported",
+      "year": 2004,
+      "value": 62983,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "passengers_transported",
+      "year": 2005,
+      "value": 66307,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "passengers_transported",
+      "year": 2006,
+      "value": 69823,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "passengers_transported",
+      "year": 2007,
+      "value": 74014,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "passengers_transported",
+      "year": 2008,
+      "value": 78964,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "passengers_transported",
+      "year": 2009,
+      "value": 85090,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "passengers_transported",
+      "year": 2010,
+      "value": 92014,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "passengers_transported",
+      "year": 2011,
+      "value": 99217,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "passengers_transported",
+      "year": 2012,
+      "value": 106775,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "passengers_transported",
+      "year": 2013,
+      "value": 114594,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "passengers_transported",
+      "year": 2014,
+      "value": 120447,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "passengers_transported",
+      "year": 2015,
+      "value": 128210,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "passengers_transported",
+      "year": 2016,
+      "value": 133693,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "passengers_transported",
+      "year": 2017,
+      "value": 137737,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "passengers_transported",
+      "year": 2018,
+      "value": 140545,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "passengers_transported",
+      "year": 2019,
+      "value": 144630,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "passengers_transported",
+      "year": 2020,
+      "value": 81265,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "passengers_transported",
+      "year": 2021,
+      "value": 82686,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "passengers_transported",
+      "year": 2022,
+      "value": 104706,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "passengers_transported",
+      "year": 2023,
+      "value": 128742,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "passengers_transported",
+      "year": 2024,
+      "value": 140218,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "passengers_transported",
+      "year": 2000,
+      "value": 12958,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "passengers_transported",
+      "year": 2001,
+      "value": 13569,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "passengers_transported",
+      "year": 2002,
+      "value": 13585,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "passengers_transported",
+      "year": 2003,
+      "value": 14729,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "passengers_transported",
+      "year": 2004,
+      "value": 14987,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "passengers_transported",
+      "year": 2005,
+      "value": 15444,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "passengers_transported",
+      "year": 2006,
+      "value": 16006,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "passengers_transported",
+      "year": 2007,
+      "value": 16746,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "passengers_transported",
+      "year": 2008,
+      "value": 18061,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "passengers_transported",
+      "year": 2009,
+      "value": 19314,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "passengers_transported",
+      "year": 2010,
+      "value": 20781,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "passengers_transported",
+      "year": 2011,
+      "value": 22393,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "passengers_transported",
+      "year": 2012,
+      "value": 24028,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "passengers_transported",
+      "year": 2013,
+      "value": 25729,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "passengers_transported",
+      "year": 2014,
+      "value": 33183,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "passengers_transported",
+      "year": 2015,
+      "value": 34854,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "passengers_transported",
+      "year": 2016,
+      "value": 36123,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "passengers_transported",
+      "year": 2017,
+      "value": 36902,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "passengers_transported",
+      "year": 2018,
+      "value": 37637,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "passengers_transported",
+      "year": 2019,
+      "value": 38307,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "passengers_transported",
+      "year": 2020,
+      "value": 20397,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "passengers_transported",
+      "year": 2021,
+      "value": 20608,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "passengers_transported",
+      "year": 2022,
+      "value": 25693,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "passengers_transported",
+      "year": 2023,
+      "value": 30314,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "passengers_transported",
+      "year": 2024,
+      "value": 32473,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "passengers_transported",
+      "year": 2000,
+      "value": 34177,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "passengers_transported",
+      "year": 2001,
+      "value": 34641,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "passengers_transported",
+      "year": 2002,
+      "value": 32396,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "passengers_transported",
+      "year": 2003,
+      "value": 32756,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "passengers_transported",
+      "year": 2004,
+      "value": 33030,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "passengers_transported",
+      "year": 2005,
+      "value": 34900,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "passengers_transported",
+      "year": 2006,
+      "value": 36196,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "passengers_transported",
+      "year": 2007,
+      "value": 39063,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "passengers_transported",
+      "year": 2008,
+      "value": 41779,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "passengers_transported",
+      "year": 2009,
+      "value": 45494,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "passengers_transported",
+      "year": 2010,
+      "value": 49829,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "passengers_transported",
+      "year": 2011,
+      "value": 54421,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "passengers_transported",
+      "year": 2012,
+      "value": 58980,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "passengers_transported",
+      "year": 2013,
+      "value": 63749,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "passengers_transported",
+      "year": 2014,
+      "value": 66593,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "passengers_transported",
+      "year": 2015,
+      "value": 70521,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "passengers_transported",
+      "year": 2016,
+      "value": 73759,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "passengers_transported",
+      "year": 2017,
+      "value": 75913,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "passengers_transported",
+      "year": 2018,
+      "value": 77356,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "passengers_transported",
+      "year": 2019,
+      "value": 79225,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "passengers_transported",
+      "year": 2020,
+      "value": 43695,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "passengers_transported",
+      "year": 2021,
+      "value": 44100,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "passengers_transported",
+      "year": 2022,
+      "value": 55837,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "passengers_transported",
+      "year": 2023,
+      "value": 67767,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "passengers_transported",
+      "year": 2024,
+      "value": 73105,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "passengers_transported",
+      "year": 2000,
+      "value": 37996,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "passengers_transported",
+      "year": 2001,
+      "value": 38076,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "passengers_transported",
+      "year": 2002,
+      "value": 35090,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "passengers_transported",
+      "year": 2003,
+      "value": 34188,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "passengers_transported",
+      "year": 2004,
+      "value": 36028,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "passengers_transported",
+      "year": 2005,
+      "value": 37117,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "passengers_transported",
+      "year": 2006,
+      "value": 38527,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "passengers_transported",
+      "year": 2007,
+      "value": 40409,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "passengers_transported",
+      "year": 2008,
+      "value": 42726,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "passengers_transported",
+      "year": 2009,
+      "value": 45939,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "passengers_transported",
+      "year": 2010,
+      "value": 49665,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "passengers_transported",
+      "year": 2011,
+      "value": 53642,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "passengers_transported",
+      "year": 2012,
+      "value": 57664,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "passengers_transported",
+      "year": 2013,
+      "value": 61813,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "passengers_transported",
+      "year": 2014,
+      "value": 64558,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "passengers_transported",
+      "year": 2015,
+      "value": 68533,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "passengers_transported",
+      "year": 2016,
+      "value": 71446,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "passengers_transported",
+      "year": 2017,
+      "value": 73351,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "passengers_transported",
+      "year": 2018,
+      "value": 74772,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "passengers_transported",
+      "year": 2019,
+      "value": 76285,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "passengers_transported",
+      "year": 2020,
+      "value": 41240,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "passengers_transported",
+      "year": 2021,
+      "value": 41700,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "passengers_transported",
+      "year": 2022,
+      "value": 52347,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "passengers_transported",
+      "year": 2023,
+      "value": 63246,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "passengers_transported",
+      "year": 2024,
+      "value": 68222,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "passengers_transported",
+      "year": 2000,
+      "value": 30613,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "passengers_transported",
+      "year": 2001,
+      "value": 32173,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "passengers_transported",
+      "year": 2002,
+      "value": 32381,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "passengers_transported",
+      "year": 2003,
+      "value": 34341,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "passengers_transported",
+      "year": 2004,
+      "value": 34978,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "passengers_transported",
+      "year": 2005,
+      "value": 36235,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "passengers_transported",
+      "year": 2006,
+      "value": 37793,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "passengers_transported",
+      "year": 2007,
+      "value": 39674,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "passengers_transported",
+      "year": 2008,
+      "value": 42183,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "passengers_transported",
+      "year": 2009,
+      "value": 45660,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "passengers_transported",
+      "year": 2010,
+      "value": 49446,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "passengers_transported",
+      "year": 2011,
+      "value": 53618,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "passengers_transported",
+      "year": 2012,
+      "value": 57949,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "passengers_transported",
+      "year": 2013,
+      "value": 62460,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "passengers_transported",
+      "year": 2014,
+      "value": 65308,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "passengers_transported",
+      "year": 2015,
+      "value": 69391,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "passengers_transported",
+      "year": 2016,
+      "value": 72338,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "passengers_transported",
+      "year": 2017,
+      "value": 74266,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "passengers_transported",
+      "year": 2018,
+      "value": 75898,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "passengers_transported",
+      "year": 2019,
+      "value": 77772,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "passengers_transported",
+      "year": 2020,
+      "value": 42804,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "passengers_transported",
+      "year": 2021,
+      "value": 43331,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "passengers_transported",
+      "year": 2022,
+      "value": 54812,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "passengers_transported",
+      "year": 2023,
+      "value": 66798,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "passengers_transported",
+      "year": 2024,
+      "value": 72481,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "passengers_transported",
+      "year": 2000,
+      "value": 39915,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "passengers_transported",
+      "year": 2001,
+      "value": 39634,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "passengers_transported",
+      "year": 2002,
+      "value": 39171,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "passengers_transported",
+      "year": 2003,
+      "value": 40031,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "passengers_transported",
+      "year": 2004,
+      "value": 41596,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "passengers_transported",
+      "year": 2005,
+      "value": 43985,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "passengers_transported",
+      "year": 2006,
+      "value": 46252,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "passengers_transported",
+      "year": 2007,
+      "value": 48953,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "passengers_transported",
+      "year": 2008,
+      "value": 52358,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "passengers_transported",
+      "year": 2009,
+      "value": 58449,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "passengers_transported",
+      "year": 2010,
+      "value": 65167,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "passengers_transported",
+      "year": 2011,
+      "value": 72965,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "passengers_transported",
+      "year": 2012,
+      "value": 81581,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "passengers_transported",
+      "year": 2013,
+      "value": 91074,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "passengers_transported",
+      "year": 2014,
+      "value": 95604,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "passengers_transported",
+      "year": 2015,
+      "value": 101425,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "passengers_transported",
+      "year": 2016,
+      "value": 105842,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "passengers_transported",
+      "year": 2017,
+      "value": 109005,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "passengers_transported",
+      "year": 2018,
+      "value": 111913,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "passengers_transported",
+      "year": 2019,
+      "value": 114106,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "passengers_transported",
+      "year": 2020,
+      "value": 62061,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "passengers_transported",
+      "year": 2021,
+      "value": 62774,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "passengers_transported",
+      "year": 2022,
+      "value": 78832,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "passengers_transported",
+      "year": 2023,
+      "value": 95473,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "passengers_transported",
+      "year": 2024,
+      "value": 102963,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "passengers_transported",
+      "year": 2000,
+      "value": 16820,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "passengers_transported",
+      "year": 2001,
+      "value": 17216,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "passengers_transported",
+      "year": 2002,
+      "value": 18868,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "passengers_transported",
+      "year": 2003,
+      "value": 19046,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "passengers_transported",
+      "year": 2004,
+      "value": 19921,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "passengers_transported",
+      "year": 2005,
+      "value": 20607,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "passengers_transported",
+      "year": 2006,
+      "value": 21445,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "passengers_transported",
+      "year": 2007,
+      "value": 22475,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "passengers_transported",
+      "year": 2008,
+      "value": 23806,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "passengers_transported",
+      "year": 2009,
+      "value": 25949,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "passengers_transported",
+      "year": 2010,
+      "value": 28465,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "passengers_transported",
+      "year": 2011,
+      "value": 31452,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "passengers_transported",
+      "year": 2012,
+      "value": 34730,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "passengers_transported",
+      "year": 2013,
+      "value": 38253,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "passengers_transported",
+      "year": 2014,
+      "value": 40131,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "passengers_transported",
+      "year": 2015,
+      "value": 42511,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "passengers_transported",
+      "year": 2016,
+      "value": 44165,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "passengers_transported",
+      "year": 2017,
+      "value": 45323,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "passengers_transported",
+      "year": 2018,
+      "value": 46351,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "passengers_transported",
+      "year": 2019,
+      "value": 47155,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "passengers_transported",
+      "year": 2020,
+      "value": 25640,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "passengers_transported",
+      "year": 2021,
+      "value": 25854,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "passengers_transported",
+      "year": 2022,
+      "value": 31990,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "passengers_transported",
+      "year": 2023,
+      "value": 38737,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "passengers_transported",
+      "year": 2024,
+      "value": 41508,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "passengers_transported",
+      "year": 2000,
+      "value": 29935,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "passengers_transported",
+      "year": 2001,
+      "value": 31470,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "passengers_transported",
+      "year": 2002,
+      "value": 31656,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "passengers_transported",
+      "year": 2003,
+      "value": 30645,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "passengers_transported",
+      "year": 2004,
+      "value": 31591,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "passengers_transported",
+      "year": 2005,
+      "value": 32762,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "passengers_transported",
+      "year": 2006,
+      "value": 34138,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "passengers_transported",
+      "year": 2007,
+      "value": 35893,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "passengers_transported",
+      "year": 2008,
+      "value": 38117,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "passengers_transported",
+      "year": 2009,
+      "value": 41115,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "passengers_transported",
+      "year": 2010,
+      "value": 44575,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "passengers_transported",
+      "year": 2011,
+      "value": 48277,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "passengers_transported",
+      "year": 2012,
+      "value": 52052,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "passengers_transported",
+      "year": 2013,
+      "value": 55969,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "passengers_transported",
+      "year": 2014,
+      "value": 58427,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "passengers_transported",
+      "year": 2015,
+      "value": 62207,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "passengers_transported",
+      "year": 2016,
+      "value": 65490,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "passengers_transported",
+      "year": 2017,
+      "value": 67969,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "passengers_transported",
+      "year": 2018,
+      "value": 69486,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "passengers_transported",
+      "year": 2019,
+      "value": 71306,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "passengers_transported",
+      "year": 2020,
+      "value": 40371,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "passengers_transported",
+      "year": 2021,
+      "value": 40953,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "passengers_transported",
+      "year": 2022,
+      "value": 51677,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "passengers_transported",
+      "year": 2023,
+      "value": 62928,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "passengers_transported",
+      "year": 2024,
+      "value": 68233,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "east-zangezur",
+      "indicator_id": "passengers_transported",
+      "year": 2014,
+      "value": 17346,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "east-zangezur",
+      "indicator_id": "passengers_transported",
+      "year": 2015,
+      "value": 18177,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "east-zangezur",
+      "indicator_id": "passengers_transported",
+      "year": 2016,
+      "value": 18758,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "east-zangezur",
+      "indicator_id": "passengers_transported",
+      "year": 2017,
+      "value": 19133,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "east-zangezur",
+      "indicator_id": "passengers_transported",
+      "year": 2018,
+      "value": 19449,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "east-zangezur",
+      "indicator_id": "passengers_transported",
+      "year": 2019,
+      "value": 19702,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "east-zangezur",
+      "indicator_id": "passengers_transported",
+      "year": 2020,
+      "value": 9727,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "east-zangezur",
+      "indicator_id": "passengers_transported",
+      "year": 2021,
+      "value": 9760,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "east-zangezur",
+      "indicator_id": "passengers_transported",
+      "year": 2022,
+      "value": 11566,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "east-zangezur",
+      "indicator_id": "passengers_transported",
+      "year": 2023,
+      "value": 13060,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "east-zangezur",
+      "indicator_id": "passengers_transported",
+      "year": 2024,
+      "value": 13896,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "passengers_transported",
+      "year": 2000,
+      "value": 34254,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "passengers_transported",
+      "year": 2001,
+      "value": 35672,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "passengers_transported",
+      "year": 2002,
+      "value": 36909,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "passengers_transported",
+      "year": 2003,
+      "value": 37189,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "passengers_transported",
+      "year": 2004,
+      "value": 37797,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "passengers_transported",
+      "year": 2005,
+      "value": 39497,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "passengers_transported",
+      "year": 2006,
+      "value": 41551,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "passengers_transported",
+      "year": 2007,
+      "value": 44000,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "passengers_transported",
+      "year": 2008,
+      "value": 47093,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "passengers_transported",
+      "year": 2009,
+      "value": 52091,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "passengers_transported",
+      "year": 2010,
+      "value": 57748,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "passengers_transported",
+      "year": 2011,
+      "value": 64166,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "passengers_transported",
+      "year": 2012,
+      "value": 70957,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "passengers_transported",
+      "year": 2013,
+      "value": 78276,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "passengers_transported",
+      "year": 2014,
+      "value": 81598,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "passengers_transported",
+      "year": 2015,
+      "value": 86373,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "passengers_transported",
+      "year": 2016,
+      "value": 90107,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "passengers_transported",
+      "year": 2017,
+      "value": 92602,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "passengers_transported",
+      "year": 2018,
+      "value": 95288,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "passengers_transported",
+      "year": 2019,
+      "value": 97652,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "passengers_transported",
+      "year": 2020,
+      "value": 54195,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "passengers_transported",
+      "year": 2021,
+      "value": 54943,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "passengers_transported",
+      "year": 2022,
+      "value": 68857,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "passengers_transported",
+      "year": 2023,
+      "value": 84150,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "passengers_transported",
+      "year": 2024,
+      "value": 91004,
+      "scope": "region",
+      "source": "stat.gov.az"
+    }
+  ]
+}

@@ -1,33 +1,73 @@
 {
   "chapters": [
     {
+      "id": "economy",
+      "label_en": "Economy",
+      "label_az": "İqtisadiyyat",
+      "label_ru": "Экономика",
+      "order": 2
+    },
+    {
       "id": "demoqraphy",
       "label_en": "Demography",
       "label_az": "Demoqrafiya",
+      "label_ru": "Демография",
       "order": 5
     },
     {
       "id": "labour",
       "label_en": "Labour market",
       "label_az": "Əmək bazarı",
+      "label_ru": "Рынок труда",
       "order": 10
+    },
+    {
+      "id": "industry",
+      "label_en": "Industry",
+      "label_az": "Sənaye",
+      "label_ru": "Промышленность",
+      "order": 12
+    },
+    {
+      "id": "agriculture",
+      "label_en": "Agriculture",
+      "label_az": "Kənd təsərrüfatı",
+      "label_ru": "Сельское хозяйство",
+      "order": 14
     },
     {
       "id": "healthcare",
       "label_en": "Health & social",
       "label_az": "Səhiyyə və sosial",
+      "label_ru": "Здоровье и социальная сфера",
       "order": 20
     },
     {
       "id": "crimes",
       "label_en": "Crime",
       "label_az": "Cinayət",
+      "label_ru": "Преступность",
       "order": 30
+    },
+    {
+      "id": "transport",
+      "label_en": "Transport",
+      "label_az": "Nəqliyyat",
+      "label_ru": "Транспорт",
+      "order": 35
+    },
+    {
+      "id": "tourism",
+      "label_en": "Tourism",
+      "label_az": "Turizm",
+      "label_ru": "Туризм",
+      "order": 38
     },
     {
       "id": "trade",
       "label_en": "Trade",
       "label_az": "Ticarət",
+      "label_ru": "Торговля",
       "order": 40
     }
   ]

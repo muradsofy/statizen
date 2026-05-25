@@ -4,9 +4,10 @@ import { useEffect } from "react";
 import { motion } from "framer-motion";
 import { indicatorsData } from "@/lib/data/loadData";
 import { useAppStore } from "@/lib/state/store";
-import { color, surface } from "@/lib/ui/tokens";
+import { color, glow, surface } from "@/lib/ui/tokens";
 import { t } from "@/lib/i18n/strings";
 import { haptic } from "@/lib/haptics";
+import { analytics } from "@/lib/analytics";
 
 export interface YearPickerProps {
   compact?: boolean;
@@ -71,6 +72,7 @@ export function YearPicker({ compact = false, width }: YearPickerProps) {
       /* haptic is a nice-to-have, never crash on it */
     }
     setYear(nextYear === latestYear ? null : nextYear);
+    analytics.yearChanged(nextYear, activeIndicatorId);
   }
 
   return (
@@ -97,8 +99,12 @@ export function YearPicker({ compact = false, width }: YearPickerProps) {
       <span
         style={{
           fontSize: 16,
-          fontWeight: 400,
+          // Match the DataCard value's weight + halo so the year reads
+          // as a data point, not a label. Size stays at 16px — only
+          // weight and glow inherit from the stat card's value style.
+          fontWeight: 600,
           color: color.text,
+          textShadow: glow,
           letterSpacing: "-0.32px",
           lineHeight: "20px",
           fontVariationSettings: "'wdth' 100",
@@ -159,9 +165,7 @@ function StepButton({
 }
 
 /**
- * 24 × 24 circle with an internal chevron. Matches Figma's
- * `circle-chevron-left` / `circle-chevron-right` symbols (47:3678 /
- * 47:3679).
+ * 24 × 24 chevron — bare arrow, no surrounding circle.
  */
 function CircleChevron({ direction }: { direction: "left" | "right" }) {
   return (
@@ -176,11 +180,10 @@ function CircleChevron({ direction }: { direction: "left" | "right" }) {
       strokeLinejoin="round"
       aria-hidden
     >
-      <circle cx="12" cy="12" r="9" />
       {direction === "left" ? (
-        <polyline points="13.5,8 9.5,12 13.5,16" />
+        <polyline points="14,7 9,12 14,17" />
       ) : (
-        <polyline points="10.5,8 14.5,12 10.5,16" />
+        <polyline points="10,7 15,12 10,17" />
       )}
     </svg>
   );

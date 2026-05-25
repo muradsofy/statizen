@@ -7,6 +7,8 @@ import { surface, color, glow } from "@/lib/ui/tokens";
 import { useAppStore } from "@/lib/state/store";
 import { t } from "@/lib/i18n/strings";
 import { haptic } from "@/lib/haptics";
+import { analytics } from "@/lib/analytics";
+import { FeedbackDialog } from "./FeedbackDialog";
 import type { Locale, Theme } from "@/types/data";
 
 /**
@@ -27,6 +29,7 @@ export function HeaderMenu() {
   const setTheme = useAppStore((s) => s.setTheme);
 
   const [open, setOpen] = useState(false);
+  const [feedbackOpen, setFeedbackOpen] = useState(false);
   const [triggerRect, setTriggerRect] = useState<DOMRect | null>(null);
   const [portalTarget, setPortalTarget] = useState<HTMLElement | null>(null);
   const triggerRef = useRef<HTMLButtonElement>(null);
@@ -68,13 +71,19 @@ export function HeaderMenu() {
   }, [open]);
 
   function changeLocale(value: Locale) {
-    if (value !== locale) haptic("light");
+    if (value !== locale) {
+      haptic("light");
+      analytics.localeChanged(value);
+    }
     setLocale(value);
     // Don't auto-close — user might also want to flip another setting.
   }
 
   function changeTheme(value: Theme) {
-    if (value !== theme) haptic("light");
+    if (value !== theme) {
+      haptic("light");
+      analytics.themeChanged(value);
+    }
     setTheme(value);
   }
 
@@ -140,11 +149,41 @@ export function HeaderMenu() {
                 <Section label={t("theme", locale)}>
                   <ThemeSwitch theme={theme} onChange={changeTheme} locale={locale} />
                 </Section>
+                <button
+                  type="button"
+                  onClick={() => {
+                    haptic("light");
+                    setFeedbackOpen(true);
+                    setOpen(false);
+                    analytics.feedbackOpened();
+                  }}
+                  style={{
+                    background: "transparent",
+                    border: "none",
+                    padding: "10px 4px",
+                    color: color.text,
+                    textAlign: "left",
+                    fontSize: 14,
+                    letterSpacing: "-0.28px",
+                    cursor: "pointer",
+                    outline: "none",
+                    borderRadius: 8,
+                    borderTop: "0.5px solid var(--c-surface-border)",
+                    marginTop: 4,
+                  }}
+                >
+                  {t("feedback", locale)}
+                </button>
               </motion.div>
             )}
           </AnimatePresence>,
           portalTarget,
         )}
+
+      <FeedbackDialog
+        open={feedbackOpen}
+        onClose={() => setFeedbackOpen(false)}
+      />
     </>
   );
 }
@@ -212,6 +251,7 @@ function LocaleSwitch({
     <div style={{ display: "flex", gap: 4 }}>
       <Btn value="en" label="EN" />
       <Btn value="az" label="AZ" />
+      <Btn value="ru" label="RU" />
     </div>
   );
 }

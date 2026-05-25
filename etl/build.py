@@ -27,7 +27,7 @@ def main() -> None:
     all_values = []
     indicators = []
     used_chapters = set()
-    for iid, ch, code, sheet, unit, _label_en, label_az in \
+    for iid, ch, code, sheet, unit, _label_en, label_az, label_ru in \
             chapters.iter_indicators():
         rows, meta = parse.parse_indicator(iid)
         all_values.extend(rows)
@@ -36,10 +36,12 @@ def main() -> None:
             "id": meta["id"],
             "chapter": ch,
             "label_en": meta["label_en"],
-            # label_az: curated translation from etl/chapters.py — NOT the
-            # verbose source-XLS sentence (which carries "9.x" section
-            # numbers and bureaucratic boilerplate with no EN counterpart).
+            # label_az / label_ru: curated translations from etl/chapters.py
+            # — NOT the verbose source-XLS sentence (which carries "9.x"
+            # section numbers and bureaucratic boilerplate with no
+            # EN counterpart).
             "label_az": label_az,
+            "label_ru": label_ru,
             "unit": meta["unit"],
             "source_file": meta["source_file"],
             "last_updated": RETRIEVED,
@@ -51,8 +53,9 @@ def main() -> None:
     validate.validate(all_values, indicators)
 
     chapters_out = [
-        {"id": cid, "label_en": le, "label_az": la, "order": order}
-        for cid, le, la, order in chapters.chapter_meta()
+        {"id": cid, "label_en": le, "label_az": la, "label_ru": lr,
+         "order": order}
+        for cid, le, la, lr, order in chapters.chapter_meta()
         if cid in used_chapters
     ]
     chapters_out.sort(key=lambda c: c["order"])

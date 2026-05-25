@@ -5,6 +5,8 @@ import { motion } from "framer-motion";
 import { regionsData } from "@/lib/data/loadData";
 import { useAppStore } from "@/lib/state/store";
 import { surface, color, glow } from "@/lib/ui/tokens";
+import { regionName } from "@/lib/i18n/localize";
+import { analytics } from "@/lib/analytics";
 
 const FADE =
   "linear-gradient(to bottom, transparent 0, #000 16px, #000 calc(100% - 16px), transparent 100%)";
@@ -67,7 +69,10 @@ export function LocationsPanel() {
                 <button
                   type="button"
                   data-region={r.id}
-                  onClick={() => setSelected(r.id)}
+                  onClick={() => {
+                    setSelected(r.id);
+                    analytics.regionSelected(r.id, "list");
+                  }}
                   onMouseEnter={() => setHovered(r.id)}
                   onMouseLeave={() => setHovered(null)}
                   onFocus={() => setHovered(r.id)}
@@ -95,7 +100,7 @@ export function LocationsPanel() {
                       "color 120ms ease, font-size 120ms ease, text-shadow 120ms ease",
                   }}
                 >
-                  {locale === "az" ? r.name_az : r.name_en}
+                  {regionName(r, locale)}
                 </button>
               </li>
             );

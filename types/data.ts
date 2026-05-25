@@ -20,7 +20,7 @@ export type RegionId =
   | "east-zangezur"
   | "shirvan-salyan";
 
-export type Locale = "en" | "az";
+export type Locale = "en" | "az" | "ru";
 
 /** User's theme preference. "system" defers to prefers-color-scheme. */
 export type Theme = "system" | "light" | "dark";
@@ -35,6 +35,9 @@ export interface Region {
   id: RegionId;
   name_en: string;
   name_az: string;
+  /** Russian name. Optional during rollout; UI falls back to `name_en`
+   *  when this is missing. */
+  name_ru?: string;
   /** [lon, lat] for label placement / map centring. */
   centroid: [number, number];
   /** Official administrative code. */
@@ -47,6 +50,8 @@ export interface Indicator {
   chapter: string;
   label_en: string;
   label_az: string;
+  /** Russian label. Falls back to `label_en` when missing. */
+  label_ru?: string;
   /** e.g. "%", "persons", "manat". */
   unit: string;
   /** Origin file/dataset this indicator was parsed from. */
@@ -62,6 +67,8 @@ export interface Chapter {
   id: string;
   label_en: string;
   label_az: string;
+  /** Russian label. Falls back to `label_en` when missing. */
+  label_ru?: string;
   /** Display order in the UI. Lower comes first. */
   order: number;
 }

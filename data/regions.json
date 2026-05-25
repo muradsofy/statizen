@@ -4,84 +4,98 @@
       "id": "baki",
       "name_en": "Baku",
       "name_az": "Bakı",
+      "name_ru": "Баку",
       "code": "baki"
     },
     {
       "id": "nakhchivan",
       "name_en": "Nakhchivan Autonomous Republic",
       "name_az": "Naxçıvan Muxtar Respublikası",
+      "name_ru": "Нахчыванская Автономная Республика",
       "code": "nakhchivan"
     },
     {
       "id": "absheron-xizi",
       "name_en": "Absheron-Khizi",
       "name_az": "Abşeron-Xızı",
+      "name_ru": "Абшерон-Хызы",
       "code": "absheron-xizi"
     },
     {
       "id": "mountain-shirvan",
       "name_en": "Daghlig Shirvan",
       "name_az": "Dağlıq Şirvan",
+      "name_ru": "Горный Ширван",
       "code": "mountain-shirvan"
     },
     {
       "id": "ganja-dashkesen",
       "name_en": "Ganja-Dashkasan",
       "name_az": "Gəncə-Daşkəsən",
+      "name_ru": "Гянджа-Дашкесан",
       "code": "ganja-dashkesen"
     },
     {
       "id": "karabakh",
       "name_en": "Karabakh",
       "name_az": "Qarabağ",
+      "name_ru": "Карабах",
       "code": "karabakh"
     },
     {
       "id": "gazakh-tovuz",
       "name_en": "Gazakh-Tovuz",
       "name_az": "Qazax-Tovuz",
+      "name_ru": "Газах-Товуз",
       "code": "gazakh-tovuz"
     },
     {
       "id": "guba-khachmaz",
       "name_en": "Guba-Khachmaz",
       "name_az": "Quba-Xaçmaz",
+      "name_ru": "Губа-Хачмаз",
       "code": "guba-khachmaz"
     },
     {
       "id": "lankaran-astara",
       "name_en": "Lankaran-Astara",
       "name_az": "Lənkəran-Astara",
+      "name_ru": "Лянкяран-Астара",
       "code": "lankaran-astara"
     },
     {
       "id": "central-aran",
       "name_en": "Central Aran",
       "name_az": "Mərkəzi Aran",
+      "name_ru": "Центральный Аран",
       "code": "central-aran"
     },
     {
       "id": "mil-mughan",
       "name_en": "Mil-Mughan",
       "name_az": "Mil-Muğan",
+      "name_ru": "Миль-Муган",
       "code": "mil-mughan"
     },
     {
       "id": "shaki-zaqatala",
       "name_en": "Shaki-Zagatala",
       "name_az": "Şəki-Zaqatala",
+      "name_ru": "Шеки-Загатала",
       "code": "shaki-zaqatala"
     },
     {
       "id": "east-zangezur",
       "name_en": "Eastern Zangazur",
       "name_az": "Şərqi Zəngəzur",
+      "name_ru": "Восточный Зангезур",
       "code": "east-zangezur"
     },
     {
       "id": "shirvan-salyan",
       "name_en": "Shirvan-Salyan",
       "name_az": "Şirvan-Salyan",
+      "name_ru": "Ширван-Сальян",
       "code": "shirvan-salyan"
     }
   ]

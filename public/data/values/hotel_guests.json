@@ -1,0 +1,2132 @@
+{
+  "values": [
+    {
+      "region_id": "baki",
+      "indicator_id": "hotel_guests",
+      "year": 2006,
+      "value": 157494,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "hotel_guests",
+      "year": 2007,
+      "value": 159137,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "hotel_guests",
+      "year": 2008,
+      "value": 253008,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "hotel_guests",
+      "year": 2009,
+      "value": 243442,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "hotel_guests",
+      "year": 2010,
+      "value": 230377,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "hotel_guests",
+      "year": 2011,
+      "value": 282410,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "hotel_guests",
+      "year": 2012,
+      "value": 363623,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "hotel_guests",
+      "year": 2013,
+      "value": 456464,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "hotel_guests",
+      "year": 2014,
+      "value": 432491,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "hotel_guests",
+      "year": 2015,
+      "value": 535390,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "hotel_guests",
+      "year": 2016,
+      "value": 686793,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "hotel_guests",
+      "year": 2017,
+      "value": 905271,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "hotel_guests",
+      "year": 2018,
+      "value": 1142200,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "hotel_guests",
+      "year": 2019,
+      "value": 1199151,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "hotel_guests",
+      "year": 2020,
+      "value": 396927,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "hotel_guests",
+      "year": 2021,
+      "value": 639978,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "hotel_guests",
+      "year": 2022,
+      "value": 996428,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "hotel_guests",
+      "year": 2023,
+      "value": 1194500,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "baki",
+      "indicator_id": "hotel_guests",
+      "year": 2024,
+      "value": 1489403,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "hotel_guests",
+      "year": 2006,
+      "value": 17134,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "hotel_guests",
+      "year": 2007,
+      "value": 18638,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "hotel_guests",
+      "year": 2008,
+      "value": 20226,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "hotel_guests",
+      "year": 2009,
+      "value": 27759,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "hotel_guests",
+      "year": 2010,
+      "value": 38167,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "hotel_guests",
+      "year": 2011,
+      "value": 53669,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "hotel_guests",
+      "year": 2012,
+      "value": 59061,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "hotel_guests",
+      "year": 2013,
+      "value": 59875,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "hotel_guests",
+      "year": 2014,
+      "value": 60074,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "hotel_guests",
+      "year": 2015,
+      "value": 60275,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "hotel_guests",
+      "year": 2016,
+      "value": 60468,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "hotel_guests",
+      "year": 2017,
+      "value": 60578,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "hotel_guests",
+      "year": 2018,
+      "value": 61170,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "hotel_guests",
+      "year": 2019,
+      "value": 64282,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "hotel_guests",
+      "year": 2020,
+      "value": 16320,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "hotel_guests",
+      "year": 2021,
+      "value": 38459,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "hotel_guests",
+      "year": 2022,
+      "value": 56888,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "hotel_guests",
+      "year": 2023,
+      "value": 47036,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "nakhchivan",
+      "indicator_id": "hotel_guests",
+      "year": 2024,
+      "value": 32413,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "hotel_guests",
+      "year": 2006,
+      "value": 7617,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "hotel_guests",
+      "year": 2007,
+      "value": 6589,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "hotel_guests",
+      "year": 2008,
+      "value": 7421,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "hotel_guests",
+      "year": 2009,
+      "value": 7168,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "hotel_guests",
+      "year": 2010,
+      "value": 4827,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "hotel_guests",
+      "year": 2011,
+      "value": 13125,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "hotel_guests",
+      "year": 2012,
+      "value": 49098,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "hotel_guests",
+      "year": 2013,
+      "value": 5266,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "hotel_guests",
+      "year": 2014,
+      "value": 6411,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "hotel_guests",
+      "year": 2015,
+      "value": 5207,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "hotel_guests",
+      "year": 2016,
+      "value": 7351,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "hotel_guests",
+      "year": 2017,
+      "value": 9332,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "hotel_guests",
+      "year": 2018,
+      "value": 15190,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "hotel_guests",
+      "year": 2019,
+      "value": 15608,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "hotel_guests",
+      "year": 2020,
+      "value": 5786,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "hotel_guests",
+      "year": 2021,
+      "value": 9109,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "hotel_guests",
+      "year": 2022,
+      "value": 7982,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "hotel_guests",
+      "year": 2023,
+      "value": 13896,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "absheron-xizi",
+      "indicator_id": "hotel_guests",
+      "year": 2024,
+      "value": 14824,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "hotel_guests",
+      "year": 2006,
+      "value": 8334,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "hotel_guests",
+      "year": 2007,
+      "value": 10206,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "hotel_guests",
+      "year": 2008,
+      "value": 11188,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "hotel_guests",
+      "year": 2009,
+      "value": 12111,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "hotel_guests",
+      "year": 2010,
+      "value": 6112,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "hotel_guests",
+      "year": 2011,
+      "value": 11508,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "hotel_guests",
+      "year": 2012,
+      "value": 8315,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "hotel_guests",
+      "year": 2013,
+      "value": 8335,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "hotel_guests",
+      "year": 2014,
+      "value": 14619,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "hotel_guests",
+      "year": 2015,
+      "value": 13594,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "hotel_guests",
+      "year": 2016,
+      "value": 16417,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "hotel_guests",
+      "year": 2017,
+      "value": 24042,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "hotel_guests",
+      "year": 2018,
+      "value": 26988,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "hotel_guests",
+      "year": 2019,
+      "value": 31744,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "hotel_guests",
+      "year": 2020,
+      "value": 9505,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "hotel_guests",
+      "year": 2021,
+      "value": 31950,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "hotel_guests",
+      "year": 2022,
+      "value": 48791,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "hotel_guests",
+      "year": 2023,
+      "value": 47316,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mountain-shirvan",
+      "indicator_id": "hotel_guests",
+      "year": 2024,
+      "value": 64393,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "hotel_guests",
+      "year": 2006,
+      "value": 12335,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "hotel_guests",
+      "year": 2007,
+      "value": 9050,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "hotel_guests",
+      "year": 2008,
+      "value": 11399,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "hotel_guests",
+      "year": 2009,
+      "value": 11794,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "hotel_guests",
+      "year": 2010,
+      "value": 11569,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "hotel_guests",
+      "year": 2011,
+      "value": 15603,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "hotel_guests",
+      "year": 2012,
+      "value": 22939,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "hotel_guests",
+      "year": 2013,
+      "value": 21268,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "hotel_guests",
+      "year": 2014,
+      "value": 37729,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "hotel_guests",
+      "year": 2015,
+      "value": 81825,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "hotel_guests",
+      "year": 2016,
+      "value": 20148,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "hotel_guests",
+      "year": 2017,
+      "value": 23455,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "hotel_guests",
+      "year": 2018,
+      "value": 31323,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "hotel_guests",
+      "year": 2019,
+      "value": 52635,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "hotel_guests",
+      "year": 2020,
+      "value": 15358,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "hotel_guests",
+      "year": 2021,
+      "value": 32961,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "hotel_guests",
+      "year": 2022,
+      "value": 43975,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "hotel_guests",
+      "year": 2023,
+      "value": 54824,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "ganja-dashkesen",
+      "indicator_id": "hotel_guests",
+      "year": 2024,
+      "value": 80533,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "hotel_guests",
+      "year": 2006,
+      "value": 1992,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "hotel_guests",
+      "year": 2007,
+      "value": 1536,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "hotel_guests",
+      "year": 2008,
+      "value": 1610,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "hotel_guests",
+      "year": 2009,
+      "value": 389,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "hotel_guests",
+      "year": 2010,
+      "value": 618,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "hotel_guests",
+      "year": 2011,
+      "value": 871,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "hotel_guests",
+      "year": 2012,
+      "value": 823,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "hotel_guests",
+      "year": 2013,
+      "value": 1240,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "hotel_guests",
+      "year": 2014,
+      "value": 1516,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "hotel_guests",
+      "year": 2015,
+      "value": 1618,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "hotel_guests",
+      "year": 2016,
+      "value": 1968,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "hotel_guests",
+      "year": 2017,
+      "value": 2205,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "hotel_guests",
+      "year": 2018,
+      "value": 2652,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "hotel_guests",
+      "year": 2019,
+      "value": 5235,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "hotel_guests",
+      "year": 2020,
+      "value": 4175,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "hotel_guests",
+      "year": 2021,
+      "value": 12800,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "hotel_guests",
+      "year": 2022,
+      "value": 31487,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "hotel_guests",
+      "year": 2023,
+      "value": 36859,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "karabakh",
+      "indicator_id": "hotel_guests",
+      "year": 2024,
+      "value": 46432,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "hotel_guests",
+      "year": 2006,
+      "value": 8626,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "hotel_guests",
+      "year": 2007,
+      "value": 8072,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "hotel_guests",
+      "year": 2008,
+      "value": 8208,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "hotel_guests",
+      "year": 2009,
+      "value": 6725,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "hotel_guests",
+      "year": 2010,
+      "value": 4404,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "hotel_guests",
+      "year": 2011,
+      "value": 5197,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "hotel_guests",
+      "year": 2012,
+      "value": 9560,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "hotel_guests",
+      "year": 2013,
+      "value": 8736,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "hotel_guests",
+      "year": 2014,
+      "value": 8968,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "hotel_guests",
+      "year": 2015,
+      "value": 8022,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "hotel_guests",
+      "year": 2016,
+      "value": 21183,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "hotel_guests",
+      "year": 2017,
+      "value": 19556,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "hotel_guests",
+      "year": 2018,
+      "value": 25545,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "hotel_guests",
+      "year": 2019,
+      "value": 26030,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "hotel_guests",
+      "year": 2020,
+      "value": 7765,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "hotel_guests",
+      "year": 2021,
+      "value": 10262,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "hotel_guests",
+      "year": 2022,
+      "value": 11894,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "hotel_guests",
+      "year": 2023,
+      "value": 15392,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "gazakh-tovuz",
+      "indicator_id": "hotel_guests",
+      "year": 2024,
+      "value": 17057,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "hotel_guests",
+      "year": 2006,
+      "value": 21920,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "hotel_guests",
+      "year": 2007,
+      "value": 21720,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "hotel_guests",
+      "year": 2008,
+      "value": 31753,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "hotel_guests",
+      "year": 2009,
+      "value": 32838,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "hotel_guests",
+      "year": 2010,
+      "value": 66064,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "hotel_guests",
+      "year": 2011,
+      "value": 51631,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "hotel_guests",
+      "year": 2012,
+      "value": 42262,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "hotel_guests",
+      "year": 2013,
+      "value": 32914,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "hotel_guests",
+      "year": 2014,
+      "value": 42060,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "hotel_guests",
+      "year": 2015,
+      "value": 58610,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "hotel_guests",
+      "year": 2016,
+      "value": 82998,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "hotel_guests",
+      "year": 2017,
+      "value": 149435,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "hotel_guests",
+      "year": 2018,
+      "value": 153406,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "hotel_guests",
+      "year": 2019,
+      "value": 193454,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "hotel_guests",
+      "year": 2020,
+      "value": 84067,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "hotel_guests",
+      "year": 2021,
+      "value": 186368,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "hotel_guests",
+      "year": 2022,
+      "value": 232646,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "hotel_guests",
+      "year": 2023,
+      "value": 268018,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "guba-khachmaz",
+      "indicator_id": "hotel_guests",
+      "year": 2024,
+      "value": 308339,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "hotel_guests",
+      "year": 2006,
+      "value": 35056,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "hotel_guests",
+      "year": 2007,
+      "value": 36052,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "hotel_guests",
+      "year": 2008,
+      "value": 38395,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "hotel_guests",
+      "year": 2009,
+      "value": 32426,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "hotel_guests",
+      "year": 2010,
+      "value": 19968,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "hotel_guests",
+      "year": 2011,
+      "value": 25382,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "hotel_guests",
+      "year": 2012,
+      "value": 20399,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "hotel_guests",
+      "year": 2013,
+      "value": 17337,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "hotel_guests",
+      "year": 2014,
+      "value": 18088,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "hotel_guests",
+      "year": 2015,
+      "value": 17035,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "hotel_guests",
+      "year": 2016,
+      "value": 17538,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "hotel_guests",
+      "year": 2017,
+      "value": 24870,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "hotel_guests",
+      "year": 2018,
+      "value": 35438,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "hotel_guests",
+      "year": 2019,
+      "value": 56288,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "hotel_guests",
+      "year": 2020,
+      "value": 33946,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "hotel_guests",
+      "year": 2021,
+      "value": 73369,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "hotel_guests",
+      "year": 2022,
+      "value": 111661,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "hotel_guests",
+      "year": 2023,
+      "value": 109547,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "lankaran-astara",
+      "indicator_id": "hotel_guests",
+      "year": 2024,
+      "value": 129476,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "hotel_guests",
+      "year": 2006,
+      "value": 6803,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "hotel_guests",
+      "year": 2007,
+      "value": 11831,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "hotel_guests",
+      "year": 2008,
+      "value": 13789,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "hotel_guests",
+      "year": 2009,
+      "value": 17328,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "hotel_guests",
+      "year": 2010,
+      "value": 10830,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "hotel_guests",
+      "year": 2011,
+      "value": 13698,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "hotel_guests",
+      "year": 2012,
+      "value": 15617,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "hotel_guests",
+      "year": 2013,
+      "value": 16796,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "hotel_guests",
+      "year": 2014,
+      "value": 13177,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "hotel_guests",
+      "year": 2015,
+      "value": 20467,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "hotel_guests",
+      "year": 2016,
+      "value": 15591,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "hotel_guests",
+      "year": 2017,
+      "value": 24091,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "hotel_guests",
+      "year": 2018,
+      "value": 13812,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "hotel_guests",
+      "year": 2019,
+      "value": 22491,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "hotel_guests",
+      "year": 2020,
+      "value": 10187,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "hotel_guests",
+      "year": 2021,
+      "value": 16691,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "hotel_guests",
+      "year": 2022,
+      "value": 10537,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "hotel_guests",
+      "year": 2023,
+      "value": 13848,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "central-aran",
+      "indicator_id": "hotel_guests",
+      "year": 2024,
+      "value": 19740,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "hotel_guests",
+      "year": 2006,
+      "value": 1169,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "hotel_guests",
+      "year": 2007,
+      "value": 3296,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "hotel_guests",
+      "year": 2008,
+      "value": 3670,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "hotel_guests",
+      "year": 2009,
+      "value": 2761,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "hotel_guests",
+      "year": 2010,
+      "value": 1923,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "hotel_guests",
+      "year": 2011,
+      "value": 2099,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "hotel_guests",
+      "year": 2012,
+      "value": 739,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "hotel_guests",
+      "year": 2013,
+      "value": 1401,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "hotel_guests",
+      "year": 2014,
+      "value": 657,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "hotel_guests",
+      "year": 2015,
+      "value": 181,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "hotel_guests",
+      "year": 2016,
+      "value": 1053,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "hotel_guests",
+      "year": 2017,
+      "value": 1330,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "hotel_guests",
+      "year": 2018,
+      "value": 4946,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "hotel_guests",
+      "year": 2019,
+      "value": 5666,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "hotel_guests",
+      "year": 2020,
+      "value": 3812,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "hotel_guests",
+      "year": 2021,
+      "value": 5027,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "hotel_guests",
+      "year": 2022,
+      "value": 7192,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "hotel_guests",
+      "year": 2023,
+      "value": 8948,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "mil-mughan",
+      "indicator_id": "hotel_guests",
+      "year": 2024,
+      "value": 10286,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "hotel_guests",
+      "year": 2006,
+      "value": 10042,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "hotel_guests",
+      "year": 2007,
+      "value": 15939,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "hotel_guests",
+      "year": 2008,
+      "value": 27393,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "hotel_guests",
+      "year": 2009,
+      "value": 27712,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "hotel_guests",
+      "year": 2010,
+      "value": 41780,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "hotel_guests",
+      "year": 2011,
+      "value": 32915,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "hotel_guests",
+      "year": 2012,
+      "value": 29388,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "hotel_guests",
+      "year": 2013,
+      "value": 31874,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "hotel_guests",
+      "year": 2014,
+      "value": 32077,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "hotel_guests",
+      "year": 2015,
+      "value": 31280,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "hotel_guests",
+      "year": 2016,
+      "value": 186564,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "hotel_guests",
+      "year": 2017,
+      "value": 165499,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "hotel_guests",
+      "year": 2018,
+      "value": 229500,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "hotel_guests",
+      "year": 2019,
+      "value": 238085,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "hotel_guests",
+      "year": 2020,
+      "value": 74364,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "hotel_guests",
+      "year": 2021,
+      "value": 111744,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "hotel_guests",
+      "year": 2022,
+      "value": 132842,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "hotel_guests",
+      "year": 2023,
+      "value": 128455,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shaki-zaqatala",
+      "indicator_id": "hotel_guests",
+      "year": 2024,
+      "value": 160184,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "hotel_guests",
+      "year": 2006,
+      "value": 3095,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "hotel_guests",
+      "year": 2007,
+      "value": 3417,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "hotel_guests",
+      "year": 2008,
+      "value": 3514,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "hotel_guests",
+      "year": 2009,
+      "value": 1784,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "hotel_guests",
+      "year": 2010,
+      "value": 1840,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "hotel_guests",
+      "year": 2011,
+      "value": 2054,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "hotel_guests",
+      "year": 2012,
+      "value": 3100,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "hotel_guests",
+      "year": 2013,
+      "value": 4842,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "hotel_guests",
+      "year": 2014,
+      "value": 4478,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "hotel_guests",
+      "year": 2015,
+      "value": 4641,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "hotel_guests",
+      "year": 2016,
+      "value": 3996,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "hotel_guests",
+      "year": 2017,
+      "value": 5044,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "hotel_guests",
+      "year": 2018,
+      "value": 7305,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "hotel_guests",
+      "year": 2019,
+      "value": 9096,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "hotel_guests",
+      "year": 2020,
+      "value": 6601,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "hotel_guests",
+      "year": 2021,
+      "value": 3405,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "hotel_guests",
+      "year": 2022,
+      "value": 5035,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "hotel_guests",
+      "year": 2023,
+      "value": 6420,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "shirvan-salyan",
+      "indicator_id": "hotel_guests",
+      "year": 2024,
+      "value": 7167,
+      "scope": "region",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "hotel_guests",
+      "year": 2006,
+      "value": 291617,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "hotel_guests",
+      "year": 2007,
+      "value": 305483,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "hotel_guests",
+      "year": 2008,
+      "value": 431574,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "hotel_guests",
+      "year": 2009,
+      "value": 424237,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "hotel_guests",
+      "year": 2010,
+      "value": 438479,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "hotel_guests",
+      "year": 2011,
+      "value": 510162,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "hotel_guests",
+      "year": 2012,
+      "value": 624924,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "hotel_guests",
+      "year": 2013,
+      "value": 666348,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "hotel_guests",
+      "year": 2014,
+      "value": 672345,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "hotel_guests",
+      "year": 2015,
+      "value": 838145,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "hotel_guests",
+      "year": 2016,
+      "value": 1122068,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "hotel_guests",
+      "year": 2017,
+      "value": 1414708,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "hotel_guests",
+      "year": 2018,
+      "value": 1749475,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "hotel_guests",
+      "year": 2019,
+      "value": 1919765,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "hotel_guests",
+      "year": 2020,
+      "value": 668813,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "hotel_guests",
+      "year": 2021,
+      "value": 1172123,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "hotel_guests",
+      "year": 2022,
+      "value": 1697358,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "hotel_guests",
+      "year": 2023,
+      "value": 1945059,
+      "scope": "national",
+      "source": "stat.gov.az"
+    },
+    {
+      "region_id": "AZ",
+      "indicator_id": "hotel_guests",
+      "year": 2024,
+      "value": 2380247,
+      "scope": "national",
+      "source": "stat.gov.az"
+    }
+  ]
+}

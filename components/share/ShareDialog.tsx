@@ -4,10 +4,11 @@ import { useEffect, useRef, useState } from "react";
 import { createPortal } from "react-dom";
 import { AnimatePresence, motion } from "framer-motion";
 import type { Indicator, Region, Locale } from "@/types/data";
-import { surface, color, glow } from "@/lib/ui/tokens";
+import { surface, color } from "@/lib/ui/tokens";
 import { t } from "@/lib/i18n/strings";
 import { haptic } from "@/lib/haptics";
-import { ShareCard } from "./ShareCard";
+import { ShareCard, type ShareCardFormat } from "./ShareCard";
+import { analytics } from "@/lib/analytics";
 import {
   downloadBlob,
   nodeToPng,
@@ -27,7 +28,14 @@ export interface ShareDialogProps {
 
 type Status = "idle" | "rendering" | "done" | "error";
 
-const PREVIEW_SCALE = 0.27; // 1080×1350 → ~292×365 preview (fits ~600px viewports without scroll)
+// Per-format preview dimensions. Both target the same 292px-wide preview
+// slot so the dialog width stays stable; the story preview just grows
+// taller because its source is 1080×1920 vs the post's 1080×1350.
+const FORMAT_DIMS: Record<ShareCardFormat, { w: number; h: number }> = {
+  post: { w: 1080, h: 1350 },
+  story: { w: 1080, h: 1920 },
+};
+const PREVIEW_WIDTH = 292;
 
 /**
  * Modal/sheet that previews the ShareCard and offers three export
@@ -48,11 +56,13 @@ export function ShareDialog({
   const cardRef = useRef<HTMLDivElement>(null);
   const [status, setStatus] = useState<Status>("idle");
   const [errorMsg, setErrorMsg] = useState<string | null>(null);
+  const [format, setFormat] = useState<ShareCardFormat>("post");
 
   useEffect(() => {
     if (open) {
       setStatus("idle");
       setErrorMsg(null);
+      setFormat("post");
     }
   }, [open]);
 
@@ -65,7 +75,7 @@ export function ShareDialog({
     return () => window.removeEventListener("keydown", onKey);
   }, [open, onClose]);
 
-  const baseName = `statizen-${region.id}-${indicator.id}-${year}`;
+  const baseName = `statizen-${region.id}-${indicator.id}-${year}-${format}`;
 
   // Only portal client-side — `document` is undefined during SSR.
   const [portalTarget, setPortalTarget] = useState<HTMLElement | null>(null);
@@ -93,6 +103,7 @@ export function ShareDialog({
 
   async function onDownloadPng() {
     haptic("light");
+    analytics.shareDownloaded("png", format, indicator.id);
     await withCapture(async (png) => {
       downloadBlob(png, `${baseName}.png`);
     });
@@ -100,6 +111,7 @@ export function ShareDialog({
 
   async function onDownloadPdf() {
     haptic("light");
+    analytics.shareDownloaded("pdf", format, indicator.id);
     await withCapture(async (png) => {
       const pdf = await pngBlobToPdfBlob(png);
       downloadBlob(pdf, `${baseName}.pdf`);
@@ -108,6 +120,7 @@ export function ShareDialog({
 
   async function onShareNative() {
     haptic("light");
+    analytics.shareDownloaded("native", format, indicator.id);
     await withCapture(async (png) => {
       await shareImageNative(png, `${baseName}.png`, {
         title: "Statizen",
@@ -142,6 +155,7 @@ export function ShareDialog({
                 year={year}
                 value={value}
                 locale={locale}
+                format={format}
               />
             </div>
           </div>
@@ -157,9 +171,14 @@ export function ShareDialog({
             style={{
               position: "fixed",
               inset: 0,
-              background: "rgba(0,0,0,0.7)",
-              backdropFilter: "blur(8px)",
-              WebkitBackdropFilter: "blur(8px)",
+              // Theme-aware scrim — dims toward the page bg so light
+              // mode doesn't look like a gray slab, dark mode still
+              // mutes the map underneath. 92% so the dialog clearly
+              // separates from the page without the old rgba(0,0,0,0.7)
+              // dark-gray feel in light mode.
+              background: "color-mix(in srgb, var(--c-bg) 92%, transparent)",
+              backdropFilter: "blur(12px)",
+              WebkitBackdropFilter: "blur(12px)",
               zIndex: 50,
               display: "flex",
               alignItems: "center",
@@ -203,7 +222,6 @@ export function ShareDialog({
                     fontWeight: 600,
                     color: color.text,
                     letterSpacing: "-0.3px",
-                    textShadow: glow,
                   }}
                 >
                   {t("share", locale)}
@@ -218,36 +236,72 @@ export function ShareDialog({
                 </button>
               </header>
 
-              {/* Scaled preview of the ShareCard */}
+              {/* Format toggle — Post (1080×1350, 4:5) / Story (1080×1920, 9:16) */}
               <div
+                role="group"
+                aria-label="Format"
                 style={{
-                  position: "relative",
-                  width: 1080 * PREVIEW_SCALE,
-                  height: 1350 * PREVIEW_SCALE,
+                  display: "inline-flex",
                   alignSelf: "center",
-                  borderRadius: 16,
-                  overflow: "hidden",
-                  boxShadow: "0 8px 32px rgba(0,0,0,0.5)",
+                  background: "var(--c-hover-soft)",
+                  border: "0.5px solid var(--c-surface-border)",
+                  borderRadius: 999,
+                  padding: 4,
+                  gap: 4,
                 }}
               >
-                <div
-                  style={{
-                    position: "absolute",
-                    top: 0,
-                    left: 0,
-                    transform: `scale(${PREVIEW_SCALE})`,
-                    transformOrigin: "0 0",
-                  }}
-                >
-                  <ShareCard
-                    region={region}
-                    indicator={indicator}
-                    year={year}
-                    value={value}
-                    locale={locale}
-                  />
-                </div>
+                <FormatToggleBtn
+                  active={format === "post"}
+                  onClick={() => setFormat("post")}
+                  label="Post"
+                  sub="4:5"
+                />
+                <FormatToggleBtn
+                  active={format === "story"}
+                  onClick={() => setFormat("story")}
+                  label="Story"
+                  sub="9:16"
+                />
               </div>
+
+              {/* Scaled preview of the ShareCard. Width is fixed (so the
+                  dialog doesn't jump); height tracks the active format's
+                  aspect ratio. */}
+              {(() => {
+                const dims = FORMAT_DIMS[format];
+                const scale = PREVIEW_WIDTH / dims.w;
+                return (
+                  <div
+                    style={{
+                      position: "relative",
+                      width: PREVIEW_WIDTH,
+                      height: dims.h * scale,
+                      alignSelf: "center",
+                      borderRadius: 16,
+                      overflow: "hidden",
+                    }}
+                  >
+                    <div
+                      style={{
+                        position: "absolute",
+                        top: 0,
+                        left: 0,
+                        transform: `scale(${scale})`,
+                        transformOrigin: "0 0",
+                      }}
+                    >
+                      <ShareCard
+                        region={region}
+                        indicator={indicator}
+                        year={year}
+                        value={value}
+                        locale={locale}
+                        format={format}
+                      />
+                    </div>
+                  </div>
+                );
+              })()}
 
               {/* Actions — Share is always present on both mobile and
                   desktop. When the Web Share API isn't available
@@ -316,10 +370,13 @@ function ActionButton({
       whileHover={busy ? undefined : { opacity: 0.9 }}
       style={{
         padding: "12px 16px",
-        background: primary ? color.accent : color.hoverStrong,
+        // Primary uses the *share* accent (#8A38F5) so every share-flow
+        // button shares one brand purple across themes. Accent (#612BF4)
+        // is reserved for non-share emphasis.
+        background: primary ? color.shareAccent : color.hoverStrong,
         border: `0.5px solid ${primary ? "transparent" : "var(--c-surface-border)"}`,
         borderRadius: 12,
-        // Primary sits on the purple accent — always-white foreground.
+        // Primary sits on the share accent — always-white foreground.
         // Secondary sits on the themed sheet — inverts with theme.
         color: primary ? color.onAccent : color.text,
         fontSize: 15,
@@ -331,6 +388,47 @@ function ActionButton({
     >
       {label}
     </motion.button>
+  );
+}
+
+function FormatToggleBtn({
+  active,
+  onClick,
+  label,
+  sub,
+}: {
+  active: boolean;
+  onClick: () => void;
+  label: string;
+  sub: string;
+}) {
+  return (
+    <button
+      type="button"
+      onClick={onClick}
+      aria-pressed={active}
+      style={{
+        display: "inline-flex",
+        alignItems: "baseline",
+        gap: 6,
+        padding: "6px 14px",
+        borderRadius: 999,
+        border: "none",
+        background: active ? color.hoverStrong : "transparent",
+        color: active ? color.text : color.muted,
+        fontSize: 13,
+        fontWeight: 500,
+        letterSpacing: "-0.26px",
+        cursor: "pointer",
+        outline: "none",
+        transition: "background 120ms ease, color 120ms ease",
+      }}
+    >
+      <span>{label}</span>
+      <span style={{ fontSize: 11, opacity: 0.65, fontVariantNumeric: "tabular-nums" }}>
+        {sub}
+      </span>
+    </button>
   );
 }
 

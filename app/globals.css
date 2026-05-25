@@ -143,9 +143,9 @@
    * mode wants a soft pastel that reads as "highlighted" without
    * yelling. */
   --c-map-active: #8a38f5;
-  --c-map-fill: #0e0e0e;
+  --c-map-fill: #060606;
   --c-map-fill-hover: #1d1d20;
-  --c-map-stroke: #5f5f5f;
+  --c-map-stroke: #3a3a3a;
   --c-map-stroke-active: rgba(255, 255, 255, 0.6);
   --c-surface-bg: rgba(34, 34, 34, 0.55);
   --c-surface-border: rgba(255, 255, 255, 0.3);
@@ -194,7 +194,7 @@
   --c-map-active: #c69efa;
   --c-map-fill: #ebebeb;
   --c-map-fill-hover: #dadada;
-  --c-map-stroke: #999999;
+  --c-map-stroke: #c9c9c9;
   --c-map-stroke-active: rgba(0, 0, 0, 0.65);
   /* Slightly grayer + more opaque frost so panels read clearly
    * against the map without floating away. Pure white-tinted glass
