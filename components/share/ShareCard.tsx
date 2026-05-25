@@ -175,14 +175,25 @@ const titleStyle: CSSProperties = {
   letterSpacing: "-1px",
   lineHeight: 1.1,
 };
-// Big value scales up a bit in story format — extra vertical canvas
-// rewards a punchier headline number.
+// Hero value font size by format. Both canvases are 1080px wide, so
+// horizontal headroom is identical — the previous "story bigger"
+// heuristic was wrong and overflowed 6-7 digit values (population in
+// thousands, births, marriages…) past the 64px padding borders. Story
+// goes *smaller* than post: the headline is one of three stacked
+// elements (year/title/value/region/map) and the taller canvas means
+// the value doesn't need to dominate the vertical to feel like a hero.
+//
+// Widest values we ship today, at 240px / letterSpacing -6:
+//   "747,500"        ≈ 870px  (post safe-area is 952px → fits)
+//   "1.0 mln"        ≈ 800px
+//   "10.2M"          ≈ 600px
+// At 220px / -5: every 7-char number sits ≤ 800px → comfortable
+// margin to the border on both formats.
 function valueStyle(format: ShareCardFormat): CSSProperties {
-  const size = format === "story" ? 280 : 240;
   return {
-    fontSize: size,
+    fontSize: format === "story" ? 220 : 240,
     fontWeight: 700,
-    letterSpacing: format === "story" ? "-7px" : "-6px",
+    letterSpacing: format === "story" ? "-5px" : "-6px",
     lineHeight: 1,
     color: color.text,
     marginTop: 8,
