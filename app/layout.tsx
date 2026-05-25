@@ -12,7 +12,7 @@ const archivo = Archivo({
 const SITE_URL = "https://statizen.space";
 const SITE_TITLE = "Statizen — Azerbaijan regional statistics";
 const SITE_DESCRIPTION =
-  "Interactive map of Azerbaijan's regional statistics — demography, labour market, health, crime, and trade across the 14 economic regions. Source: stat.gov.az.";
+  "Interactive map of Azerbaijan's regional statistics — economy, demography, labour, industry, agriculture, health, crime, transport, tourism, and trade across the 14 economic regions. Source: stat.gov.az.";
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
